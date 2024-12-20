@@ -124,28 +124,88 @@ With these steps, your PlanktoScope is fully configured and ready for use.
 
 ## **Link Node-RED to GitHub**
 
-After rebooting, reach the dashboard editor at: [http://192.168.x.x/admin/ps/node-red-v2/](http://%3Cyour-planktoscope-ip%3E/admin/ps/node-red-v2/).
+After rebooting, access the dashboard editor at: [http://192.168.x.x/admin/ps/node-red-v2/](http://%3Cyour-planktoscope-ip%3E/admin/ps/node-red-v2/).
 
-Node-RED will suggest a pop-up inviting you to clone the dashboard repository by clicking on **Clone Repository**.
+Node-RED will display a pop-up inviting you to clone the dashboard repository. Click on **Clone Repository**.
 
 ![Clone Repository](https://raw.githubusercontent.com/PlanktoScope/dashboard/refs/heads/main/img/node-red-clone-repo.png)
 
-Enter your GitHub credentials:
+### **Enter Your GitHub Credentials**
 
 ![Setup Version Control Client](https://raw.githubusercontent.com/PlanktoScope/dashboard/refs/heads/main/img/setup-your-version-control-client.png)
 
-To complete the form, create a Personal Access Token (classic):
+To complete the form, you need to create a Personal Access Token (classic):
 
-* Visit <https://github.com/settings/tokens>.
-* Click **Generate new token** or **Generate new token (classic)**.
-* Enter a name for the token, such as **node-red**.
-* Select **No Expiration** and check **repo** and **user**.
-* Click **Generate token** at the bottom of the page.
+1. Visit <https://github.com/settings/tokens>.
+2. Click **Generate new token** or **Generate new token (classic)**.
+3. Enter a name for the token, such as **node-red**.
+4. Select **No Expiration** and check the **repo** and **user** scopes.
+5. Click **Generate token** at the bottom of the page.
 
 ![New Personal Access Token](https://raw.githubusercontent.com/PlanktoScope/dashboard/refs/heads/main/img/new-personal-access-token-classic.png)
 
-Copy the generated token from GitHub. Complete the remaining fields as prompted using your GitHub credentials, and click **Clone Project** to link Node-RED to your GitHub account.
+Copy the generated token from GitHub. Complete the remaining fields in the Node-RED form using your GitHub credentials, and click **Clone Project** to link Node-RED to your GitHub account.
 
 ![Clone a Project](https://raw.githubusercontent.com/PlanktoScope/dashboard/refs/heads/main/img/clone-a-project.png)
 
-You should be good to go.
+### **Clean Up Existing Palettes**
+
+Remove unnecessary palettes to streamline your Node-RED setup:
+
+* node-red-contrib-dir2files
+* node-red-contrib-gpsd
+* node-red-contrib-python3-function
+* node-red-contrib-ui-multistate-switch
+* node-red-dashboard
+* node-red-node-pi-gpio
+* node-red-node-ui-list
+
+### **Install Required Nodes**
+
+After cleanup, install the following nodes:
+
+* `@flowfuse/node-red-dashboard`
+* `@flowfuse/node-red-dashboard-2-ui-flowviewer`
+
+***
+
+## **Read and Write Data in global.json**
+
+With Context Storage enabled, data can be stored in a file located at:
+
+[http://192.168.x.x/admin/fs/files/home/pi/.node-red/context/global/global.json](http://192.168.x.x/).
+
+### **Read Data**
+
+To retrieve a value stored in this file, use the following script in a Function Node:
+
+```javascript
+// Retrieve the global variable
+msg.variable = global.get('variable');
+return msg;
+```
+
+### **Template Node to Display and Modify Data**
+
+```html
+<template>
+    <v-text-field
+        label="My variable"
+        variant="outlined"
+        v-model="msg.variable"
+        @update:model-value="send({ variable: msg.variable })"
+    ></v-text-field>
+</template>
+```
+
+### **Write Data**
+
+To set a value in the file, use the following script in a Function Node:
+
+```javascript
+// Set a value in the global context
+global.set('variable', msg.variable);
+
+return msg;
+```
+
