@@ -1,0 +1,1081 @@
+[
+    {
+        "id": "775111265b9951a8",
+        "type": "tab",
+        "label": "Data in global.json",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ae92a0a869ca847f",
+        "type": "tab",
+        "label": "Fields",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "373eee1e336f7001",
+        "type": "tab",
+        "label": "Layouts",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "f1b6adf3.7e2d68",
+        "type": "tab",
+        "label": "Reboot Raspberry Pi",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "e6ae26617c24c3ea",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "showPageTitle": true,
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": "1",
+        "showDisconnectNotification": true
+    },
+    {
+        "id": "acdf17df5536b1d3",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094ce",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "69706da10df85266",
+        "type": "ui-page",
+        "name": "Data in global.json",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/data",
+        "icon": "home",
+        "layout": "notebook",
+        "theme": "acdf17df5536b1d3",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "5821b0d692e4d603",
+        "type": "ui-group",
+        "name": "Value and payloads",
+        "page": "69706da10df85266",
+        "width": "6",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8c593c05a0ef6ba8",
+        "type": "ui-group",
+        "name": "Illustration of the flow",
+        "page": "69706da10df85266",
+        "width": "6",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "b9f88d899abc43e6",
+        "type": "ui-page",
+        "name": "Fields",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/fields",
+        "icon": "mdi-database-plus",
+        "layout": "tabs",
+        "theme": "acdf17df5536b1d3",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "e461e16bf6fe45b0",
+        "type": "ui-group",
+        "name": "text",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "3496e96aaf509c63",
+        "type": "ui-group",
+        "name": "number",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0b938df814df6f89",
+        "type": "ui-group",
+        "name": "template",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "9db62e7f60daa367",
+        "type": "ui-group",
+        "name": "Flow",
+        "page": "69706da10df85266",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6b2f234f4f800a2f",
+        "type": "ui-page",
+        "name": "Layouts",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/layouts",
+        "icon": "mdi-palette-advanced",
+        "layout": "notebook",
+        "theme": "acdf17df5536b1d3",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "c28191f3573096d7",
+        "type": "ui-group",
+        "name": "v-row",
+        "page": "6b2f234f4f800a2f",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "bdef59faea812013",
+        "type": "ui-template",
+        "z": "775111265b9951a8",
+        "group": "5821b0d692e4d603",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-text-field\n        label=\"My variable\"\n        variant=\"outlined\"\n        v-model=\"msg.variable\"\n        @update:model-value=\"send({ variable: msg.variable})\"\n    ></v-text-field>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 480,
+        "y": 40,
+        "wires": [
+            [
+                "fc73d6b9b216ac9c",
+                "d17239ecafc47c1e"
+            ]
+        ]
+    },
+    {
+        "id": "5a9af1c11b3c3c31",
+        "type": "function",
+        "z": "775111265b9951a8",
+        "name": "get global variable",
+        "func": "// Retrieve the global variable\nmsg.variable = global.get('variable');\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 40,
+        "wires": [
+            [
+                "bdef59faea812013",
+                "cafc73ccd9bd5305"
+            ]
+        ]
+    },
+    {
+        "id": "591e09b78d3d181a",
+        "type": "inject",
+        "z": "775111265b9951a8",
+        "name": "",
+        "props": [
+            {
+                "p": "variable",
+                "v": "",
+                "vt": "date"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 40,
+        "wires": [
+            [
+                "5a9af1c11b3c3c31"
+            ]
+        ]
+    },
+    {
+        "id": "fc73d6b9b216ac9c",
+        "type": "function",
+        "z": "775111265b9951a8",
+        "name": "set global variable",
+        "func": "// Set a value in the global context\nglobal.set('variable', msg.variable);\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 670,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e3f11510712aac2d",
+        "type": "ui-markdown",
+        "z": "775111265b9951a8",
+        "group": "8c593c05a0ef6ba8",
+        "name": "get global variable",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "### get global variable\n\n```javascript\nmsg.variable = global.get('variable');\n\nreturn msg;\n```",
+        "className": "",
+        "x": 170,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d66b3b9911af069a",
+        "type": "ui-markdown",
+        "z": "775111265b9951a8",
+        "group": "8c593c05a0ef6ba8",
+        "name": "set global variable",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "content": "### set global variable\n```javascript\nglobal.set('variable', msg.variable);\n\nreturn msg;\n```",
+        "className": "",
+        "x": 170,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cafc73ccd9bd5305",
+        "type": "ui-markdown",
+        "z": "775111265b9951a8",
+        "group": "5821b0d692e4d603",
+        "name": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "content": "```javascript\n{{ msg }}\n```",
+        "className": "",
+        "x": 530,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d17239ecafc47c1e",
+        "type": "ui-markdown",
+        "z": "775111265b9951a8",
+        "group": "5821b0d692e4d603",
+        "name": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "content": "```javascript\n{{ msg }}\n```",
+        "className": "",
+        "x": 710,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8aba435da995d22",
+        "type": "ui-markdown",
+        "z": "775111265b9951a8",
+        "group": "8c593c05a0ef6ba8",
+        "name": "modify global variable",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "content": "### modify global variable\n\n```html\n<template>\n    <v-text-field\n        label=\"My variable\"\n        variant=\"outlined\"\n        v-model=\"msg.variable\"\n        @update:model-value=\"send({ variable: msg.variable})\"\n    ></v-text-field>\n</template>\n\n```",
+        "className": "",
+        "x": 180,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be327c38d0d4571c",
+        "type": "ui-flowviewer",
+        "z": "775111265b9951a8",
+        "name": "",
+        "group": "9db62e7f60daa367",
+        "order": 1,
+        "width": "0",
+        "flow": "[     {         \"id\": \"bdef59faea812013\",         \"type\": \"ui-template\",         \"z\": \"775111265b9951a8\",         \"group\": \"5821b0d692e4d603\",         \"page\": \"\",         \"ui\": \"\",         \"name\": \"\",         \"order\": 1,         \"width\": 0,         \"height\": 0,         \"head\": \"\",         \"format\": \"<template>\\n    <v-text-field\\n        label=\\\"My variable\\\"\\n        variant=\\\"outlined\\\"\\n        v-model=\\\"msg.variable\\\"\\n        @update:model-value=\\\"send({ variable: msg.variable})\\\"\\n    ></v-text-field>\\n</template>\\n\",         \"storeOutMessages\": true,         \"passthru\": true,         \"resendOnRefresh\": true,         \"templateScope\": \"local\",         \"className\": \"\",         \"x\": 480,         \"y\": 40,         \"wires\": [             [                 \"fc73d6b9b216ac9c\",                 \"d17239ecafc47c1e\"             ]         ]     },     {         \"id\": \"5a9af1c11b3c3c31\",         \"type\": \"function\",         \"z\": \"775111265b9951a8\",         \"name\": \"get global variable\",         \"func\": \"// Retrieve the global variable\\nmsg.variable = global.get('variable');\\n\\nreturn msg;\\n\",         \"outputs\": 1,         \"timeout\": 0,         \"noerr\": 0,         \"initialize\": \"\",         \"finalize\": \"\",         \"libs\": [],         \"x\": 290,         \"y\": 40,         \"wires\": [             [                 \"bdef59faea812013\",                 \"cafc73ccd9bd5305\"             ]         ]     },     {         \"id\": \"591e09b78d3d181a\",         \"type\": \"inject\",         \"z\": \"775111265b9951a8\",         \"name\": \"\",         \"props\": [             {                 \"p\": \"variable\",                 \"v\": \"\",                 \"vt\": \"date\"             }         ],         \"repeat\": \"\",         \"crontab\": \"\",         \"once\": true,         \"onceDelay\": 0.1,         \"topic\": \"\",         \"x\": 110,         \"y\": 40,         \"wires\": [             [                 \"5a9af1c11b3c3c31\"             ]         ]     },     {         \"id\": \"fc73d6b9b216ac9c\",         \"type\": \"function\",         \"z\": \"775111265b9951a8\",         \"name\": \"set global variable\",         \"func\": \"// Set a value in the global context\\nglobal.set('variable', msg.variable);\\n\\nreturn msg;\\n\",         \"outputs\": 1,         \"timeout\": 0,         \"noerr\": 0,         \"initialize\": \"\",         \"finalize\": \"\",         \"libs\": [],         \"x\": 670,         \"y\": 40,         \"wires\": [             []         ]     },     {         \"id\": \"5821b0d692e4d603\",         \"type\": \"ui-group\",         \"name\": \"Value and payloads\",         \"page\": \"69706da10df85266\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 1,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"69706da10df85266\",         \"type\": \"ui-page\",         \"name\": \"Read and Write Data in global.json\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/tutorial\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 1,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"Default Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094CE\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"12px\",             \"groupGap\": \"12px\",             \"groupBorderRadius\": \"4px\",             \"widgetGap\": \"12px\"         }     } ]",
+        "height": "0",
+        "x": 150,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "8f7c72982b1075f2",
+        "type": "ui-text-input",
+        "z": "ae92a0a869ca847f",
+        "group": "e461e16bf6fe45b0",
+        "name": "",
+        "label": "text",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "topic": "topic",
+        "topicType": "msg",
+        "mode": "number",
+        "tooltip": "This is a tooltip where we can store some more info about thie field.",
+        "delay": 300,
+        "passthru": true,
+        "sendOnDelay": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": true,
+        "sendOnClear": true,
+        "icon": "mdi-information-outline",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "x": 210,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a739ff8a3dfe9a12",
+        "type": "ui-number-input",
+        "z": "ae92a0a869ca847f",
+        "group": "3496e96aaf509c63",
+        "name": "",
+        "label": "number",
+        "order": 2,
+        "width": "0",
+        "height": "0",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "tooltip": "This is a tooltip where we can store some more info about thie field.",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": true,
+        "icon": "mdi-information-outline",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "stacked",
+        "x": 360,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f142197f943e06c3",
+        "type": "ui-template",
+        "z": "ae92a0a869ca847f",
+        "group": "0b938df814df6f89",
+        "page": "",
+        "ui": "",
+        "name": "template with dialog",
+        "order": 3,
+        "width": "4",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <div>\n    <v-text-field\n    type=\"number\"\n      label=\"Prepend inner\"\n      prepend-inner-icon=\"mdi-information-outline\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      @click:prepend-inner=\"showDialog = true\"\n    ></v-text-field>\n\n    <v-dialog v-model=\"showDialog\" max-width=\"500px\">\n      <v-card>\n        <v-card-title> Information </v-card-title>\n        <v-card-text>\n          This is some additional information displayed in a dialog.\n        </v-card-text>\n        <v-card-actions>\n          <v-btn text @click=\"showDialog = false\">Close</v-btn>\n        </v-card-actions>\n      </v-card>\n    </v-dialog>\n  </div>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        showDialog: false, // Controls dialog visibility\n      }\n    },\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 560,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ffe713df5ad44ca",
+        "type": "ui-flowviewer",
+        "z": "ae92a0a869ca847f",
+        "name": "text",
+        "group": "e461e16bf6fe45b0",
+        "order": 1,
+        "width": "12",
+        "flow": "[     {         \"id\": \"8f7c72982b1075f2\",         \"type\": \"ui-text-input\",         \"z\": \"ae92a0a869ca847f\",         \"group\": \"e461e16bf6fe45b0\",         \"name\": \"\",         \"label\": \"text\",         \"order\": 3,         \"width\": \"2\",         \"height\": \"1\",         \"topic\": \"topic\",         \"topicType\": \"msg\",         \"mode\": \"number\",         \"tooltip\": \"\",         \"delay\": 300,         \"passthru\": true,         \"sendOnDelay\": false,         \"sendOnBlur\": true,         \"sendOnEnter\": true,         \"className\": \"\",         \"clearable\": true,         \"sendOnClear\": true,         \"icon\": \"mdi-information-outline\",         \"iconPosition\": \"left\",         \"iconInnerPosition\": \"inside\",         \"x\": 210,         \"y\": 120,         \"wires\": [             []         ]     },     {         \"id\": \"e461e16bf6fe45b0\",         \"type\": \"ui-group\",         \"name\": \"Group 3\",         \"page\": \"b9f88d899abc43e6\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 1,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"b9f88d899abc43e6\",         \"type\": \"ui-page\",         \"name\": \"Dashboard native illustration\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/native-dashboard\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 2,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"Default Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094CE\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"12px\",             \"groupGap\": \"12px\",             \"groupBorderRadius\": \"4px\",             \"widgetGap\": \"12px\"         }     } ]",
+        "height": "3",
+        "x": 210,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b829b417c012b49f",
+        "type": "ui-markdown",
+        "z": "ae92a0a869ca847f",
+        "group": "e461e16bf6fe45b0",
+        "name": "text",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "content": "### text input\n\nAdds a single text input row to your dashboard, with a configurable \"type\" (text, password, etc).\n\n### Available modes include:\n### \n - Text Input: Standard text input field\n - E-Mail Address: Offers validation on any input to ensure it's a valid e-mail address.\n - Password: Hides the input from the user to offer protected input.\n - Number: Adds an up/down selector to choose an integer.\n - Color Picker: Displays a single block color selector\n - Time Picker: HH:mm formatted time picker\n - Week Picker: A Calendar widget to select a given full week, returns YYYY-W<WW>>\n - Month Picker: A Calendar widget to select a given month, returns YYYY-MM\n - Datetime Picker: A Calendar widget to select full datetime value. Returns YYY-MM-DDTHH:mm\n - Dynamic Properties (Inputs)\nAny of the following can be appended to a msg.ui_update in order to override or set properties on this node at runtime.",
+        "className": "",
+        "x": 210,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9b2acec3c7f404b2",
+        "type": "ui-markdown",
+        "z": "ae92a0a869ca847f",
+        "group": "3496e96aaf509c63",
+        "name": "number",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "content": "### number input\nAdds a single number input row to your dashboard\n\n### Dynamic Properties (Inputs)\nAny of the following can be appended to msg.ui_update in order to override or set properties on this node at runtime.\n\n",
+        "className": "",
+        "x": 360,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c0d1dfba1e2de8d",
+        "type": "ui-flowviewer",
+        "z": "ae92a0a869ca847f",
+        "name": "number",
+        "group": "3496e96aaf509c63",
+        "order": 1,
+        "width": "12",
+        "flow": "[     {         \"id\": \"a739ff8a3dfe9a12\",         \"type\": \"ui-number-input\",         \"z\": \"ae92a0a869ca847f\",         \"group\": \"2a69ed9a727709cc\",         \"name\": \"\",         \"label\": \"number\",         \"order\": 1,         \"width\": \"2\",         \"height\": \"1\",         \"topic\": \"topic\",         \"topicType\": \"msg\",         \"min\": 0,         \"max\": 10,         \"step\": 1,         \"tooltip\": \"This is a tooltip where we can store some more info about thie field.\",         \"passthru\": true,         \"sendOnBlur\": true,         \"sendOnEnter\": true,         \"className\": \"\",         \"clearable\": true,         \"icon\": \"mdi-information-outline\",         \"iconPosition\": \"left\",         \"iconInnerPosition\": \"inside\",         \"spinner\": \"stacked\",         \"x\": 360,         \"y\": 120,         \"wires\": [             []         ]     },     {         \"id\": \"2a69ed9a727709cc\",         \"type\": \"ui-group\",         \"name\": \"number input\",         \"page\": \"b9f88d899abc43e6\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 2,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"b9f88d899abc43e6\",         \"type\": \"ui-page\",         \"name\": \"Dashboard native illustration\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/native-dashboard\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 2,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"Default Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094CE\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"12px\",             \"groupGap\": \"12px\",             \"groupBorderRadius\": \"4px\",             \"widgetGap\": \"12px\"         }     } ]",
+        "height": "3",
+        "x": 360,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "20d4410f49e67565",
+        "type": "ui-flowviewer",
+        "z": "ae92a0a869ca847f",
+        "name": "template",
+        "group": "0b938df814df6f89",
+        "order": 2,
+        "width": "12",
+        "flow": "[     {         \"id\": \"f142197f943e06c3\",         \"type\": \"ui-template\",         \"z\": \"ae92a0a869ca847f\",         \"group\": \"e461e16bf6fe45b0\",         \"page\": \"\",         \"ui\": \"\",         \"name\": \"\",         \"order\": 6,         \"width\": \"2\",         \"height\": \"1\",         \"head\": \"\",         \"format\": \"<template>\\n  <div>\\n    <v-text-field\\n      label=\\\"Prepend inner\\\"\\n      prepend-inner-icon=\\\"mdi-information-outline\\\"\\n      variant=\\\"outlined\\\"\\n      suffix=\\\"suffix\\\"\\n      density=\\\"compact\\\"\\n      @click:prepend-inner=\\\"showDialog = true\\\"\\n    ></v-text-field>\\n\\n    <v-dialog v-model=\\\"showDialog\\\" max-width=\\\"500px\\\">\\n      <v-card>\\n        <v-card-title> Information </v-card-title>\\n        <v-card-text>\\n          This is some additional information displayed in a dialog.\\n        </v-card-text>\\n        <v-card-actions>\\n          <v-btn text @click=\\\"showDialog = false\\\">Close</v-btn>\\n        </v-card-actions>\\n      </v-card>\\n    </v-dialog>\\n  </div>\\n</template>\\n\\n<script>\\n  export default {\\n    data() {\\n      return {\\n        showDialog: false, // Controls dialog visibility\\n      }\\n    },\\n  }\\n</script>\\n\",         \"storeOutMessages\": true,         \"passthru\": true,         \"resendOnRefresh\": true,         \"templateScope\": \"local\",         \"className\": \"\",         \"x\": 520,         \"y\": 120,         \"wires\": [             []         ]     },     {         \"id\": \"e461e16bf6fe45b0\",         \"type\": \"ui-group\",         \"name\": \"text input\",         \"page\": \"b9f88d899abc43e6\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 1,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"b9f88d899abc43e6\",         \"type\": \"ui-page\",         \"name\": \"Dashboard native illustration\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/native-dashboard\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 2,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"Default Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094CE\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"12px\",             \"groupGap\": \"12px\",             \"groupBorderRadius\": \"4px\",             \"widgetGap\": \"12px\"         }     } ]",
+        "height": "3",
+        "x": 520,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ba32092924c21704",
+        "type": "ui-markdown",
+        "z": "ae92a0a869ca847f",
+        "group": "0b938df814df6f89",
+        "name": "template with dialog",
+        "order": 6,
+        "width": "4",
+        "height": "1",
+        "content": "### template with dialog\n```html\n<template>\n  <div>\n    <v-text-field\n      label=\"Prepend inner\"\n      prepend-inner-icon=\"mdi-information-outline\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      @click:prepend-inner=\"showDialog = true\"\n    ></v-text-field>\n\n    <v-dialog v-model=\"showDialog\" max-width=\"500px\">\n      <v-card>\n        <v-card-title> Information </v-card-title>\n        <v-card-text>\n          This is some additional information displayed in a dialog.\n        </v-card-text>\n        <v-card-actions>\n          <v-btn text @click=\"showDialog = false\">Close</v-btn>\n        </v-card-actions>\n      </v-card>\n    </v-dialog>\n  </div>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        showDialog: false, // Controls dialog visibility\n      }\n    },\n  }\n</script>\n\n```",
+        "className": "",
+        "x": 560,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "09145421eca576b2",
+        "type": "ui-template",
+        "z": "ae92a0a869ca847f",
+        "group": "0b938df814df6f89",
+        "page": "",
+        "ui": "",
+        "name": "template persistent hint",
+        "order": 4,
+        "width": "4",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      persistent-hint\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 790,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f467dd95ca327abe",
+        "type": "ui-template",
+        "z": "ae92a0a869ca847f",
+        "group": "0b938df814df6f89",
+        "page": "",
+        "ui": "",
+        "name": "template hidden hint",
+        "order": 5,
+        "width": "4",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1020,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "96d4f5ed69c26184",
+        "type": "ui-markdown",
+        "z": "ae92a0a869ca847f",
+        "group": "0b938df814df6f89",
+        "name": "template persistent hint",
+        "order": 7,
+        "width": "4",
+        "height": "1",
+        "content": "### template persistent hint\n```html\n<template>\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      persistent-hint\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n</template>\n\n```",
+        "className": "",
+        "x": 790,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9460aed131d64851",
+        "type": "ui-markdown",
+        "z": "ae92a0a869ca847f",
+        "group": "0b938df814df6f89",
+        "name": "template hidden hint",
+        "order": 8,
+        "width": "4",
+        "height": "1",
+        "content": "### template hidden hint\n```html\n<template>\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n</template>\n\n```",
+        "className": "",
+        "x": 1020,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6d725e9d6e6752bd",
+        "type": "ui-markdown",
+        "z": "ae92a0a869ca847f",
+        "group": "0b938df814df6f89",
+        "name": "Vuetify links",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "# Vuetify Resources and Examples\n\nThis document provides useful links and references for working with Vuetify components, icons, and examples.\n\n## Input Fields\n- **Component Usage**: Learn how to use input fields in Vuetify.  \n  [View Documentation](https://vuetifyjs.com/en/components/text-fields/#usage)\n\n- **API Reference**: Explore the full API details for `v-field`.  \n  [View API](https://vuetifyjs.com/en/api/v-field/)\n\n## Icons\n- **Material Design Icons**: Access the Material Design Icons (MDI) library for Vuetify projects.  \n  [Explore Icons](https://pictogrammers.github.io/@mdi/font/2.0.46/)\n\n## Code Playground\n- **Vue Play**: Experiment with Vue.js and Vuetify components in an interactive playground.  \n  [Open Playground](https://play.vuetifyjs.com/#eNrFVdtu2kAQ/ZWV1UdsQ2jUyKIRacVDq6qNClIf4jws9hg2We9ae+HSKP/e2TUYQ0IUibaRAMvnzM7MOR7GNw+BVll8VVXRwkKQBAMDZcWpgctUEDJYhJkUhjIBihTcstzDnlByubnZxHGCX/0xDd6nQcN4TtvpHGgO6vJaQcFWpJCK5JJzqkhmlQKRrQdxO65JjChmPVLo4rCQgZUJCwY8J5xOgWPMVSmtMGlAFpRbQKDXjbpdvK98Kwi8wyyuzu7wkfLurlZ9mgljW2xNWAKbzc2/0v7LZ29pP7uotWvfAQJ8qt9QPZSUcRwEvIi/7MEOJo0dI1+O5rkCjbLbIVuDYEVx/GGfbNwazlyGKJNlO+DN7DOsBPJbCvgP3n1zVzLBmOeN650l/W7ihqvNmnXlSNfoEUuvx5NTvNwymx2FyCBubbCgExiNbMFm0Z2WAhfcgzuUBvgMK8ZB/agMkwKnISGecRzlXC6/eswoC50tns0hu38Gv9Mrh6EYHCxQC9TacIaqGaBnjh6Nv3v/GrKUuXXD9gL5E7Tk1vVYh32yIse2W3G+2y9lJZVhYjbRo5UBobeiXKMu8tHHpwFu+c8vSN+124/6/lwq8IM+Ml8hLGl14GRN7KfBKnW7c2MqncRxlgs8lgNnCxUJMLGoyniIYbHC7YzjEeIWGPaj86jXj3OmTRuPQJfhFB84motZWtoxgWHF+hW1NpFY4kN0XlfYQCGOuHYlnqSO/cNUIb6f8H/lTH+dpINje7IOuCfS9jznTNzrw8F1qyshNyfq9Wlu60KPHWE59z+3fwDtNYW9)\n\n---\n\nFeel free to refer to these resources while working on your Vuetify projects!\n",
+        "className": "",
+        "x": 530,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5eaa3bfa8bd9b7a3",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 1,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "efa9fba6c6a046a6",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 7,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c7cdf3ef5d796df",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 8,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f14451b5728d5628",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 9,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dc163efd9f25565a",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 12,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 340,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8643ab35d9ad8f15",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 6,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 340,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3e428c3986418ff0",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 10,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 340,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5fb73df8057bb04b",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 11,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 340,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1114dd516eda3781",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 480,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "355d4e413082b77d",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 5,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 480,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "51eb2ff427a22b9f",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 4,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 480,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4b56904c6b54c6fe",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "c28191f3573096d7",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 3,
+        "width": "1",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 480,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d1df3a3.e4fbc8",
+        "type": "inject",
+        "z": "f1b6adf3.7e2d68",
+        "name": "Trigger Reboot",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "3c1f2b6d.c3d0d4"
+            ]
+        ]
+    },
+    {
+        "id": "3c1f2b6d.c3d0d4",
+        "type": "exec",
+        "z": "f1b6adf3.7e2d68",
+        "command": "sudo reboot",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "oldrc": false,
+        "name": "Reboot Command",
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    }
+]
