@@ -108,4 +108,26 @@ To enable essential Node-RED features, edit the `settings.js` file.
 
 With these steps, your PlanktoScope is fully configured and ready for use.
 
+## **Link Node-RED to GitHub**
+
+After rebooting, reach the dashboard editor at : http://192.168.x.x/admin/ps/node-red-v2/ 
+
+Node-red will suggest you a pop-up which invite you to select notably to clone the dashboard repository by clicking on **Clone Repository**.
+
+![img/node-red-clone-repo.png](img/node-red-clone-repo.png)
+
+Enter your GitHub credentials : 
+![img/setup-your-version-control-client.png](img/setup-your-version-control-client.png)
+In order to complete the new part of the form, you'll need first to create a Personal access tokens (classic) by getting to this page : [https://github.com/settings/tokens](https://github.com/settings/tokens) anbd by clicking on **Generate new token/Generate new token (classic)**. 
+
+On this page, enter the name of the token, here **node-red** could be a good name, select **No Expiration** and check **repo** and **user** and then click at the bottom of the page on **Generate token**.
+
+![img/new-personal-access-token-classic.png](img/new-personal-access-token-classic.png)
+
+Copy the generated token from GitHub. Complete the remaining fields as prompted using your GitHub credentials, and click **Clone project** to link Node-RED to your GitHub account.
+
+![img/clone-a-project.png](img/clone-a-project.png)
+
+You should be good to go.
+
 
