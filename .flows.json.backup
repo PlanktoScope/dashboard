@@ -52,7 +52,7 @@
     {
         "id": "acdf17df5536b1d3",
         "type": "ui-theme",
-        "name": "Default Theme",
+        "name": "FairScope Theme",
         "colors": {
             "surface": "#ffffff",
             "primary": "#0094ce",
@@ -75,7 +75,7 @@
         "ui": "e6ae26617c24c3ea",
         "path": "/data",
         "icon": "home",
-        "layout": "notebook",
+        "layout": "grid",
         "theme": "acdf17df5536b1d3",
         "breakpoints": [
             {
@@ -231,7 +231,7 @@
         "ui": "e6ae26617c24c3ea",
         "path": "/layouts",
         "icon": "mdi-palette-advanced",
-        "layout": "notebook",
+        "layout": "grid",
         "theme": "acdf17df5536b1d3",
         "breakpoints": [
             {
