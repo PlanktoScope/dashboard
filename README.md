@@ -205,7 +205,6 @@ To set a value in the file, use the following script in a Function Node:
 ```javascript
 // Set a value in the global context
 global.set('variable', msg.variable);
-
 return msg;
 ```
 
