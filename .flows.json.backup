@@ -1,5 +1,13 @@
 [
     {
+        "id": "061f6587029fa891",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "775111265b9951a8",
         "type": "tab",
         "label": "Data in global.json",
@@ -29,6 +37,192 @@
         "label": "Reboot Raspberry Pi",
         "disabled": false,
         "info": ""
+    },
+    {
+        "id": "5a92f1dd1c8e8daa",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "name": "text native input",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "8f7c72982b1075f2",
+            "8ffe713df5ad44ca",
+            "b829b417c012b49f"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 152,
+        "h": 162
+    },
+    {
+        "id": "c2ceaaba16f93dea",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "name": "number native input",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a739ff8a3dfe9a12",
+            "9b2acec3c7f404b2",
+            "1c0d1dfba1e2de8d"
+        ],
+        "x": 194,
+        "y": 19,
+        "w": 172,
+        "h": 162
+    },
+    {
+        "id": "0d9513e4fa8e671f",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "name": "template input",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "20d4410f49e67565",
+            "6d725e9d6e6752bd"
+        ],
+        "x": 374,
+        "y": 19,
+        "w": 192,
+        "h": 122
+    },
+    {
+        "id": "f9b137cda6a41cc8",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f142197f943e06c3",
+            "ba32092924c21704"
+        ],
+        "x": 374,
+        "y": 159,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "e42e71164274acdc",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09145421eca576b2",
+            "96d4f5ed69c26184"
+        ],
+        "x": 634,
+        "y": 159,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "a2eff4bb38731253",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f467dd95ca327abe",
+            "9460aed131d64851"
+        ],
+        "x": 914,
+        "y": 159,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "ad8cf9e26d3de9a1",
+        "type": "group",
+        "z": "775111265b9951a8",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "be327c38d0d4571c",
+            "0a73697ceb4ced8d"
+        ],
+        "x": 48,
+        "y": 359,
+        "w": 304,
+        "h": 268
+    },
+    {
+        "id": "0a73697ceb4ced8d",
+        "type": "group",
+        "z": "775111265b9951a8",
+        "g": "ad8cf9e26d3de9a1",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "e3f11510712aac2d",
+            "d66b3b9911af069a",
+            "f8aba435da995d22"
+        ],
+        "x": 74,
+        "y": 439,
+        "w": 252,
+        "h": 162
+    },
+    {
+        "id": "e50a07264271a7e8",
+        "type": "group",
+        "z": "775111265b9951a8",
+        "name": "",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "bdef59faea812013",
+            "5a9af1c11b3c3c31",
+            "fc73d6b9b216ac9c",
+            "cafc73ccd9bd5305",
+            "d17239ecafc47c1e",
+            "9ef311a5f0ad8ed1"
+        ],
+        "x": 154,
+        "y": 39,
+        "w": 752,
+        "h": 122
     },
     {
         "id": "e6ae26617c24c3ea",
@@ -62,10 +256,10 @@
         },
         "sizes": {
             "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
+            "pagePadding": "10px",
+            "groupGap": "10px",
+            "groupBorderRadius": "0px",
+            "widgetGap": "10px"
         }
     },
     {
@@ -275,14 +469,267 @@
         "groupType": "default"
     },
     {
-        "id": "bdef59faea812013",
+        "id": "adf9bb427ea48e05",
+        "type": "ui-group",
+        "name": "streaming",
+        "page": "6b2f234f4f800a2f",
+        "width": "12",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "73d80a5f07fc8ca6",
+        "type": "ui-group",
+        "name": "12 v-col 1",
+        "page": "6b2f234f4f800a2f",
+        "width": "12",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "30d08588d7964aac",
+        "type": "ui-page",
+        "name": "Home",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/home",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "acdf17df5536b1d3",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "4b77e32bb8af68b1",
+        "type": "ui-group",
+        "name": "Group 10",
+        "page": "30d08588d7964aac",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "bdd5061dc2808c7b",
+        "type": "ui-event",
+        "z": "061f6587029fa891",
+        "ui": "e6ae26617c24c3ea",
+        "name": "",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "c7af759e6348052a"
+            ]
+        ]
+    },
+    {
+        "id": "c7af759e6348052a",
+        "type": "switch",
+        "z": "061f6587029fa891",
+        "name": "$pageview",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "$pageview",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 270,
+        "y": 100,
+        "wires": [
+            [
+                "05f282f697c8d264"
+            ]
+        ]
+    },
+    {
+        "id": "408ecb6bf24be3f2",
         "type": "ui-template",
-        "z": "775111265b9951a8",
-        "group": "5821b0d692e4d603",
+        "z": "061f6587029fa891",
+        "group": "4b77e32bb8af68b1",
         "page": "",
         "ui": "",
         "name": "",
         "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <div>\n        <h2>Counter</h2>\n        <!-- Conditional Styling using Attribute Binding (\":\") -->\n        <!-- and rendering content inside <tags></tags> with {{ }} -->\n        <p :style=\"{'color' : (count > 5 ? 'red' : 'green' )}\">Current Count: {{ count }}</p>\n        <!-- Computed Rendering using Vue Computed Variables -->\n        <p class=\"my-class\">Formatted Count: {{ formattedCount }}</p>\n        <!-- Conditional Rendering with \"v-if\" -->\n        <b v-if=\"count > 5\">Too many!</b>\n        <v-btn @click=\"increase()\">Increment</v-btn>\n    </div>\n</template>\n\n<script>\n    export default {\n        data() {\n            // define variables available component-wide\n            // (in <template> and component functions)\n            return {\n                count: 0\n            }\n        },\n        watch: {\n            // watch for any changes of \"count\"\n            count: function () {\n                if (this.count % 5 === 0) {\n                    this.send({payload: 'Multiple of 5'})\n                }\n            }\n        },\n        computed: {\n            // automatically compute this variable\n            // whenever VueJS deems appropriate\n            formattedCount: function () {\n                return this.count + ' Apples'\n            }\n        },\n        methods: {\n            // expose a method to our <template> and Vue Application\n            increase: function () {\n                this.count++\n            }\n        },\n        mounted() {\n            // code here when the component is first loaded\n        },\n        unmounted() {\n            // code here when the component is removed from the Dashboard\n            // i.e. when the user navigates away from the page\n        }\n    }\n</script>\n<style>\n    /* define any styles here - supports raw CSS */\n    .my-class {\n        color: red;\n    }\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8450ada286a255f",
+        "type": "debug",
+        "z": "061f6587029fa891",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload.page.path",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "05f282f697c8d264",
+        "type": "switch",
+        "z": "061f6587029fa891",
+        "name": "",
+        "property": "payload.page.path",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/home",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 410,
+        "y": 100,
+        "wires": [
+            [
+                "f8450ada286a255f"
+            ]
+        ]
+    },
+    {
+        "id": "e3f11510712aac2d",
+        "type": "ui-markdown",
+        "z": "775111265b9951a8",
+        "g": "0a73697ceb4ced8d",
+        "group": "8c593c05a0ef6ba8",
+        "name": "get global variable",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "### get global variable\n\n```javascript\nmsg.variable = global.get('variable');\n\nreturn msg;\n```",
+        "className": "",
+        "x": 190,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d66b3b9911af069a",
+        "type": "ui-markdown",
+        "z": "775111265b9951a8",
+        "g": "0a73697ceb4ced8d",
+        "group": "8c593c05a0ef6ba8",
+        "name": "set global variable",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "content": "### set global variable\n```javascript\nglobal.set('variable', msg.variable);\n\nreturn msg;\n```",
+        "className": "",
+        "x": 190,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f8aba435da995d22",
+        "type": "ui-markdown",
+        "z": "775111265b9951a8",
+        "g": "0a73697ceb4ced8d",
+        "group": "8c593c05a0ef6ba8",
+        "name": "modify global variable",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "content": "### modify global variable\n\n```html\n<template>\n    <v-text-field\n        label=\"My variable\"\n        variant=\"outlined\"\n        v-model=\"msg.variable\"\n        @update:model-value=\"send({ variable: msg.variable})\"\n    ></v-text-field>\n</template>\n\n```",
+        "className": "",
+        "x": 200,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "be327c38d0d4571c",
+        "type": "ui-flowviewer",
+        "z": "775111265b9951a8",
+        "g": "ad8cf9e26d3de9a1",
+        "name": "",
+        "group": "9db62e7f60daa367",
+        "order": 1,
+        "width": "0",
+        "flow": "[     {         \"id\": \"e50a07264271a7e8\",         \"type\": \"group\",         \"z\": \"775111265b9951a8\",         \"name\": \"\",         \"style\": {             \"label\": true         },         \"nodes\": [             \"bdef59faea812013\",             \"5a9af1c11b3c3c31\",             \"fc73d6b9b216ac9c\",             \"cafc73ccd9bd5305\",             \"d17239ecafc47c1e\",             \"9ef311a5f0ad8ed1\"         ],         \"x\": 154,         \"y\": 39,         \"w\": 752,         \"h\": 162     },     {         \"id\": \"bdef59faea812013\",         \"type\": \"ui-template\",         \"z\": \"775111265b9951a8\",         \"g\": \"e50a07264271a7e8\",         \"group\": \"5821b0d692e4d603\",         \"page\": \"\",         \"ui\": \"\",         \"name\": \"\",         \"order\": 2,         \"width\": 0,         \"height\": 0,         \"head\": \"\",         \"format\": \"<template>\\n    <v-text-field\\n        label=\\\"My variable\\\"\\n        variant=\\\"outlined\\\"\\n        v-model=\\\"msg.variable\\\"\\n        @update:model-value=\\\"send({ variable: msg.variable})\\\"\\n    ></v-text-field>\\n</template>\\n\",         \"storeOutMessages\": true,         \"passthru\": true,         \"resendOnRefresh\": true,         \"templateScope\": \"local\",         \"className\": \"\",         \"x\": 600,         \"y\": 80,         \"wires\": [             [                 \"fc73d6b9b216ac9c\",                 \"d17239ecafc47c1e\"             ]         ]     },     {         \"id\": \"5a9af1c11b3c3c31\",         \"type\": \"function\",         \"z\": \"775111265b9951a8\",         \"g\": \"e50a07264271a7e8\",         \"name\": \"get global variable\",         \"func\": \"// Retrieve the global variable\\nmsg.variable = global.get('variable');\\n\\nreturn msg;\\n\",         \"outputs\": 1,         \"timeout\": 0,         \"noerr\": 0,         \"initialize\": \"\",         \"finalize\": \"\",         \"libs\": [],         \"x\": 410,         \"y\": 80,         \"wires\": [             [                 \"bdef59faea812013\",                 \"cafc73ccd9bd5305\"             ]         ]     },     {         \"id\": \"fc73d6b9b216ac9c\",         \"type\": \"function\",         \"z\": \"775111265b9951a8\",         \"g\": \"e50a07264271a7e8\",         \"name\": \"set global variable\",         \"func\": \"// Set a value in the global context\\nglobal.set('variable', msg.variable);\\n\\nreturn msg;\\n\",         \"outputs\": 1,         \"timeout\": 0,         \"noerr\": 0,         \"initialize\": \"\",         \"finalize\": \"\",         \"libs\": [],         \"x\": 790,         \"y\": 80,         \"wires\": [             []         ]     },     {         \"id\": \"cafc73ccd9bd5305\",         \"type\": \"ui-markdown\",         \"z\": \"775111265b9951a8\",         \"g\": \"e50a07264271a7e8\",         \"group\": \"5821b0d692e4d603\",         \"name\": \"Input\",         \"order\": 3,         \"width\": 0,         \"height\": 0,         \"content\": \"```javascript\\n{{ msg }}\\n```\",         \"className\": \"\",         \"x\": 590,         \"y\": 160,         \"wires\": [             []         ]     },     {         \"id\": \"d17239ecafc47c1e\",         \"type\": \"ui-markdown\",         \"z\": \"775111265b9951a8\",         \"g\": \"e50a07264271a7e8\",         \"group\": \"5821b0d692e4d603\",         \"name\": \"Output\",         \"order\": 4,         \"width\": 0,         \"height\": 0,         \"content\": \"```javascript\\n{{ msg }}\\n```\",         \"className\": \"\",         \"x\": 770,         \"y\": 160,         \"wires\": [             []         ]     },     {         \"id\": \"9ef311a5f0ad8ed1\",         \"type\": \"ui-button\",         \"z\": \"775111265b9951a8\",         \"g\": \"e50a07264271a7e8\",         \"group\": \"5821b0d692e4d603\",         \"name\": \"\",         \"label\": \"button\",         \"order\": 1,         \"width\": 0,         \"height\": 0,         \"emulateClick\": false,         \"tooltip\": \"\",         \"color\": \"\",         \"bgcolor\": \"\",         \"className\": \"\",         \"icon\": \"\",         \"iconPosition\": \"left\",         \"payload\": \"\",         \"payloadType\": \"str\",         \"topic\": \"topic\",         \"topicType\": \"msg\",         \"buttonColor\": \"\",         \"textColor\": \"\",         \"iconColor\": \"\",         \"enableClick\": true,         \"enablePointerdown\": false,         \"pointerdownPayload\": \"\",         \"pointerdownPayloadType\": \"str\",         \"enablePointerup\": false,         \"pointerupPayload\": \"\",         \"pointerupPayloadType\": \"str\",         \"x\": 230,         \"y\": 80,         \"wires\": [             [                 \"5a9af1c11b3c3c31\"             ]         ]     },     {         \"id\": \"5821b0d692e4d603\",         \"type\": \"ui-group\",         \"name\": \"Value and payloads\",         \"page\": \"69706da10df85266\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 2,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"69706da10df85266\",         \"type\": \"ui-page\",         \"name\": \"Data in global.json\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/data\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 1,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"FairScope Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094ce\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"10px\",             \"groupGap\": \"10px\",             \"groupBorderRadius\": \"0px\",             \"widgetGap\": \"10px\"         }     } ]",
+        "height": "0",
+        "x": 170,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "bdef59faea812013",
+        "type": "ui-template",
+        "z": "775111265b9951a8",
+        "g": "e50a07264271a7e8",
+        "group": "5821b0d692e4d603",
+        "page": "",
+        "ui": "",
+        "name": "",
+        "order": 2,
         "width": 0,
         "height": 0,
         "head": "",
@@ -292,8 +739,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 480,
-        "y": 40,
+        "x": 600,
+        "y": 80,
         "wires": [
             [
                 "fc73d6b9b216ac9c",
@@ -305,6 +752,7 @@
         "id": "5a9af1c11b3c3c31",
         "type": "function",
         "z": "775111265b9951a8",
+        "g": "e50a07264271a7e8",
         "name": "get global variable",
         "func": "// Retrieve the global variable\nmsg.variable = global.get('variable');\n\nreturn msg;\n",
         "outputs": 1,
@@ -313,8 +761,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 290,
-        "y": 40,
+        "x": 410,
+        "y": 80,
         "wires": [
             [
                 "bdef59faea812013",
@@ -323,34 +771,10 @@
         ]
     },
     {
-        "id": "591e09b78d3d181a",
-        "type": "inject",
-        "z": "775111265b9951a8",
-        "name": "",
-        "props": [
-            {
-                "p": "variable",
-                "v": "",
-                "vt": "date"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": true,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 110,
-        "y": 40,
-        "wires": [
-            [
-                "5a9af1c11b3c3c31"
-            ]
-        ]
-    },
-    {
         "id": "fc73d6b9b216ac9c",
         "type": "function",
         "z": "775111265b9951a8",
+        "g": "e50a07264271a7e8",
         "name": "set global variable",
         "func": "// Set a value in the global context\nglobal.set('variable', msg.variable);\n\nreturn msg;\n",
         "outputs": 1,
@@ -359,42 +783,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 670,
-        "y": 40,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "e3f11510712aac2d",
-        "type": "ui-markdown",
-        "z": "775111265b9951a8",
-        "group": "8c593c05a0ef6ba8",
-        "name": "get global variable",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "content": "### get global variable\n\n```javascript\nmsg.variable = global.get('variable');\n\nreturn msg;\n```",
-        "className": "",
-        "x": 170,
-        "y": 460,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "d66b3b9911af069a",
-        "type": "ui-markdown",
-        "z": "775111265b9951a8",
-        "group": "8c593c05a0ef6ba8",
-        "name": "set global variable",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "content": "### set global variable\n```javascript\nglobal.set('variable', msg.variable);\n\nreturn msg;\n```",
-        "className": "",
-        "x": 170,
-        "y": 540,
+        "x": 790,
+        "y": 80,
         "wires": [
             []
         ]
@@ -403,15 +793,16 @@
         "id": "cafc73ccd9bd5305",
         "type": "ui-markdown",
         "z": "775111265b9951a8",
+        "g": "e50a07264271a7e8",
         "group": "5821b0d692e4d603",
-        "name": "",
-        "order": 2,
+        "name": "Input",
+        "order": 3,
         "width": 0,
         "height": 0,
-        "content": "```javascript\n{{ msg }}\n```",
+        "content": "### Input\n```javascript\n{{ msg }}\n```",
         "className": "",
-        "x": 530,
-        "y": 260,
+        "x": 590,
+        "y": 120,
         "wires": [
             []
         ]
@@ -420,54 +811,83 @@
         "id": "d17239ecafc47c1e",
         "type": "ui-markdown",
         "z": "775111265b9951a8",
+        "g": "e50a07264271a7e8",
+        "group": "5821b0d692e4d603",
+        "name": "Output",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "content": "### Output\n```javascript\n{{ msg }}\n```",
+        "className": "",
+        "x": 750,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2b45ff4ec3f0c9e6",
+        "type": "function",
+        "z": "775111265b9951a8",
+        "name": "get global variable",
+        "func": "// Retrieve the global variable\nmsg.variable = global.get('variable');\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ef311a5f0ad8ed1",
+        "type": "ui-button",
+        "z": "775111265b9951a8",
+        "g": "e50a07264271a7e8",
         "group": "5821b0d692e4d603",
         "name": "",
-        "order": 3,
-        "width": 0,
-        "height": 0,
-        "content": "```javascript\n{{ msg }}\n```",
-        "className": "",
-        "x": 710,
-        "y": 260,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f8aba435da995d22",
-        "type": "ui-markdown",
-        "z": "775111265b9951a8",
-        "group": "8c593c05a0ef6ba8",
-        "name": "modify global variable",
-        "order": 2,
-        "width": 0,
-        "height": 0,
-        "content": "### modify global variable\n\n```html\n<template>\n    <v-text-field\n        label=\"My variable\"\n        variant=\"outlined\"\n        v-model=\"msg.variable\"\n        @update:model-value=\"send({ variable: msg.variable})\"\n    ></v-text-field>\n</template>\n\n```",
-        "className": "",
-        "x": 180,
-        "y": 500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "be327c38d0d4571c",
-        "type": "ui-flowviewer",
-        "z": "775111265b9951a8",
-        "name": "",
-        "group": "9db62e7f60daa367",
+        "label": "button",
         "order": 1,
-        "width": "0",
-        "flow": "[     {         \"id\": \"bdef59faea812013\",         \"type\": \"ui-template\",         \"z\": \"775111265b9951a8\",         \"group\": \"5821b0d692e4d603\",         \"page\": \"\",         \"ui\": \"\",         \"name\": \"\",         \"order\": 1,         \"width\": 0,         \"height\": 0,         \"head\": \"\",         \"format\": \"<template>\\n    <v-text-field\\n        label=\\\"My variable\\\"\\n        variant=\\\"outlined\\\"\\n        v-model=\\\"msg.variable\\\"\\n        @update:model-value=\\\"send({ variable: msg.variable})\\\"\\n    ></v-text-field>\\n</template>\\n\",         \"storeOutMessages\": true,         \"passthru\": true,         \"resendOnRefresh\": true,         \"templateScope\": \"local\",         \"className\": \"\",         \"x\": 480,         \"y\": 40,         \"wires\": [             [                 \"fc73d6b9b216ac9c\",                 \"d17239ecafc47c1e\"             ]         ]     },     {         \"id\": \"5a9af1c11b3c3c31\",         \"type\": \"function\",         \"z\": \"775111265b9951a8\",         \"name\": \"get global variable\",         \"func\": \"// Retrieve the global variable\\nmsg.variable = global.get('variable');\\n\\nreturn msg;\\n\",         \"outputs\": 1,         \"timeout\": 0,         \"noerr\": 0,         \"initialize\": \"\",         \"finalize\": \"\",         \"libs\": [],         \"x\": 290,         \"y\": 40,         \"wires\": [             [                 \"bdef59faea812013\",                 \"cafc73ccd9bd5305\"             ]         ]     },     {         \"id\": \"591e09b78d3d181a\",         \"type\": \"inject\",         \"z\": \"775111265b9951a8\",         \"name\": \"\",         \"props\": [             {                 \"p\": \"variable\",                 \"v\": \"\",                 \"vt\": \"date\"             }         ],         \"repeat\": \"\",         \"crontab\": \"\",         \"once\": true,         \"onceDelay\": 0.1,         \"topic\": \"\",         \"x\": 110,         \"y\": 40,         \"wires\": [             [                 \"5a9af1c11b3c3c31\"             ]         ]     },     {         \"id\": \"fc73d6b9b216ac9c\",         \"type\": \"function\",         \"z\": \"775111265b9951a8\",         \"name\": \"set global variable\",         \"func\": \"// Set a value in the global context\\nglobal.set('variable', msg.variable);\\n\\nreturn msg;\\n\",         \"outputs\": 1,         \"timeout\": 0,         \"noerr\": 0,         \"initialize\": \"\",         \"finalize\": \"\",         \"libs\": [],         \"x\": 670,         \"y\": 40,         \"wires\": [             []         ]     },     {         \"id\": \"5821b0d692e4d603\",         \"type\": \"ui-group\",         \"name\": \"Value and payloads\",         \"page\": \"69706da10df85266\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 1,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"69706da10df85266\",         \"type\": \"ui-page\",         \"name\": \"Read and Write Data in global.json\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/tutorial\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 1,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"Default Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094CE\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"12px\",             \"groupGap\": \"12px\",             \"groupBorderRadius\": \"4px\",             \"widgetGap\": \"12px\"         }     } ]",
-        "height": "0",
-        "x": 150,
-        "y": 400,
-        "wires": []
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 230,
+        "y": 80,
+        "wires": [
+            [
+                "5a9af1c11b3c3c31"
+            ]
+        ]
     },
     {
         "id": "8f7c72982b1075f2",
         "type": "ui-text-input",
         "z": "ae92a0a869ca847f",
+        "g": "5a92f1dd1c8e8daa",
         "group": "e461e16bf6fe45b0",
         "name": "",
         "label": "text",
@@ -489,8 +909,8 @@
         "icon": "mdi-information-outline",
         "iconPosition": "left",
         "iconInnerPosition": "inside",
-        "x": 210,
-        "y": 120,
+        "x": 110,
+        "y": 60,
         "wires": [
             []
         ]
@@ -499,6 +919,7 @@
         "id": "a739ff8a3dfe9a12",
         "type": "ui-number-input",
         "z": "ae92a0a869ca847f",
+        "g": "c2ceaaba16f93dea",
         "group": "3496e96aaf509c63",
         "name": "",
         "label": "number",
@@ -520,8 +941,8 @@
         "iconPosition": "left",
         "iconInnerPosition": "inside",
         "spinner": "stacked",
-        "x": 360,
-        "y": 120,
+        "x": 280,
+        "y": 60,
         "wires": [
             []
         ]
@@ -530,6 +951,7 @@
         "id": "f142197f943e06c3",
         "type": "ui-template",
         "z": "ae92a0a869ca847f",
+        "g": "f9b137cda6a41cc8",
         "group": "0b938df814df6f89",
         "page": "",
         "ui": "",
@@ -544,8 +966,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 560,
-        "y": 160,
+        "x": 500,
+        "y": 200,
         "wires": [
             []
         ]
@@ -554,20 +976,22 @@
         "id": "8ffe713df5ad44ca",
         "type": "ui-flowviewer",
         "z": "ae92a0a869ca847f",
+        "g": "5a92f1dd1c8e8daa",
         "name": "text",
         "group": "e461e16bf6fe45b0",
         "order": 1,
         "width": "12",
         "flow": "[     {         \"id\": \"8f7c72982b1075f2\",         \"type\": \"ui-text-input\",         \"z\": \"ae92a0a869ca847f\",         \"group\": \"e461e16bf6fe45b0\",         \"name\": \"\",         \"label\": \"text\",         \"order\": 3,         \"width\": \"2\",         \"height\": \"1\",         \"topic\": \"topic\",         \"topicType\": \"msg\",         \"mode\": \"number\",         \"tooltip\": \"\",         \"delay\": 300,         \"passthru\": true,         \"sendOnDelay\": false,         \"sendOnBlur\": true,         \"sendOnEnter\": true,         \"className\": \"\",         \"clearable\": true,         \"sendOnClear\": true,         \"icon\": \"mdi-information-outline\",         \"iconPosition\": \"left\",         \"iconInnerPosition\": \"inside\",         \"x\": 210,         \"y\": 120,         \"wires\": [             []         ]     },     {         \"id\": \"e461e16bf6fe45b0\",         \"type\": \"ui-group\",         \"name\": \"Group 3\",         \"page\": \"b9f88d899abc43e6\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 1,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"b9f88d899abc43e6\",         \"type\": \"ui-page\",         \"name\": \"Dashboard native illustration\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/native-dashboard\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 2,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"Default Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094CE\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"12px\",             \"groupGap\": \"12px\",             \"groupBorderRadius\": \"4px\",             \"widgetGap\": \"12px\"         }     } ]",
         "height": "3",
-        "x": 210,
-        "y": 160,
+        "x": 110,
+        "y": 100,
         "wires": []
     },
     {
         "id": "b829b417c012b49f",
         "type": "ui-markdown",
         "z": "ae92a0a869ca847f",
+        "g": "5a92f1dd1c8e8daa",
         "group": "e461e16bf6fe45b0",
         "name": "text",
         "order": 3,
@@ -575,8 +999,8 @@
         "height": 0,
         "content": "### text input\n\nAdds a single text input row to your dashboard, with a configurable \"type\" (text, password, etc).\n\n### Available modes include:\n### \n - Text Input: Standard text input field\n - E-Mail Address: Offers validation on any input to ensure it's a valid e-mail address.\n - Password: Hides the input from the user to offer protected input.\n - Number: Adds an up/down selector to choose an integer.\n - Color Picker: Displays a single block color selector\n - Time Picker: HH:mm formatted time picker\n - Week Picker: A Calendar widget to select a given full week, returns YYYY-W<WW>>\n - Month Picker: A Calendar widget to select a given month, returns YYYY-MM\n - Datetime Picker: A Calendar widget to select full datetime value. Returns YYY-MM-DDTHH:mm\n - Dynamic Properties (Inputs)\nAny of the following can be appended to a msg.ui_update in order to override or set properties on this node at runtime.",
         "className": "",
-        "x": 210,
-        "y": 200,
+        "x": 110,
+        "y": 140,
         "wires": [
             []
         ]
@@ -585,6 +1009,7 @@
         "id": "9b2acec3c7f404b2",
         "type": "ui-markdown",
         "z": "ae92a0a869ca847f",
+        "g": "c2ceaaba16f93dea",
         "group": "3496e96aaf509c63",
         "name": "number",
         "order": 3,
@@ -592,8 +1017,8 @@
         "height": 0,
         "content": "### number input\nAdds a single number input row to your dashboard\n\n### Dynamic Properties (Inputs)\nAny of the following can be appended to msg.ui_update in order to override or set properties on this node at runtime.\n\n",
         "className": "",
-        "x": 360,
-        "y": 200,
+        "x": 280,
+        "y": 140,
         "wires": [
             []
         ]
@@ -602,34 +1027,37 @@
         "id": "1c0d1dfba1e2de8d",
         "type": "ui-flowviewer",
         "z": "ae92a0a869ca847f",
+        "g": "c2ceaaba16f93dea",
         "name": "number",
         "group": "3496e96aaf509c63",
         "order": 1,
         "width": "12",
         "flow": "[     {         \"id\": \"a739ff8a3dfe9a12\",         \"type\": \"ui-number-input\",         \"z\": \"ae92a0a869ca847f\",         \"group\": \"2a69ed9a727709cc\",         \"name\": \"\",         \"label\": \"number\",         \"order\": 1,         \"width\": \"2\",         \"height\": \"1\",         \"topic\": \"topic\",         \"topicType\": \"msg\",         \"min\": 0,         \"max\": 10,         \"step\": 1,         \"tooltip\": \"This is a tooltip where we can store some more info about thie field.\",         \"passthru\": true,         \"sendOnBlur\": true,         \"sendOnEnter\": true,         \"className\": \"\",         \"clearable\": true,         \"icon\": \"mdi-information-outline\",         \"iconPosition\": \"left\",         \"iconInnerPosition\": \"inside\",         \"spinner\": \"stacked\",         \"x\": 360,         \"y\": 120,         \"wires\": [             []         ]     },     {         \"id\": \"2a69ed9a727709cc\",         \"type\": \"ui-group\",         \"name\": \"number input\",         \"page\": \"b9f88d899abc43e6\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 2,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"b9f88d899abc43e6\",         \"type\": \"ui-page\",         \"name\": \"Dashboard native illustration\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/native-dashboard\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 2,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"Default Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094CE\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"12px\",             \"groupGap\": \"12px\",             \"groupBorderRadius\": \"4px\",             \"widgetGap\": \"12px\"         }     } ]",
         "height": "3",
-        "x": 360,
-        "y": 160,
+        "x": 280,
+        "y": 100,
         "wires": []
     },
     {
         "id": "20d4410f49e67565",
         "type": "ui-flowviewer",
         "z": "ae92a0a869ca847f",
+        "g": "0d9513e4fa8e671f",
         "name": "template",
         "group": "0b938df814df6f89",
         "order": 2,
         "width": "12",
         "flow": "[     {         \"id\": \"f142197f943e06c3\",         \"type\": \"ui-template\",         \"z\": \"ae92a0a869ca847f\",         \"group\": \"e461e16bf6fe45b0\",         \"page\": \"\",         \"ui\": \"\",         \"name\": \"\",         \"order\": 6,         \"width\": \"2\",         \"height\": \"1\",         \"head\": \"\",         \"format\": \"<template>\\n  <div>\\n    <v-text-field\\n      label=\\\"Prepend inner\\\"\\n      prepend-inner-icon=\\\"mdi-information-outline\\\"\\n      variant=\\\"outlined\\\"\\n      suffix=\\\"suffix\\\"\\n      density=\\\"compact\\\"\\n      @click:prepend-inner=\\\"showDialog = true\\\"\\n    ></v-text-field>\\n\\n    <v-dialog v-model=\\\"showDialog\\\" max-width=\\\"500px\\\">\\n      <v-card>\\n        <v-card-title> Information </v-card-title>\\n        <v-card-text>\\n          This is some additional information displayed in a dialog.\\n        </v-card-text>\\n        <v-card-actions>\\n          <v-btn text @click=\\\"showDialog = false\\\">Close</v-btn>\\n        </v-card-actions>\\n      </v-card>\\n    </v-dialog>\\n  </div>\\n</template>\\n\\n<script>\\n  export default {\\n    data() {\\n      return {\\n        showDialog: false, // Controls dialog visibility\\n      }\\n    },\\n  }\\n</script>\\n\",         \"storeOutMessages\": true,         \"passthru\": true,         \"resendOnRefresh\": true,         \"templateScope\": \"local\",         \"className\": \"\",         \"x\": 520,         \"y\": 120,         \"wires\": [             []         ]     },     {         \"id\": \"e461e16bf6fe45b0\",         \"type\": \"ui-group\",         \"name\": \"text input\",         \"page\": \"b9f88d899abc43e6\",         \"width\": \"6\",         \"height\": \"1\",         \"order\": 1,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"b9f88d899abc43e6\",         \"type\": \"ui-page\",         \"name\": \"Dashboard native illustration\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/native-dashboard\",         \"icon\": \"home\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 2,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": false,         \"showPageTitle\": true,         \"navigationStyle\": \"default\",         \"titleBarStyle\": \"default\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"Default Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094CE\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"12px\",             \"groupGap\": \"12px\",             \"groupBorderRadius\": \"4px\",             \"widgetGap\": \"12px\"         }     } ]",
         "height": "3",
-        "x": 520,
-        "y": 120,
+        "x": 460,
+        "y": 100,
         "wires": []
     },
     {
         "id": "ba32092924c21704",
         "type": "ui-markdown",
         "z": "ae92a0a869ca847f",
+        "g": "f9b137cda6a41cc8",
         "group": "0b938df814df6f89",
         "name": "template with dialog",
         "order": 6,
@@ -637,8 +1065,8 @@
         "height": "1",
         "content": "### template with dialog\n```html\n<template>\n  <div>\n    <v-text-field\n      label=\"Prepend inner\"\n      prepend-inner-icon=\"mdi-information-outline\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      @click:prepend-inner=\"showDialog = true\"\n    ></v-text-field>\n\n    <v-dialog v-model=\"showDialog\" max-width=\"500px\">\n      <v-card>\n        <v-card-title> Information </v-card-title>\n        <v-card-text>\n          This is some additional information displayed in a dialog.\n        </v-card-text>\n        <v-card-actions>\n          <v-btn text @click=\"showDialog = false\">Close</v-btn>\n        </v-card-actions>\n      </v-card>\n    </v-dialog>\n  </div>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        showDialog: false, // Controls dialog visibility\n      }\n    },\n  }\n</script>\n\n```",
         "className": "",
-        "x": 560,
-        "y": 200,
+        "x": 500,
+        "y": 240,
         "wires": [
             []
         ]
@@ -647,6 +1075,7 @@
         "id": "09145421eca576b2",
         "type": "ui-template",
         "z": "ae92a0a869ca847f",
+        "g": "e42e71164274acdc",
         "group": "0b938df814df6f89",
         "page": "",
         "ui": "",
@@ -661,8 +1090,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 790,
-        "y": 160,
+        "x": 770,
+        "y": 200,
         "wires": [
             []
         ]
@@ -671,6 +1100,7 @@
         "id": "f467dd95ca327abe",
         "type": "ui-template",
         "z": "ae92a0a869ca847f",
+        "g": "a2eff4bb38731253",
         "group": "0b938df814df6f89",
         "page": "",
         "ui": "",
@@ -685,8 +1115,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 1020,
-        "y": 160,
+        "x": 1040,
+        "y": 200,
         "wires": [
             []
         ]
@@ -695,6 +1125,7 @@
         "id": "96d4f5ed69c26184",
         "type": "ui-markdown",
         "z": "ae92a0a869ca847f",
+        "g": "e42e71164274acdc",
         "group": "0b938df814df6f89",
         "name": "template persistent hint",
         "order": 7,
@@ -702,8 +1133,8 @@
         "height": "1",
         "content": "### template persistent hint\n```html\n<template>\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      persistent-hint\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n</template>\n\n```",
         "className": "",
-        "x": 790,
-        "y": 200,
+        "x": 770,
+        "y": 240,
         "wires": [
             []
         ]
@@ -712,6 +1143,7 @@
         "id": "9460aed131d64851",
         "type": "ui-markdown",
         "z": "ae92a0a869ca847f",
+        "g": "a2eff4bb38731253",
         "group": "0b938df814df6f89",
         "name": "template hidden hint",
         "order": 8,
@@ -719,8 +1151,8 @@
         "height": "1",
         "content": "### template hidden hint\n```html\n<template>\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n</template>\n\n```",
         "className": "",
-        "x": 1020,
-        "y": 200,
+        "x": 1040,
+        "y": 240,
         "wires": [
             []
         ]
@@ -729,6 +1161,7 @@
         "id": "6d725e9d6e6752bd",
         "type": "ui-markdown",
         "z": "ae92a0a869ca847f",
+        "g": "0d9513e4fa8e671f",
         "group": "0b938df814df6f89",
         "name": "Vuetify links",
         "order": 1,
@@ -736,8 +1169,8 @@
         "height": 0,
         "content": "# Vuetify Resources and Examples\n\nThis document provides useful links and references for working with Vuetify components, icons, and examples.\n\n## Input Fields\n- **Component Usage**: Learn how to use input fields in Vuetify.  \n  [View Documentation](https://vuetifyjs.com/en/components/text-fields/#usage)\n\n- **API Reference**: Explore the full API details for `v-field`.  \n  [View API](https://vuetifyjs.com/en/api/v-field/)\n\n## Icons\n- **Material Design Icons**: Access the Material Design Icons (MDI) library for Vuetify projects.  \n  [Explore Icons](https://pictogrammers.github.io/@mdi/font/2.0.46/)\n\n## Code Playground\n- **Vue Play**: Experiment with Vue.js and Vuetify components in an interactive playground.  \n  [Open Playground](https://play.vuetifyjs.com/#eNrFVdtu2kAQ/ZWV1UdsQ2jUyKIRacVDq6qNClIf4jws9hg2We9ae+HSKP/e2TUYQ0IUibaRAMvnzM7MOR7GNw+BVll8VVXRwkKQBAMDZcWpgctUEDJYhJkUhjIBihTcstzDnlByubnZxHGCX/0xDd6nQcN4TtvpHGgO6vJaQcFWpJCK5JJzqkhmlQKRrQdxO65JjChmPVLo4rCQgZUJCwY8J5xOgWPMVSmtMGlAFpRbQKDXjbpdvK98Kwi8wyyuzu7wkfLurlZ9mgljW2xNWAKbzc2/0v7LZ29pP7uotWvfAQJ8qt9QPZSUcRwEvIi/7MEOJo0dI1+O5rkCjbLbIVuDYEVx/GGfbNwazlyGKJNlO+DN7DOsBPJbCvgP3n1zVzLBmOeN650l/W7ihqvNmnXlSNfoEUuvx5NTvNwymx2FyCBubbCgExiNbMFm0Z2WAhfcgzuUBvgMK8ZB/agMkwKnISGecRzlXC6/eswoC50tns0hu38Gv9Mrh6EYHCxQC9TacIaqGaBnjh6Nv3v/GrKUuXXD9gL5E7Tk1vVYh32yIse2W3G+2y9lJZVhYjbRo5UBobeiXKMu8tHHpwFu+c8vSN+124/6/lwq8IM+Ml8hLGl14GRN7KfBKnW7c2MqncRxlgs8lgNnCxUJMLGoyniIYbHC7YzjEeIWGPaj86jXj3OmTRuPQJfhFB84motZWtoxgWHF+hW1NpFY4kN0XlfYQCGOuHYlnqSO/cNUIb6f8H/lTH+dpINje7IOuCfS9jznTNzrw8F1qyshNyfq9Wlu60KPHWE59z+3fwDtNYW9)\n\n---\n\nFeel free to refer to these resources while working on your Vuetify projects!\n",
         "className": "",
-        "x": 530,
-        "y": 80,
+        "x": 470,
+        "y": 60,
         "wires": [
             []
         ]
@@ -1026,6 +1459,54 @@
         "className": "",
         "x": 480,
         "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a07bd8210b19969d",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "adf9bb427ea48e05",
+        "page": "",
+        "ui": "",
+        "name": "streaming",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<template>\n    <v-row>\n      <v-col cols=\"8\">\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n      </v-col>\n      <v-col cols=\"4\">\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n      </v-col>\n    </v-row>\n</template>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ec042557645546d3",
+        "type": "ui-template",
+        "z": "373eee1e336f7001",
+        "group": "73d80a5f07fc8ca6",
+        "page": "",
+        "ui": "",
+        "name": "12 v-col 1",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<template>\n  <v-row class=\"ma-0 pa-0\">\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n  </v-row>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 200,
+        "y": 440,
         "wires": [
             []
         ]
