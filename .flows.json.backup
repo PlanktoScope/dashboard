@@ -1,16 +1,16 @@
 [
     {
-        "id": "ae92a0a869ca847f",
+        "id": "1b667c6443413ced",
         "type": "tab",
-        "label": "Dev Kit",
+        "label": "Home",
         "disabled": false,
         "info": "",
         "env": []
     },
     {
-        "id": "373eee1e336f7001",
+        "id": "ae92a0a869ca847f",
         "type": "tab",
-        "label": "Layouts",
+        "label": "Dev Kit",
         "disabled": false,
         "info": "",
         "env": []
@@ -29,75 +29,6 @@
         "label": "Reboot Raspberry Pi",
         "disabled": false,
         "info": ""
-    },
-    {
-        "id": "f9b137cda6a41cc8",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f142197f943e06c3",
-            "ba32092924c21704"
-        ],
-        "x": 54,
-        "y": 279,
-        "w": 252,
-        "h": 122
-    },
-    {
-        "id": "e42e71164274acdc",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "09145421eca576b2",
-            "96d4f5ed69c26184"
-        ],
-        "x": 314,
-        "y": 279,
-        "w": 272,
-        "h": 122
-    },
-    {
-        "id": "a2eff4bb38731253",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f467dd95ca327abe",
-            "9460aed131d64851"
-        ],
-        "x": 594,
-        "y": 279,
-        "w": 252,
-        "h": 122
     },
     {
         "id": "349e8016ec7515c6",
@@ -185,44 +116,6 @@
         "h": 122
     },
     {
-        "id": "3f7d2b5e66b2e952",
-        "type": "group",
-        "z": "69eda29bc338202b",
-        "name": "Light",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "63ce2a7abac6c383",
-            "a78e68ca113d604d",
-            "638086cbd09bb92b",
-            "feacde592b9f5242"
-        ],
-        "x": 14,
-        "y": 19,
-        "w": 372,
-        "h": 142
-    },
-    {
-        "id": "b80e1a185f7e6534",
-        "type": "group",
-        "z": "69eda29bc338202b",
-        "name": "Focus",
-        "style": {
-            "label": true
-        },
-        "nodes": [
-            "fa4c8c9a96beb602",
-            "70f6137594caf82d",
-            "c4686819dd2d651d",
-            "5fcad47dcb0de5b5"
-        ],
-        "x": 14,
-        "y": 199,
-        "w": 692,
-        "h": 142
-    },
-    {
         "id": "f6e28f1fc85830b2",
         "type": "group",
         "z": "ae92a0a869ca847f",
@@ -298,6 +191,135 @@
         "h": 202
     },
     {
+        "id": "3f7d2b5e66b2e952",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "name": "Light",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "63ce2a7abac6c383",
+            "a78e68ca113d604d",
+            "638086cbd09bb92b",
+            "feacde592b9f5242"
+        ],
+        "x": 34,
+        "y": 1439,
+        "w": 372,
+        "h": 142
+    },
+    {
+        "id": "b80e1a185f7e6534",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "name": "Focus",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "fa4c8c9a96beb602",
+            "70f6137594caf82d",
+            "c4686819dd2d651d",
+            "5fcad47dcb0de5b5"
+        ],
+        "x": 34,
+        "y": 1619,
+        "w": 692,
+        "h": 142
+    },
+    {
+        "id": "d9ac3768c4ec355e",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8d1df3a3.e4fbc8",
+            "3c1f2b6d.c3d0d4"
+        ],
+        "x": 34,
+        "y": 1791.5,
+        "w": 442,
+        "h": 97
+    },
+    {
+        "id": "f9b137cda6a41cc8",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f142197f943e06c3",
+            "ba32092924c21704"
+        ],
+        "x": 54,
+        "y": 279,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "e42e71164274acdc",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09145421eca576b2",
+            "96d4f5ed69c26184"
+        ],
+        "x": 314,
+        "y": 279,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "a2eff4bb38731253",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f467dd95ca327abe",
+            "9460aed131d64851"
+        ],
+        "x": 594,
+        "y": 279,
+        "w": 252,
+        "h": 122
+    },
+    {
         "id": "e6ae26617c24c3ea",
         "type": "ui-base",
         "name": "My Dashboard",
@@ -311,7 +333,7 @@
         "showPathInSidebar": true,
         "showPageTitle": false,
         "navigationStyle": "fixed",
-        "titleBarStyle": "fixed",
+        "titleBarStyle": "hidden",
         "showReconnectNotification": true,
         "notificationDisplayTime": "1",
         "showDisconnectNotification": true
@@ -366,7 +388,7 @@
                 "cols": "12"
             }
         ],
-        "order": 1,
+        "order": 2,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -392,85 +414,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 3,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "6b2f234f4f800a2f",
-        "type": "ui-page",
-        "name": "Layouts",
-        "ui": "e6ae26617c24c3ea",
-        "path": "/layouts",
-        "icon": "mdi-palette-advanced",
-        "layout": "grid",
-        "theme": "acdf17df5536b1d3",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 2,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "c28191f3573096d7",
-        "type": "ui-group",
-        "name": "v-row",
-        "page": "6b2f234f4f800a2f",
-        "width": "12",
-        "height": "1",
-        "order": 1,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "adf9bb427ea48e05",
-        "type": "ui-group",
-        "name": "streaming",
-        "page": "6b2f234f4f800a2f",
-        "width": "12",
-        "height": "1",
-        "order": 2,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "73d80a5f07fc8ca6",
-        "type": "ui-group",
-        "name": "12 v-col 1",
-        "page": "6b2f234f4f800a2f",
-        "width": "12",
-        "height": "1",
-        "order": 3,
+        "order": 5,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -484,7 +428,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 8,
+        "order": 2,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -498,7 +442,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 4,
+        "order": 6,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -512,7 +456,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 5,
+        "order": 7,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -557,7 +501,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 6,
+        "order": 8,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -571,7 +515,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 7,
+        "order": 9,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -581,11 +525,11 @@
     {
         "id": "2ca4adc305fbadd5",
         "type": "ui-group",
-        "name": "Home",
+        "name": "Landing Page",
         "page": "b9f88d899abc43e6",
         "width": "6",
         "height": "1",
-        "order": 2,
+        "order": 4,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -599,12 +543,134 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 9,
+        "order": 3,
         "showTitle": true,
         "className": "",
         "visible": "true",
         "disabled": "false",
         "groupType": "default"
+    },
+    {
+        "id": "632260133d581caa",
+        "type": "ui-page",
+        "name": "Home",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/home",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "acdf17df5536b1d3",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "713fd4c3b9030f45",
+        "type": "ui-group",
+        "name": "main",
+        "page": "632260133d581caa",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "39c370d8a50f3acc",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "713fd4c3b9030f45",
+        "page": "",
+        "ui": "",
+        "name": "body",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-empty-state\n    headline=\"Welcome on the PlanktoScope GUI,\"\n    icon=\"$vuetify\"\n    title=\"What would you like to do today?\"\n  >\n    <v-container>\n      <v-row>\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n      </v-row>\n      <v-row>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Model of your machine\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n      </v-row>\n    </v-container>\n    <v-row justify=\"center\" class=\"my-2\">\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://www.figma.com/design/KXH3qkalr7eeFbyGsutZKt/PlanktoScope-Dashboard-v2?node-id=6-2&m=dev&t=Nn2N1o9OJveQCSco-1\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"primary\" class=\"mr-1\">mdi-image</v-icon>Figma Design\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues/new?template=bug_report.md\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"red\" class=\"mr-1\">mdi-bug</v-icon>Report a Bug\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"orange\" class=\"mr-1\">mdi-information-outline</v-icon>Open\n        issues\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"black\" class=\"mr-1\">mdi-github</v-icon>View on GitHub\n      </v-chip>\n    </v-row>\n  </v-empty-state>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 350,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1cf1b20e425ec126",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "713fd4c3b9030f45",
+        "page": "",
+        "ui": "",
+        "name": "footer",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-footer class=\"pa-0\" color=\"grey-darken-4\">\n    <v-container>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">PlanktoScope</h4>\n          <p class=\"text-grey-lighten-1\">\n            Open and Affordable Quantitative Imaging Platform.\n          </p>\n        </v-col>\n      </v-row>\n      <v-divider class=\"my-3\"></v-divider>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">Thanks to:</h4>\n          <p class=\"text-grey-lighten-1\">\n            <v-chip\n              v-for=\"contributor in contributors\"\n              :key=\"contributor.id\"\n              class=\"mx-2\"\n              small\n              outlined\n            >\n              <v-avatar left>\n                <img :src=\"contributor.avatar_url\" :alt=\"contributor.login\" />\n              </v-avatar>\n              <a\n                :href=\"contributor.html_url\"\n                target=\"_blank\"\n                class=\"text-decoration-none text-grey-lighten-1\"\n              >\n                {{ contributor.login }}\n              </a>\n            </v-chip>\n          </p>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-footer>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        contributors: [], // Array to hold contributors' data\n      }\n    },\n    mounted() {\n      this.fetchContributors()\n    },\n    methods: {\n      async fetchContributors() {\n        try {\n          const response = await fetch(\n            'https://api.github.com/orgs/PlanktoScope/people'\n          )\n          if (response.ok) {\n            this.contributors = await response.json()\n          } else {\n            console.error('Failed to fetch contributors')\n          }\n        } catch (error) {\n          console.error('Error fetching contributors:', error)\n        }\n      },\n    },\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 350,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95e20345b1a7a05f",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "713fd4c3b9030f45",
+        "page": "",
+        "ui": "",
+        "name": "toolbar",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-app>\n    <v-app-bar color=\"primary\" prominent>\n      <v-app-bar-nav-icon\n        variant=\"text\"\n        @click.stop=\"drawer = !drawer\"\n      ></v-app-bar-nav-icon>\n\n      <v-toolbar-title>My files</v-toolbar-title>\n\n      <v-spacer></v-spacer>\n\n      <template v-if=\"$vuetify.display.mdAndUp\">\n        <v-btn icon=\"mdi-magnify\" variant=\"text\"></v-btn>\n        <v-btn icon=\"mdi-filter\" variant=\"text\"></v-btn>\n      </template>\n\n      <v-btn icon=\"mdi-dots-vertical\" variant=\"text\"></v-btn>\n    </v-app-bar>\n\n    <!-- Navigation Drawer -->\n    <v-navigation-drawer\n      v-model=\"drawer\"\n      absolute\n      temporary\n      class=\"custom-drawer\"\n    >\n      <v-list :items=\"items\"></v-list>\n    </v-navigation-drawer>\n\n  </v-app>\n</template>\n\n<script>\n  export default {\n    data: () => ({\n      drawer: false,\n      items: [\n        { title: 'Foo', value: 'foo' },\n        { title: 'Bar', value: 'bar' },\n        { title: 'Fizz', value: 'fizz' },\n        { title: 'Buzz', value: 'buzz' },\n      ],\n    }),\n  }\n</script>\n\n<style scoped>\n  .custom-drawer {\n    position: absolute;\n    top: 64px; /* Ajustez selon la hauteur de la v-app-bar */\n    left: 0;\n    width: 300px; /* Largeur du drawer */\n    z-index: 2000; /* Pour s'assurer que le drawer est au-dessus des autres éléments */\n    background-color: white; /* Fond du drawer */\n  }\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 360,
+        "y": 180,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "f142197f943e06c3",
@@ -1187,345 +1253,9 @@
         "wires": []
     },
     {
-        "id": "5eaa3bfa8bd9b7a3",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 1,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 200,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "efa9fba6c6a046a6",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 7,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 200,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3c7cdf3ef5d796df",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 8,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 200,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f14451b5728d5628",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 9,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 200,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "dc163efd9f25565a",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 12,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 340,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "8643ab35d9ad8f15",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 6,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 340,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "3e428c3986418ff0",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 10,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 340,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "5fb73df8057bb04b",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 11,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 340,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "1114dd516eda3781",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 2,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 480,
-        "y": 120,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "355d4e413082b77d",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 5,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 480,
-        "y": 160,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "51eb2ff427a22b9f",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 4,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 480,
-        "y": 200,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "4b56904c6b54c6fe",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "c28191f3573096d7",
-        "page": "",
-        "ui": "",
-        "name": "",
-        "order": 3,
-        "width": "1",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n<v-sheet :height=\"auto\" :width=\"auto\" border></v-sheet>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 480,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "ec042557645546d3",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "73d80a5f07fc8ca6",
-        "page": "",
-        "ui": "",
-        "name": "12 v-col 1",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<template>\n  <v-row class=\"ma-0 pa-0\">\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n    <v-col cols=\"1\" class=\"ma-0 pa-0\">\n      <v-text-field variant=\"outlined\"></v-text-field>\n    </v-col>\n  </v-row>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 200,
-        "y": 440,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "a356ced5667dbfeb",
-        "type": "ui-template",
-        "z": "373eee1e336f7001",
-        "group": "adf9bb427ea48e05",
-        "page": "",
-        "ui": "",
-        "name": "streaming",
-        "order": 1,
-        "width": "0",
-        "height": "0",
-        "head": "",
-        "format": "<template>\n  <v-row>\n    <v-col cols=\"8\">\n      <v-card variant=\"outlined\" width=\"auto\" height=\"800px\" class=\"pa-0 ma-0\"\n        ><img\n          id=\"zoom\"\n          src=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\"\n          data-zoom-image=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\"\n          alt=\"Live camera stream with zoom feature\"\n          style=\"\n            transform: rotate(-90deg);\n            margin-left: -100px;\n            margin-top: 100px;\n          \"\n          width=\"800px\"\n          height=\"600px\"\n      /></v-card>\n    </v-col>\n    <v-col cols=\"4\">\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n    </v-col>\n  </v-row>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 460,
-        "y": 380,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "63ce2a7abac6c383",
         "type": "mqtt out",
-        "z": "69eda29bc338202b",
+        "z": "ae92a0a869ca847f",
         "g": "3f7d2b5e66b2e952",
         "name": "",
         "topic": "",
@@ -1537,14 +1267,14 @@
         "correl": "",
         "expiry": "",
         "broker": "50ffa74807da3b14",
-        "x": 310,
-        "y": 60,
+        "x": 330,
+        "y": 1480,
         "wires": []
     },
     {
         "id": "a78e68ca113d604d",
         "type": "inject",
-        "z": "69eda29bc338202b",
+        "z": "ae92a0a869ca847f",
         "g": "3f7d2b5e66b2e952",
         "name": "",
         "props": [
@@ -1563,8 +1293,8 @@
         "topic": "light",
         "payload": "{\"action\": \"on\"}",
         "payloadType": "json",
-        "x": 150,
-        "y": 60,
+        "x": 170,
+        "y": 1480,
         "wires": [
             [
                 "63ce2a7abac6c383"
@@ -1574,7 +1304,7 @@
     {
         "id": "638086cbd09bb92b",
         "type": "mqtt out",
-        "z": "69eda29bc338202b",
+        "z": "ae92a0a869ca847f",
         "g": "3f7d2b5e66b2e952",
         "name": "",
         "topic": "",
@@ -1586,14 +1316,14 @@
         "correl": "",
         "expiry": "",
         "broker": "50ffa74807da3b14",
-        "x": 310,
-        "y": 120,
+        "x": 330,
+        "y": 1540,
         "wires": []
     },
     {
         "id": "feacde592b9f5242",
         "type": "inject",
-        "z": "69eda29bc338202b",
+        "z": "ae92a0a869ca847f",
         "g": "3f7d2b5e66b2e952",
         "name": "",
         "props": [
@@ -1612,8 +1342,8 @@
         "topic": "light",
         "payload": "{\"action\": \"off\"}",
         "payloadType": "json",
-        "x": 150,
-        "y": 120,
+        "x": 170,
+        "y": 1540,
         "wires": [
             [
                 "638086cbd09bb92b"
@@ -1623,7 +1353,7 @@
     {
         "id": "fa4c8c9a96beb602",
         "type": "mqtt out",
-        "z": "69eda29bc338202b",
+        "z": "ae92a0a869ca847f",
         "g": "b80e1a185f7e6534",
         "name": "",
         "topic": "",
@@ -1635,14 +1365,14 @@
         "correl": "",
         "expiry": "",
         "broker": "50ffa74807da3b14",
-        "x": 630,
-        "y": 240,
+        "x": 650,
+        "y": 1660,
         "wires": []
     },
     {
         "id": "70f6137594caf82d",
         "type": "inject",
-        "z": "69eda29bc338202b",
+        "z": "ae92a0a869ca847f",
         "g": "b80e1a185f7e6534",
         "name": "{    \"action\": \"move\",    \"direction\": \"UP\",    \"distance\": 0.5,    \"speed\": 1}",
         "props": [
@@ -1661,8 +1391,8 @@
         "topic": "actuator/focus",
         "payload": "{\"action\":\"move\",\"direction\":\"UP\",\"distance\":0.5,\"speed\":1}",
         "payloadType": "json",
-        "x": 290,
-        "y": 240,
+        "x": 310,
+        "y": 1660,
         "wires": [
             [
                 "fa4c8c9a96beb602"
@@ -1672,7 +1402,7 @@
     {
         "id": "c4686819dd2d651d",
         "type": "inject",
-        "z": "69eda29bc338202b",
+        "z": "ae92a0a869ca847f",
         "g": "b80e1a185f7e6534",
         "name": "{     \"action\": \"move\",     \"direction\": \"DOWN\",     \"distance\": 0.5,     \"speed\": 1 }",
         "props": [
@@ -1691,8 +1421,8 @@
         "topic": "actuator/focus",
         "payload": "{\"action\":\"move\",\"direction\":\"DOWN\",\"distance\":0.5,\"speed\":1}",
         "payloadType": "json",
-        "x": 310,
-        "y": 300,
+        "x": 330,
+        "y": 1720,
         "wires": [
             [
                 "5fcad47dcb0de5b5"
@@ -1702,7 +1432,7 @@
     {
         "id": "5fcad47dcb0de5b5",
         "type": "mqtt out",
-        "z": "69eda29bc338202b",
+        "z": "ae92a0a869ca847f",
         "g": "b80e1a185f7e6534",
         "name": "",
         "topic": "",
@@ -1714,14 +1444,15 @@
         "correl": "",
         "expiry": "",
         "broker": "50ffa74807da3b14",
-        "x": 630,
-        "y": 300,
+        "x": 650,
+        "y": 1720,
         "wires": []
     },
     {
         "id": "8d1df3a3.e4fbc8",
         "type": "inject",
-        "z": "f1b6adf3.7e2d68",
+        "z": "ae92a0a869ca847f",
+        "g": "d9ac3768c4ec355e",
         "name": "Trigger Reboot",
         "props": [
             {
@@ -1739,8 +1470,8 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 150,
-        "y": 100,
+        "x": 160,
+        "y": 1840,
         "wires": [
             [
                 "3c1f2b6d.c3d0d4"
@@ -1750,7 +1481,8 @@
     {
         "id": "3c1f2b6d.c3d0d4",
         "type": "exec",
-        "z": "f1b6adf3.7e2d68",
+        "z": "ae92a0a869ca847f",
+        "g": "d9ac3768c4ec355e",
         "command": "sudo reboot",
         "addpay": false,
         "append": "",
@@ -1758,8 +1490,8 @@
         "timer": "",
         "oldrc": false,
         "name": "Reboot Command",
-        "x": 350,
-        "y": 100,
+        "x": 360,
+        "y": 1840,
         "wires": [
             [],
             [],

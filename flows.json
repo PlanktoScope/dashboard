@@ -1,5 +1,13 @@
 [
     {
+        "id": "1b667c6443413ced",
+        "type": "tab",
+        "label": "Home",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "ae92a0a869ca847f",
         "type": "tab",
         "label": "Dev Kit",
@@ -21,75 +29,6 @@
         "label": "Reboot Raspberry Pi",
         "disabled": false,
         "info": ""
-    },
-    {
-        "id": "f9b137cda6a41cc8",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f142197f943e06c3",
-            "ba32092924c21704"
-        ],
-        "x": 54,
-        "y": 279,
-        "w": 252,
-        "h": 122
-    },
-    {
-        "id": "e42e71164274acdc",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "09145421eca576b2",
-            "96d4f5ed69c26184"
-        ],
-        "x": 314,
-        "y": 279,
-        "w": 272,
-        "h": 122
-    },
-    {
-        "id": "a2eff4bb38731253",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f467dd95ca327abe",
-            "9460aed131d64851"
-        ],
-        "x": 594,
-        "y": 279,
-        "w": 252,
-        "h": 122
     },
     {
         "id": "349e8016ec7515c6",
@@ -312,6 +251,75 @@
         "h": 97
     },
     {
+        "id": "f9b137cda6a41cc8",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f142197f943e06c3",
+            "ba32092924c21704"
+        ],
+        "x": 54,
+        "y": 279,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "e42e71164274acdc",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09145421eca576b2",
+            "96d4f5ed69c26184"
+        ],
+        "x": 314,
+        "y": 279,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "a2eff4bb38731253",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f467dd95ca327abe",
+            "9460aed131d64851"
+        ],
+        "x": 594,
+        "y": 279,
+        "w": 252,
+        "h": 122
+    },
+    {
         "id": "e6ae26617c24c3ea",
         "type": "ui-base",
         "name": "My Dashboard",
@@ -325,7 +333,7 @@
         "showPathInSidebar": true,
         "showPageTitle": false,
         "navigationStyle": "fixed",
-        "titleBarStyle": "fixed",
+        "titleBarStyle": "hidden",
         "showReconnectNotification": true,
         "notificationDisplayTime": "1",
         "showDisconnectNotification": true
@@ -380,7 +388,7 @@
                 "cols": "12"
             }
         ],
-        "order": 1,
+        "order": 2,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -406,7 +414,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 3,
+        "order": 5,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -420,7 +428,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 8,
+        "order": 2,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -434,7 +442,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 4,
+        "order": 6,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -448,7 +456,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 5,
+        "order": 7,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -493,7 +501,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 6,
+        "order": 8,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -507,7 +515,7 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 7,
+        "order": 9,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -517,11 +525,11 @@
     {
         "id": "2ca4adc305fbadd5",
         "type": "ui-group",
-        "name": "Home",
+        "name": "Landing Page",
         "page": "b9f88d899abc43e6",
         "width": "6",
         "height": "1",
-        "order": 2,
+        "order": 4,
         "showTitle": true,
         "className": "",
         "visible": "true",
@@ -535,12 +543,134 @@
         "page": "b9f88d899abc43e6",
         "width": "12",
         "height": "1",
-        "order": 9,
+        "order": 3,
         "showTitle": true,
         "className": "",
         "visible": "true",
         "disabled": "false",
         "groupType": "default"
+    },
+    {
+        "id": "632260133d581caa",
+        "type": "ui-page",
+        "name": "Home",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/home",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "acdf17df5536b1d3",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "713fd4c3b9030f45",
+        "type": "ui-group",
+        "name": "main",
+        "page": "632260133d581caa",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "39c370d8a50f3acc",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "713fd4c3b9030f45",
+        "page": "",
+        "ui": "",
+        "name": "body",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-empty-state\n    headline=\"Welcome on the PlanktoScope GUI,\"\n    icon=\"$vuetify\"\n    title=\"What would you like to do today?\"\n  >\n    <v-container>\n      <v-row>\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n      </v-row>\n      <v-row>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Model of your machine\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n      </v-row>\n    </v-container>\n    <v-row justify=\"center\" class=\"my-2\">\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://www.figma.com/design/KXH3qkalr7eeFbyGsutZKt/PlanktoScope-Dashboard-v2?node-id=6-2&m=dev&t=Nn2N1o9OJveQCSco-1\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"primary\" class=\"mr-1\">mdi-image</v-icon>Figma Design\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues/new?template=bug_report.md\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"red\" class=\"mr-1\">mdi-bug</v-icon>Report a Bug\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"orange\" class=\"mr-1\">mdi-information-outline</v-icon>Open\n        issues\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"black\" class=\"mr-1\">mdi-github</v-icon>View on GitHub\n      </v-chip>\n    </v-row>\n  </v-empty-state>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 350,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1cf1b20e425ec126",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "713fd4c3b9030f45",
+        "page": "",
+        "ui": "",
+        "name": "footer",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-footer class=\"pa-0\" color=\"grey-darken-4\">\n    <v-container>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">PlanktoScope</h4>\n          <p class=\"text-grey-lighten-1\">\n            Open and Affordable Quantitative Imaging Platform.\n          </p>\n        </v-col>\n      </v-row>\n      <v-divider class=\"my-3\"></v-divider>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">Thanks to:</h4>\n          <p class=\"text-grey-lighten-1\">\n            <v-chip\n              v-for=\"contributor in contributors\"\n              :key=\"contributor.id\"\n              class=\"mx-2\"\n              small\n              outlined\n            >\n              <v-avatar left>\n                <img :src=\"contributor.avatar_url\" :alt=\"contributor.login\" />\n              </v-avatar>\n              <a\n                :href=\"contributor.html_url\"\n                target=\"_blank\"\n                class=\"text-decoration-none text-grey-lighten-1\"\n              >\n                {{ contributor.login }}\n              </a>\n            </v-chip>\n          </p>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-footer>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        contributors: [], // Array to hold contributors' data\n      }\n    },\n    mounted() {\n      this.fetchContributors()\n    },\n    methods: {\n      async fetchContributors() {\n        try {\n          const response = await fetch(\n            'https://api.github.com/orgs/PlanktoScope/people'\n          )\n          if (response.ok) {\n            this.contributors = await response.json()\n          } else {\n            console.error('Failed to fetch contributors')\n          }\n        } catch (error) {\n          console.error('Error fetching contributors:', error)\n        }\n      },\n    },\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 350,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "95e20345b1a7a05f",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "713fd4c3b9030f45",
+        "page": "",
+        "ui": "",
+        "name": "toolbar",
+        "order": 3,
+        "width": "12",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-app>\n    <v-app-bar color=\"primary\" prominent>\n      <v-app-bar-nav-icon\n        variant=\"text\"\n        @click.stop=\"drawer = !drawer\"\n      ></v-app-bar-nav-icon>\n\n      <v-toolbar-title>My files</v-toolbar-title>\n\n      <v-spacer></v-spacer>\n\n      <template v-if=\"$vuetify.display.mdAndUp\">\n        <v-btn icon=\"mdi-magnify\" variant=\"text\"></v-btn>\n        <v-btn icon=\"mdi-filter\" variant=\"text\"></v-btn>\n      </template>\n\n      <v-btn icon=\"mdi-dots-vertical\" variant=\"text\"></v-btn>\n    </v-app-bar>\n\n    <!-- Navigation Drawer -->\n    <v-navigation-drawer\n      v-model=\"drawer\"\n      absolute\n      temporary\n      class=\"custom-drawer\"\n    >\n      <v-list :items=\"items\"></v-list>\n    </v-navigation-drawer>\n\n  </v-app>\n</template>\n\n<script>\n  export default {\n    data: () => ({\n      drawer: false,\n      items: [\n        { title: 'Foo', value: 'foo' },\n        { title: 'Bar', value: 'bar' },\n        { title: 'Fizz', value: 'fizz' },\n        { title: 'Buzz', value: 'buzz' },\n      ],\n    }),\n  }\n</script>\n\n<style scoped>\n  .custom-drawer {\n    position: absolute;\n    top: 64px; /* Ajustez selon la hauteur de la v-app-bar */\n    left: 0;\n    width: 300px; /* Largeur du drawer */\n    z-index: 2000; /* Pour s'assurer que le drawer est au-dessus des autres éléments */\n    background-color: white; /* Fond du drawer */\n  }\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 360,
+        "y": 180,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "f142197f943e06c3",
