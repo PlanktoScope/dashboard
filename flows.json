@@ -31,6 +31,85 @@
         "info": ""
     },
     {
+        "id": "399ca45d618adeb6",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0df478d7aa1e10a5",
+        "type": "tab",
+        "label": "Add hardware information",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4da7ffd158faab70",
+        "type": "tab",
+        "label": "Display/Edit hardware information",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "4ed26b8b.253504",
+        "type": "subflow",
+        "name": "Save hardware config",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "53d163be.47cf24"
+                    }
+                ]
+            }
+        ],
+        "out": [],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
+        "id": "b7861ce703215a01",
+        "type": "subflow",
+        "name": "Load hardware config",
+        "info": "",
+        "category": "",
+        "in": [
+            {
+                "x": 40,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "0f16258953fae292"
+                    }
+                ]
+            }
+        ],
+        "out": [
+            {
+                "x": 900,
+                "y": 40,
+                "wires": [
+                    {
+                        "id": "d0fbcd200cd09981",
+                        "port": 0
+                    }
+                ]
+            }
+        ],
+        "env": [],
+        "meta": {},
+        "color": "#DDAA99"
+    },
+    {
         "id": "349e8016ec7515c6",
         "type": "group",
         "z": "ae92a0a869ca847f",
@@ -79,7 +158,7 @@
         ],
         "x": 34,
         "y": 599,
-        "w": 292,
+        "w": 282,
         "h": 122
     },
     {
@@ -223,9 +302,9 @@
             "c4686819dd2d651d",
             "5fcad47dcb0de5b5"
         ],
-        "x": 34,
+        "x": 44,
         "y": 1619,
-        "w": 692,
+        "w": 682,
         "h": 142
     },
     {
@@ -318,6 +397,222 @@
         "y": 279,
         "w": 252,
         "h": 122
+    },
+    {
+        "id": "ddc4d1a32c2c30df",
+        "type": "group",
+        "z": "399ca45d618adeb6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "bdc8ce57.de1f08",
+            "f782a471.447748",
+            "73b8252a.5ca754",
+            "320847a9582ce01d",
+            "dcbec46d6abde806",
+            "85944c05779351c9",
+            "c2980b57bfbe80f5",
+            "ae02f2699e1cbb67",
+            "0f7e6f26a012e702",
+            "8df69db4303d52db",
+            "064180b404fa14a3",
+            "fd86ec025f116cde"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 832,
+        "h": 262
+    },
+    {
+        "id": "21f9961740730e58",
+        "type": "group",
+        "z": "399ca45d618adeb6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "65ad39d.b6d4d48",
+            "71f55a58.d7eaf4",
+            "2d371e59.b0e50a",
+            "dc48dc42.98d18",
+            "d67cd3e703c8318a",
+            "b2387e08bcd1505f",
+            "8d47e8bf8b4438d4",
+            "244e6c1c281d2a7e",
+            "a5da7b3bcc1a582b",
+            "827691b5f3fc8129",
+            "95354c2caba35c4e",
+            "e65e713d7fe2df60"
+        ],
+        "x": 34,
+        "y": 439,
+        "w": 832,
+        "h": 242
+    },
+    {
+        "id": "0b40c36572eed7ca",
+        "type": "group",
+        "z": "399ca45d618adeb6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d31fcead.7e2ef",
+            "a3b4e0beac8ba7a5",
+            "c505f7a379c91ad4"
+        ],
+        "x": 34,
+        "y": 759,
+        "w": 832,
+        "h": 82
+    },
+    {
+        "id": "3293aa1bae69e6eb",
+        "type": "group",
+        "z": "399ca45d618adeb6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "62030521.88317c",
+            "6c806c5735d7be50",
+            "6b5c0842b9abc00a",
+            "304c6693be0dabe9",
+            "9023fc06dedc6f54",
+            "2f8eb65b067bb4e9",
+            "4ac0b5acb89c774f",
+            "454df1bbf5fe4e94",
+            "ef6743a921d91f11",
+            "6aded0fdf9f220bb",
+            "6cad24e4aaf8aac5"
+        ],
+        "x": 34,
+        "y": 899,
+        "w": 832,
+        "h": 262
+    },
+    {
+        "id": "e2c5dfaa06121543",
+        "type": "group",
+        "z": "0df478d7aa1e10a5",
+        "name": "Add hardware information form",
+        "style": {
+            "label": true,
+            "stroke": "#000000",
+            "color": "#000000"
+        },
+        "nodes": [
+            "4b85a23ed7b4f558",
+            "d32ad36222b7ea5a",
+            "8c3e26d0d1b70d42",
+            "37ecb4d2b69be9dd"
+        ],
+        "x": 194,
+        "y": 319,
+        "w": 1012,
+        "h": 82
+    },
+    {
+        "id": "f7ed36ef581713f0",
+        "type": "group",
+        "z": "0df478d7aa1e10a5",
+        "name": "Page CSS",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "e4d43547c15a5506"
+        ],
+        "x": 194,
+        "y": 159,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "360380a58dfc0f80",
+        "type": "group",
+        "z": "4da7ffd158faab70",
+        "name": "Page CSS",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "69d3ef26cf83569c"
+        ],
+        "x": 34,
+        "y": 159,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "d08823995cfedc57",
+        "type": "group",
+        "z": "4da7ffd158faab70",
+        "name": "Display/Edit hardware information",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "853953d676cfb245",
+            "1153edeed6cf2ad3",
+            "72525589ac3bc508",
+            "51bf8a7a25dafecb",
+            "f79846bca95415c1"
+        ],
+        "x": 34,
+        "y": 339,
+        "w": 1192,
+        "h": 82
+    },
+    {
+        "id": "33c355b642af2a8b",
+        "type": "group",
+        "z": "4da7ffd158faab70",
+        "name": "Request hardware information from EEPROM",
+        "style": {
+            "stroke": "#000000",
+            "label": true,
+            "color": "#000000"
+        },
+        "nodes": [
+            "ee0f73af31f90cff",
+            "11928dc1ab250e33"
+        ],
+        "x": 34,
+        "y": 539,
+        "w": 502,
+        "h": 82
     },
     {
         "id": "e6ae26617c24c3ea",
@@ -599,6 +894,356 @@
         "visible": "true",
         "disabled": "false",
         "groupType": "default"
+    },
+    {
+        "id": "8dc3722c.06efa8",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "0.0.0.0",
+        "port": "1883",
+        "clientid": "Client_node",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": 4,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "6b9452e193fb07a6",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "24b512bd6461182e",
+        "type": "ui-page",
+        "name": "Page 1",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/page1",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "6b9452e193fb07a6",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": 0,
+                "cols": 3
+            },
+            {
+                "name": "Tablet",
+                "px": 576,
+                "cols": 6
+            },
+            {
+                "name": "Small Desktop",
+                "px": 768,
+                "cols": 9
+            },
+            {
+                "name": "Desktop",
+                "px": 1024,
+                "cols": 12
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "b441a341327c11b5",
+        "type": "ui-group",
+        "name": "Stream",
+        "page": "24b512bd6461182e",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "39754cf04b80d5a3",
+        "type": "ui-group",
+        "name": "Controls",
+        "page": "24b512bd6461182e",
+        "width": "4",
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "be8436ef13a3006f",
+        "type": "mqtt-broker",
+        "name": "server_test",
+        "broker": "127.0.0.1",
+        "port": "1883",
+        "clientid": "eeprom",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5ce27e761fdb9796",
+        "type": "ui-page",
+        "name": "Edit Hardware Components",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/edit_hardware_components",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "6b9452e193fb07a6",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "59cc605d293a634c",
+        "type": "ui-page",
+        "name": "Add Hardware Components",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/add_hardware_components",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "6b9452e193fb07a6",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "ab08cb925353de79",
+        "type": "ui-group",
+        "name": "Edit Hardware Components",
+        "page": "5ce27e761fdb9796",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5e26699d667afe73",
+        "type": "ui-group",
+        "name": "Add Hardware Components",
+        "page": "59cc605d293a634c",
+        "width": "6",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "82099021.9ceb08",
+        "type": "file",
+        "z": "4ed26b8b.253504",
+        "name": "",
+        "filename": "/home/pi/PlanktoScope/hardware.json",
+        "appendNewline": true,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 660,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bb0a8725.a1849",
+        "type": "json",
+        "z": "4ed26b8b.253504",
+        "name": "Create JSON",
+        "property": "payload",
+        "action": "str",
+        "pretty": true,
+        "x": 490,
+        "y": 40,
+        "wires": [
+            [
+                "82099021.9ceb08"
+            ]
+        ]
+    },
+    {
+        "id": "53d163be.47cf24",
+        "type": "function",
+        "z": "4ed26b8b.253504",
+        "name": "Update and retrieve hardware_conf",
+        "func": "// change global\nhardware_conf = global.get(\"hardware_conf\");\n\nif (msg.topic == \"process_pixel_fixed\" && msg.payload == 0){\n    delete hardware_conf[msg.topic]\n    delete msg.topic\n}\n\nif (msg.topic !== null && msg.topic !== undefined){\n    hardware_conf[msg.topic] = msg.payload;\n    global.set(\"hardware_conf\", hardware_conf);\n}\n\nreturn {\"payload\": hardware_conf};",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 40,
+        "wires": [
+            [
+                "bb0a8725.a1849"
+            ]
+        ]
+    },
+    {
+        "id": "0f16258953fae292",
+        "type": "file in",
+        "z": "b7861ce703215a01",
+        "name": "",
+        "filename": "/home/pi/PlanktoScope/hardware.json",
+        "filenameType": "str",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 250,
+        "y": 40,
+        "wires": [
+            [
+                "81c516291ab19acd"
+            ]
+        ],
+        "info": "# PlanktoScope Help\nThis Node will read the content of the file named **config.txt** containing all the input placeholders.\n"
+    },
+    {
+        "id": "81c516291ab19acd",
+        "type": "json",
+        "z": "b7861ce703215a01",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 510,
+        "y": 40,
+        "wires": [
+            [
+                "d0fbcd200cd09981"
+            ]
+        ]
+    },
+    {
+        "id": "d0fbcd200cd09981",
+        "type": "change",
+        "z": "b7861ce703215a01",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "hardware_conf",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 730,
+        "y": 40,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "39c370d8a50f3acc",
@@ -1495,6 +2140,1339 @@
         "wires": [
             [],
             [],
+            []
+        ]
+    },
+    {
+        "id": "0708466c4a006633",
+        "type": "ui-template",
+        "z": "399ca45d618adeb6",
+        "group": "b441a341327c11b5",
+        "page": "",
+        "ui": "",
+        "name": "Stream Pi Camera",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<center>\n    <img src=\"http://127.0.0.1:8000/stream.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bdc8ce57.de1f08",
+        "type": "mqtt out",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 790,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "f782a471.447748",
+        "type": "inject",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "name": "Default: 2mL/min",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 170,
+        "y": 300,
+        "wires": [
+            [
+                "0f7e6f26a012e702"
+            ]
+        ]
+    },
+    {
+        "id": "73b8252a.5ca754",
+        "type": "inject",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "name": "Default: 2mL",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "2",
+        "payloadType": "num",
+        "x": 190,
+        "y": 340,
+        "wires": [
+            [
+                "8df69db4303d52db"
+            ]
+        ]
+    },
+    {
+        "id": "320847a9582ce01d",
+        "type": "ui-button",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "group": "39754cf04b80d5a3",
+        "name": "Stop Pump",
+        "label": "",
+        "order": 3,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "stop",
+        "iconPosition": "left",
+        "payload": "{\"action\":\"stop\"}",
+        "payloadType": "json",
+        "topic": "actuator/pump",
+        "topicType": "str",
+        "buttonColor": "#AD1625",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 160,
+        "wires": [
+            [
+                "dcbec46d6abde806"
+            ]
+        ]
+    },
+    {
+        "id": "dcbec46d6abde806",
+        "type": "mqtt out",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 790,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "85944c05779351c9",
+        "type": "ui-button",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "group": "39754cf04b80d5a3",
+        "name": "Backward",
+        "label": "",
+        "order": 2,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "rotate-left",
+        "iconPosition": "left",
+        "payload": "BACKWARD",
+        "payloadType": "str",
+        "topic": "actuator/pump",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 340,
+        "y": 200,
+        "wires": [
+            [
+                "c2980b57bfbe80f5"
+            ]
+        ]
+    },
+    {
+        "id": "c2980b57bfbe80f5",
+        "type": "function",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "name": "pump",
+        "func": "var manual_volume= global.get(\"pump_manual_volume\");\nvar flowrate= global.get(\"pump_flowrate\");\n\nif (manual_volume === undefined || manual_volume === \"\" || manual_volume === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Volume to pass\";\n    return [null, msg];\n}\nelse if (flowrate === undefined || flowrate === \"\" || flowrate === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Flowrate\";\n    return [null, msg];\n}\nelse {\n    msg.topic = \"actuator/pump\";\n    // msg.payload is FORWARD or BACKWARD here\n    msg.payload={\"action\":\"move\", \n                \"direction\":msg.payload,\n                \"volume\":manual_volume,\n                \"flowrate\":flowrate};\n}\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 220,
+        "wires": [
+            [
+                "bdc8ce57.de1f08"
+            ],
+            []
+        ],
+        "inputLabels": [
+            "direction"
+        ],
+        "outputLabels": [
+            "message",
+            "error"
+        ]
+    },
+    {
+        "id": "ae02f2699e1cbb67",
+        "type": "ui-button",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "group": "39754cf04b80d5a3",
+        "name": "Forward",
+        "label": "",
+        "order": 4,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "rotate-right",
+        "iconPosition": "left",
+        "payload": "FORWARD",
+        "payloadType": "str",
+        "topic": "actuator/pump",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 340,
+        "y": 240,
+        "wires": [
+            [
+                "c2980b57bfbe80f5"
+            ]
+        ]
+    },
+    {
+        "id": "0f7e6f26a012e702",
+        "type": "ui-number-input",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "group": "39754cf04b80d5a3",
+        "name": "pump_flowrate",
+        "label": "Flowrate (ml/min)*",
+        "order": 6,
+        "width": "2",
+        "height": "1",
+        "topic": "pump_flowrate",
+        "topicType": "str",
+        "min": "1",
+        "max": "40",
+        "step": 1,
+        "tooltip": "",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 360,
+        "y": 300,
+        "wires": [
+            [
+                "064180b404fa14a3"
+            ]
+        ]
+    },
+    {
+        "id": "8df69db4303d52db",
+        "type": "ui-number-input",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "group": "39754cf04b80d5a3",
+        "name": "pump_manual_volume",
+        "label": "Volume to pass (ml)*",
+        "order": 5,
+        "width": "2",
+        "height": "1",
+        "topic": "pump_manual_volume",
+        "topicType": "str",
+        "min": "1",
+        "max": "40",
+        "step": 1,
+        "tooltip": "",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 380,
+        "y": 340,
+        "wires": [
+            [
+                "064180b404fa14a3"
+            ]
+        ]
+    },
+    {
+        "id": "064180b404fa14a3",
+        "type": "function",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "name": "set global",
+        "func": "global.set(msg.topic,msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 580,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fd86ec025f116cde",
+        "type": "ui-markdown",
+        "z": "399ca45d618adeb6",
+        "g": "ddc4d1a32c2c30df",
+        "group": "39754cf04b80d5a3",
+        "name": "Pump",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "# Pump settings\n\n---\n",
+        "className": "",
+        "x": 110,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65ad39d.b6d4d48",
+        "type": "function",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "name": "focus",
+        "func": "var distance = global.get(\"focus_distance\");\nvar speed = global.get(\"focus_speed\");\n\nif (distance === undefined || distance === \"\" || distance === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Distance\";\n    return [null, msg]\n}\nif (speed === undefined || speed === \"\" || speed === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Speed\";\n    return [null, msg]\n}\n// msg.payload is UP or DOWN here\nmsg.payload={\"action\":\"move\", \n            \"direction\":msg.payload,\n            \"distance\":(distance/1000),\n            \"speed\": (speed/1000)\n};\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 490,
+        "y": 540,
+        "wires": [
+            [
+                "827691b5f3fc8129"
+            ],
+            []
+        ],
+        "inputLabels": [
+            "direction"
+        ],
+        "outputLabels": [
+            "message",
+            "error"
+        ]
+    },
+    {
+        "id": "71f55a58.d7eaf4",
+        "type": "inject",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "name": "Default: 500µm",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "500",
+        "payloadType": "num",
+        "x": 200,
+        "y": 640,
+        "wires": [
+            [
+                "e65e713d7fe2df60"
+            ]
+        ]
+    },
+    {
+        "id": "2d371e59.b0e50a",
+        "type": "inject",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "name": "Default: 1000µm/s",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "1000",
+        "payloadType": "num",
+        "x": 190,
+        "y": 600,
+        "wires": [
+            [
+                "95354c2caba35c4e"
+            ]
+        ]
+    },
+    {
+        "id": "dc48dc42.98d18",
+        "type": "function",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "name": "set global",
+        "func": "global.set(msg.topic,msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 580,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d67cd3e703c8318a",
+        "type": "mqtt out",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 790,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "b2387e08bcd1505f",
+        "type": "ui-button",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "group": "39754cf04b80d5a3",
+        "name": "Stop Focus",
+        "label": "",
+        "order": 9,
+        "width": "2",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "stop",
+        "iconPosition": "left",
+        "payload": "{\"action\":\"stop\"}",
+        "payloadType": "json",
+        "topic": "actuator/focus",
+        "topicType": "str",
+        "buttonColor": "#AD1625",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 480,
+        "wires": [
+            [
+                "d67cd3e703c8318a"
+            ]
+        ]
+    },
+    {
+        "id": "8d47e8bf8b4438d4",
+        "type": "ui-button",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "group": "39754cf04b80d5a3",
+        "name": "Up",
+        "label": "",
+        "order": 10,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "arrow-right-bold",
+        "iconPosition": "left",
+        "payload": "UP",
+        "payloadType": "str",
+        "topic": "actuator/focus",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 520,
+        "wires": [
+            [
+                "65ad39d.b6d4d48"
+            ]
+        ]
+    },
+    {
+        "id": "244e6c1c281d2a7e",
+        "type": "ui-button",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "group": "39754cf04b80d5a3",
+        "name": "Down",
+        "label": "",
+        "order": 8,
+        "width": "1",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "arrow-left-bold",
+        "iconPosition": "left",
+        "payload": "DOWN",
+        "payloadType": "str",
+        "topic": "actuator/focus",
+        "topicType": "str",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 350,
+        "y": 560,
+        "wires": [
+            [
+                "65ad39d.b6d4d48"
+            ]
+        ]
+    },
+    {
+        "id": "a5da7b3bcc1a582b",
+        "type": "ui-markdown",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "group": "39754cf04b80d5a3",
+        "name": "Focus",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "content": "# Focus settings\n\n---\n",
+        "className": "",
+        "x": 110,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "827691b5f3fc8129",
+        "type": "mqtt out",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 790,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "95354c2caba35c4e",
+        "type": "ui-number-input",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "group": "39754cf04b80d5a3",
+        "name": "focus_speed",
+        "label": "Focus Speed (in µm/sec)",
+        "order": 12,
+        "width": "2",
+        "height": "1",
+        "topic": "focus_speed",
+        "topicType": "str",
+        "min": "1000",
+        "max": "5000",
+        "step": "100",
+        "tooltip": "",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 370,
+        "y": 600,
+        "wires": [
+            [
+                "dc48dc42.98d18"
+            ]
+        ]
+    },
+    {
+        "id": "e65e713d7fe2df60",
+        "type": "ui-number-input",
+        "z": "399ca45d618adeb6",
+        "g": "21f9961740730e58",
+        "group": "39754cf04b80d5a3",
+        "name": "focus_distance",
+        "label": "Focus Distance (in µm)",
+        "order": 11,
+        "width": "2",
+        "height": "1",
+        "topic": "focus_distance",
+        "topicType": "str",
+        "min": "25",
+        "max": "10000",
+        "step": "25",
+        "tooltip": "",
+        "passthru": true,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 380,
+        "y": 640,
+        "wires": [
+            [
+                "dc48dc42.98d18"
+            ]
+        ]
+    },
+    {
+        "id": "d31fcead.7e2ef",
+        "type": "mqtt out",
+        "z": "399ca45d618adeb6",
+        "g": "0b40c36572eed7ca",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 790,
+        "y": 800,
+        "wires": []
+    },
+    {
+        "id": "a3b4e0beac8ba7a5",
+        "type": "ui-switch",
+        "z": "399ca45d618adeb6",
+        "g": "0b40c36572eed7ca",
+        "name": "LED",
+        "label": "LED",
+        "group": "39754cf04b80d5a3",
+        "order": 14,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "light",
+        "topicType": "str",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "switch",
+        "onvalue": "{\"action\":\"on\"}",
+        "onvalueType": "json",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "{\"action\":\"off\"}",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "x": 330,
+        "y": 800,
+        "wires": [
+            [
+                "d31fcead.7e2ef"
+            ]
+        ]
+    },
+    {
+        "id": "c505f7a379c91ad4",
+        "type": "ui-markdown",
+        "z": "399ca45d618adeb6",
+        "g": "0b40c36572eed7ca",
+        "group": "39754cf04b80d5a3",
+        "name": "LED",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "content": "# LED settings\n\n---\n",
+        "className": "",
+        "x": 110,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "62030521.88317c",
+        "type": "mqtt out",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 790,
+        "y": 1060,
+        "wires": []
+    },
+    {
+        "id": "6c806c5735d7be50",
+        "type": "ui-markdown",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "group": "39754cf04b80d5a3",
+        "name": "Camera",
+        "order": 15,
+        "width": 0,
+        "height": 0,
+        "content": "# Camera settings\n\n---\n",
+        "className": "",
+        "x": 120,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6b5c0842b9abc00a",
+        "type": "ui-slider",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "group": "39754cf04b80d5a3",
+        "name": "",
+        "label": "red",
+        "tooltip": "",
+        "order": 17,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "red",
+        "topicType": "str",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "1",
+        "max": "5",
+        "step": "0.05",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 350,
+        "y": 940,
+        "wires": [
+            [
+                "304c6693be0dabe9"
+            ]
+        ]
+    },
+    {
+        "id": "304c6693be0dabe9",
+        "type": "function",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "name": "gain",
+        "func": "msg.payload = {\n    \"action\":\"settings\", \n    \"settings\":{\"white_balance_gain\":{\n        [msg.topic]:Math.round(msg.payload*100)\n        }\n    }\n}\nmsg.topic = \"imager/image\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 960,
+        "wires": [
+            [
+                "2f8eb65b067bb4e9"
+            ]
+        ]
+    },
+    {
+        "id": "9023fc06dedc6f54",
+        "type": "ui-slider",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "group": "39754cf04b80d5a3",
+        "name": "",
+        "label": "blue",
+        "tooltip": "",
+        "order": 16,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "blue",
+        "topicType": "str",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "1",
+        "max": "5",
+        "step": "0.05",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 350,
+        "y": 980,
+        "wires": [
+            [
+                "304c6693be0dabe9"
+            ]
+        ]
+    },
+    {
+        "id": "2f8eb65b067bb4e9",
+        "type": "mqtt out",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 790,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "4ac0b5acb89c774f",
+        "type": "ui-slider",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "group": "39754cf04b80d5a3",
+        "name": "ISO",
+        "label": "ISO",
+        "tooltip": "",
+        "order": 18,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "iso",
+        "topicType": "str",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "50",
+        "max": "500",
+        "step": "50",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 350,
+        "y": 1060,
+        "wires": [
+            [
+                "454df1bbf5fe4e94"
+            ]
+        ]
+    },
+    {
+        "id": "454df1bbf5fe4e94",
+        "type": "function",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "name": "settings",
+        "func": "msg.payload = {\n    \"action\":\"settings\", \n    \"settings\":{[msg.topic]:msg.payload}\n}\n\nmsg.topic = \"imager/image\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 1060,
+        "wires": [
+            [
+                "62030521.88317c"
+            ]
+        ]
+    },
+    {
+        "id": "ef6743a921d91f11",
+        "type": "inject",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "name": "Default: ISO 150",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "150",
+        "payloadType": "num",
+        "x": 170,
+        "y": 1060,
+        "wires": [
+            [
+                "4ac0b5acb89c774f"
+            ]
+        ]
+    },
+    {
+        "id": "6aded0fdf9f220bb",
+        "type": "ui-slider",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "group": "39754cf04b80d5a3",
+        "name": "Shutter Speed",
+        "label": "Shutter Speed",
+        "tooltip": "",
+        "order": 19,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "outs": "end",
+        "topic": "shutter_speed",
+        "topicType": "str",
+        "thumbLabel": "true",
+        "showTicks": "always",
+        "min": "125",
+        "max": "300",
+        "step": "10",
+        "className": "",
+        "iconPrepend": "",
+        "iconAppend": "",
+        "color": "",
+        "colorTrack": "",
+        "colorThumb": "",
+        "showTextField": false,
+        "x": 380,
+        "y": 1120,
+        "wires": [
+            [
+                "454df1bbf5fe4e94"
+            ]
+        ]
+    },
+    {
+        "id": "6cad24e4aaf8aac5",
+        "type": "inject",
+        "z": "399ca45d618adeb6",
+        "g": "3293aa1bae69e6eb",
+        "name": "Default: 125µs",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "125",
+        "payloadType": "num",
+        "x": 180,
+        "y": 1120,
+        "wires": [
+            [
+                "6aded0fdf9f220bb"
+            ]
+        ]
+    },
+    {
+        "id": "4b85a23ed7b4f558",
+        "type": "function",
+        "z": "0df478d7aa1e10a5",
+        "g": "e2c5dfaa06121543",
+        "name": "date_formatter",
+        "func": "let formDate = msg.payload.hardware_information.acq_planktoscope_date_factory;  // Access acq_planktoscope_date_factory in the nested object\n\n// Check if the date is present and not an empty string\nif (!formDate || formDate.trim() === \"\") {\n    node.error(\"Date field is missing or undefined in payload\");\n    return null;  // Stop the flow if the date is undefined or empty\n}\n\nlet parsedDate = new Date(formDate);  // Convert the ISO date to a Date object\n\n// Check if the date is valid\nif (isNaN(parsedDate.getTime())) {\n    node.error(\"Invalid date: \" + formDate);  // Log error if the date is invalid\n    return null;  // Stop the flow if the date is invalid\n}\n\n// Extract the year, month, and day in YYYY/MM/DD format\nlet year = parsedDate.getFullYear().toString();  // Get the full year\nlet month = ('0' + (parsedDate.getMonth() + 1)).slice(-2);  // Ensure two digits for the month\nlet day = ('0' + parsedDate.getDate()).slice(-2);  // Ensure two digits for the day\n\n// Format as 'YYYY/MM/DD'\nmsg.payload.hardware_information.acq_planktoscope_date_factory = `${year}/${month}/${day}`;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 360,
+        "wires": [
+            [
+                "37ecb4d2b69be9dd"
+            ]
+        ]
+    },
+    {
+        "id": "d32ad36222b7ea5a",
+        "type": "mqtt out",
+        "z": "0df478d7aa1e10a5",
+        "g": "e2c5dfaa06121543",
+        "name": "Write on eeprom",
+        "topic": "eeprom/write_eeprom",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "be8436ef13a3006f",
+        "x": 1100,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "8c3e26d0d1b70d42",
+        "type": "ui-template",
+        "z": "0df478d7aa1e10a5",
+        "g": "e2c5dfaa06121543",
+        "group": "5e26699d667afe73",
+        "page": "",
+        "ui": "",
+        "name": "Hardware information form",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div id=\"app\">\n    <form id=\"hardware_info_form\" @submit.prevent=\"handleSubmit\">\n\n      <!-- Planktoscope reference -->\n      <div class=\"floating-label-group\">\n        <input\n          type=\"text\"\n          v-model=\"eeprom_planktoscope_ref\"\n          maxlength=\"12\"\n          required\n          @focus=\"handleFocus('eeprom_planktoscope_ref')\"\n          @blur=\"handleBlur('eeprom_planktoscope_ref')\"\n        />\n        <label\n          :class=\"{ active: eeprom_planktoscope_ref || isFocused.eeprom_planktoscope_ref, blue: isFocused.eeprom_planktoscope_ref }\"\n          >Planktoscope reference*</label\n        >\n      </div>\n\n      <!-- Planktoscope serial number -->\n      <div class=\"floating-label-group\">\n        <input\n          type=\"text\"\n          v-model=\"acq_planktoscope_sn\"\n          maxlength=\"6\"\n          required\n          @focus=\"handleFocus('acq_planktoscope_sn')\"\n          @blur=\"handleBlur('acq_planktoscope_sn')\"\n        />\n        <label\n          :class=\"{\n            active: acq_planktoscope_sn || isFocused.acq_planktoscope_sn,\n            blue: isFocused.acq_planktoscope_sn,\n          }\"\n          >Planktoscope serial number*</label\n        >\n      </div>\n\n      <!-- Planktoscope version -->\n      <div class=\"floating-label-group\">\n        <input\n          type=\"text\"\n          v-model=\"acq_planktoscope_version\"\n          maxlength=\"6\"\n          required\n          @focus=\"handleFocus('acq_planktoscope_version')\"\n          @blur=\"handleBlur('acq_planktoscope_version')\"\n        />\n        <label\n          :class=\"{\n            active: acq_planktoscope_version || isFocused.acq_planktoscope_version,\n            blue: isFocused.acq_planktoscope_version,\n          }\"\n          >Planktoscope version*</label\n        >\n      </div>\n\n      <!-- Fabrication date -->\n      <div class=\"fabr-date-field\">\n        <label for=\"acq_planktoscope_date_factory\">Fabrication date*</label>\n        <input\n          type=\"date\"\n          v-model=\"acq_planktoscope_date_factory\"\n          required\n        />\n      </div>\n\n      <!-- Hat serial number -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"acq_hat_sn\"\n                maxlength=\"11\"\n                required\n                @focus=\"handleFocus('acq_hat_sn')\"\n                @blur=\"handleBlur('acq_hat_sn')\"\n              />\n        <label\n                :class=\"{\n                  active: acq_hat_sn || isFocused.acq_hat_sn,\n                  blue: isFocused.acq_hat_sn,\n                }\"\n                >Hat serial number*</label>\n      </div>\n\n      <!-- Hat version -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"acq_hat_version\"\n                maxlength=\"6\"\n                required\n                @focus=\"handleFocus('acq_hat_version')\"\n                @blur=\"handleBlur('acq_hat_version')\"\n              />\n        <label\n                :class=\"{\n                  active: acq_hat_version || isFocused.acq_hat_version,\n                  blue: isFocused.acq_hat_version,\n                }\"\n                >Hat version*</label>\n      </div>\n\n      <!-- Driver reference -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"eeprom_driver_ref\"\n                maxlength=\"12\"\n                required\n                @focus=\"handleFocus('eeprom_driver_ref')\"\n                @blur=\"handleBlur('eeprom_driver_ref')\"\n              />\n        <label\n                :class=\"{\n                  active: eeprom_driver_ref || isFocused.eeprom_driver_ref,\n                  blue: isFocused.eeprom_driver_ref,\n                }\"\n                >Driver reference*</label>\n      </div>\n\n      <!-- Pump reference -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"eeprom_pump_ref\"\n                maxlength=\"12\"\n                required\n                @focus=\"handleFocus('eeprom_pump_ref')\"\n                @blur=\"handleBlur('eeprom_pump_ref')\"\n              />\n        <label\n                :class=\"{\n                  active: eeprom_pump_ref || isFocused.eeprom_pump_ref,\n                  blue: isFocused.eeprom_pump_ref,\n                }\"\n                >Pump reference*</label>\n      </div>\n\n      <!-- Stepper focus reference -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"eeprom_focus_ref\"\n                maxlength=\"12\"\n                required\n                @focus=\"handleFocus('eeprom_focus_ref')\"\n                @blur=\"handleBlur('eeprom_focus_ref')\"\n              />\n        <label\n                :class=\"{\n                  active: eeprom_focus_ref || isFocused.eeprom_focus_ref,\n                  blue: isFocused.eeprom_focus_ref,\n                }\"\n                >Stepper focus reference*</label>\n      </div>\n\n      <!-- Objective lens reference -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"eeprom_obj_lens_ref\"\n                maxlength=\"12\"\n                required\n                @focus=\"handleFocus('eeprom_obj_lens_ref')\"\n                @blur=\"handleBlur('eeprom_obj_lens_ref')\"\n              />\n        <label\n                :class=\"{\n                  active: eeprom_obj_lens_ref || isFocused.eeprom_obj_lens_ref,\n                  blue: isFocused.eeprom_obj_lens_ref,\n                }\"\n                >Objective lens reference*</label>\n      </div>\n\n      <!-- Tube lens reference -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"eeprom_tube_lens_ref\"\n                maxlength=\"12\"\n                required\n                @focus=\"handleFocus('eeprom_tube_lens_ref')\"\n                @blur=\"handleBlur('eeprom_tube_lens_ref')\"\n              />\n        <label\n                :class=\"{\n                  active: eeprom_tube_lens_ref || isFocused.eeprom_tube_lens_ref,\n                  blue: isFocused.eeprom_tube_lens_ref,\n                }\"\n                >Tube lens reference*</label>\n      </div>\n\n      <!-- Flowcell width -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"eeprom_flowcell_thickness\"\n                maxlength=\"12\"\n                required\n                @focus=\"handleFocus('eeprom_flowcell_thickness')\"\n                @blur=\"handleBlur('eeprom_flowcell_thickness')\"\n              />\n        <label\n                :class=\"{\n                  active: eeprom_flowcell_thickness || isFocused.eeprom_flowcell_thickness,\n                  blue: isFocused.eeprom_flowcell_thickness,\n                }\"\n                >Flowcell width*</label>\n      </div>\n\n      <!-- LED reference -->\n      <div class=\"floating-label-group\">\n        <input\n                type=\"text\"\n                v-model=\"eeprom_led_ref\"\n                maxlength=\"12\"\n                required\n                @focus=\"handleFocus('eeprom_led_ref')\"\n                @blur=\"handleBlur('eeprom_led_ref')\"\n              />\n        <label\n                :class=\"{\n                  active: eeprom_led_ref || isFocused.eeprom_led_ref,\n                  blue: isFocused.eeprom_led_ref,\n                }\"\n                >LED reference*</label>\n      </div>\n\n      <div class=\"form-buttons\">\n        <button type=\"submit\">Save</button>\n        <button type=\"button\" class=\"cancel\" @click=\"resetForm\">Cancel</button>\n      </div>\n\n      <div v-if=\"message\" class=\"save-message\">\n        {{ message }}\n      </div>\n    </form>\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      eeprom_planktoscope_ref: \"\",\n      acq_planktoscope_sn: \"\",\n      acq_planktoscope_version: \"\",\n      acq_planktoscope_date_factory: \"\",\n      acq_hat_sn: \"\",\n      acq_hat_version: \"\",\n      eeprom_driver_ref:\"\",\n      eeprom_pump_ref: \"\",\n      eeprom_focus_ref: \"\",\n      eeprom_obj_lens_ref: \"\",\n      eeprom_tube_lens_ref: \"\",\n      eeprom_flowcell_thickness: \"\",\n      eeprom_led_ref: \"\",\n      isFocused: {\n        eeprom_planktoscope_ref: false,\n        acq_planktoscope_sn: false,\n        acq_planktoscope_version: false,\n        acq_hat_sn: false,\n        acq_hat_version: false,\n        eeprom_driver_ref: false,\n        eeprom_pump_ref: false,\n        eeprom_focus_ref: false,\n        eeprom_obj_lens_ref: false,\n        eeprom_tube_lens_ref: false,\n        eeprom_flowcell_thickness: false,\n        eeprom_led_ref: false,\n      },\n    };\n  },\n  methods: {\n    handleFocus: function(field) {\n      this.isFocused[field] = true;\n    },\n    handleBlur: function(field) {\n      this.isFocused[field] = false;\n    },\n    handleSubmit: function() {\n\n      const hardware_information = {\n        eeprom_planktoscope_ref: this.eeprom_planktoscope_ref,\n        acq_planktoscope_sn: this.acq_planktoscope_sn,\n        acq_planktoscope_version: this.acq_planktoscope_version,\n        acq_planktoscope_date_factory: this.acq_planktoscope_date_factory,\n        acq_hat_sn: this.acq_hat_sn,\n        acq_hat_version: this.acq_hat_version,\n        eeprom_driver_ref: this.eeprom_driver_ref,\n        eeprom_pump_ref: this.eeprom_pump_ref,\n        eeprom_focus_ref: this.eeprom_focus_ref,\n        eeprom_obj_lens_ref: this.eeprom_obj_lens_ref,\n        eeprom_tube_lens_ref: this.eeprom_tube_lens_ref,\n        eeprom_flowcell_thickness: this.eeprom_flowcell_thickness,\n        eeprom_led_ref: this.eeprom_led_ref,\n      };\n\n      this.message = \"Hardware information saved to EEPROM :)\";\n\n      this.send({\n        topic: \"hardware_information\",\n        payload: {\n          action: \"write_eeprom\",\n          hardware_information\n        },\n      });\n\n      this.resetForm()\n    },\n    resetForm: function() {\n      this.eeprom_planktoscope_ref = \"\";\n      this.acq_planktoscope_sn = \"\";\n      this.acq_planktoscope_version = \"\";\n      this.acq_planktoscope_date_factory = \"\";\n      this.acq_hat_sn = \"\";\n      this.acq_hat_version = \"\";\n      this.eeprom_driver_ref = \"\";\n      this.eeprom_pump_ref = \"\";\n      this.eeprom_focus_ref = \"\";\n      this.eeprom_obj_lens_ref = \"\";\n      this.eeprom_tube_lens_ref = \"\";\n      this.eeprom_flowcell_thickness = \"\";\n      this.eeprom_led_ref = \"\";\n      \n    },\n  },\n};\n</script>\n\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 340,
+        "y": 360,
+        "wires": [
+            [
+                "4b85a23ed7b4f558"
+            ]
+        ]
+    },
+    {
+        "id": "e4d43547c15a5506",
+        "type": "ui-template",
+        "z": "0df478d7aa1e10a5",
+        "g": "f7ed36ef581713f0",
+        "group": "",
+        "page": "59cc605d293a634c",
+        "ui": "",
+        "name": "Page CSS",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "#hardware_info_form {\n    margin-top: 1.5em;\n}\n\n.floating-label-group {\n    position: relative;\n    margin-bottom: 1.5em;\n}\n\n.floating-label-group input {\n    font-size: 16px;\n    padding: 10px 10px 6px 5px;\n    display: block;\n    width: 100%;\n    border: none;\n    border-bottom: 1px solid #1E90FF;\n    background: none;\n}\n\n.floating-label-group input:focus {\n    outline: none;\n    border-bottom: 2px solid #1E90FF;\n}\n\n.floating-label-group label {\n    color: black;\n    font-size: 16px;\n    font-weight: normal;\n    position: absolute;\n    pointer-events: none;\n    left: 5px;\n    top: 0;\n    transition: 0.2s ease all;\n    padding: 10px 0;\n}\n\n/* When the label is active (input has text or focused) */\n.floating-label-group label.active {\n    top: -20px;\n    font-size: 12px;\n}\n\n/* When the input is focused, make the label blue */\n.floating-label-group label.blue {\n    color: #00BFFF;\n}\n\n.fabr-date-field {\n    display: flex;\n    flex-direction: column;\n    margin-bottom: 1.5em;\n    font-size: 16px;\n    color: black;\n    border-bottom: 1px solid #1E90FF;\n}\n\n.form-buttons {\n    display: flex;\n    justify-content: center;\n    gap: 3em;\n}\n\n.form-buttons button {\n    padding: 0.5em 1em;\n    border: none;\n    background-color: #1E90FF;\n    color: white;\n    cursor: pointer;\n    font-size: 16px;\n    border-radius: 4px;\n}\n\n.form-buttons button:hover {\n    opacity: 0.9;\n}\n\n.save-message {\n    text-align: center;\n    margin-top: 1em;\n    color: #18a205;\n    font-weight: bold;\n    font-size: 16px;\n}\n\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "page:style",
+        "className": "",
+        "x": 290,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "37ecb4d2b69be9dd",
+        "type": "function",
+        "z": "0df478d7aa1e10a5",
+        "g": "e2c5dfaa06121543",
+        "name": "prepare_payload",
+        "func": "var data = {};\ndata = msg.payload; \nmsg.payload = data;  \nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 860,
+        "y": 360,
+        "wires": [
+            [
+                "d32ad36222b7ea5a"
+            ]
+        ]
+    },
+    {
+        "id": "853953d676cfb245",
+        "type": "mqtt in",
+        "z": "4da7ffd158faab70",
+        "g": "d08823995cfedc57",
+        "name": "Read from eeprom",
+        "topic": "eeprom/read_eeprom",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "be8436ef13a3006f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 150,
+        "y": 380,
+        "wires": [
+            [
+                "f79846bca95415c1"
+            ]
+        ]
+    },
+    {
+        "id": "1153edeed6cf2ad3",
+        "type": "function",
+        "z": "4da7ffd158faab70",
+        "g": "d08823995cfedc57",
+        "name": "Get edited data",
+        "func": "if (msg.topic === 'form_submission') {\n    return msg\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 380,
+        "wires": [
+            [
+                "72525589ac3bc508"
+            ]
+        ]
+    },
+    {
+        "id": "72525589ac3bc508",
+        "type": "mqtt out",
+        "z": "4da7ffd158faab70",
+        "g": "d08823995cfedc57",
+        "name": "Edit eeprom",
+        "topic": "eeprom/edit_eeprom",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "be8436ef13a3006f",
+        "x": 1130,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "ee0f73af31f90cff",
+        "type": "mqtt out",
+        "z": "4da7ffd158faab70",
+        "g": "33c355b642af2a8b",
+        "name": "Read request",
+        "topic": "eeprom/read_request",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "be8436ef13a3006f",
+        "x": 430,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "51bf8a7a25dafecb",
+        "type": "ui-template",
+        "z": "4da7ffd158faab70",
+        "g": "d08823995cfedc57",
+        "group": "ab08cb925353de79",
+        "page": "",
+        "ui": "",
+        "name": "Display/Edit data",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div id=\"hardware-field\">\n    <div id=\"title-div\">\n      <h1>Your Planktoscope Hardware Components</h1>\n    </div>\n    <div id=\"hardware-list\">\n        <!-- Planktoscope reference -->\n        <div class=\"field-container\" id=\"eeprom_planktoscope_ref-div\">\n            <strong>Planktoscope reference: </strong>\n            <span v-if=\"!editMode.eeprom_planktoscope_ref\" class=\"non-editable\">{{ formData.eeprom_planktoscope_ref }}</span>\n            <input v-if=\"editMode.eeprom_planktoscope_ref\" type=\"text\" v-model=\"formData.eeprom_planktoscope_ref\">\n        </div>\n\n        <!-- Serial number -->\n        <div class=\"field-container\" id=\"acq_planktoscope_sn-div\">\n            <strong>Serial Number: </strong>\n            <span v-if=\"!editMode.acq_planktoscope_sn\" class=\"non-editable\">{{ formData.acq_planktoscope_sn }}</span>\n            <input v-if=\"editMode.acq_planktoscope_sn\" type=\"text\" v-model=\"formData.acq_planktoscope_sn\">\n        </div>\n\n        <!-- Version -->\n        <div class=\"field-container\" id=\"acq_planktoscope_version-div\">\n            <strong>Version: </strong>\n            <span v-if=\"!editMode.acq_planktoscope_version\" class=\"non-editable\">{{ formData.acq_planktoscope_version }}</span>\n            <input v-if=\"editMode.acq_planktoscope_version\" type=\"text\" v-model=\"formData.acq_planktoscope_version\">\n        </div>\n\n        <!-- Fabrication date -->\n        <div class=\"field-container\" id=\"acq_planktoscope_date_factory-div\">\n            <strong>Fabrication Date: </strong>\n            <span v-if=\"!editMode.acq_planktoscope_date_factory\" class=\"non-editable\">{{ formData.acq_planktoscope_date_factory }}</span>\n            <input v-if=\"editMode.acq_planktoscope_date_factory\" type=\"text\" v-model=\"formData.acq_planktoscope_date_factory\">\n        </div>\n\n        <!-- Hat serial number -->\n        <div class=\"field-container\" id=\"acq_hat_sn-div\">\n          <strong>Hat serial number: </strong>\n          <span v-if=\"!editMode.acq_hat_sn\">{{ formData.acq_hat_sn }}</span>\n          <input v-if=\"editMode.acq_hat_sn\" type=\"text\" v-model=\"formData.acq_hat_sn\" maxlength=\"11\">\n          <div class=\"button-container\">\n            <button v-if=\"!editMode.acq_hat_sn\" @click=\"editValue('acq_hat_sn')\">\n              <i class=\"material-icons\">edit</i>\n            </button>\n            <button v-if=\"editMode.acq_hat_sn\" @click=\"saveValue('acq_hat_sn')\">\n              <i class=\"material-icons\">check</i>\n            </button>\n          </div>\n        </div>\n\n        <!-- Hat version -->\n        <div class=\"field-container\" id=\"acq_hat_version-div\">\n          <strong>Hat version: </strong>\n          <span v-if=\"!editMode.acq_hat_version\">{{ formData.acq_hat_version }}</span>\n          <input v-if=\"editMode.acq_hat_version\" type=\"text\" v-model=\"formData.acq_hat_version\" maxlength=\"6\">\n          <div class=\"button-container\">\n            <button v-if=\"!editMode.acq_hat_version\" @click=\"editValue('acq_hat_version')\">\n              <i class=\"material-icons\">edit</i>\n            </button>\n            <button v-if=\"editMode.acq_hat_version\" @click=\"saveValue('acq_hat_version')\">\n              <i class=\"material-icons\">check</i>\n            </button>\n          </div>\n        </div>\n\n        <!-- Driver reference -->\n        <div class=\"field-container\" id=\"eeprom_driver_ref-div\">\n          <strong>Driver reference: </strong>\n          <span v-if=\"!editMode.eeprom_driver_ref\">{{ formData.eeprom_driver_ref }}</span>\n          <input v-if=\"editMode.eeprom_driver_ref\" type=\"text\" v-model=\"formData.eeprom_driver_ref\" maxlength=\"12\">\n          <div class=\"button-container\">\n            <button v-if=\"!editMode.eeprom_driver_ref\" @click=\"editValue('eeprom_driver_ref')\">\n              <i class=\"material-icons\">edit</i>\n            </button>\n            <button v-if=\"editMode.eeprom_driver_ref\" @click=\"saveValue('eeprom_driver_ref')\">\n              <i class=\"material-icons\">check</i>\n            </button>\n          </div>\n        </div>\n\n        <!-- Pump reference -->\n        <div class=\"field-container\" id=\"eeprom_pump_ref-div\">\n          <strong>Pump reference: </strong>\n          <span v-if=\"!editMode.eeprom_pump_ref\">{{ formData.eeprom_pump_ref}}</span>\n          <input v-if=\"editMode.eeprom_pump_ref\" type=\"text\" v-model=\"formData.eeprom_pump_ref\" maxlength=\"12\">\n          <div class=\"button-container\">\n            <button v-if=\"!editMode.eeprom_pump_ref\" @click=\"editValue('eeprom_pump_ref')\">\n              <i class=\"material-icons\">edit</i>\n            </button>\n            <button v-if=\"editMode.eeprom_pump_ref\" @click=\"saveValue('eeprom_pump_ref')\">\n              <i class=\"material-icons\">check</i>\n            </button>\n          </div>\n        </div>\n\n        <!-- Stepper focus reference -->\n        <div class=\"field-container\" id=\"eeprom_focus_ref-div\">\n          <strong>Stepper focus reference: </strong>\n          <span v-if=\"!editMode.eeprom_focus_ref\">{{ formData.eeprom_focus_ref }}</span>\n          <input v-if=\"editMode.eeprom_focus_ref\" type=\"text\" v-model=\"formData.eeprom_focus_ref\" maxlength=\"12\">\n          <div class=\"button-container\">\n            <button v-if=\"!editMode.eeprom_focus_ref\" @click=\"editValue('eeprom_focus_ref')\">\n              <i class=\"material-icons\">edit</i>\n            </button>\n            <button v-if=\"editMode.eeprom_focus_ref\" @click=\"saveValue('eeprom_focus_ref')\">\n              <i class=\"material-icons\">check</i>\n            </button>\n          </div>\n        </div>\n\n        <!-- Objective lens reference -->\n        <div class=\"field-container\" id=\"eeprom_obj_lens_ref-div\">\n          <strong>Objective lens reference: </strong>\n          <span v-if=\"!editMode.eeprom_obj_lens_ref\">{{ formData.eeprom_obj_lens_ref }}</span>\n          <input v-if=\"editMode.eeprom_obj_lens_ref\" type=\"text\" v-model=\"formData.eeprom_obj_lens_ref\" maxlength=\"12\">\n          <div class=\"button-container\">\n            <button v-if=\"!editMode.eeprom_obj_lens_ref\" @click=\"editValue('eeprom_obj_lens_ref')\">\n              <i class=\"material-icons\">edit</i>\n            </button>\n            <button v-if=\"editMode.eeprom_obj_lens_ref\" @click=\"saveValue('eeprom_obj_lens_ref')\">\n              <i class=\"material-icons\">check</i>\n            </button>\n          </div>\n        </div>\n\n        <!-- Tube lens reference -->\n        <div class=\"field-container\" id=\"eeprom_tube_lens_ref-div\">\n          <strong>Tube lens reference: </strong>\n          <span v-if=\"!editMode.eeprom_tube_lens_ref\">{{ formData.eeprom_tube_lens_ref }}</span>\n          <input v-if=\"editMode.eeprom_tube_lens_ref\" type=\"text\" v-model=\"formData.eeprom_tube_lens_ref\" maxlength=\"12\">\n          <div class=\"button-container\">\n            <button v-if=\"!editMode.eeprom_tube_lens_ref\" @click=\"editValue('eeprom_tube_lens_ref')\">\n              <i class=\"material-icons\">edit</i>\n            </button>\n            <button v-if=\"editMode.eeprom_tube_lens_ref\" @click=\"saveValue('eeprom_tube_lens_ref')\">\n              <i class=\"material-icons\">check</i>\n            </button>\n          </div>\n        </div>\n\n        <!-- Flowcell width -->\n        <div class=\"field-container\" id=\"eeprom_flowcell_thickness-div\">\n          <strong>Flowcell width: </strong>\n          <span v-if=\"!editMode.eeprom_flowcell_thickness\">{{ formData.eeprom_flowcell_thickness }}</span>\n          <input v-if=\"editMode.eeprom_flowcell_thickness\" type=\"text\" v-model=\"formData.eeprom_flowcell_thickness\" maxlength=\"12\">\n          <div class=\"button-container\">\n            <button v-if=\"!editMode.eeprom_flowcell_thickness\" @click=\"editValue('eeprom_flowcell_thickness')\">\n              <i class=\"material-icons\">edit</i>\n            </button>\n            <button v-if=\"editMode.eeprom_flowcell_thickness\" @click=\"saveValue('eeprom_flowcell_thickness')\">\n                <i class=\"material-icons\">check</i>\n            </button>\n          </div>\n        </div>\n\n        <!-- LED reference-->\n        <div class=\"field-container\" id=\"eeprom_led_ref-div\">\n            <strong>LED reference: </strong>\n            <span v-if=\"!editMode.eeprom_led_ref\">{{ formData.eeprom_led_ref }}</span>\n            <input v-if=\"editMode.eeprom_led_ref\" type=\"text\" v-model=\"formData.eeprom_led_ref\" maxlength=\"12\">\n            <div class=\"button-container\">\n              <button v-if=\"!editMode.eeprom_led_ref\" @click=\"editValue('eeprom_led_ref')\">\n                <i class=\"material-icons\">edit</i>\n              </button>\n              <button v-if=\"editMode.eeprom_led_ref\" @click=\"saveValue('eeprom_led_ref')\">\n                <i class=\"material-icons\">check</i>\n              </button>\n            </div>\n        </div>\n    </div>\n  </div>\n</template>\n\n<script>\n  export default {\n      data() {\n        return {\n          formData: {\n            eeprom_planktoscope_ref: '',\n            acq_planktoscope_sn: '',\n            acq_planktoscope_version: '',\n            acq_planktoscope_date_factory: '',\n            acq_hat_sn: '',\n            acq_hat_version: '',\n            eeprom_driver_ref: '',\n            eeprom_pump_ref: '',\n            eeprom_focus_ref: '',\n            eeprom_obj_lens_ref: '',\n            eeprom_tube_lens_ref: '',\n            eeprom_flowcell_thickness: '',\n            eeprom_led_ref: ''\n          },\n          editMode: {\n            eeprom_planktoscope_ref: false,\n            acq_planktoscope_sn: false,\n            acq_planktoscope_version: false,\n            acq_planktoscope_date_factory: false,\n            acq_hat_sn: false,\n            acq_hat_version: false,\n            eeprom_driver_ref: false,\n            eeprom_pump_ref: false,\n            eeprom_focus_ref: false,\n            eeprom_obj_lens_ref: false,\n            eeprom_tube_lens_ref: false,\n            eeprom_flowcell_thickness: false,\n            eeprom_led_ref: false\n          },\n          changedPayload: {}\n        };\n      },\n      mounted() {\n        // Instead of MQTT directly, you can listen for data coming from the Node-RED function node\n        this.$watch('msg.payload', (newPayload) => {\n          // Assign the data from the payload to formData\n          this.formData.eeprom_planktoscope_ref = newPayload.eeprom_planktoscope_ref || '';\n          this.formData.acq_planktoscope_sn = newPayload.acq_planktoscope_sn || '';\n          this.formData.acq_planktoscope_version = newPayload.acq_planktoscope_version || '';\n          this.formData.acq_planktoscope_date_factory = newPayload.acq_planktoscope_date_factory || '';\n          this.formData.acq_hat_sn = newPayload.acq_hat_sn || '';\n          this.formData.acq_hat_version = newPayload.acq_hat_version || '';\n          this.formData.eeprom_driver_ref = newPayload.eeprom_driver_ref || '';\n          this.formData.eeprom_pump_ref = newPayload.eeprom_pump_ref || '';\n          this.formData.eeprom_focus_ref = newPayload.eeprom_focus_ref || '';\n          this.formData.eeprom_obj_lens_ref = newPayload.eeprom_obj_lens_ref || '';\n          this.formData.eeprom_tube_lens_ref = newPayload.eeprom_tube_lens_ref || '';\n          this.formData.eeprom_flowcell_thickness = newPayload.eeprom_flowcell_thickness || '';\n          this.formData.eeprom_led_ref = newPayload.eeprom_led_ref || '';\n        });\n\n        const link = document.createElement('link');\n        link.href = 'https://fonts.googleapis.com/icon?family=Material+Icons';\n        link.rel = 'stylesheet';\n        document.head.appendChild(link);\n      },\n      methods: {\n        editValue: function(key) {\n          this.editMode[key] = true;\n        },\n        saveValue: function(key) {\n          this.editMode[key] = false;  \n          this.changedPayload[key] = this.formData[key]; \n\n          // Send the payload to the next node\n          this.send({\n              topic: \"form_submission\",\n              payload: {\n                  action: \"edit_eeprom\",\n                  ...this.changedPayload\n                  \n              },\n          });\n\n          // Clear the changedPayload after sending\n          this.changedPayload = {};\n\n        }\n      }\n    };\n</script>\n\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 650,
+        "y": 380,
+        "wires": [
+            [
+                "1153edeed6cf2ad3"
+            ]
+        ]
+    },
+    {
+        "id": "11928dc1ab250e33",
+        "type": "ui-template",
+        "z": "4da7ffd158faab70",
+        "g": "33c355b642af2a8b",
+        "group": "ab08cb925353de79",
+        "page": "",
+        "ui": "",
+        "name": "Send msg on load",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<script>\n  export default {\n    data() {\n      return {\n        message: {\n          topic: \"eeprom/read_request\",\n          payload: {\n            action: \"read_eeprom\"\n          }\n        }\n      };\n    },\n\n    mounted() {\n      this.sendReadRequest();\n    },\n\n    methods: {\n      sendReadRequest: function () {\n        this.send(this.message); \n      }\n    }\n  }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 150,
+        "y": 580,
+        "wires": [
+            [
+                "ee0f73af31f90cff"
+            ]
+        ]
+    },
+    {
+        "id": "f79846bca95415c1",
+        "type": "function",
+        "z": "4da7ffd158faab70",
+        "g": "d08823995cfedc57",
+        "name": "date_formatter",
+        "func": "let acq_planktoscope_date_factory_str = msg.payload[\"acq_planktoscope_date_factory\"];\n\n// Parse the date string in YYYYMMDD format\nlet year = acq_planktoscope_date_factory_str.substring(0, 4);\nlet month = acq_planktoscope_date_factory_str.substring(4, 6);\nlet day = acq_planktoscope_date_factory_str.substring(6, 8);\n\n// Create a Date object using the parsed values\nlet date_obj = new Date(`${year}-${month}-${day}`);\n\n// Format the date as YYYY/MM/DD\nlet formatted_date = `${year}/${month}/${day}`;\n\n// Update the payload with the formatted date\nmsg.payload[\"acq_planktoscope_date_factory\"] = formatted_date;\n\nreturn { topic: \"data_to_display\", payload: msg.payload };",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 380,
+        "wires": [
+            [
+                "51bf8a7a25dafecb"
+            ]
+        ]
+    },
+    {
+        "id": "69d3ef26cf83569c",
+        "type": "ui-template",
+        "z": "4da7ffd158faab70",
+        "g": "360380a58dfc0f80",
+        "group": "",
+        "page": "5ce27e761fdb9796",
+        "ui": "",
+        "name": "Page CSS",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "#hardware-field {\n    border: 1px solid;\n    border-radius: 5px;\n    width: 35vw;\n    max-width: 500px;\n    margin: 0 auto;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n}\n\n#title-div {\n    background-color: #87CEFA;\n    width: 100%;\n    padding: 10px;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\nh1 {\n    color: white;\n    text-align: center;\n    margin: 0;\n    font-size: 1.5rem;\n}\n\n#hardware-list {\n    display: flex;\n    flex-direction: column;\n    gap: 15px;\n    width: 100%;\n    padding: 10px;\n}\n\n.field-container {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    width: 100%;\n}\n\n.field-container strong {\n    flex: 0 0 45%;\n    text-align: left;\n    font-size: 1em;\n}\n\n.field-container span,\n.field-container input {\n    flex: 1;\n    min-width: 130px;\n    max-width: 200px;\n    padding: 5px;\n    height: 30px;\n    border-radius: 4px;\n    box-sizing: border-box;\n}\n\n.field-container .non-editable {\n    background-color: #f5f5f5;\n}\n\n.field-container input {\n    border: 1px solid #ccc;\n}\n\n.button-container {\n    display: flex;\n    gap: 5px;\n}\n\nbutton {\n    padding: 5px;\n}\n\n.material-icons {\n    vertical-align: middle;\n    font-size: 1.2rem;\n}\n\n/* Media query for smaller screens */\n@media (max-width: 600px) {\n    .field-container {\n        flex-direction: column;\n        align-items: flex-start;\n    }\n\n    .field-container strong {\n        width: auto;\n    }\n\n    .field-container span,\n    .field-container input {\n        width: 100%;\n    }\n\n    .button-container {\n        justify-content: flex-start;\n        width: 100%;\n    }\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "page:style",
+        "className": "",
+        "x": 130,
+        "y": 200,
+        "wires": [
             []
         ]
     }
