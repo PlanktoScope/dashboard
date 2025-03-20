@@ -126,27 +126,23 @@ With these steps, your PlanktoScope is fully configured and ready for use.
 
 After rebooting, access the dashboard editor at: [http://192.168.x.x/admin/ps/node-red-v2/](http://%3Cyour-planktoscope-ip%3E/admin/ps/node-red-v2/).
 
-Node-RED will display a pop-up inviting you to clone the dashboard repository. Click on **Clone Repository**.
+Node-RED will display a pop-up inviting you to clone the dashboard repository.
 
-![Clone Repository](https://raw.githubusercontent.com/PlanktoScope/dashboard/refs/heads/main/img/node-red-clone-repo.png)
+![Clone Repository](img/node-red-clone-repo.png)
 
-### **Enter Your GitHub Credentials**
+Click on **Clone Repository**.
 
-![Setup Version Control Client](https://raw.githubusercontent.com/PlanktoScope/dashboard/refs/heads/main/img/setup-your-version-control-client.png)
+![Setup Version Control Client](img/setup-your-version-control-client.png)
 
-To complete the form, you need to create a Personal Access Token (classic):
+Enter your name and email address.
 
-1. Visit <https://github.com/settings/tokens>.
-2. Click **Generate new token** or **Generate new token (classic)**.
-3. Enter a name for the token, such as **node-red**.
-4. Select **No Expiration** and check the **repo** and **user** scopes.
-5. Click **Generate token** at the bottom of the page.
+![Clone a Project](img/clone-a-project.png)
 
-![New Personal Access Token](https://raw.githubusercontent.com/PlanktoScope/dashboard/refs/heads/main/img/new-personal-access-token-classic.png)
+Git repository URL: `git@github.com:PlanktoScope/dashboard.git`
 
-Copy the generated token from GitHub. Complete the remaining fields in the Node-RED form using your GitHub credentials, and click **Clone Project** to link Node-RED to your GitHub account.
+If you don't have GitHub SSH setup please refer to [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
-![Clone a Project](https://raw.githubusercontent.com/PlanktoScope/dashboard/refs/heads/main/img/clone-a-project.png)
+Node-RED will automatically find your SSH Keys (you may need to reload).
 
 ### **Clean Up Existing Palettes**
 
