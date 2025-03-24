@@ -122,9 +122,45 @@ To enable essential Node-RED features, edit the `settings.js` file.
 
 With these steps, your PlanktoScope is fully configured and ready for use.
 
-## **Link Node-RED to GitHub**
+## Setup git on the RPI
 
-After rebooting, access the dashboard editor at: [http://192.168.x.x/admin/ps/node-red-v2/](http://%3Cyour-planktoscope-ip%3E/admin/ps/node-red-v2/).
+### Create a key
+
+Connect using SSH to the PlanktoScope
+
+Enter the following command (replace the email with your GitHub email address)
+
+```sh
+$ ssh-keygen -t ed25519 -C "your_email@example.com"
+```
+
+When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location.
+
+At the prompt, type a secure passphrase.
+
+See also [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key)
+
+### Add the key to GitHub
+
+Copy the newly created SSH public key on the PlanktoScope to your clipboard.
+
+```sh
+$ cat ~/.ssh/id_ed25519.pub
+```
+
+If your SSH public key file has a different name than the example code, modify the filename to match your current setup. When copying your key, don't add any newlines or whitespace.
+
+Go to [GitHub Add new SSH Key](https://github.com/settings/ssh/new)
+
+In the "Key" field, paste your public key.
+
+![Add a Key](img/add-ssh-key.png)
+
+See also [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account#adding-a-new-ssh-key-to-your-account)
+
+## **Add the project to Node-RED**
+
+Access the dashboard editor at: [http://192.168.x.x/admin/ps/node-red-v2/](http://%3Cyour-planktoscope-ip%3E/admin/ps/node-red-v2/).
 
 Node-RED will display a pop-up inviting you to clone the dashboard repository.
 
@@ -134,15 +170,17 @@ Click on **Clone Repository**.
 
 ![Setup Version Control Client](img/setup-your-version-control-client.png)
 
-Enter your name and email address.
+Enter your name and GitHub email address and press next.
 
 ![Clone a Project](img/clone-a-project.png)
 
-Git repository URL: `git@github.com:PlanktoScope/dashboard.git`
+Enter `git@github.com:PlanktoScope/dashboard.git` in "Git repository URL". Node-RED will automatically find your SSH Keys.
 
-If you don't have GitHub SSH setup please refer to [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
+Enter the passphrase chosen in the [Setup git on the RPI](#setup-git-on-the-rpi) step.
 
-Node-RED will automatically find your SSH Keys (you may need to reload).
+Leave "Credentials encryption key" empty.
+
+Press "Clone project".
 
 ### **Clean Up Existing Palettes**
 
