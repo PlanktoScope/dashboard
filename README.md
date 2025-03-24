@@ -26,47 +26,6 @@
 
 ***
 
-## **Locating the IP Address of Your PlanktoScope**
-
-1. **Check Your Router’s Admin Panel**
-
-   * Open your router’s admin interface by entering one of these common addresses into your browser:
-
-     * `http://192.168.0.1`
-     * `http://192.168.1.1`
-     * `http://routerlogin.net`
-
-   * Log in using your router’s credentials (check your router label or manual for default credentials).
-
-2. **Locate Connected Devices**
-
-   * Navigate to the section listing connected devices, such as:
-
-     * "Connected Devices"
-     * "Device List"
-     * "DHCP Clients"
-
-   * Look for the device labeled **PlanktoScope** or a similar name under the **Ethernet** or **Wi-Fi** section.
-
-3. **Use Network Scanning Tools (Optional)**\
-   If you can’t access your router:
-
-   * **Windows:** Use [Advanced IP Scanner](https://www.advanced-ip-scanner.com/).
-
-   * **macOS/Linux:** Run a network scan with `nmap` or similar tools:
-
-     ```bash
-     nmap -sn 192.168.1.0/24
-     ```
-
-   * Look for the PlanktoScope in the results.
-
-4. **Verify the Landing Page**
-
-   * Open a browser and enter the PlanktoScope’s IP address (e.g., `http://192.168.x.x`) to access the **Landing Page**.
-
-***
-
 ## **Configuring Node-RED Settings**
 
 To enable essential Node-RED features, edit the `settings.js` file.
@@ -74,7 +33,7 @@ To enable essential Node-RED features, edit the `settings.js` file.
 1. **Access the File**
 
    * Use SSH or navigate via the **System File Manager** link on the Landing Page:\
-     [http://192.168.x.x/admin/fs/files/etc/nodered/settings.js](http://%3Cyour-planktoscope-ip%3E/admin/fs/files/etc/nodered/settings.js).
+     [http://planktoscope.local/admin/fs/files/etc/nodered/settings.js](http://%3Cyour-planktoscope-ip%3E/admin/fs/files/etc/nodered/settings.js).
 
 2. **Enable Context Storage**
 
@@ -116,7 +75,7 @@ To enable essential Node-RED features, edit the `settings.js` file.
 
    * Save the changes to `settings.js`.
    * Restart the PlanktoScope using the **Reboot** button in the Node-RED dashboard:\
-     [http://192.168.x.x/ps/node-red-v2/ui/#!/8](http://%3Cyour-planktoscope-ip%3E/ps/node-red-v2/ui/#!/8).
+     [http://planktoscope.local/ps/node-red-v2/ui/#!/8](http://%3Cyour-planktoscope-ip%3E/ps/node-red-v2/ui/#!/8).
 
 ***
 
@@ -126,7 +85,10 @@ With these steps, your PlanktoScope is fully configured and ready for use.
 
 ### Create a key
 
-Connect using SSH to the PlanktoScope
+To access the terminal of your PlanktoScope, you can use the [Cockpit terminal](http://planktoscope.local/admin/cockpit/system/terminal). Log in with the following credentials:  
+**Username:** `pi`  
+**Password:** `copepode`
+
 
 Enter the following command (replace the email with your GitHub email address)
 
@@ -182,23 +144,12 @@ Leave "Credentials encryption key" empty.
 
 Press "Clone project".
 
-### **Clean Up Existing Palettes**
-
-Remove unnecessary palettes to streamline your Node-RED setup:
-
-* node-red-contrib-dir2files
-* node-red-contrib-gpsd
-* node-red-contrib-python3-function
-* node-red-contrib-ui-multistate-switch
-* node-red-dashboard
-* node-red-node-pi-gpio
-* node-red-node-ui-list
-
 ### **Install Required Nodes**
 
 After cleanup, install the following nodes:
 
 * `@flowfuse/node-red-dashboard`
+* `@flowfuse/node-red-dashboard-2-ui-flowviewer`
 * `@flowfuse/node-red-dashboard-2-ui-flowviewer`
 
 ***
