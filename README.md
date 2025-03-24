@@ -33,7 +33,7 @@ To enable essential Node-RED features, edit the `settings.js` file.
 1. **Access the File**
 
    * Use SSH or navigate via the **System File Manager** link on the Landing Page:\
-     [http://planktoscope.local/admin/fs/files/etc/nodered/settings.js](http://%3Cyour-planktoscope-ip%3E/admin/fs/files/etc/nodered/settings.js).
+     [http://planktoscope.local/admin/fs/files/etc/nodered/settings.js](http://planktoscope.local/admin/fs/files/etc/nodered/settings.js).
 
 2. **Enable Context Storage**
 
@@ -75,7 +75,7 @@ To enable essential Node-RED features, edit the `settings.js` file.
 
    * Save the changes to `settings.js`.
    * Restart the PlanktoScope using the **Reboot** button in the Node-RED dashboard:\
-     [http://planktoscope.local/ps/node-red-v2/ui/#!/8](http://%3Cyour-planktoscope-ip%3E/ps/node-red-v2/ui/#!/8).
+     [http://planktoscope.local/ps/node-red-v2/ui/#!/](http://planktoscope.local/ps/node-red-v2/ui/#!/).
 
 ***
 
@@ -122,7 +122,7 @@ See also [Adding a new SSH key to your GitHub account](https://docs.github.com/e
 
 ## **Add the project to Node-RED**
 
-Access the dashboard editor at: [http://192.168.x.x/admin/ps/node-red-v2/](http://%3Cyour-planktoscope-ip%3E/admin/ps/node-red-v2/).
+Access the dashboard editor at: [http://planktoscope.local/admin/ps/node-red-v2/](http://planktoscope.local/admin/ps/node-red-v2/).
 
 Node-RED will display a pop-up inviting you to clone the dashboard repository.
 
@@ -156,9 +156,7 @@ After cleanup, install the following nodes:
 
 ## **Read and Write Data in global.json**
 
-With Context Storage enabled, data can be stored in a file located at:
-
-[http://192.168.x.x/admin/fs/files/home/pi/.node-red/context/global/global.json](http://192.168.x.x/).
+With Context Storage enabled, data can be stored in a file located at: [http://planktoscope.local/admin/fs/files/home/pi/.node-red/context/global/global.json](http://planktoscope.local/admin/fs/files/home/pi/.node-red/context/global/global.json).
 
 ### **Read Data**
 
