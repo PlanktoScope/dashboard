@@ -85,7 +85,7 @@ With these steps, your PlanktoScope is fully configured and ready for use.
 
 ### Create a key
 
-To access the terminal of your PlanktoScope, you can use the [Cockpit terminal](http://planktoscope.local/admin/cockpit/system/terminal). Log in with the following credentials:  
+To access the terminal of your PlanktoScope, you can use the Cockpit terminal [http://planktoscope.local/admin/cockpit/system/terminal](http://planktoscope.local/admin/cockpit/system/terminal). Log in with the following credentials:  
 **Username:** `pi`  
 **Password:** `copepode`
 
@@ -150,7 +150,7 @@ After cleanup, install the following nodes:
 
 * `@flowfuse/node-red-dashboard`
 * `@flowfuse/node-red-dashboard-2-ui-flowviewer`
-* `@flowfuse/node-red-dashboard-2-ui-flowviewer`
+* `node-red-contrib-cron-plus`
 
 ***
 
