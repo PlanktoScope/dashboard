@@ -133,6 +133,38 @@
         "env": []
     },
     {
+        "id": "6426e7bea6900426",
+        "type": "tab",
+        "label": "Calibration - Saturation Level",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "14c685bd04db8be5",
+        "type": "tab",
+        "label": "Calibration - Lightness",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "3afb1d2b21be9114",
+        "type": "tab",
+        "label": "Calibration - Pixel size",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d5b2c64b84f8ed4f",
+        "type": "tab",
+        "label": "Calibration - Pump",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "4ed26b8b.253504",
         "type": "subflow",
         "name": "Save hardware config",
@@ -538,75 +570,6 @@
         "h": 82
     },
     {
-        "id": "f9b137cda6a41cc8",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f142197f943e06c3",
-            "ba32092924c21704"
-        ],
-        "x": 54,
-        "y": 279,
-        "w": 252,
-        "h": 122
-    },
-    {
-        "id": "e42e71164274acdc",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "09145421eca576b2",
-            "96d4f5ed69c26184"
-        ],
-        "x": 314,
-        "y": 279,
-        "w": 272,
-        "h": 122
-    },
-    {
-        "id": "a2eff4bb38731253",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f467dd95ca327abe",
-            "9460aed131d64851"
-        ],
-        "x": 594,
-        "y": 279,
-        "w": 252,
-        "h": 122
-    },
-    {
         "id": "351aed98aa7531c4",
         "type": "group",
         "z": "68f63f5275b147d3",
@@ -821,6 +784,319 @@
         "h": 97
     },
     {
+        "id": "f9b137cda6a41cc8",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f142197f943e06c3",
+            "ba32092924c21704"
+        ],
+        "x": 54,
+        "y": 279,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "e42e71164274acdc",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09145421eca576b2",
+            "96d4f5ed69c26184"
+        ],
+        "x": 314,
+        "y": 279,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "a2eff4bb38731253",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f467dd95ca327abe",
+            "9460aed131d64851"
+        ],
+        "x": 594,
+        "y": 279,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "19c3570e48774bd0",
+        "type": "group",
+        "z": "6426e7bea6900426",
+        "name": "Streaming",
+        "style": {
+            "label": true,
+            "color": "#999999"
+        },
+        "nodes": [
+            "3829aff60cdc5be4"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "631f3e38acec1bc6",
+        "type": "group",
+        "z": "6426e7bea6900426",
+        "name": "Step 1. Reset the value of the gains",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "ea8c4596e202f964",
+            "4c7717ee07b97e8b",
+            "0fa68c34208c36d2",
+            "958aac3964d0faf4",
+            "857257c8697a3b76"
+        ],
+        "x": 34,
+        "y": 359,
+        "w": 552,
+        "h": 222
+    },
+    {
+        "id": "b04534747af369bb",
+        "type": "group",
+        "z": "6426e7bea6900426",
+        "name": "Step 4. Adjust White Balance Settings",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f13c467a5f891268",
+            "3b5d942eccbc14ba",
+            "3574f41671e9c607",
+            "0e406c9af3e5a51e",
+            "6d6fdc0c504bbc26",
+            "cab52c68fd58220b",
+            "06e4799523ede341",
+            "801d9c0cb77d4caa"
+        ],
+        "x": 34,
+        "y": 799,
+        "w": 672,
+        "h": 182
+    },
+    {
+        "id": "a885abc248b6ba6e",
+        "type": "group",
+        "z": "6426e7bea6900426",
+        "name": "Step 2. Measure the Current Saturation Level",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "a99be895898a4f2f",
+            "f7aececeb25feee2",
+            "4a99ebbebc9e7d65",
+            "a6cfdc06c50e2b7c",
+            "69f90516888fb4c2",
+            "bc2f402f6cdd8434",
+            "6104a1880402810c",
+            "224eba65a1a42b91"
+        ],
+        "x": 34,
+        "y": 599,
+        "w": 1442,
+        "h": 82
+    },
+    {
+        "id": "64fb52a5fc759893",
+        "type": "group",
+        "z": "6426e7bea6900426",
+        "name": "Step 3. Display White Balance Settings",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f3d25e1060563ac8",
+            "45f2ad943cee341f"
+        ],
+        "x": 34,
+        "y": 699,
+        "w": 392,
+        "h": 82
+    },
+    {
+        "id": "f591255fbfc6c466",
+        "type": "group",
+        "z": "6426e7bea6900426",
+        "name": "Step Bar",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "062a3af5e12e8445",
+            "e5da27b9abdcb156"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 372,
+        "h": 82
+    },
+    {
+        "id": "0dcebaf2b57a4374",
+        "type": "group",
+        "z": "14c685bd04db8be5",
+        "name": "Streaming",
+        "style": {
+            "label": true,
+            "color": "#999999"
+        },
+        "nodes": [
+            "300c2d2496f1d12d"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "da1cb3ed0c90bb56",
+        "type": "group",
+        "z": "3afb1d2b21be9114",
+        "name": "Step Bar",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "05a5a9c4530d07ea",
+            "419cccaf23eb2548"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 372,
+        "h": 82
+    },
+    {
+        "id": "d7c2ea70e05a360f",
+        "type": "group",
+        "z": "3afb1d2b21be9114",
+        "name": "Streaming",
+        "style": {
+            "label": true,
+            "color": "#999999"
+        },
+        "nodes": [
+            "5b95342353581bba"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "0861054b07c3373d",
+        "type": "group",
+        "z": "d5b2c64b84f8ed4f",
+        "name": "Step Bar",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c92cd7e25b01278d",
+            "f8db1578262f6bc8"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 372,
+        "h": 82
+    },
+    {
+        "id": "508d01c8283ee722",
+        "type": "group",
+        "z": "d5b2c64b84f8ed4f",
+        "name": "Streaming",
+        "style": {
+            "label": true,
+            "color": "#999999"
+        },
+        "nodes": [
+            "71ba57a25304e08f"
+        ],
+        "x": 34,
+        "y": 119,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "426f6cef77fbb290",
+        "type": "group",
+        "z": "14c685bd04db8be5",
+        "name": "Step Bar",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "5fbdba7e61973f9a",
+            "25cb0163587aee15"
+        ],
+        "x": 34,
+        "y": 19,
+        "w": 372,
+        "h": 82
+    },
+    {
+        "id": "f5929f8fbe9df063",
+        "type": "group",
+        "z": "6426e7bea6900426",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ec5d9fecc6b0cece",
+            "5c444b714f250678",
+            "cb467ae07b125bcc",
+            "aad16ea9eae8d3dd",
+            "97541b0d6dcf6747"
+        ],
+        "x": 34,
+        "y": 219,
+        "w": 562,
+        "h": 122
+    },
+    {
         "id": "e6ae26617c24c3ea",
         "type": "ui-base",
         "name": "My Dashboard",
@@ -833,7 +1109,7 @@
         ],
         "showPathInSidebar": true,
         "showPageTitle": false,
-        "navigationStyle": "fixed",
+        "navigationStyle": "default",
         "titleBarStyle": "hidden",
         "showReconnectNotification": true,
         "notificationDisplayTime": "1",
@@ -889,7 +1165,7 @@
                 "cols": "12"
             }
         ],
-        "order": 6,
+        "order": 2,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -1205,7 +1481,7 @@
                 "cols": "12"
             }
         ],
-        "order": 3,
+        "order": 6,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -1241,7 +1517,7 @@
                 "cols": "12"
             }
         ],
-        "order": 4,
+        "order": 5,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2039,7 +2315,7 @@
                 "cols": "12"
             }
         ],
-        "order": 5,
+        "order": 3,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2075,7 +2351,7 @@
     {
         "id": "c8bb5168bda76add",
         "type": "ui-page",
-        "name": "Plots",
+        "name": "Cron Experiment",
         "ui": "e6ae26617c24c3ea",
         "path": "/plots",
         "icon": "home",
@@ -2103,7 +2379,7 @@
                 "cols": "12"
             }
         ],
-        "order": 2,
+        "order": 4,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2179,6 +2455,215 @@
         "width": "6",
         "height": 1,
         "className": ""
+    },
+    {
+        "id": "a973d821cae4ecce",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "c0ea559892f9bd33",
+        "type": "ui-theme",
+        "name": "FairsSope Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#066fca",
+            "bgPage": "#f4f5f6",
+            "groupBg": "#f4f5f6",
+            "groupOutline": "#066fca"
+        },
+        "sizes": {
+            "pagePadding": "0px",
+            "groupGap": "0px",
+            "groupBorderRadius": "0px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "f22f627015431032",
+        "type": "ui-page",
+        "name": "Calibration - Lightness",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/calibration_lightness",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "c0ea559892f9bd33",
+        "order": 8,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "705156ec7eedfb1e",
+        "type": "ui-group",
+        "name": "Preview",
+        "page": "f22f627015431032",
+        "width": "4",
+        "height": "6",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "728c7ed3d63dfcee",
+        "type": "ui-group",
+        "name": "Settings",
+        "page": "f22f627015431032",
+        "width": "8",
+        "height": "1",
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "aa9ba6cedf56d2cd",
+        "type": "ui-page",
+        "name": "Calibration - Pixel size",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/calibration_pixel_size",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "c0ea559892f9bd33",
+        "order": 9,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "c966455a52d121c0",
+        "type": "ui-group",
+        "name": "Settings",
+        "page": "aa9ba6cedf56d2cd",
+        "width": "8",
+        "height": "1",
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "c9933f7d77fc6f01",
+        "type": "ui-group",
+        "name": "Preview",
+        "page": "aa9ba6cedf56d2cd",
+        "width": "4",
+        "height": "6",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "48216bc1f7c53a75",
+        "type": "ui-page",
+        "name": "Calibration - Pump",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/calibration_pump",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "c0ea559892f9bd33",
+        "order": 10,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "0c3ae4988f81c2ac",
+        "type": "ui-group",
+        "name": "Preview",
+        "page": "48216bc1f7c53a75",
+        "width": "4",
+        "height": "6",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "6039d653304537af",
+        "type": "ui-group",
+        "name": "Settings",
+        "page": "48216bc1f7c53a75",
+        "width": "8",
+        "height": "1",
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "803aa402d5c66b73",
+        "type": "ui-page",
+        "name": "Calibration - Saturation Level",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/calibration_saturation_level",
+        "icon": "",
+        "layout": "grid",
+        "theme": "c0ea559892f9bd33",
+        "order": 7,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "297b9a8eaa0287e2",
+        "type": "ui-group",
+        "name": "Preview",
+        "page": "803aa402d5c66b73",
+        "width": "4",
+        "height": "6",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "af8acdfe9afbad74",
+        "type": "ui-group",
+        "name": "Settings",
+        "page": "803aa402d5c66b73",
+        "width": "8",
+        "height": "8",
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
     },
     {
         "id": "82099021.9ceb08",
@@ -12649,7 +13134,7 @@
         "width": "12",
         "height": "1",
         "head": "",
-        "format": "<!-- Include jQuery and ElevateZoom-Plus -->\n<script src=\"https://code.jquery.com/jquery-3.6.4.min.js\"></script>\n<script src=\"https://cdn.jsdelivr.net/gh/igorlino/elevatezoom-plus@1.1.6/src/jquery.ez-plus.js\"></script>\n\n<!-- Zoomable Image -->\n<template>\n  <v-row>\n    <v-col cols=\"8\">\n      <v-card variant=\"outlined\" width=\"auto\" height=\"800px\" class=\"pa-0 ma-0\"\n        ><img\n          id=\"zoom\"\n          src=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\"\n          data-zoom-image=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\"\n          alt=\"Live camera stream with zoom feature\"\n          style=\"\n            transform: rotate(-90deg);\n            margin-left: -100px;\n            margin-top: 100px;\n          \"\n          width=\"800px\"\n          height=\"600px\"\n      /></v-card>\n    </v-col>\n    <v-col cols=\"4\">\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n    </v-col>\n  </v-row>\n</template>\n\n\n<!-- Activate Zoom -->\n<script>\n  $(document).ready(function () {\n    $('#zoom').ezPlus({\n      scrollZoom: true,       // Enable scroll zoom\n    });\n  });\n</script>\n",
+        "format": "<!-- Include jQuery and ElevateZoom-Plus -->\n<script src=\"https://code.jquery.com/jquery-3.6.4.min.js\"></script>\n<script src=\"https://cdn.jsdelivr.net/gh/igorlino/elevatezoom-plus@1.1.6/src/jquery.ez-plus.js\"></script>\n\n<!-- Zoomable Image -->\n<template>\n  <v-row>\n    <v-col cols=\"8\">\n      <v-card variant=\"outlined\" width=\"auto\" height=\"800px\" class=\"pa-0 ma-0\"\n        >\n          <img\n          id=\"zoom\"\n          src=\"/ps/hal/camera/streams/preview.mjpg\"\n          data-zoom-image=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\"\n          alt=\"Live camera stream with zoom feature\"\n          style=\"\n            transform: rotate(-90deg);\n            margin-left: -100px;\n            margin-top: 100px;\n          \"\n          width=\"800px\"\n          height=\"600px\"\n      /></v-card>\n    </v-col>\n    <v-col cols=\"4\">\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n      <v-text-field\n        type=\"number\"\n        label=\"Label\"\n        variant=\"outlined\"\n        suffix=\"suffix\"\n        density=\"compact\"\n        clearable\n        hint=\"This is some additional information displayed in a hint.\"\n      ></v-text-field>\n    </v-col>\n  </v-row>\n</template>\n\n\n<!-- Activate Zoom -->\n<script>\n  $(document).ready(function () {\n    $('#zoom').ezPlus({\n      scrollZoom: true,       // Enable scroll zoom\n    });\n  });\n</script>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -13223,7 +13708,7 @@
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<center>\n  <img src=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
+        "format": "<center>\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -14802,7 +15287,7 @@
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<center>\n  <img src=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
+        "format": "<center>\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -15908,5 +16393,1397 @@
         "x": 730,
         "y": 40,
         "wires": []
+    },
+    {
+        "id": "3829aff60cdc5be4",
+        "type": "ui-template",
+        "z": "6426e7bea6900426",
+        "g": "19c3570e48774bd0",
+        "group": "297b9a8eaa0287e2",
+        "page": "",
+        "ui": "",
+        "name": "Streaming",
+        "order": 1,
+        "width": "4",
+        "height": "6",
+        "head": "",
+        "format": "<template>\n  <div class=\"image-wrapper\">\n    <img :src=\"dynamicImageUrl\" class=\"rotated-image\">\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      dynamicImageUrl: ''\n    };\n  },\n  mounted() {\n    this.setDynamicImageUrl();\n  },\n  methods: {\n    setDynamicImageUrl() {\n      const currentUrl = new URL(window.location.href);\n      const baseUrlWithoutPort = currentUrl.protocol + '//' + currentUrl.hostname;\n\n      const relativePath = '/ps/hal/camera/streams/preview.mjpg';\n      const fullUrl = new URL(relativePath, baseUrlWithoutPort);\n\n      this.dynamicImageUrl = fullUrl.href;\n    },\n  },\n};\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a99be895898a4f2f",
+        "type": "ui-template",
+        "z": "6426e7bea6900426",
+        "g": "a885abc248b6ba6e",
+        "group": "af8acdfe9afbad74",
+        "page": "",
+        "ui": "",
+        "name": "2. Measure the Current Saturation Level",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-card title=\"2. Measure the Current Saturation Level\">\n    <v-card-text>\n      Now, use the color picker to measure the current color at a random location on your streaming:\n      <input class=\"colorpicker\" type=\"color\" v-model=\"selectedColor\" @input=\"onColorInput\" />\n    </v-card-text>\n\n    <!-- Progress Bar for Saturation Level -->\n    <div class=\"progress-container\">\n      <div class=\"progress-bar\" :style=\"progressBarStyle\"></div>\n      <div v-for=\"(label, index) in scaleLabels\" :key=\"index\" :style=\"{ left: label.position + '%' }\" class=\"progress-scale-line\"></div>\n    </div>\n\n    <!-- Scale Labels -->\n    <div class=\"progress-scale\">\n      <span v-for=\"(label, index) in scaleLabels\" :key=\"index\" :style=\"{ left: label.position + '%' }\" class=\"scale-label\">\n        {{ label.value }}%\n      </span>\n    </div>\n\n    <v-card-text>\n      The current saturation level is <b>{{ hsl.s }}%</b>.\n    </v-card-text>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  data: () => ({\n    selectedColor: \"#000000\", // Default value for the color picker\n    hsl: { h: 0, s: 0, l: 0 }, // HSL value for the selected color\n    scaleLabels: [\n      { value: 1, position: 0 },\n      { value: 5, position: 0 },\n      { value: 10, position: 0 },\n      { value: 20, position: 0 },\n      { value: 50, position: 0 },\n      { value: 100, position: 0 }\n    ],\n    msg: {} // Store incoming message\n  }),\n  computed: {\n    progressBarStyle() {\n      const logScaleValue = this.calculateLogScale(this.hsl.s);\n      return {\n        width: `${logScaleValue}%`,\n        backgroundColor: this.hsl.s < 5 ? '#5cd65c' : '#ea5353',\n      };\n    }\n  },\n  methods: {\n    onColorInput(event) {\n      this.selectedColor = event.target.value;\n      this.hsl = this.hexToHsl(this.selectedColor);\n      this.sendHexColor(); // Send the hex color and saturation level to Node-RED\n    },\n    sendHexColor() {\n      // Send hex color and saturation level to Node-RED\n      this.send({ topic: \"change\", acq_wb_hex: this.selectedColor, acq_saturation_value: this.hsl.s });\n    },\n    hexToHsl(hex) {\n      // Convert hex to HSL\n      let r = 0,\n        g = 0,\n        b = 0;\n      if (hex.length === 7) {\n        r = parseInt(hex.slice(1, 3), 16);\n        g = parseInt(hex.slice(3, 5), 16);\n        b = parseInt(hex.slice(5, 7), 16);\n      } else if (hex.length === 4) {\n        r = parseInt(hex[1] + hex[1], 16);\n        g = parseInt(hex[2] + hex[2], 16);\n        b = parseInt(hex[3] + hex[3], 16);\n      }\n      r /= 255;\n      g /= 255;\n      b /= 255;\n      const max = Math.max(r, g, b),\n        min = Math.min(r, g, b);\n      let h = 0,\n        s = 0,\n        l = (max + min) / 2;\n      if (max !== min) {\n        const d = max - min;\n        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);\n        switch (max) {\n          case r:\n            h = (g - b) / d + (g < b ? 6 : 0);\n            break;\n          case g:\n            h = (b - r) / d + 2;\n            break;\n          case b:\n            h = (r - g) / d + 4;\n            break;\n        }\n        h /= 6;\n      }\n      return {\n        h: Math.round(h * 360),\n        s: Math.round(s * 100), // Saturation value\n        l: Math.round(l * 100),\n      };\n    },\n    calculateLogScale(value) {\n      // Apply logarithmic scale to the saturation value\n      const logValue = Math.log10(value + 1);\n      const logMax = Math.log10(101);\n      return (logValue / logMax) * 100;\n    },\n    calculateScalePositions() {\n      // Calculate the position of each scale label\n      this.scaleLabels = this.scaleLabels.map(label => ({\n        value: label.value,\n        position: this.calculateLogScale(label.value),\n      }));\n    },\n    updateMessage(newMsg) {\n      // Update UI based on the incoming message\n      if (newMsg.acq_saturation_value !== undefined) {\n        this.hsl.s = newMsg.acq_saturation_value; // Update saturation level\n      }\n      if (newMsg.acq_wb_hex !== undefined) {\n        this.selectedColor = newMsg.acq_wb_hex; // Update the selected color\n        this.hsl = this.hexToHsl(this.selectedColor); // Convert hex to HSL\n      }\n    }\n  },\n  watch: {\n    msg: {\n      handler(newMsg) {\n        this.updateMessage(newMsg); // Watch for updates to msg and handle them\n      },\n      deep: true // Deep watch to catch nested changes in the msg object\n    }\n  },\n  mounted() {\n    this.calculateScalePositions(); // Calculate scale positions for the progress bar\n\n    // Listen for WebSocket messages (Node-RED or any backend)\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n      this.msg = msg; // Update msg with the received message\n    });\n  }\n};\n</script>\n\n<style>\n.progress-container {\n  position: relative;\n  width: 90%;\n  height: 30px;\n  background-color: #f4f5f6;\n  border-radius: 5px;\n  margin: 10px 5%;\n  border: 1px solid;\n}\n\n.progress-bar {\n  height: 100%;\n  border-radius: 5px;\n  transition: width 0.3s ease;\n}\n\n.progress-scale-line {\n  position: absolute;\n  height: 100%;\n  width: 1px;\n  top: 0;\n  background-color: #000;\n  pointer-events: none;\n}\n\n.progress-scale {\n  position: relative;\n  margin-top: 5px;\n  height: 20px;\n  width: 90%;\n  margin: 10px 5%;\n}\n\n.scale-label {\n  position: absolute;\n  bottom: 0;\n  font-size: 12px;\n  transform: translateX(-50%);\n  color: #000;\n}\n\n.colorpicker {\n  height: 2vw;\n  vertical-align: middle;\n  width: 5vw;\n  border: 1px solid;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 560,
+        "y": 640,
+        "wires": [
+            [
+                "6104a1880402810c"
+            ]
+        ]
+    },
+    {
+        "id": "f3d25e1060563ac8",
+        "type": "ui-template",
+        "z": "6426e7bea6900426",
+        "g": "64fb52a5fc759893",
+        "group": "af8acdfe9afbad74",
+        "page": "",
+        "ui": "",
+        "name": "3. Display White Balance Settings",
+        "order": 5,
+        "width": "4",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-card title=\"3. Observe the current White Balance Settings\">\n    <v-card-text>\n      <canvas id=\"wbChart\"></canvas>\n    </v-card-text>\n  </v-card>\n</template>\n\n\n\n<script>\nexport default {\n  data() {\n    return {\n      chart: null,\n    };\n  },\n  mounted() {\n    this.$nextTick(() => {\n      this.createChart(); // Initialize the chart after the component is fully mounted\n    });\n  },\n  beforeDestroy() {\n    if (this.chart) {\n      this.chart.destroy(); // Clean up the chart if the component is destroyed\n    }\n  },\n  methods: {\n    createChart(hexColor = '#000000') {\n      const canvas = document.getElementById('wbChart');\n      if (!canvas) {\n        console.error(\"Canvas element not found.\");\n        return;\n      }\n\n      const ctx = canvas.getContext('2d');\n      if (!ctx) {\n        console.error(\"Unable to get canvas context.\");\n        return;\n      }\n\n      const ratios = this.calculateRatiosFromHex(hexColor);\n\n      if (this.chart) {\n        this.chart.destroy(); // Ensure any existing chart is destroyed before creating a new one\n      }\n\n      this.chart = new Chart(ctx, {\n        type: 'scatter',\n        data: {\n          datasets: [\n            {\n              label: 'Current WB',\n              data: [{ x: ratios.bgRatio, y: ratios.rgRatio }],\n              backgroundColor: 'blue',\n              borderColor: 'black',\n              borderWidth: 1,\n              pointRadius: 10,\n              pointHoverRadius: 15,\n            },\n            {\n              label: 'Acceptable WB',\n              data: [{ x: 1, y: 1 }],\n              backgroundColor: '#5cd65c',\n              borderColor: 'black',\n              borderWidth: 1,\n              pointRadius: 50,\n              pointHoverRadius: 55,\n              pointStyle: 'circle',\n              fill: true,\n              showLine: false,\n            },\n          ],\n        },\n        options: {\n          responsive: true,\n          maintainAspectRatio: true,\n          scales: {\n            x: {\n              type: 'linear',\n              position: 'bottom',\n              title: {\n                display: true,\n                text: 'B/G Ratio',\n              },\n              min: 0.8,\n              max: 1.2,\n            },\n            y: {\n              type: 'linear',\n              title: {\n                display: true,\n                text: 'R/G Ratio',\n              },\n              min: 0.8,\n              max: 1.2,\n            },\n          },\n          plugins: {\n            legend: {\n              display: true,\n            },\n          },\n          animation: {\n            duration: 0, // Disabling animations might prevent some update issues\n          },\n        },\n      });\n    },\n    calculateRatiosFromHex(hex) {\n      const r = parseInt(hex.slice(1, 3), 16);\n      const g = parseInt(hex.slice(3, 5), 16);\n      const b = parseInt(hex.slice(5, 7), 16);\n\n      const rgRatio = r / g || 0;\n      const bgRatio = b / g || 0;\n\n      return { rgRatio, bgRatio };\n    },\n  },\n  watch: {\n    msg(newMsg) {\n      if (newMsg && newMsg.acq_wb_hex) {\n        this.createChart(newMsg.acq_wb_hex);\n      }\n    },\n  },\n};\n</script>\n\n<style scoped>\n#wbChart {\n  width: 100% !important;\n  height: 400px !important;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 260,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f13c467a5f891268",
+        "type": "ui-template",
+        "z": "6426e7bea6900426",
+        "g": "b04534747af369bb",
+        "group": "af8acdfe9afbad74",
+        "page": "",
+        "ui": "",
+        "name": "4. Adjust White Balance Settings",
+        "order": 6,
+        "width": "4",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-card title=\"4. Adjust White Balance Settings\">\n    <v-card-text>\n      Use the suggested values to adjust the white balance based on the color input.\n    </v-card-text>\n    <v-card-text>\n      <v-row>\n        <v-col cols=\"4\"></v-col>\n        <v-col cols=\"4\">Current</v-col>\n        <v-col cols=\"4\">Suggested</v-col>\n      </v-row>\n      <v-row>\n        <v-col cols=\"4\">AWRed</v-col>\n        <v-col cols=\"4\">\n          <v-text-field v-model=\"currentAWRed\" disabled variant=\"outlined\"></v-text-field>\n        </v-col>\n        <v-col cols=\"4\">\n          <v-text-field v-model=\"suggestedAWRed\" variant=\"outlined\"></v-text-field>\n        </v-col>\n      </v-row>\n      <v-row>\n        <v-col cols=\"4\">AWBlue</v-col>\n        <v-col cols=\"4\">\n          <v-text-field v-model=\"currentAWBlue\" disabled variant=\"outlined\"></v-text-field>\n        </v-col>\n        <v-col cols=\"4\">\n          <v-text-field v-model=\"suggestedAWBlue\" variant=\"outlined\"></v-text-field>\n        </v-col>\n      </v-row>\n    </v-card-text>\n    <v-card-actions>\n    <v-card-text>\n      We have calculated better values for your AWRed and AWBlue : \n    </v-card-text>\n      <v-btn color=\"primary\" @click=\"sendSettings\" variant=\"outlined\">Improve</v-btn>\n    </v-card-actions>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  props: ['id'],\n  data() {\n    return {\n      currentAWRed: '',\n      currentAWBlue: '',\n      suggestedAWRed: '',\n      suggestedAWBlue: '',\n    };\n  },\n  mounted() {\n    this.setupSocketListeners();\n  },\n  methods: {\n    setupSocketListeners() {\n      if (this.$socket) {\n        this.$socket.on('msg-input:' + this.id, (msg) => {\n          if (msg.acq_wb_red !== undefined) {\n            this.currentAWRed = msg.acq_wb_red;\n          }\n          if (msg.acq_wb_blue !== undefined) {\n            this.currentAWBlue = msg.acq_wb_blue;\n          }\n          if (msg.acq_wb_hex !== undefined) {\n            this.calculateSuggestedAW(msg.acq_wb_hex);\n          }\n        });\n      }\n    },\n    hexToRgb(hex) {\n      hex = hex.replace(/^#/, '');\n      let bigint = parseInt(hex, 16);\n      let r = (bigint >> 16) & 255;\n      let g = (bigint >> 8) & 255;\n      let b = bigint & 255;\n      return { r, g, b };\n    },\n    calculateSuggestedAW(hexColor) {\n      const { r, g, b } = this.hexToRgb(hexColor);\n      let redAdjustment = (g - r) + parseInt(this.currentAWRed, 10);\n      let blueAdjustment = (g - b) + parseInt(this.currentAWBlue, 10);\n      this.suggestedAWRed = Math.max(0, redAdjustment);\n      this.suggestedAWBlue = Math.max(0, blueAdjustment);\n    },\n    sendSettings() {\n      const payload = {\n        payload: {\n          action: \"settings\",\n          settings: {\n            white_balance_gain: {\n              blue: this.suggestedAWBlue,\n              red: this.suggestedAWRed,\n            },\n          },\n        },\n        acq_wb_blue:this.suggestedAWBlue,\n        acq_wb_red:this.suggestedAWRed,\n        \n        topic: \"imager/image\",\n        \n      };\n      this.send(payload);\n    },\n  },\n};\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 260,
+        "y": 900,
+        "wires": [
+            [
+                "3574f41671e9c607",
+                "0e406c9af3e5a51e",
+                "801d9c0cb77d4caa"
+            ]
+        ]
+    },
+    {
+        "id": "3b5d942eccbc14ba",
+        "type": "mqtt out",
+        "z": "6426e7bea6900426",
+        "g": "b04534747af369bb",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a973d821cae4ecce",
+        "x": 630,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "f7aececeb25feee2",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "a885abc248b6ba6e",
+        "name": "set acq_wb_hex",
+        "func": "global.set(\"acq_wb_hex\", msg.acq_wb_hex);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 940,
+        "y": 640,
+        "wires": [
+            [
+                "4a99ebbebc9e7d65"
+            ]
+        ]
+    },
+    {
+        "id": "4a99ebbebc9e7d65",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "a885abc248b6ba6e",
+        "name": "get acq_wb_red",
+        "func": "msg.acq_wb_red = global.get(\"acq_wb_red\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 640,
+        "wires": [
+            [
+                "a6cfdc06c50e2b7c"
+            ]
+        ]
+    },
+    {
+        "id": "a6cfdc06c50e2b7c",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "a885abc248b6ba6e",
+        "name": "get acq_wb_blue",
+        "func": "msg.acq_wb_blue = global.get(\"acq_wb_blue\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 640,
+        "wires": [
+            [
+                "69f90516888fb4c2"
+            ]
+        ]
+    },
+    {
+        "id": "3574f41671e9c607",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "b04534747af369bb",
+        "name": "set acq_wb_red",
+        "func": "global.set(\"acq_wb_red\", msg.acq_wb_red);\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 900,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0e406c9af3e5a51e",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "b04534747af369bb",
+        "name": "set acq_wb_blue",
+        "func": "global.set(\"acq_wb_blue\", msg.acq_wb_blue);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ea8c4596e202f964",
+        "type": "ui-template",
+        "z": "6426e7bea6900426",
+        "g": "631f3e38acec1bc6",
+        "group": "af8acdfe9afbad74",
+        "page": "",
+        "ui": "",
+        "name": "1. Reset the value of the gains",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-card title=\"1. Reset WB Values\">\n    <v-card-text>\n        <span>If needed, you can turn <b>ON</b> the LED that might be temporarly <b>OFF</b>. Just click on this button : </span>\n        <v-btn @click=\"on\" variant=\"outlined\">ON</v-btn>\n        <br>\n      <span>Then, it reset the values of the gains for Red and Blue to 100 :</span>\n      <v-btn @click=\"reset\" variant=\"outlined\">Reset WBBlue and WBRed</v-btn>\n      \n    \n    </v-card-text>\n    \n  </v-card>\n  \n</template>\n\n<script>\nexport default {\n  props: ['id'],\n  methods: {\n    reset() {\n      const payload = {\n        payload: {\n          action: \"settings\",\n          settings: {\n            white_balance_gain: {\n              blue: 100,\n              red: 100,\n            },\n          },\n        },\n        acq_wb_blue: 100,\n        acq_wb_red: 100,\n        topic: \"imager/image\",\n      };\n      this.send(payload);\n    }, \n    on() {\n       this.send({payload: {action: \"on\",led: 1},topic: 'light'});\n    },\n  },\n};\n\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 190,
+        "y": 440,
+        "wires": [
+            [
+                "4c7717ee07b97e8b",
+                "0fa68c34208c36d2",
+                "958aac3964d0faf4",
+                "857257c8697a3b76",
+                "778ef58f071d9dc0"
+            ]
+        ]
+    },
+    {
+        "id": "4c7717ee07b97e8b",
+        "type": "mqtt out",
+        "z": "6426e7bea6900426",
+        "g": "631f3e38acec1bc6",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a973d821cae4ecce",
+        "x": 430,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "0fa68c34208c36d2",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "631f3e38acec1bc6",
+        "name": "set acq_wb_red",
+        "func": "global.set(\"acq_wb_red\", msg.acq_wb_red);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "958aac3964d0faf4",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "631f3e38acec1bc6",
+        "name": "set acq_wb_blue",
+        "func": "global.set(\"acq_wb_blue\", msg.acq_wb_blue);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 470,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "857257c8697a3b76",
+        "type": "link out",
+        "z": "6426e7bea6900426",
+        "g": "631f3e38acec1bc6",
+        "name": "link out 1",
+        "mode": "link",
+        "links": [
+            "6d6fdc0c504bbc26"
+        ],
+        "x": 395,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "6d6fdc0c504bbc26",
+        "type": "link in",
+        "z": "6426e7bea6900426",
+        "g": "b04534747af369bb",
+        "name": "link in 1",
+        "links": [
+            "857257c8697a3b76"
+        ],
+        "x": 75,
+        "y": 860,
+        "wires": [
+            [
+                "f13c467a5f891268"
+            ]
+        ]
+    },
+    {
+        "id": "69f90516888fb4c2",
+        "type": "link out",
+        "z": "6426e7bea6900426",
+        "g": "a885abc248b6ba6e",
+        "name": "link out 2",
+        "mode": "link",
+        "links": [
+            "cab52c68fd58220b",
+            "45f2ad943cee341f"
+        ],
+        "x": 1435,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "cab52c68fd58220b",
+        "type": "link in",
+        "z": "6426e7bea6900426",
+        "g": "b04534747af369bb",
+        "name": "link in 2",
+        "links": [
+            "69f90516888fb4c2"
+        ],
+        "x": 75,
+        "y": 940,
+        "wires": [
+            [
+                "f13c467a5f891268"
+            ]
+        ]
+    },
+    {
+        "id": "45f2ad943cee341f",
+        "type": "link in",
+        "z": "6426e7bea6900426",
+        "g": "64fb52a5fc759893",
+        "name": "link in 3",
+        "links": [
+            "69f90516888fb4c2"
+        ],
+        "x": 75,
+        "y": 740,
+        "wires": [
+            [
+                "f3d25e1060563ac8"
+            ]
+        ]
+    },
+    {
+        "id": "062a3af5e12e8445",
+        "type": "ui-template",
+        "z": "6426e7bea6900426",
+        "g": "f591255fbfc6c466",
+        "group": "af8acdfe9afbad74",
+        "page": "",
+        "ui": "",
+        "name": "Step Bar",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div>\n    <v-stepper class=\"my-stepper\" model-value=\"1\" non-linear>\n      <v-stepper-header>\n        <v-stepper-item value=\"1\" editable @click=\"stepClicked(1)\" class=\"selected-step\">Saturation Level</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"2\" editable @click=\"stepClicked(2)\">Lightness</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"3\" editable @click=\"stepClicked(3)\">Pixel size</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"4\" editable @click=\"stepClicked(4)\">Pump</v-stepper-item>\n      </v-stepper-header>\n    </v-stepper>\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'StepperComponent',\n    methods: {\n      stepClicked(step) {\n        const stepMapping = {\n          1: { page: 'Calibration - Saturation Level' },\n          2: { page: 'Calibration - Lightness' },\n          3: { page: 'Calibration - Pixel size' },\n          4: { page: 'Calibration - Pump' }\n        };\n\n        const msgPayload = stepMapping[step] || {};\n        \n        this.send({ payload: msgPayload });\n      }\n    }\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "e5da27b9abdcb156"
+            ]
+        ]
+    },
+    {
+        "id": "e5da27b9abdcb156",
+        "type": "ui-control",
+        "z": "6426e7bea6900426",
+        "g": "f591255fbfc6c466",
+        "name": "",
+        "ui": "e6ae26617c24c3ea",
+        "events": "all",
+        "x": 320,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c253d0e7e41137e5",
+        "type": "ui-template",
+        "z": "6426e7bea6900426",
+        "group": "",
+        "page": "803aa402d5c66b73",
+        "ui": "",
+        "name": "CSS (Single Page)",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "\n  .selected-step div.v-avatar.v-theme--nrdb.v-avatar--density-default.v-avatar--variant-flat.v-stepper-item__avatar {\n    background-color: #0a6eca;\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "page:style",
+        "className": "",
+        "x": 550,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc2f402f6cdd8434",
+        "type": "ui-control",
+        "z": "6426e7bea6900426",
+        "g": "a885abc248b6ba6e",
+        "name": "",
+        "ui": "e6ae26617c24c3ea",
+        "events": "all",
+        "x": 120,
+        "y": 640,
+        "wires": [
+            [
+                "224eba65a1a42b91"
+            ]
+        ]
+    },
+    {
+        "id": "ec5d9fecc6b0cece",
+        "type": "ui-event",
+        "z": "6426e7bea6900426",
+        "g": "f5929f8fbe9df063",
+        "ui": "e6ae26617c24c3ea",
+        "name": "",
+        "x": 120,
+        "y": 260,
+        "wires": [
+            [
+                "5c444b714f250678"
+            ]
+        ]
+    },
+    {
+        "id": "5c444b714f250678",
+        "type": "switch",
+        "z": "6426e7bea6900426",
+        "g": "f5929f8fbe9df063",
+        "name": "",
+        "property": "payload.page.path",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/calibration_saturation_level",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 250,
+        "y": 260,
+        "wires": [
+            [
+                "cb467ae07b125bcc",
+                "aad16ea9eae8d3dd"
+            ]
+        ]
+    },
+    {
+        "id": "cb467ae07b125bcc",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "f5929f8fbe9df063",
+        "name": "get acq_wb_red",
+        "func": "msg.acq_wb_red = global.get(\"acq_wb_red\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "97541b0d6dcf6747"
+            ]
+        ]
+    },
+    {
+        "id": "aad16ea9eae8d3dd",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "f5929f8fbe9df063",
+        "name": "get acq_wb_blue",
+        "func": "msg.acq_wb_blue = global.get(\"acq_wb_blue\");\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 300,
+        "wires": [
+            [
+                "97541b0d6dcf6747"
+            ]
+        ]
+    },
+    {
+        "id": "97541b0d6dcf6747",
+        "type": "link out",
+        "z": "6426e7bea6900426",
+        "g": "f5929f8fbe9df063",
+        "name": "link out 3",
+        "mode": "link",
+        "links": [
+            "06e4799523ede341"
+        ],
+        "x": 555,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "06e4799523ede341",
+        "type": "link in",
+        "z": "6426e7bea6900426",
+        "g": "b04534747af369bb",
+        "name": "link in 4",
+        "links": [
+            "97541b0d6dcf6747"
+        ],
+        "x": 75,
+        "y": 900,
+        "wires": [
+            [
+                "f13c467a5f891268"
+            ]
+        ]
+    },
+    {
+        "id": "801d9c0cb77d4caa",
+        "type": "switch",
+        "z": "6426e7bea6900426",
+        "g": "b04534747af369bb",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "imager/image",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 490,
+        "y": 840,
+        "wires": [
+            [
+                "3b5d942eccbc14ba"
+            ]
+        ]
+    },
+    {
+        "id": "6104a1880402810c",
+        "type": "switch",
+        "z": "6426e7bea6900426",
+        "g": "a885abc248b6ba6e",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "change",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 790,
+        "y": 640,
+        "wires": [
+            [
+                "f7aececeb25feee2"
+            ]
+        ]
+    },
+    {
+        "id": "224eba65a1a42b91",
+        "type": "function",
+        "z": "6426e7bea6900426",
+        "g": "a885abc248b6ba6e",
+        "name": "get acq_wb_hex",
+        "func": "msg.acq_wb_hex = global.get(\"acq_wb_hex\");\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 640,
+        "wires": [
+            [
+                "a99be895898a4f2f"
+            ]
+        ]
+    },
+    {
+        "id": "64813761dc02b452",
+        "type": "ui-switch",
+        "z": "6426e7bea6900426",
+        "name": "Switch LED",
+        "label": "Switch LED (label)",
+        "group": "af8acdfe9afbad74",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "pump",
+        "topicType": "str",
+        "style": "",
+        "className": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "x": 510,
+        "y": 160,
+        "wires": [
+            [
+                "e593ddbbe78ae702"
+            ]
+        ]
+    },
+    {
+        "id": "e593ddbbe78ae702",
+        "type": "debug",
+        "z": "6426e7bea6900426",
+        "name": "debug 70",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "778ef58f071d9dc0",
+        "type": "debug",
+        "z": "6426e7bea6900426",
+        "name": "debug 71",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "300c2d2496f1d12d",
+        "type": "ui-template",
+        "z": "14c685bd04db8be5",
+        "g": "0dcebaf2b57a4374",
+        "group": "705156ec7eedfb1e",
+        "page": "",
+        "ui": "",
+        "name": "Streaming",
+        "order": 1,
+        "width": "4",
+        "height": "6",
+        "head": "",
+        "format": "<template>\n  <div class=\"image-wrapper\">\n    <img :src=\"dynamicImageUrl\">\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      dynamicImageUrl: ''\n    };\n  },\n  mounted() {\n    this.setDynamicImageUrl();\n  },\n  methods: {\n    setDynamicImageUrl() {\n      const currentUrl = new URL(window.location.href);\n      const baseUrlWithoutPort = currentUrl.protocol + '//' + currentUrl.hostname;\n\n      const relativePath = '/ps/hal/camera/streams/preview.mjpg';\n      const fullUrl = new URL(relativePath, baseUrlWithoutPort);\n\n      this.dynamicImageUrl = fullUrl.href;\n    },\n  },\n};\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5fbdba7e61973f9a",
+        "type": "ui-template",
+        "z": "14c685bd04db8be5",
+        "g": "426f6cef77fbb290",
+        "group": "728c7ed3d63dfcee",
+        "page": "",
+        "ui": "",
+        "name": "Step Bar",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div>\n    <v-stepper class=\"my-stepper\" model-value=\"1\" non-linear>\n      <v-stepper-header>\n        <v-stepper-item value=\"1\" editable @click=\"stepClicked(1)\">Saturation Level</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"2\" editable @click=\"stepClicked(2)\" class=\"selected-step\">Lightness</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"3\" editable @click=\"stepClicked(3)\">Pixel size</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"4\" editable @click=\"stepClicked(4)\">Pump</v-stepper-item>\n      </v-stepper-header>\n    </v-stepper>\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'StepperComponent',\n    methods: {\n      stepClicked(step) {\n        const stepMapping = {\n          1: { page: 'Calibration - Saturation Level' },\n          2: { page: 'Calibration - Lightness' },\n          3: { page: 'Calibration - Pixel size' },\n          4: { page: 'Calibration - Pump' }\n        };\n\n        const msgPayload = stepMapping[step] || {};\n        \n        this.send({ payload: msgPayload });\n      }\n    }\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "25cb0163587aee15"
+            ]
+        ]
+    },
+    {
+        "id": "25cb0163587aee15",
+        "type": "ui-control",
+        "z": "14c685bd04db8be5",
+        "g": "426f6cef77fbb290",
+        "name": "",
+        "ui": "e6ae26617c24c3ea",
+        "events": "all",
+        "x": 320,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a7d7736e2750578e",
+        "type": "ui-template",
+        "z": "14c685bd04db8be5",
+        "group": "",
+        "page": "f22f627015431032",
+        "ui": "",
+        "name": "CSS (Single Page)",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": ".selected-step div.v-avatar.v-theme--nrdb.v-avatar--density-default.v-avatar--variant-flat.v-stepper-item__avatar {\n    background-color: #0a6eca;\n}\n\n\n.progress-container {\n  position: relative;\n  width: 90%;\n  height: 30px;\n  background-color: #f4f5f6;\n  border-radius: 5px;\n  margin: 10px 5%;\n  border: 1px solid;\n}\n\n.progress-bar {\n  height: 100%;\n  border-radius: 5px;\n  transition: width 0.3s ease;\n}\n\n.progress-scale-line {\n  position: absolute;\n  height: 100%;\n  width: 1px;\n  top: 0;\n  background-color: #000;\n  pointer-events: none;\n}\n\n.progress-scale {\n  position: relative;\n  margin-top: 5px;\n  height: 20px;\n  width: 90%;\n  margin: 10px 5%;\n}\n\n.scale-label {\n  position: absolute;\n  bottom: 0;\n  font-size: 12px;\n  transform: translateX(-50%);\n  color: #000;\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "page:style",
+        "className": "",
+        "x": 550,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cf237f6cc8d0234d",
+        "type": "ui-template",
+        "z": "14c685bd04db8be5",
+        "group": "728c7ed3d63dfcee",
+        "page": "",
+        "ui": "",
+        "name": "1. Check LED Lifetime",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-card title=\"1. Check LED Lifetime\">\n    <v-card-text>\n      Before starting the calibration, it is important to check the remaining hours of use of the LED:\n      <br />\n    </v-card-text>\n    \n    <!-- Slider avec style similaire à la barre de progression -->\n    <div class=\"progress-container\">\n      <div class=\"progress-bar\" :style=\"progressBarStyle\"></div>\n      <div v-for=\"(label, index) in scaleLabels\" :key=\"index\" :style=\"{ left: label.position + '%' }\" class=\"progress-scale-line\"></div>\n    </div>\n    <div class=\"progress-scale\">\n      <span v-for=\"(label, index) in scaleLabels\" :key=\"index\" :style=\"{ left: label.position + '%' }\" class=\"scale-label\">\n        {{ label.value }}h\n      </span>\n    </div>\n    <v-card-text>\n      <span>The current LED duration of use is {{ acq_led_operating_hours }} hours.</span>\n    </v-card-text>\n\n    <!-- Banière affichée si acq_led_operating_hours < 200 -->\n    <v-card-text v-if=\"acq_led_operating_hours < 200\">\n      <span class=\"warning-banner\">\n        Seems like you need to replace your LED by following the provided instructions.\n      </span>\n    </v-card-text>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  data: () => ({\n    acq_led_operating_hours: 0, // Valeur initiale par défaut\n    scaleLabels: [\n      { value: 0, position: 0 },\n      { value: 100, position: 16.67 },\n      { value: 200, position: 33.33 },\n      { value: 300, position: 50 },\n      { value: 400, position: 66.67 },\n      { value: 500, position: 83.33 },\n      { value: 600, position: 100 }\n    ],\n  }),\n  computed: {\n    progressBarStyle() {\n      return {\n        width: `${this.calculateLogScale(this.acq_led_operating_hours)}%`,\n        backgroundColor: this.acq_led_operating_hours < 200 ? 'red' : '#5cd65c',\n      };\n    }\n  },\n  methods: {\n    calculateLogScale(value) {\n      // Appliquer une échelle linéaire simple\n      return (value / 600) * 100;\n    },\n    updateMessage(newMsg) {\n      // Méthode appelée quand un nouveau message arrive\n      if (newMsg.acq_led_operating_hours !== undefined) {\n        this.acq_led_operating_hours = newMsg.acq_led_operating_hours;\n      }\n    }\n  },\n  watch: {\n    // Watch sur l'objet entier msg\n    msg: {\n      handler(newMsg) {\n        this.updateMessage(newMsg);\n      },\n      deep: true, // Pour capturer les changements dans les propriétés imbriquées de msg\n    }\n  },\n  mounted() {\n    // Simuler la réception d'un message en utilisant une fonction ou une API Node-RED\n    this.$watch('msg', (newMsg) => {\n      this.updateMessage(newMsg);\n    });\n  }\n};\n</script>\n\n<style>\n.progress-container {\n  position: relative;\n  width: 90%;\n  height: 30px;\n  background-color: #f4f5f6;\n  border-radius: 5px;\n  margin: 10px 5%;\n  border: 1px solid;\n}\n\n.progress-bar {\n  height: 100%;\n  border-radius: 5px;\n  transition: width 0.3s ease;\n}\n\n.progress-scale-line {\n  position: absolute;\n  height: 100%;\n  width: 1px;\n  top: 0;\n  background-color: #000;\n  pointer-events: none;\n}\n\n.progress-scale {\n  position: relative;\n  margin-top: 5px;\n  height: 20px;\n  width: 90%;\n  margin: 10px 5%;\n}\n\n.scale-label {\n  position: absolute;\n  bottom: 0;\n  font-size: 12px;\n  transform: translateX(-50%);\n  color: #000;\n}\n\n.warning-banner {\n  color: red;\n  font-weight: bold;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e3be6250ef1fb928",
+        "type": "inject",
+        "z": "14c685bd04db8be5",
+        "name": "150",
+        "props": [
+            {
+                "p": "acq_led_operating_hours",
+                "v": "150",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 300,
+        "wires": [
+            [
+                "cf237f6cc8d0234d"
+            ]
+        ]
+    },
+    {
+        "id": "70566499a56d066d",
+        "type": "inject",
+        "z": "14c685bd04db8be5",
+        "name": "350",
+        "props": [
+            {
+                "p": "acq_led_operating_hours",
+                "v": "350",
+                "vt": "num"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 110,
+        "y": 260,
+        "wires": [
+            [
+                "cf237f6cc8d0234d"
+            ]
+        ]
+    },
+    {
+        "id": "bcfea4e20bc583f1",
+        "type": "ui-template",
+        "z": "14c685bd04db8be5",
+        "group": "728c7ed3d63dfcee",
+        "page": "",
+        "ui": "",
+        "name": "2. Calibration of LED intensity and ISO",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-card title=\"2. Calibration of LED intensity and ISO\">\n    <v-card-text>\n      Use the color picker to measure the current color value on the streaming:\n      <input class=\"colorpicker\" type=\"color\" v-model=\"selectedColor\" @input=\"onColorInput\" />\n      <br />\n    </v-card-text>\n\n    <!-- Affichage de la lightness -->\n    <v-card-text>\n      <span>The current lightness value is {{ hsl.l }}%.</span>\n    </v-card-text>\n\n    <v-card-text>\n      <span>Adjust the LED Intensity and the ISO if the current lightness value is between 80% and 90%. Redo the measurement if necessary.</span>\n    </v-card-text>\n\n    <!-- Champ pour sélectionner la nouvelle valeur ISO -->\n    <v-card-text>\n      <label for=\"iso-input\">Set ISO Value:</label>\n      <input type=\"number\" id=\"iso-input\" v-model=\"iso\" @input=\"onIsoInput\" min=\"100\" step=\"100\" />\n    </v-card-text>\n     \n    <!-- Slider pour lightness avec style similaire à la barre de progression -->\n    <div class=\"progress-container\">\n      <div class=\"progress-bar\" :style=\"lightnessProgressBarStyle\"></div>\n      <div v-for=\"(label, index) in scaleLabels\" :key=\"index\" :style=\"{ left: label.position + '%' }\" class=\"progress-scale-line\"></div>\n    </div>\n    <div class=\"progress-scale\">\n      <span v-for=\"(label, index) in scaleLabels\" :key=\"index\" :style=\"{ left: label.position + '%' }\" class=\"scale-label\">\n        {{ label.value }}%\n      </span>\n    </div>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  data: () => ({\n    selectedColor: \"#000000\", // Default value for color picker\n    hsl: { h: 0, s: 0, l: 0 }, // Store HSL value of the selected color\n    iso: 100, // Default ISO value\n    scaleLabels: [\n      { value: 0, position: 0 },\n      { value: 20, position: 20 },\n      { value: 40, position: 40 },\n      { value: 60, position: 60 },\n      { value: 80, position: 80 },\n      { value: 100, position: 100 }\n    ],\n    msg: {} // Property to store the incoming message\n  }),\n  computed: {\n    lightnessProgressBarStyle() {\n      let backgroundColor;\n      if (this.hsl.l < 50) {\n        backgroundColor = 'red'; // Too low\n      } else if (this.hsl.l >= 80 && this.hsl.l <= 90) {\n        backgroundColor = '#5cd75d'; // Ideal\n      } else if (this.hsl.l >= 95) {\n        backgroundColor = 'red'; // Too high\n      } else {\n        backgroundColor = 'orange'; // Slightly high\n      }\n      return {\n        width: `${this.hsl.l}%`,\n        backgroundColor: backgroundColor\n      };\n    }\n  },\n  methods: {\n    onColorInput(event) {\n      this.selectedColor = event.target.value;\n      this.hsl = this.hexToHsl(this.selectedColor);\n      this.sendHexColor(); // Send the selected color and lightness value to Node-RED\n    },\n    sendHexColor() {\n      // Send the hex color and lightness value to Node-RED\n      this.send({ acq_wb_hex: this.selectedColor, acq_lightness_value: this.hsl.l });\n    },\n    hexToHsl(hex) {\n      // Convert hex to HSL\n      let r = 0,\n        g = 0,\n        b = 0;\n      if (hex.length === 7) {\n        r = parseInt(hex.slice(1, 3), 16);\n        g = parseInt(hex.slice(3, 5), 16);\n        b = parseInt(hex.slice(5, 7), 16);\n      } else if (hex.length === 4) {\n        r = parseInt(hex[1] + hex[1], 16);\n        g = parseInt(hex[2] + hex[2], 16);\n        b = parseInt(hex[3] + hex[3], 16);\n      }\n      r /= 255;\n      g /= 255;\n      b /= 255;\n      const max = Math.max(r, g, b),\n        min = Math.min(r, g, b);\n      let h = 0,\n        s = 0,\n        l = (max + min) / 2;\n      if (max !== min) {\n        const d = max - min;\n        s = l > 0.5 ? d / (2 - max - min) : d / (max + min);\n        switch (max) {\n          case r:\n            h = (g - b) / d + (g < b ? 6 : 0);\n            break;\n          case g:\n            h = (b - r) / d + 2;\n            break;\n          case b:\n            h = (r - g) / d + 4;\n            break;\n        }\n        h /= 6;\n      }\n      return {\n        h: Math.round(h * 360),\n        s: Math.round(s * 100),\n        l: Math.round(l * 100) // The lightness value is stored here\n      };\n    },\n    onIsoInput() {\n      // Send the new ISO value to Node-RED\n      const payload = {\n        action: \"settings\",\n        settings: {\n          iso: this.iso\n        }\n      };\n      this.send({ topic: \"imager/image\", payload });\n    },\n    updateMessage(newMsg) {\n      // Method to handle incoming messages\n      if (newMsg.acq_lightness_value !== undefined) {\n        this.hsl.l = newMsg.acq_lightness_value; // Update lightness value\n      }\n      if (newMsg.acq_wb_hex !== undefined) {\n        this.selectedColor = newMsg.acq_wb_hex; // Update the selected color\n        this.hsl = this.hexToHsl(this.selectedColor); // Update HSL based on the new hex value\n      }\n      if (newMsg.iso !== undefined) {\n        this.iso = newMsg.iso; // Update ISO value\n      }\n    }\n  },\n  watch: {\n    msg: {\n      handler(newMsg) {\n        this.updateMessage(newMsg); // Handle changes to `msg`\n      },\n      deep: true // Ensure deep watching of nested msg properties\n    }\n  },\n  mounted() {\n    // Listen for incoming WebSocket messages (for example, from Node-RED)\n    this.$socket.on('msg-input:' + this.id, (msg) => {\n      this.msg = msg; // Update msg with the incoming message\n    });\n  }\n};\n</script>\n\n<style>\n.progress-container {\n  position: relative;\n  width: 90%;\n  height: 30px;\n  background-color: #f4f5f6;\n  border-radius: 5px;\n  margin: 10px 5%;\n  border: 1px solid;\n}\n\n.progress-bar {\n  height: 100%;\n  border-radius: 5px;\n  transition: width 0.3s ease;\n}\n\n.progress-scale-line {\n  position: absolute;\n  height: 100%;\n  width: 1px;\n  top: 0;\n  background-color: #000;\n  pointer-events: none;\n}\n\n.progress-scale {\n  position: relative;\n  margin-top: 5px;\n  height: 20px;\n  width: 90%;\n  margin: 10px 5%;\n}\n\n.scale-label {\n  position: absolute;\n  bottom: 0;\n  font-size: 12px;\n  transform: translateX(-50%);\n  color: #000;\n}\n\n.colorpicker {\n  height: 2vw;\n  vertical-align: middle;\n  width: 5vw;\n  border: 1px solid;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 730,
+        "y": 480,
+        "wires": [
+            [
+                "611c04b01413daa7",
+                "3dbdd07470fcf962",
+                "891553cd325b644e"
+            ]
+        ]
+    },
+    {
+        "id": "970fe623589bb304",
+        "type": "debug",
+        "z": "14c685bd04db8be5",
+        "name": "debug 66",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1040,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "93de561b59a417b8",
+        "type": "mqtt out",
+        "z": "14c685bd04db8be5",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "a973d821cae4ecce",
+        "x": 1190,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "611c04b01413daa7",
+        "type": "switch",
+        "z": "14c685bd04db8be5",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "imager/image",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 970,
+        "y": 520,
+        "wires": [
+            [
+                "93de561b59a417b8",
+                "4c30687e204ba7d7"
+            ]
+        ]
+    },
+    {
+        "id": "5d31d86812be386d",
+        "type": "function",
+        "z": "14c685bd04db8be5",
+        "name": "set acq_lightness_value",
+        "func": "global.set(\"acq_lightness_value\", msg.acq_lightness_value);\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1250,
+        "y": 460,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f1ee9cfdfa49fd62",
+        "type": "function",
+        "z": "14c685bd04db8be5",
+        "name": "get acq_lightness_value",
+        "func": "msg.acq_lightness_value = global.get(\"acq_lightness_value\");\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 400,
+        "wires": [
+            [
+                "42c95761adb5cd38"
+            ]
+        ]
+    },
+    {
+        "id": "55a5d26bd0e73ed4",
+        "type": "ui-event",
+        "z": "14c685bd04db8be5",
+        "ui": "e6ae26617c24c3ea",
+        "name": "",
+        "x": 100,
+        "y": 420,
+        "wires": [
+            [
+                "2579f5467cf5920b"
+            ]
+        ]
+    },
+    {
+        "id": "2579f5467cf5920b",
+        "type": "switch",
+        "z": "14c685bd04db8be5",
+        "name": "",
+        "property": "payload.page.path",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/calibration_lightness",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 110,
+        "y": 540,
+        "wires": [
+            [
+                "f1ee9cfdfa49fd62"
+            ]
+        ]
+    },
+    {
+        "id": "6a687638c091a876",
+        "type": "debug",
+        "z": "14c685bd04db8be5",
+        "name": "debug 67",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "3dbdd07470fcf962",
+        "type": "switch",
+        "z": "14c685bd04db8be5",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "neq",
+                "v": "$pageview",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 970,
+        "y": 460,
+        "wires": [
+            [
+                "5d31d86812be386d",
+                "970fe623589bb304",
+                "14b35bb2dd3f0c81"
+            ]
+        ]
+    },
+    {
+        "id": "14b35bb2dd3f0c81",
+        "type": "function",
+        "z": "14c685bd04db8be5",
+        "name": "set acq_wb_hex",
+        "func": "global.set(\"acq_wb_hex\", msg.acq_wb_hex);\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "42c95761adb5cd38",
+        "type": "function",
+        "z": "14c685bd04db8be5",
+        "name": "get acq_wb_hex",
+        "func": "msg.acq_wb_hex = global.get(\"acq_wb_hex\");\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 480,
+        "wires": [
+            [
+                "bcfea4e20bc583f1",
+                "6a687638c091a876"
+            ]
+        ]
+    },
+    {
+        "id": "09141e4c94cc7e9f",
+        "type": "function",
+        "z": "14c685bd04db8be5",
+        "name": "set acq_iso",
+        "func": "global.set(\"acq_iso\", msg.acq_iso);\n\nreturn msg;\n\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4c30687e204ba7d7",
+        "type": "change",
+        "z": "14c685bd04db8be5",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "acq_iso",
+                "pt": "msg",
+                "to": "payload.settings.iso",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1180,
+        "y": 760,
+        "wires": [
+            [
+                "09141e4c94cc7e9f"
+            ]
+        ]
+    },
+    {
+        "id": "891553cd325b644e",
+        "type": "debug",
+        "z": "14c685bd04db8be5",
+        "name": "debug 69",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "05a5a9c4530d07ea",
+        "type": "ui-template",
+        "z": "3afb1d2b21be9114",
+        "g": "da1cb3ed0c90bb56",
+        "group": "c966455a52d121c0",
+        "page": "",
+        "ui": "",
+        "name": "Step Bar",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div>\n    <v-stepper class=\"my-stepper\" model-value=\"1\" non-linear>\n      <v-stepper-header>\n        <v-stepper-item value=\"1\" editable @click=\"stepClicked(1)\">Saturation Level</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"2\" editable @click=\"stepClicked(2)\">Lightness</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"3\" editable @click=\"stepClicked(3)\" class=\"selected-step\">Pixel size</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"4\" editable @click=\"stepClicked(4)\">Pump</v-stepper-item>\n      </v-stepper-header>\n    </v-stepper>\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'StepperComponent',\n    methods: {\n      stepClicked(step) {\n        const stepMapping = {\n          1: { page: 'Calibration - Saturation Level' },\n          2: { page: 'Calibration - Lightness' },\n          3: { page: 'Calibration - Pixel size' },\n          4: { page: 'Calibration - Pump' }\n        };\n\n        const msgPayload = stepMapping[step] || {};\n        \n        this.send({ payload: msgPayload });\n      }\n    }\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "419cccaf23eb2548"
+            ]
+        ]
+    },
+    {
+        "id": "419cccaf23eb2548",
+        "type": "ui-control",
+        "z": "3afb1d2b21be9114",
+        "g": "da1cb3ed0c90bb56",
+        "name": "",
+        "ui": "e6ae26617c24c3ea",
+        "events": "all",
+        "x": 320,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5b95342353581bba",
+        "type": "ui-template",
+        "z": "3afb1d2b21be9114",
+        "g": "d7c2ea70e05a360f",
+        "group": "c9933f7d77fc6f01",
+        "page": "",
+        "ui": "",
+        "name": "Streaming",
+        "order": 1,
+        "width": "4",
+        "height": "6",
+        "head": "",
+        "format": "<template>\n  <div class=\"image-wrapper\">\n    <img :src=\"dynamicImageUrl\">\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      dynamicImageUrl: ''\n    };\n  },\n  mounted() {\n    this.setDynamicImageUrl();\n  },\n  methods: {\n    setDynamicImageUrl() {\n      const currentUrl = new URL(window.location.href);\n      const baseUrlWithoutPort = currentUrl.protocol + '//' + currentUrl.hostname;\n\n      const relativePath = '/ps/hal/camera/streams/preview.mjpg';\n      const fullUrl = new URL(relativePath, baseUrlWithoutPort);\n\n      this.dynamicImageUrl = fullUrl.href;\n    },\n  },\n};\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c5dfb3fbc57fe27d",
+        "type": "ui-template",
+        "z": "3afb1d2b21be9114",
+        "group": "",
+        "page": "aa9ba6cedf56d2cd",
+        "ui": "",
+        "name": "CSS (Single Page)",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "\n\n  .selected-step div.v-avatar.v-theme--nrdb.v-avatar--density-default.v-avatar--variant-flat.v-stepper-item__avatar {\n    background-color: #0a6eca;\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "page:style",
+        "className": "",
+        "x": 550,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4ba9c6fbd3e2ce88",
+        "type": "ui-template",
+        "z": "d5b2c64b84f8ed4f",
+        "group": "",
+        "page": "48216bc1f7c53a75",
+        "ui": "",
+        "name": "CSS (Single Page)",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "\n\n  .selected-step div.v-avatar.v-theme--nrdb.v-avatar--density-default.v-avatar--variant-flat.v-stepper-item__avatar {\n    background-color: #0a6eca;\n}",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "page:style",
+        "className": "",
+        "x": 550,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c92cd7e25b01278d",
+        "type": "ui-template",
+        "z": "d5b2c64b84f8ed4f",
+        "g": "0861054b07c3373d",
+        "group": "6039d653304537af",
+        "page": "",
+        "ui": "",
+        "name": "Step Bar",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <div>\n    <v-stepper class=\"my-stepper\" model-value=\"1\" non-linear>\n      <v-stepper-header>\n        <v-stepper-item value=\"1\" editable @click=\"stepClicked(1)\">Saturation Level</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"2\" editable @click=\"stepClicked(2)\">Lightness</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"3\" editable @click=\"stepClicked(3)\">Pixel size</v-stepper-item>\n        <v-divider></v-divider>\n        <v-stepper-item value=\"4\" editable @click=\"stepClicked(4)\" class=\"selected-step\">Pump</v-stepper-item>\n      </v-stepper-header>\n    </v-stepper>\n  </div>\n</template>\n\n<script>\n  export default {\n    name: 'StepperComponent',\n    methods: {\n      stepClicked(step) {\n        const stepMapping = {\n          1: { page: 'Calibration - Saturation Level' },\n          2: { page: 'Calibration - Lightness' },\n          3: { page: 'Calibration - Pixel size' },\n          4: { page: 'Calibration - Pump' }\n        };\n\n        const msgPayload = stepMapping[step] || {};\n        \n        this.send({ payload: msgPayload });\n      }\n    }\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 120,
+        "y": 60,
+        "wires": [
+            [
+                "f8db1578262f6bc8"
+            ]
+        ]
+    },
+    {
+        "id": "f8db1578262f6bc8",
+        "type": "ui-control",
+        "z": "d5b2c64b84f8ed4f",
+        "g": "0861054b07c3373d",
+        "name": "",
+        "ui": "e6ae26617c24c3ea",
+        "events": "all",
+        "x": 320,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71ba57a25304e08f",
+        "type": "ui-template",
+        "z": "d5b2c64b84f8ed4f",
+        "g": "508d01c8283ee722",
+        "group": "0c3ae4988f81c2ac",
+        "page": "",
+        "ui": "",
+        "name": "Streaming",
+        "order": 1,
+        "width": "4",
+        "height": "6",
+        "head": "",
+        "format": "<template>\n  <div class=\"image-wrapper\">\n    <img :src=\"dynamicImageUrl\">\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      dynamicImageUrl: ''\n    };\n  },\n  mounted() {\n    this.setDynamicImageUrl();\n  },\n  methods: {\n    setDynamicImageUrl() {\n      const currentUrl = new URL(window.location.href);\n      const baseUrlWithoutPort = currentUrl.protocol + '//' + currentUrl.hostname;\n\n      const relativePath = '/ps/hal/camera/streams/preview.mjpg';\n      const fullUrl = new URL(relativePath, baseUrlWithoutPort);\n\n      this.dynamicImageUrl = fullUrl.href;\n    },\n  },\n};\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            []
+        ]
     }
 ]
