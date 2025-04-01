@@ -1109,7 +1109,7 @@
         ],
         "showPathInSidebar": true,
         "showPageTitle": false,
-        "navigationStyle": "default",
+        "navigationStyle": "icon",
         "titleBarStyle": "hidden",
         "showReconnectNotification": true,
         "notificationDisplayTime": "1",
