@@ -93,7 +93,7 @@ To access the terminal of your PlanktoScope, you can use the Cockpit terminal [h
 Enter the following command (replace the email with your GitHub email address)
 
 ```sh
-$ ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location.
@@ -107,7 +107,7 @@ See also [Generating a new SSH key](https://docs.github.com/en/authentication/co
 Copy the newly created SSH public key on the PlanktoScope to your clipboard.
 
 ```sh
-$ cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
 ```
 
 If your SSH public key file has a different name than the example code, modify the filename to match your current setup. When copying your key, don't add any newlines or whitespace.
