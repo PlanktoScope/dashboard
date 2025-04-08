@@ -692,9 +692,9 @@
             "5f091b11b5c9fa40",
             "0650e037776b3d8a"
         ],
-        "x": 14,
+        "x": 24,
         "y": 739,
-        "w": 1812,
+        "w": 1802,
         "h": 522
     },
     {
@@ -2167,7 +2167,7 @@
         "name": "Controls",
         "ui": "e6ae26617c24c3ea",
         "path": "/controls",
-        "icon": "home",
+        "icon": "controller-classic",
         "layout": "grid",
         "theme": "2ad26e39f0bc37f6",
         "breakpoints": [
@@ -2231,7 +2231,7 @@
         "name": "Cron Experiment",
         "ui": "e6ae26617c24c3ea",
         "path": "/plots",
-        "icon": "home",
+        "icon": "sync",
         "layout": "grid",
         "theme": "2ad26e39f0bc37f6",
         "breakpoints": [
@@ -2357,9 +2357,31 @@
         "name": "Calibration - Lightness",
         "ui": "e6ae26617c24c3ea",
         "path": "/calibration_lightness",
-        "icon": "home",
+        "icon": "target-variant",
         "layout": "grid",
         "theme": "c0ea559892f9bd33",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
         "order": 8,
         "className": "",
         "visible": "true",
@@ -2477,9 +2499,31 @@
         "name": "Calibration - Saturation Level",
         "ui": "e6ae26617c24c3ea",
         "path": "/calibration_saturation_level",
-        "icon": "",
+        "icon": "target-variant",
         "layout": "grid",
         "theme": "c0ea559892f9bd33",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
         "order": 7,
         "className": "",
         "visible": "true",
