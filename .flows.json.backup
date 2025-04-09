@@ -15442,7 +15442,7 @@
         "type": "function",
         "z": "8555b76c53e789e0",
         "name": "Identifiants",
-        "func": "msg.payload = {\n  username: \"thibaut@fairscope.com\",\n  password: \"FuR9;iK4\"\n};\nmsg.headers = {\"Content-Type\": \"application/json\"};\nreturn msg;",
+        "func": "msg.payload = {\n  username: \"thibaut@fairscope.com\",\n  password: \"XXXXXX\"\n};\nmsg.headers = {\"Content-Type\": \"application/json\"};\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,

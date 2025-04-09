@@ -15269,8 +15269,8 @@
         "timer": "",
         "winHide": false,
         "oldrc": false,
-        "name": "Restart PlanktoScope",
-        "x": 620,
+        "name": "Purge data",
+        "x": 590,
         "y": 500,
         "wires": [
             [],
@@ -15416,7 +15416,9 @@
         "x": 100,
         "y": 60,
         "wires": [
-            []
+            [
+                "495e1733d60d5651"
+            ]
         ]
     },
     {
