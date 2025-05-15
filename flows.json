@@ -101,6 +101,14 @@
         "env": []
     },
     {
+        "id": "8018bd5586fd4054",
+        "type": "tab",
+        "label": "Calibration",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "83b2474231efac73",
         "type": "tab",
         "label": "Cron",
@@ -284,7 +292,7 @@
         ],
         "x": 34,
         "y": 599,
-        "w": 282,
+        "w": 292,
         "h": 122
     },
     {
@@ -578,9 +586,9 @@
             "5f091b11b5c9fa40",
             "0650e037776b3d8a"
         ],
-        "x": 24,
+        "x": 14,
         "y": 739,
-        "w": 1802,
+        "w": 1812,
         "h": 522
     },
     {
@@ -848,9 +856,9 @@
             "aad16ea9eae8d3dd",
             "97541b0d6dcf6747"
         ],
-        "x": 44,
+        "x": 34,
         "y": 219,
-        "w": 552,
+        "w": 562,
         "h": 122
     },
     {
@@ -941,25 +949,6 @@
         "showDisconnectNotification": true
     },
     {
-        "id": "acdf17df5536b1d3",
-        "type": "ui-theme",
-        "name": "FairScope Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094ce",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "10px",
-            "groupGap": "10px",
-            "groupBorderRadius": "0px",
-            "widgetGap": "10px"
-        }
-    },
-    {
         "id": "b9f88d899abc43e6",
         "type": "ui-page",
         "name": "Dev Kit",
@@ -967,7 +956,7 @@
         "path": "/devkit",
         "icon": "mdi-database-plus",
         "layout": "tabs",
-        "theme": "acdf17df5536b1d3",
+        "theme": "2ad26e39f0bc37f6",
         "breakpoints": [
             {
                 "name": "Default",
@@ -1129,7 +1118,7 @@
         "path": "/home",
         "icon": "home",
         "layout": "grid",
-        "theme": "acdf17df5536b1d3",
+        "theme": "2ad26e39f0bc37f6",
         "breakpoints": [
             {
                 "name": "Default",
@@ -1160,11 +1149,11 @@
     {
         "id": "713fd4c3b9030f45",
         "type": "ui-group",
-        "name": "main",
+        "name": "body",
         "page": "632260133d581caa",
         "width": "12",
         "height": "1",
-        "order": 1,
+        "order": 2,
         "showTitle": false,
         "className": "",
         "visible": "true",
@@ -1193,25 +1182,6 @@
         "willTopic": "",
         "willQos": "0",
         "willPayload": ""
-    },
-    {
-        "id": "6b9452e193fb07a6",
-        "type": "ui-theme",
-        "name": "Default Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094CE",
-            "bgPage": "#eeeeee",
-            "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
-        },
-        "sizes": {
-            "density": "default",
-            "pagePadding": "12px",
-            "groupGap": "12px",
-            "groupBorderRadius": "4px",
-            "widgetGap": "12px"
-        }
     },
     {
         "id": "55cfcc6ceb405689",
@@ -1933,18 +1903,18 @@
         "type": "ui-theme",
         "name": "Default Theme",
         "colors": {
-            "surface": "#ffffff",
-            "primary": "#0094CE",
-            "bgPage": "#eeeeee",
+            "surface": "#ff0000",
+            "primary": "#002aff",
+            "bgPage": "#ededed",
             "groupBg": "#ffffff",
-            "groupOutline": "#cccccc"
+            "groupOutline": "#949494"
         },
         "sizes": {
-            "density": "default",
+            "density": "compact",
             "pagePadding": "12px",
-            "groupGap": "12px",
+            "groupGap": "6px",
             "groupBorderRadius": "4px",
-            "widgetGap": "12px"
+            "widgetGap": "6px"
         }
     },
     {
@@ -2120,24 +2090,6 @@
         "className": ""
     },
     {
-        "id": "c0ea559892f9bd33",
-        "type": "ui-theme",
-        "name": "FairsSope Theme",
-        "colors": {
-            "surface": "#ffffff",
-            "primary": "#066fca",
-            "bgPage": "#f4f5f6",
-            "groupBg": "#f4f5f6",
-            "groupOutline": "#066fca"
-        },
-        "sizes": {
-            "pagePadding": "0px",
-            "groupGap": "0px",
-            "groupBorderRadius": "0px",
-            "widgetGap": "12px"
-        }
-    },
-    {
         "id": "f22f627015431032",
         "type": "ui-page",
         "name": "Calibration - Lightness",
@@ -2145,7 +2097,7 @@
         "path": "/calibration_lightness",
         "icon": "target-variant",
         "layout": "grid",
-        "theme": "c0ea559892f9bd33",
+        "theme": "2ad26e39f0bc37f6",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2168,9 +2120,9 @@
                 "cols": "12"
             }
         ],
-        "order": 6,
+        "order": 7,
         "className": "",
-        "visible": "true",
+        "visible": "false",
         "disabled": "false"
     },
     {
@@ -2207,7 +2159,7 @@
         "path": "/calibration_pixel_size",
         "icon": "target-variant",
         "layout": "grid",
-        "theme": "c0ea559892f9bd33",
+        "theme": "2ad26e39f0bc37f6",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2230,9 +2182,9 @@
                 "cols": "12"
             }
         ],
-        "order": 7,
+        "order": 8,
         "className": "",
-        "visible": "true",
+        "visible": "false",
         "disabled": "false"
     },
     {
@@ -2269,7 +2221,7 @@
         "path": "/calibration_pump",
         "icon": "target-variant",
         "layout": "grid",
-        "theme": "c0ea559892f9bd33",
+        "theme": "2ad26e39f0bc37f6",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2292,9 +2244,9 @@
                 "cols": "12"
             }
         ],
-        "order": 8,
+        "order": 9,
         "className": "",
-        "visible": "true",
+        "visible": "false",
         "disabled": "false"
     },
     {
@@ -2331,7 +2283,69 @@
         "path": "/calibration_saturation_level",
         "icon": "target-variant",
         "layout": "grid",
-        "theme": "c0ea559892f9bd33",
+        "theme": "2ad26e39f0bc37f6",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 6,
+        "className": "",
+        "visible": "false",
+        "disabled": "false"
+    },
+    {
+        "id": "297b9a8eaa0287e2",
+        "type": "ui-group",
+        "name": "Preview",
+        "page": "803aa402d5c66b73",
+        "width": "4",
+        "height": "6",
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "af8acdfe9afbad74",
+        "type": "ui-group",
+        "name": "Settings",
+        "page": "803aa402d5c66b73",
+        "width": "8",
+        "height": "8",
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "f8dd620721c6d70b",
+        "type": "ui-page",
+        "name": "Calibration",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/calibration",
+        "icon": "mdi-tune",
+        "layout": "grid",
+        "theme": "2ad26e39f0bc37f6",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2360,30 +2374,102 @@
         "disabled": "false"
     },
     {
-        "id": "297b9a8eaa0287e2",
+        "id": "c29c835a70533b69",
         "type": "ui-group",
-        "name": "Preview",
-        "page": "803aa402d5c66b73",
-        "width": "4",
-        "height": "6",
+        "name": "header",
+        "page": "f8dd620721c6d70b",
+        "width": "12",
+        "height": 1,
         "order": 1,
         "showTitle": false,
         "className": "",
         "visible": "true",
-        "disabled": "false"
+        "disabled": "false",
+        "groupType": "default"
     },
     {
-        "id": "af8acdfe9afbad74",
+        "id": "896524155233e2ed",
         "type": "ui-group",
-        "name": "Settings",
-        "page": "803aa402d5c66b73",
-        "width": "8",
-        "height": "8",
+        "name": "footer",
+        "page": "f8dd620721c6d70b",
+        "width": "12",
+        "height": 1,
+        "order": 4,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "822cdc5b6ef13f39",
+        "type": "ui-group",
+        "name": "body",
+        "page": "f8dd620721c6d70b",
+        "width": "12",
+        "height": 1,
         "order": 2,
         "showTitle": false,
         "className": "",
         "visible": "true",
-        "disabled": "false"
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "51c3afdaa8de27c7",
+        "type": "ui-group",
+        "name": "links",
+        "page": "f8dd620721c6d70b",
+        "width": "12",
+        "height": 1,
+        "order": 3,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5d39a98563150f22",
+        "type": "ui-group",
+        "name": "header",
+        "page": "632260133d581caa",
+        "width": "12",
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "cf3554d2bdb02f22",
+        "type": "ui-group",
+        "name": "links",
+        "page": "632260133d581caa",
+        "width": "12",
+        "height": 1,
+        "order": 3,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "12a5b593fef67597",
+        "type": "ui-group",
+        "name": "footer",
+        "page": "632260133d581caa",
+        "width": "12",
+        "height": 1,
+        "order": 4,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
     },
     {
         "id": "82099021.9ceb08",
@@ -12515,10 +12601,10 @@
         "ui": "",
         "name": "body",
         "order": 1,
-        "width": 0,
-        "height": 0,
+        "width": "12",
+        "height": "1",
         "head": "",
-        "format": "<template>\n  <v-empty-state\n    headline=\"Welcome on the PlanktoScope GUI,\"\n    icon=\"$vuetify\"\n    title=\"What would you like to do today?\"\n  >\n    <v-container>\n      <v-row>\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n      </v-row>\n      <v-row>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Model of your machine\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card\n            href=\"\"\n            target=\"_blank\"\n            prepend-icon=\"mdi-microscope\"\n            title=\"Launch the preview\"\n            text=\"Check if you can see anything.\"\n          ></v-card>\n        </v-col>\n      </v-row>\n    </v-container>\n    <v-row justify=\"center\" class=\"my-2\">\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://www.figma.com/design/KXH3qkalr7eeFbyGsutZKt/PlanktoScope-Dashboard-v2?node-id=6-2&m=dev&t=Nn2N1o9OJveQCSco-1\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"primary\" class=\"mr-1\">mdi-image</v-icon>Figma Design\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues/new?template=bug_report.md\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"red\" class=\"mr-1\">mdi-bug</v-icon>Report a Bug\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"orange\" class=\"mr-1\">mdi-information-outline</v-icon>Open\n        issues\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"black\" class=\"mr-1\">mdi-github</v-icon>View on GitHub\n      </v-chip>\n    </v-row>\n  </v-empty-state>\n</template>\n",
+        "format": "<template>\n  <v-empty-state>\n    <v-container>\n      <v-row>\n        <!-- First Row: Larger cards with icon centered above title -->\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"https://vuetifyjs.com/introduction/why-vuetify/#feature-guides\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-eye</v-icon>\n            <v-card-title class=\"text-h6\">Launch the Preview</v-card-title>\n            <v-card-text>Access a real-time, high-resolution preview to inspect the contents of your current water sample.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"#\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-play-circle</v-icon>\n            <v-card-title class=\"text-h6\">Start Acquisition</v-card-title>\n            <v-card-text>Start a new acquisition process to continuously collect images and metadata from your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"#\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-database-search</v-icon>\n            <v-card-title class=\"text-h6\">Explore Your Data</v-card-title>\n            <v-card-text>Open the data explorer to review, categorize, and interpret all previously captured sample information.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n\n      <!-- Second Row: Standard size cards -->\n      <v-row>\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"http://pkscope-rich-kettle-10463.local/ps/docs/operation/protocol-v4.pdf\"\n            target=\"_blank\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-book-open-variant</v-icon>\n              Learn the Basics\n            </v-card-title>\n            <v-card-text>Find detailed instructions on using your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"http://pkscope-rich-kettle-10463.local/admin/grafana/d/host-summary/host-summary?orgId=1&from=now-5m&to=now&timezone=browser&var-DS_PROMETHEUS=PBFA97CFB590B2093&var-job=node-exporter&var-node=host.docker.internal:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B&refresh=5s\"\n            target=\"_blank\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-speedometer</v-icon>\n              Monitoring\n            </v-card-title>\n            <v-card-text>Keep track of system status and performance metrics.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"calibration\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-tune</v-icon>\n              Calibration\n            </v-card-title>\n            <v-card-text>Adjust and verify settings for consistent results.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-empty-state>\n</template>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -12534,11 +12620,11 @@
         "id": "1cf1b20e425ec126",
         "type": "ui-template",
         "z": "1b667c6443413ced",
-        "group": "713fd4c3b9030f45",
+        "group": "12a5b593fef67597",
         "page": "",
         "ui": "",
         "name": "footer",
-        "order": 2,
+        "order": 1,
         "width": 0,
         "height": 0,
         "head": "",
@@ -12549,31 +12635,55 @@
         "templateScope": "local",
         "className": "",
         "x": 350,
-        "y": 260,
+        "y": 300,
         "wires": [
             []
         ]
     },
     {
-        "id": "95e20345b1a7a05f",
+        "id": "cd5cd3a0277b8dba",
         "type": "ui-template",
         "z": "1b667c6443413ced",
-        "group": "713fd4c3b9030f45",
+        "group": "5d39a98563150f22",
         "page": "",
         "ui": "",
-        "name": "toolbar",
-        "order": 3,
-        "width": "12",
-        "height": "1",
+        "name": "header",
+        "order": 1,
+        "width": 0,
+        "height": 0,
         "head": "",
-        "format": "<template>\n  <v-app>\n    <v-app-bar color=\"primary\" prominent>\n      <v-app-bar-nav-icon\n        variant=\"text\"\n        @click.stop=\"drawer = !drawer\"\n      ></v-app-bar-nav-icon>\n\n      <v-toolbar-title>My files</v-toolbar-title>\n\n      <v-spacer></v-spacer>\n\n      <template v-if=\"$vuetify.display.mdAndUp\">\n        <v-btn icon=\"mdi-magnify\" variant=\"text\"></v-btn>\n        <v-btn icon=\"mdi-filter\" variant=\"text\"></v-btn>\n      </template>\n\n      <v-btn icon=\"mdi-dots-vertical\" variant=\"text\"></v-btn>\n    </v-app-bar>\n\n    <!-- Navigation Drawer -->\n    <v-navigation-drawer\n      v-model=\"drawer\"\n      absolute\n      temporary\n      class=\"custom-drawer\"\n    >\n      <v-list :items=\"items\"></v-list>\n    </v-navigation-drawer>\n\n  </v-app>\n</template>\n\n<script>\n  export default {\n    data: () => ({\n      drawer: false,\n      items: [\n        { title: 'Foo', value: 'foo' },\n        { title: 'Bar', value: 'bar' },\n        { title: 'Fizz', value: 'fizz' },\n        { title: 'Buzz', value: 'buzz' },\n      ],\n    }),\n  }\n</script>\n\n<style scoped>\n  .custom-drawer {\n    position: absolute;\n    top: 64px; /* Ajustez selon la hauteur de la v-app-bar */\n    left: 0;\n    width: 300px; /* Largeur du drawer */\n    z-index: 2000; /* Pour s'assurer que le drawer est au-dessus des autres éléments */\n    background-color: white; /* Fond du drawer */\n  }\n</style>\n",
+        "format": "<template>\n  <v-empty-state\n    headline=\"Welcome on the PlanktoScope GUI,\"\n    icon=\"$vuetify\"\n    title=\"What would you like to do today?\"\n  >\n  </v-empty-state>\n</template>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 360,
+        "x": 350,
         "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f9058a8a58084207",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "cf3554d2bdb02f22",
+        "page": "",
+        "ui": "",
+        "name": "links",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-row justify=\"center\" class=\"my-2\">\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://www.figma.com/design/KXH3qkalr7eeFbyGsutZKt/PlanktoScope-Dashboard-v2?node-id=6-2&m=dev&t=Nn2N1o9OJveQCSco-1\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"primary\" class=\"mr-1\">mdi-image</v-icon>Figma Design\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues/new?template=bug_report.md\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"red\" class=\"mr-1\">mdi-bug</v-icon>Report a Bug\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"orange\" class=\"mr-1\">mdi-information-outline</v-icon>Open\n        issues\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"black\" class=\"mr-1\">mdi-github</v-icon>View on GitHub\n      </v-chip>\n    </v-row>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 350,
+        "y": 260,
         "wires": [
             []
         ]
@@ -14200,6 +14310,102 @@
         ]
     },
     {
+        "id": "8e11bb014b9664be",
+        "type": "ui-template",
+        "z": "8018bd5586fd4054",
+        "group": "822cdc5b6ef13f39",
+        "page": "",
+        "ui": "",
+        "name": "body",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-container>\n    <v-row>\n      <!-- Step 1: White Balance -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_saturation_level\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-eyedropper-variant</v-icon>\n          <v-card-title class=\"text-h6\">White Balance</v-card-title>\n          <v-card-text>\n            Use the color picker to measure the current color values and adjust the white balance accordingly.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 2: Lightness -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_lightness\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-brightness-6</v-icon>\n          <v-card-title class=\"text-h6\">Lightness</v-card-title>\n          <v-card-text>\n            Measure the current lightness value and update the LED intensity or ISO if below optimal levels.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 3: Pixel Size -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_pixel_size\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-ruler</v-icon>\n          <v-card-title class=\"text-h6\">Pixel Size</v-card-title>\n          <v-card-text>\n            Place markers on the micrometric ruler image to calculate the pixel size in microns per pixel.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 4: Pump Calibration -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_pump\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-water-pump</v-icon>\n          <v-card-title class=\"text-h6\">Pump Calibration</v-card-title>\n          <v-card-text>\n            Measure the transferred volume and adjust pump steps to improve accuracy in fluid handling.\n          </v-card-text>\n        </v-card>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65c11a088942faf2",
+        "type": "ui-template",
+        "z": "8018bd5586fd4054",
+        "group": "896524155233e2ed",
+        "page": "",
+        "ui": "",
+        "name": "footer",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-footer class=\"pa-0\" color=\"grey-darken-4\">\n    <v-container>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">PlanktoScope</h4>\n          <p class=\"text-grey-lighten-1\">\n            Open and Affordable Quantitative Imaging Platform.\n          </p>\n        </v-col>\n      </v-row>\n      <v-divider class=\"my-3\"></v-divider>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">Thanks to:</h4>\n          <p class=\"text-grey-lighten-1\">\n            <v-chip\n              v-for=\"contributor in contributors\"\n              :key=\"contributor.id\"\n              class=\"mx-2\"\n              small\n              outlined\n            >\n              <v-avatar left>\n                <img :src=\"contributor.avatar_url\" :alt=\"contributor.login\" />\n              </v-avatar>\n              <a\n                :href=\"contributor.html_url\"\n                target=\"_blank\"\n                class=\"text-decoration-none text-grey-lighten-1\"\n              >\n                {{ contributor.login }}\n              </a>\n            </v-chip>\n          </p>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-footer>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        contributors: [], // Array to hold contributors' data\n      }\n    },\n    mounted() {\n      this.fetchContributors()\n    },\n    methods: {\n      async fetchContributors() {\n        try {\n          const response = await fetch(\n            'https://api.github.com/orgs/PlanktoScope/people'\n          )\n          if (response.ok) {\n            this.contributors = await response.json()\n          } else {\n            console.error('Failed to fetch contributors')\n          }\n        } catch (error) {\n          console.error('Error fetching contributors:', error)\n        }\n      },\n    },\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35d8e8e4b1e0ef7d",
+        "type": "ui-template",
+        "z": "8018bd5586fd4054",
+        "group": "c29c835a70533b69",
+        "page": "",
+        "ui": "",
+        "name": "header",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-empty-state\n    headline=\"Calibration steps\"\n    icon=\"$vuetify\"\n    title=\"Follow these steps to ensure optimal image quality and measurement accuracy\"\n  >\n  </v-empty-state>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "590ff706a46acf3a",
+        "type": "ui-template",
+        "z": "8018bd5586fd4054",
+        "group": "51c3afdaa8de27c7",
+        "page": "",
+        "ui": "",
+        "name": "links",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-row justify=\"center\" class=\"my-2\">\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://www.figma.com/design/KXH3qkalr7eeFbyGsutZKt/PlanktoScope-Dashboard-v2?node-id=6-2&m=dev&t=Nn2N1o9OJveQCSco-1\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"primary\" class=\"mr-1\">mdi-image</v-icon>Figma Design\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues/new?template=bug_report.md\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"red\" class=\"mr-1\">mdi-bug</v-icon>Report a Bug\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"orange\" class=\"mr-1\">mdi-information-outline</v-icon>Open\n        issues\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"black\" class=\"mr-1\">mdi-github</v-icon>View on GitHub\n      </v-chip>\n    </v-row>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "495e1733d60d5651",
         "type": "switch",
         "z": "83b2474231efac73",
@@ -14611,7 +14817,7 @@
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<template>\n    <div class=\"clock-container\">\n        <canvas ref=\"clockCanvas\"></canvas>\n        <div class=\"legend\">\n            <div v-for=\"event in events\" :key=\"event.label\" class=\"legend-item\">\n                <span :style=\"{ backgroundColor: event.color }\" class=\"color-box\"></span>\n                {{ event.label }}\n            </div>\n        </div>\n    </div>\n</template>\n\n<script>\nexport default {\n    data() {\n        return {\n            events: [\n                { start: 35, end: 36, label: \"Pump dead volume\", color: \"rgba(255, 0, 0, 0.3)\" },\n                { start: 36, end: 40, label: \"Acquisition\", color: \"rgba(0, 255, 0, 0.3)\" },\n                { start: 45, end: 8, label: \"Segmentation\", color: \"rgba(0, 0, 255, 0.3)\" },\n                { start: 18, end: 19, label: \"Purge data\", color: \"rgba(255, 0, 0, 0.3)\" },\n                { start: 20, end: 21, label: \"Restart PlanktoScope\", color: \"rgba(255, 255, 0, 0.3)\" },\n                { start: 25, end: 26, label: \"Restart segmenter\", color: \"rgba(255, 0, 255, 0.3)\" },\n                { start: 30, end: 31, label: \"Restart hardware controller\", color: \"rgba(0, 255, 255, 0.3)\" }\n            ],\n            currentMinute: null,\n            clockRadius: 100\n        };\n    },\n    mounted() {\n        this.updateClock();\n        setInterval(this.updateClock, 1000);\n    },\n    methods: {\n        updateClock() {\n            const now = new Date();\n            this.currentMinute = now.getMinutes() + now.getSeconds() / 60;\n            this.drawClock();\n        },\n        drawClock() {\n            const canvas = this.$refs.clockCanvas;\n            const ctx = canvas.getContext(\"2d\");\n            const size = this.clockRadius * 2;\n            canvas.width = size;\n            canvas.height = size;\n            ctx.clearRect(0, 0, size, size);\n            ctx.translate(this.clockRadius, this.clockRadius);\n\n            // Draw circle\n            ctx.beginPath();\n            ctx.arc(0, 0, this.clockRadius, 0, 2 * Math.PI);\n            ctx.stroke();\n\n            // Draw minute marks\n            for (let i = 0; i < 60; i += 10) {\n                const angle = (i / 60) * 2 * Math.PI - Math.PI / 2;\n                const x1 = Math.cos(angle) * (this.clockRadius - 5);\n                const y1 = Math.sin(angle) * (this.clockRadius - 5);\n                const x2 = Math.cos(angle) * (this.clockRadius - 15);\n                const y2 = Math.sin(angle) * (this.clockRadius - 15);\n                ctx.strokeStyle = \"black\";\n                ctx.lineWidth = 2;\n                ctx.beginPath();\n                ctx.moveTo(x1, y1);\n                ctx.lineTo(x2, y2);\n                ctx.stroke();\n            }\n\n            // Draw event periods with colors\n            this.events.forEach(event => {\n                let startAngle = (event.start / 60) * 2 * Math.PI - Math.PI / 2;\n                let endAngle = (event.end / 60) * 2 * Math.PI - Math.PI / 2;\n                ctx.fillStyle = event.color;\n                ctx.beginPath();\n                ctx.moveTo(0, 0);\n                ctx.arc(0, 0, this.clockRadius - 10, startAngle, endAngle);\n                ctx.lineTo(0, 0);\n                ctx.fill();\n            });\n\n            // Draw current time hand\n            const angle = (this.currentMinute / 60) * 2 * Math.PI - Math.PI / 2;\n            const x = Math.cos(angle) * (this.clockRadius - 15);\n            const y = Math.sin(angle) * (this.clockRadius - 15);\n            ctx.strokeStyle = \"black\";\n            ctx.lineWidth = 2;\n            ctx.beginPath();\n            ctx.moveTo(0, 0);\n            ctx.lineTo(x, y);\n            ctx.stroke();\n        }\n    }\n};\n</script>\n\n<style scoped>\n.clock-container {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\ncanvas {\n    margin-right: 20px;\n}\n\n.legend {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n}\n\n.legend-item {\n    display: flex;\n    align-items: center;\n    margin: 5px 0;\n}\n\n.color-box {\n    width: 15px;\n    height: 15px;\n    margin-right: 5px;\n    border-radius: 3px;\n}\n</style>\n",
+        "format": "<template>\n    <div class=\"clock-container\">\n        <canvas ref=\"clockCanvas\"></canvas>\n        <div class=\"legend\">\n            <div v-for=\"event in events\" :key=\"event.label\" class=\"legend-item\">\n                <span :style=\"{ backgroundColor: event.color }\" class=\"color-box\"></span>\n                {{ event.label }}\n            </div>\n        </div>\n    </div>\n</template>\n\n<script>\nexport default {\n    data() {\n        return {\n            events: [\n                { start: 35, end: 36, label: \"Pump dead volume\", color: \"rgba(255, 0, 0, 0.3)\" },\n                { start: 36, end: 40, label: \"Acquisition\", color: \"rgba(0, 255, 0, 0.3)\" },\n                { start: 45, end: 8, label: \"Segmentation\", color: \"rgba(0, 0, 255, 0.3)\" },\n                { start: 18, end: 19, label: \"Purge data\", color: \"rgba(255, 0, 0, 0.3)\" },\n                { start: 34, end: 35, label: \"Agitation\", color: \"rgba(255, 255, 0, 0.3)\" },\n                { start: 25, end: 26, label: \"Restart segmenter\", color: \"rgba(255, 0, 255, 0.3)\" },\n                { start: 30, end: 31, label: \"Restart hardware controller\", color: \"rgba(0, 255, 255, 0.3)\" }\n            ],\n            currentMinute: null,\n            clockRadius: 100\n        };\n    },\n    mounted() {\n        this.updateClock();\n        setInterval(this.updateClock, 1000);\n    },\n    methods: {\n        updateClock() {\n            const now = new Date();\n            this.currentMinute = now.getMinutes() + now.getSeconds() / 60;\n            this.drawClock();\n        },\n        drawClock() {\n            const canvas = this.$refs.clockCanvas;\n            const ctx = canvas.getContext(\"2d\");\n            const size = this.clockRadius * 2;\n            canvas.width = size;\n            canvas.height = size;\n            ctx.clearRect(0, 0, size, size);\n            ctx.translate(this.clockRadius, this.clockRadius);\n\n            // Draw circle\n            ctx.beginPath();\n            ctx.arc(0, 0, this.clockRadius, 0, 2 * Math.PI);\n            ctx.stroke();\n\n            // Draw minute marks\n            for (let i = 0; i < 60; i += 10) {\n                const angle = (i / 60) * 2 * Math.PI - Math.PI / 2;\n                const x1 = Math.cos(angle) * (this.clockRadius - 5);\n                const y1 = Math.sin(angle) * (this.clockRadius - 5);\n                const x2 = Math.cos(angle) * (this.clockRadius - 15);\n                const y2 = Math.sin(angle) * (this.clockRadius - 15);\n                ctx.strokeStyle = \"black\";\n                ctx.lineWidth = 2;\n                ctx.beginPath();\n                ctx.moveTo(x1, y1);\n                ctx.lineTo(x2, y2);\n                ctx.stroke();\n            }\n\n            // Draw event periods with colors\n            this.events.forEach(event => {\n                let startAngle = (event.start / 60) * 2 * Math.PI - Math.PI / 2;\n                let endAngle = (event.end / 60) * 2 * Math.PI - Math.PI / 2;\n                ctx.fillStyle = event.color;\n                ctx.beginPath();\n                ctx.moveTo(0, 0);\n                ctx.arc(0, 0, this.clockRadius - 10, startAngle, endAngle);\n                ctx.lineTo(0, 0);\n                ctx.fill();\n            });\n\n            // Draw current time hand\n            const angle = (this.currentMinute / 60) * 2 * Math.PI - Math.PI / 2;\n            const x = Math.cos(angle) * (this.clockRadius - 15);\n            const y = Math.sin(angle) * (this.clockRadius - 15);\n            ctx.strokeStyle = \"black\";\n            ctx.lineWidth = 2;\n            ctx.beginPath();\n            ctx.moveTo(0, 0);\n            ctx.lineTo(x, y);\n            ctx.stroke();\n        }\n    }\n};\n</script>\n\n<style scoped>\n.clock-container {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\ncanvas {\n    margin-right: 20px;\n}\n\n.legend {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n}\n\n.legend-item {\n    display: flex;\n    align-items: center;\n    margin: 5px 0;\n}\n\n.color-box {\n    width: 15px;\n    height: 15px;\n    margin-right: 5px;\n    border-radius: 3px;\n}\n</style>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -15416,9 +15622,7 @@
         "x": 100,
         "y": 60,
         "wires": [
-            [
-                "495e1733d60d5651"
-            ]
+            []
         ]
     },
     {
