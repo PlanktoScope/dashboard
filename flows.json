@@ -85,6 +85,22 @@
         "env": []
     },
     {
+        "id": "ab58b3fd0e6bcd77",
+        "type": "tab",
+        "label": "Preview",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "35d7387466dd0bc0",
+        "type": "tab",
+        "label": "Acquisition",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "ae92a0a869ca847f",
         "type": "tab",
         "label": "Dev Kit",
@@ -101,14 +117,6 @@
         "env": []
     },
     {
-        "id": "8018bd5586fd4054",
-        "type": "tab",
-        "label": "Calibration",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
         "id": "83b2474231efac73",
         "type": "tab",
         "label": "Cron",
@@ -120,6 +128,14 @@
         "id": "8555b76c53e789e0",
         "type": "tab",
         "label": "EcoTaxa API",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8018bd5586fd4054",
+        "type": "tab",
+        "label": "Calibration",
         "disabled": false,
         "info": "",
         "env": []
@@ -152,6 +168,14 @@
         "id": "d5b2c64b84f8ed4f",
         "type": "tab",
         "label": "Calibration - Pump",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "790542fce70aced2",
+        "type": "tab",
+        "label": "Flow 4",
         "disabled": false,
         "info": "",
         "env": []
@@ -931,6 +955,147 @@
         "h": 122
     },
     {
+        "id": "6452e42f1093802f",
+        "type": "group",
+        "z": "ab58b3fd0e6bcd77",
+        "name": "Streaming",
+        "style": {
+            "label": true,
+            "color": "#999999"
+        },
+        "nodes": [
+            "a57a165cd0ce511b"
+        ],
+        "x": 214,
+        "y": 79,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "95995126a74c9462",
+        "type": "group",
+        "z": "ab58b3fd0e6bcd77",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "8c0dc4c89ed361a0",
+            "2086dfa80d223fa1",
+            "b1ecc016686e9ee1",
+            "4bfcd454871ad31f",
+            "67f7306457146d1e",
+            "f9e9ad7833e9a58f",
+            "9ac3e94f1761de24",
+            "a3c000cc3bbf29a6"
+        ],
+        "x": 214,
+        "y": 179,
+        "w": 832,
+        "h": 202
+    },
+    {
+        "id": "8af1a61ad0c81034",
+        "type": "group",
+        "z": "ab58b3fd0e6bcd77",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "2c7673b6e71f6d69",
+            "8fc647cac4bd8cfd",
+            "6d0408bb7ca6e5f3",
+            "4046a6cbc91ff6ef",
+            "d04fdf594224f8af",
+            "44535e88555d470c",
+            "d7ca56746e08f158"
+        ],
+        "x": 214,
+        "y": 399,
+        "w": 832,
+        "h": 162
+    },
+    {
+        "id": "e2895c2cd3e0bf12",
+        "type": "group",
+        "z": "ab58b3fd0e6bcd77",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4829dc3c55043962",
+            "902d28823a121972",
+            "f57da16317e29f43",
+            "7c3d1bc040ed697e",
+            "ad265a65cffbe1e9",
+            "b07dcf11598a423f"
+        ],
+        "x": 214,
+        "y": 579,
+        "w": 832,
+        "h": 162
+    },
+    {
+        "id": "4b86185ad4a4ade1",
+        "type": "group",
+        "z": "35d7387466dd0bc0",
+        "name": "Streaming",
+        "style": {
+            "label": true,
+            "color": "#999999"
+        },
+        "nodes": [
+            "ffe728d961068c62"
+        ],
+        "x": 114,
+        "y": 99,
+        "w": 192,
+        "h": 82
+    },
+    {
+        "id": "e8ba2d3274c7e963",
+        "type": "group",
+        "z": "35d7387466dd0bc0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "7630af38d8e62254",
+            "b3987ca157e030f6",
+            "c1d6882488c0b3ac",
+            "dde296786a762acb",
+            "c2a5d606a7746106",
+            "aa6924c7e0aff26c"
+        ],
+        "x": 114,
+        "y": 199,
+        "w": 832,
+        "h": 142
+    },
+    {
         "id": "e6ae26617c24c3ea",
         "type": "ui-base",
         "name": "My Dashboard",
@@ -979,7 +1144,7 @@
                 "cols": "12"
             }
         ],
-        "order": 2,
+        "order": 4,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -1143,8 +1308,8 @@
         ],
         "order": 1,
         "className": "",
-        "visible": "true",
-        "disabled": "false"
+        "visible": true,
+        "disabled": false
     },
     {
         "id": "713fd4c3b9030f45",
@@ -1903,15 +2068,15 @@
         "type": "ui-theme",
         "name": "Default Theme",
         "colors": {
-            "surface": "#ff0000",
-            "primary": "#002aff",
+            "surface": "#000000",
+            "primary": "#6600ff",
             "bgPage": "#ededed",
             "groupBg": "#ffffff",
             "groupOutline": "#949494"
         },
         "sizes": {
             "density": "compact",
-            "pagePadding": "12px",
+            "pagePadding": "6px",
             "groupGap": "6px",
             "groupBorderRadius": "4px",
             "widgetGap": "6px"
@@ -1948,7 +2113,7 @@
                 "cols": "12"
             }
         ],
-        "order": 3,
+        "order": 5,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2012,7 +2177,7 @@
                 "cols": "12"
             }
         ],
-        "order": 4,
+        "order": 6,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2120,7 +2285,7 @@
                 "cols": "12"
             }
         ],
-        "order": 7,
+        "order": 9,
         "className": "",
         "visible": "false",
         "disabled": "false"
@@ -2182,7 +2347,7 @@
                 "cols": "12"
             }
         ],
-        "order": 8,
+        "order": 10,
         "className": "",
         "visible": "false",
         "disabled": "false"
@@ -2244,7 +2409,7 @@
                 "cols": "12"
             }
         ],
-        "order": 9,
+        "order": 11,
         "className": "",
         "visible": "false",
         "disabled": "false"
@@ -2306,7 +2471,7 @@
                 "cols": "12"
             }
         ],
-        "order": 6,
+        "order": 8,
         "className": "",
         "visible": "false",
         "disabled": "false"
@@ -2322,7 +2487,8 @@
         "showTitle": false,
         "className": "",
         "visible": "true",
-        "disabled": "false"
+        "disabled": "false",
+        "groupType": "default"
     },
     {
         "id": "af8acdfe9afbad74",
@@ -2368,7 +2534,7 @@
                 "cols": "12"
             }
         ],
-        "order": 5,
+        "order": 7,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2394,7 +2560,7 @@
         "page": "f8dd620721c6d70b",
         "width": "12",
         "height": 1,
-        "order": 4,
+        "order": 3,
         "showTitle": false,
         "className": "",
         "visible": "true",
@@ -2409,20 +2575,6 @@
         "width": "12",
         "height": 1,
         "order": 2,
-        "showTitle": false,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "51c3afdaa8de27c7",
-        "type": "ui-group",
-        "name": "links",
-        "page": "f8dd620721c6d70b",
-        "width": "12",
-        "height": 1,
-        "order": 3,
         "showTitle": false,
         "className": "",
         "visible": "true",
@@ -2465,6 +2617,148 @@
         "width": "12",
         "height": 1,
         "order": 4,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "518a4242f548c1f2",
+        "type": "ui-group",
+        "name": "links",
+        "page": "f8dd620721c6d70b",
+        "width": "12",
+        "height": 1,
+        "order": 4,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "bcc78241b99ba27f",
+        "type": "ui-page",
+        "name": "Preview",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/preview",
+        "icon": "mdi-eye",
+        "layout": "grid",
+        "theme": "2ad26e39f0bc37f6",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "58ab4d5e3dd68192",
+        "type": "ui-group",
+        "name": "Streaming",
+        "page": "bcc78241b99ba27f",
+        "width": "6",
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "39cbd2658f16d608",
+        "type": "ui-group",
+        "name": "Controls",
+        "page": "bcc78241b99ba27f",
+        "width": "6",
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5c3e73c675caac42",
+        "type": "ui-page",
+        "name": "Acquisition",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/acquisition",
+        "icon": "mdi-play-circle",
+        "layout": "grid",
+        "theme": "2ad26e39f0bc37f6",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "b274327af3807b79",
+        "type": "ui-group",
+        "name": "Streaming",
+        "page": "5c3e73c675caac42",
+        "width": "6",
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "d2f77573ed4317e4",
+        "type": "ui-group",
+        "name": "Controls",
+        "page": "5c3e73c675caac42",
+        "width": 6,
+        "height": 1,
+        "order": 2,
         "showTitle": false,
         "className": "",
         "visible": "true",
@@ -12604,7 +12898,7 @@
         "width": "12",
         "height": "1",
         "head": "",
-        "format": "<template>\n  <v-empty-state>\n    <v-container>\n      <v-row>\n        <!-- First Row: Larger cards with icon centered above title -->\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"https://vuetifyjs.com/introduction/why-vuetify/#feature-guides\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-eye</v-icon>\n            <v-card-title class=\"text-h6\">Launch the Preview</v-card-title>\n            <v-card-text>Access a real-time, high-resolution preview to inspect the contents of your current water sample.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"#\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-play-circle</v-icon>\n            <v-card-title class=\"text-h6\">Start Acquisition</v-card-title>\n            <v-card-text>Start a new acquisition process to continuously collect images and metadata from your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"#\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-database-search</v-icon>\n            <v-card-title class=\"text-h6\">Explore Your Data</v-card-title>\n            <v-card-text>Open the data explorer to review, categorize, and interpret all previously captured sample information.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n\n      <!-- Second Row: Standard size cards -->\n      <v-row>\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"http://pkscope-rich-kettle-10463.local/ps/docs/operation/protocol-v4.pdf\"\n            target=\"_blank\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-book-open-variant</v-icon>\n              Learn the Basics\n            </v-card-title>\n            <v-card-text>Find detailed instructions on using your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"http://pkscope-rich-kettle-10463.local/admin/grafana/d/host-summary/host-summary?orgId=1&from=now-5m&to=now&timezone=browser&var-DS_PROMETHEUS=PBFA97CFB590B2093&var-job=node-exporter&var-node=host.docker.internal:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B&refresh=5s\"\n            target=\"_blank\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-speedometer</v-icon>\n              Monitoring\n            </v-card-title>\n            <v-card-text>Keep track of system status and performance metrics.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"calibration\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-tune</v-icon>\n              Calibration\n            </v-card-title>\n            <v-card-text>Adjust and verify settings for consistent results.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-empty-state>\n</template>\n",
+        "format": "<template>\n  <v-empty-state>\n    <v-container>\n      <v-row>\n        <!-- First Row: Larger cards with icon centered above title -->\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"preview\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-eye</v-icon>\n            <v-card-title class=\"text-h6\">Launch the Preview</v-card-title>\n            <v-card-text>Access a real-time, high-resolution preview to inspect the contents of your current water sample.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"acquisition\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-play-circle</v-icon>\n            <v-card-title class=\"text-h6\">Start Acquisition</v-card-title>\n            <v-card-text>Start a new acquisition process to continuously collect images and metadata from your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"/ps/data/browse/files/\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-database-search</v-icon>\n            <v-card-title class=\"text-h6\">Explore Your Data</v-card-title>\n            <v-card-text>Open the data explorer to review, categorize, and interpret all previously captured sample information.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n\n      <!-- Second Row: Standard size cards -->\n      <v-row>\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"/ps/docs/operation/protocol-v4.pdf\"\n            target=\"_blank\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-book-open-variant</v-icon>\n              Learn the Basics\n            </v-card-title>\n            <v-card-text>Find detailed instructions on using your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"http://pkscope-rich-kettle-10463.local/admin/grafana/d/host-summary/host-summary?orgId=1&from=now-5m&to=now&timezone=browser&var-DS_PROMETHEUS=PBFA97CFB590B2093&var-job=node-exporter&var-node=host.docker.internal:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B&refresh=5s\"\n            target=\"_blank\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-speedometer</v-icon>\n              Monitoring\n            </v-card-title>\n            <v-card-text>Keep track of system status and performance metrics.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"calibration\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-tune</v-icon>\n              Calibration\n            </v-card-title>\n            <v-card-text>Adjust and verify settings for consistent results.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-empty-state>\n</template>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -12684,6 +12978,690 @@
         "className": "",
         "x": 350,
         "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a57a165cd0ce511b",
+        "type": "ui-template",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "6452e42f1093802f",
+        "group": "58ab4d5e3dd68192",
+        "page": "",
+        "ui": "",
+        "name": "Streaming",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<center>\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 310,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8c0dc4c89ed361a0",
+        "type": "mqtt out",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "95995126a74c9462",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 970,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "2086dfa80d223fa1",
+        "type": "mqtt out",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "95995126a74c9462",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 970,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b1ecc016686e9ee1",
+        "type": "function",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "95995126a74c9462",
+        "name": "pump",
+        "func": "var manual_volume= global.get(\"pump_manual_volume\");\nvar flowrate= global.get(\"pump_flowrate\");\n\nif (manual_volume === undefined || manual_volume === \"\" || manual_volume === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Volume to pass\";\n    return [null, msg];\n}\nelse if (flowrate === undefined || flowrate === \"\" || flowrate === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Flowrate\";\n    return [null, msg];\n}\nelse {\n    msg.topic = \"actuator/pump\";\n    // msg.payload is FORWARD or BACKWARD here\n    msg.payload={\"action\":\"move\", \n                \"direction\":msg.payload,\n                \"volume\":manual_volume,\n                \"flowrate\":flowrate};\n}\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 280,
+        "wires": [
+            [
+                "8c0dc4c89ed361a0"
+            ],
+            []
+        ],
+        "inputLabels": [
+            "direction"
+        ],
+        "outputLabels": [
+            "message",
+            "error"
+        ]
+    },
+    {
+        "id": "4bfcd454871ad31f",
+        "type": "function",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "95995126a74c9462",
+        "name": "set global",
+        "func": "global.set(msg.topic,msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "67f7306457146d1e",
+        "type": "ui-markdown",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "95995126a74c9462",
+        "group": "39cbd2658f16d608",
+        "name": "Pump",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "### Pump settings\n",
+        "className": "",
+        "x": 290,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f9e9ad7833e9a58f",
+        "type": "ui-template",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "95995126a74c9462",
+        "group": "39cbd2658f16d608",
+        "page": "",
+        "ui": "",
+        "name": "Flowrate",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-row class=\"mt-0\">\n    <v-col cols=\"12\" sm=\"8\">\n      <v-slider\n        v-model.number=\"slider\"\n        :min=\"min\"\n        :max=\"max\"\n        :step=\"0.2\"\n        class=\"align-center\"\n        hide-details\n        label=\"Flowrate\"\n        :thumb-size=\"20\"\n      />\n    </v-col>\n\n    <v-col cols=\"12\" sm=\"4\">\n      <v-text-field\n        v-model.number=\"slider\"\n        type=\"number\"\n        variant=\"outlined\"\n        hide-details\n        suffix=\"ml/min\"\n      />\n    </v-col>\n  </v-row>\n\n  <v-row class=\"mt-0\">\n    <v-col cols=\"12\">\n      <v-btn-toggle\n        v-model=\"toggle_btn\"\n        class=\"d-flex justify-space-between\"\n        color=\"primary\"\n        variant=\"outlined\"\n        density=\"compact\"\n        divided\n        shaped\n        mandatory\n        @update:model-value=\"onToggleChange\"\n      >\n        <v-btn\n          v-for=\"value in presetValues\"\n          :key=\"value\"\n          :value=\"value\"\n          class=\"flex-grow-1\"\n        >\n          {{ value }}\n        </v-btn>\n      </v-btn-toggle>\n    </v-col>\n  </v-row>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      min: 0.02,\n      max: 30,\n      slider: 10,\n      toggle_btn: null,\n      presetValues: [0.02, 0.2, 2, 20],\n    };\n  },\n  watch: {\n    slider(newVal) {\n      const exactMatch = this.presetValues.find(val => val === newVal);\n      this.toggle_btn = exactMatch ?? null;\n    },\n  },\n  methods: {\n    onToggleChange(val) {\n      if (val != null) {\n        this.slider = val;\n      }\n    },\n  },\n};\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "9ac3e94f1761de24",
+        "type": "ui-template",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "95995126a74c9462",
+        "group": "39cbd2658f16d608",
+        "page": "",
+        "ui": "",
+        "name": "Volume",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-row class=\"mt-0\">\n    <v-col cols=\"12\" sm=\"8\">\n      <v-slider\n        v-model.number=\"slider\"\n        :min=\"min\"\n        :max=\"max\"\n        :step=\"0.2\"\n        class=\"align-center\"\n        hide-details\n        label=\"Volume\"\n        :thumb-size=\"20\"\n      />\n    </v-col>\n\n    <v-col cols=\"12\" sm=\"4\">\n      <v-text-field\n        v-model.number=\"slider\"\n        type=\"number\"\n        variant=\"outlined\"\n        hide-details\n        suffix=\"ml\"\n      />\n    </v-col>\n  </v-row>\n\n  <v-row class=\"mt-0\">\n    <v-col cols=\"12\">\n      <v-btn-toggle\n        v-model=\"toggle_btn\"\n        class=\"d-flex justify-space-between\"\n        color=\"primary\"\n        variant=\"outlined\"\n        density=\"compact\"\n        divided\n        shaped\n        mandatory\n        @update:model-value=\"onToggleChange\"\n      >\n        <v-btn\n          v-for=\"value in presetValues\"\n          :key=\"value\"\n          :value=\"value\"\n          class=\"flex-grow-1\"\n        >\n          {{ value }}\n        </v-btn>\n      </v-btn-toggle>\n    </v-col>\n  </v-row>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      min: 0.02,\n      max: 30,\n      slider: 10,\n      toggle_btn: null,\n      presetValues: [0.02, 2, 10, 20],\n    };\n  },\n  watch: {\n    slider(newVal) {\n      const exactMatch = this.presetValues.find(val => val === newVal);\n      this.toggle_btn = exactMatch ?? null;\n    },\n  },\n  methods: {\n    onToggleChange(val) {\n      if (val != null) {\n        this.slider = val;\n      }\n    },\n  },\n};\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a3c000cc3bbf29a6",
+        "type": "ui-template",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "95995126a74c9462",
+        "group": "39cbd2658f16d608",
+        "page": "",
+        "ui": "",
+        "name": "Direction Pump",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-btn-toggle\n      variant=\"outlined\"\n    v-model=\"toggle_btn\"\n    color=\"primary\"\n    mandatory\n    divided\n    shaped\n    class=\"d-flex justify-space-between\"\n  >\n    <v-btn class=\"flex-grow-1\"> Backward </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> Stop </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> Forward </v-btn>\n  </v-btn-toggle>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        toggle_btn: 0,\n      }\n    },\n  }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 320,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2c7673b6e71f6d69",
+        "type": "mqtt out",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "8af1a61ad0c81034",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 970,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "8fc647cac4bd8cfd",
+        "type": "mqtt out",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "8af1a61ad0c81034",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 970,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "6d0408bb7ca6e5f3",
+        "type": "function",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "8af1a61ad0c81034",
+        "name": "set global",
+        "func": "global.set(msg.topic,msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 460,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4046a6cbc91ff6ef",
+        "type": "ui-markdown",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "8af1a61ad0c81034",
+        "group": "39cbd2658f16d608",
+        "name": "Focus",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "content": "---\n### Focus settings",
+        "className": "",
+        "x": 290,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d04fdf594224f8af",
+        "type": "ui-template",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "8af1a61ad0c81034",
+        "group": "39cbd2658f16d608",
+        "page": "",
+        "ui": "",
+        "name": "Distance",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-row class=\"mt-0\">\n      <v-col cols=\"12\" sm=\"8\">\n        <v-slider\n          v-model.number=\"slider\"\n          :max=\"max\"\n          :min=\"min\"\n          :step=\"25\"\n          class=\"align-center\"\n          hide-details\n          label=\"Distance\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n      <v-col cols=\"12\" sm=\"4\">\n        <v-text-field\n          v-model.number=\"slider\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"μm\"\n          density=\"compact\"\n        />\n      </v-col>\n    </v-row>\n\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n            variant=\"outlined\"\n          v-model=\"toggle_btn\"\n          color=\"primary\"\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n          mandatory\n          @update:model-value=\"onToggleChange\"\n        >\n          <v-btn\n            v-for=\"value in [25, 150, 500, 5000]\"\n            :key=\"value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      min: 25,\n      max: 5000,\n      slider: 25,\n      toggle_btn: null,\n    };\n  },\n  watch: {\n    slider(newVal) {\n      // Met à jour le bouton sélectionné uniquement si valeur exacte (ex: 3.0 === 3)\n      const candidates = [25, 150, 500, 5000];\n      const exactMatch = candidates.find((val) => val === newVal);\n      this.toggle_btn = exactMatch ?? null;\n    },\n  },\n  methods: {\n    onToggleChange(val) {\n      if (val != null) {\n        this.slider = val;\n      }\n    },\n  },\n};\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "44535e88555d470c",
+        "type": "ui-template",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "8af1a61ad0c81034",
+        "group": "39cbd2658f16d608",
+        "page": "",
+        "ui": "",
+        "name": "Direction Focus",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-btn-toggle\n      variant=\"outlined\"\n    v-model=\"toggle_btn\"\n    color=\"primary\"\n    mandatory\n    divided\n    shaped\n    class=\"d-flex justify-space-between\"\n  >\n    <v-btn class=\"flex-grow-1\"> Left </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> Stop </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> Right </v-btn>\n  </v-btn-toggle>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        toggle_btn: 0,\n      }\n    },\n  }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 320,
+        "y": 520,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d7ca56746e08f158",
+        "type": "function",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "8af1a61ad0c81034",
+        "name": "focus",
+        "func": "var distance = global.get(\"focus_distance\");\nvar speed = global.get(\"focus_speed\");\n\nif (distance === undefined || distance === \"\" || distance === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Distance\";\n    return [null, msg]\n}\nif (speed === undefined || speed === \"\" || speed === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Speed\";\n    return [null, msg]\n}\n// msg.payload is UP or DOWN here\nmsg.payload={\"action\":\"move\", \n            \"direction\":msg.payload,\n            \"distance\":(distance/1000),\n            \"speed\": (speed/1000)\n};\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 500,
+        "wires": [
+            [
+                "2c7673b6e71f6d69"
+            ],
+            []
+        ],
+        "inputLabels": [
+            "direction"
+        ],
+        "outputLabels": [
+            "message",
+            "error"
+        ]
+    },
+    {
+        "id": "4829dc3c55043962",
+        "type": "mqtt out",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "e2895c2cd3e0bf12",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 970,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "902d28823a121972",
+        "type": "mqtt out",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "e2895c2cd3e0bf12",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 970,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "f57da16317e29f43",
+        "type": "function",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "e2895c2cd3e0bf12",
+        "name": "set global",
+        "func": "global.set(msg.topic,msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 460,
+        "y": 640,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7c3d1bc040ed697e",
+        "type": "ui-markdown",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "e2895c2cd3e0bf12",
+        "group": "39cbd2658f16d608",
+        "name": "LED",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "content": "---\n### LED settings\n\n",
+        "className": "",
+        "x": 290,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ad265a65cffbe1e9",
+        "type": "ui-template",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "e2895c2cd3e0bf12",
+        "group": "39cbd2658f16d608",
+        "page": "",
+        "ui": "",
+        "name": "LED State",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-btn-toggle\n      variant=\"outlined\"\n    v-model=\"toggle_btn\"\n    color=\"primary\"\n    mandatory\n    divided\n    shaped\n    class=\"d-flex justify-space-between\"\n  >\n    <v-btn class=\"flex-grow-1\"> On </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> Off </v-btn>\n  </v-btn-toggle>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        toggle_btn: 0,\n      }\n    },\n  }\n</script>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 300,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b07dcf11598a423f",
+        "type": "function",
+        "z": "ab58b3fd0e6bcd77",
+        "g": "e2895c2cd3e0bf12",
+        "name": "focus",
+        "func": "var distance = global.get(\"focus_distance\");\nvar speed = global.get(\"focus_speed\");\n\nif (distance === undefined || distance === \"\" || distance === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Distance\";\n    return [null, msg]\n}\nif (speed === undefined || speed === \"\" || speed === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Speed\";\n    return [null, msg]\n}\n// msg.payload is UP or DOWN here\nmsg.payload={\"action\":\"move\", \n            \"direction\":msg.payload,\n            \"distance\":(distance/1000),\n            \"speed\": (speed/1000)\n};\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 830,
+        "y": 680,
+        "wires": [
+            [
+                "4829dc3c55043962"
+            ],
+            []
+        ],
+        "inputLabels": [
+            "direction"
+        ],
+        "outputLabels": [
+            "message",
+            "error"
+        ]
+    },
+    {
+        "id": "77fd890b6765c3af",
+        "type": "ui-markdown",
+        "z": "ab58b3fd0e6bcd77",
+        "group": "39cbd2658f16d608",
+        "name": "Camera Settings",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "content": "---\n### Camera settings",
+        "className": "",
+        "x": 310,
+        "y": 800,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7ea3ca40822da15c",
+        "type": "ui-button",
+        "z": "ab58b3fd0e6bcd77",
+        "group": "39cbd2658f16d608",
+        "name": "",
+        "label": "Access the camera settings",
+        "order": 12,
+        "width": "3",
+        "height": "1",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "{\"page\":\"Calibration\"}",
+        "payloadType": "json",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 640,
+        "y": 880,
+        "wires": [
+            [
+                "108fa25be19f6b0c"
+            ]
+        ]
+    },
+    {
+        "id": "a5aaf8fccfc124f1",
+        "type": "ui-text",
+        "z": "ab58b3fd0e6bcd77",
+        "group": "39cbd2658f16d608",
+        "order": 11,
+        "width": "2",
+        "height": "1",
+        "name": "",
+        "label": " Modify your camera settings :",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "wrapText": false,
+        "className": "",
+        "x": 350,
+        "y": 880,
+        "wires": []
+    },
+    {
+        "id": "108fa25be19f6b0c",
+        "type": "ui-control",
+        "z": "ab58b3fd0e6bcd77",
+        "name": "",
+        "ui": "e6ae26617c24c3ea",
+        "events": "change",
+        "x": 820,
+        "y": 940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ffe728d961068c62",
+        "type": "ui-template",
+        "z": "35d7387466dd0bc0",
+        "g": "4b86185ad4a4ade1",
+        "group": "b274327af3807b79",
+        "page": "",
+        "ui": "",
+        "name": "Streaming",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "head": "",
+        "format": "<center>\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 210,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7630af38d8e62254",
+        "type": "mqtt out",
+        "z": "35d7387466dd0bc0",
+        "g": "e8ba2d3274c7e963",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 870,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "b3987ca157e030f6",
+        "type": "mqtt out",
+        "z": "35d7387466dd0bc0",
+        "g": "e8ba2d3274c7e963",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 870,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "c1d6882488c0b3ac",
+        "type": "function",
+        "z": "35d7387466dd0bc0",
+        "g": "e8ba2d3274c7e963",
+        "name": "pump",
+        "func": "var manual_volume= global.get(\"pump_manual_volume\");\nvar flowrate= global.get(\"pump_flowrate\");\n\nif (manual_volume === undefined || manual_volume === \"\" || manual_volume === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Volume to pass\";\n    return [null, msg];\n}\nelse if (flowrate === undefined || flowrate === \"\" || flowrate === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Flowrate\";\n    return [null, msg];\n}\nelse {\n    msg.topic = \"actuator/pump\";\n    // msg.payload is FORWARD or BACKWARD here\n    msg.payload={\"action\":\"move\", \n                \"direction\":msg.payload,\n                \"volume\":manual_volume,\n                \"flowrate\":flowrate};\n}\nreturn [msg, null];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 300,
+        "wires": [
+            [
+                "7630af38d8e62254"
+            ],
+            []
+        ],
+        "inputLabels": [
+            "direction"
+        ],
+        "outputLabels": [
+            "message",
+            "error"
+        ]
+    },
+    {
+        "id": "dde296786a762acb",
+        "type": "function",
+        "z": "35d7387466dd0bc0",
+        "g": "e8ba2d3274c7e963",
+        "name": "set global",
+        "func": "global.set(msg.topic,msg.payload);",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "x": 460,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c2a5d606a7746106",
+        "type": "ui-markdown",
+        "z": "35d7387466dd0bc0",
+        "g": "e8ba2d3274c7e963",
+        "group": "d2f77573ed4317e4",
+        "name": "Acquisition",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "content": "### Acquisition settings\n",
+        "className": "",
+        "x": 210,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "aa6924c7e0aff26c",
+        "type": "ui-template",
+        "z": "35d7387466dd0bc0",
+        "g": "e8ba2d3274c7e963",
+        "group": "d2f77573ed4317e4",
+        "page": "",
+        "ui": "",
+        "name": "Acquisition settings",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-row >\n    <v-col cols=\"12\" sm=\"8\">\n    </v-col>\n  </v-row>\n</template>\n\n<script>\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 230,
+        "y": 280,
         "wires": [
             []
         ]
@@ -12873,7 +13851,7 @@
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<template>\n  <v-btn-toggle\n    v-model=\"toggle_btn\"\n    color=\"primary\"\n    mandatory\n    shaped\n    class=\"d-flex justify-space-between\"\n  >\n    <v-btn class=\"flex-grow-1\"> 1 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 2 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 3 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 4 </v-btn>\n  </v-btn-toggle>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        toggle_btn: 0,\n      }\n    },\n  }\n</script>\n",
+        "format": "<template>\n  <v-btn-toggle\n    v-model=\"toggle_btn\"\n    color=\"primary\"\n    mandatory\n    shaped\n    class=\"d-flex justify-space-between\"\n      variant=\"outlined\" divided\n  >\n    <v-btn class=\"flex-grow-1\"> 1 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 2 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 3 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 4 </v-btn>\n  </v-btn-toggle>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        toggle_btn: 0,\n      }\n    },\n  }\n</script>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -14307,102 +15285,6 @@
             [
                 "7cf9eaa2eb0776bf"
             ]
-        ]
-    },
-    {
-        "id": "8e11bb014b9664be",
-        "type": "ui-template",
-        "z": "8018bd5586fd4054",
-        "group": "822cdc5b6ef13f39",
-        "page": "",
-        "ui": "",
-        "name": "body",
-        "order": 1,
-        "width": "12",
-        "height": "1",
-        "head": "",
-        "format": "<template>\n  <v-container>\n    <v-row>\n      <!-- Step 1: White Balance -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_saturation_level\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-eyedropper-variant</v-icon>\n          <v-card-title class=\"text-h6\">White Balance</v-card-title>\n          <v-card-text>\n            Use the color picker to measure the current color values and adjust the white balance accordingly.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 2: Lightness -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_lightness\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-brightness-6</v-icon>\n          <v-card-title class=\"text-h6\">Lightness</v-card-title>\n          <v-card-text>\n            Measure the current lightness value and update the LED intensity or ISO if below optimal levels.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 3: Pixel Size -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_pixel_size\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-ruler</v-icon>\n          <v-card-title class=\"text-h6\">Pixel Size</v-card-title>\n          <v-card-text>\n            Place markers on the micrometric ruler image to calculate the pixel size in microns per pixel.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 4: Pump Calibration -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_pump\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-water-pump</v-icon>\n          <v-card-title class=\"text-h6\">Pump Calibration</v-card-title>\n          <v-card-text>\n            Measure the transferred volume and adjust pump steps to improve accuracy in fluid handling.\n          </v-card-text>\n        </v-card>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 490,
-        "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "65c11a088942faf2",
-        "type": "ui-template",
-        "z": "8018bd5586fd4054",
-        "group": "896524155233e2ed",
-        "page": "",
-        "ui": "",
-        "name": "footer",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n  <v-footer class=\"pa-0\" color=\"grey-darken-4\">\n    <v-container>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">PlanktoScope</h4>\n          <p class=\"text-grey-lighten-1\">\n            Open and Affordable Quantitative Imaging Platform.\n          </p>\n        </v-col>\n      </v-row>\n      <v-divider class=\"my-3\"></v-divider>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">Thanks to:</h4>\n          <p class=\"text-grey-lighten-1\">\n            <v-chip\n              v-for=\"contributor in contributors\"\n              :key=\"contributor.id\"\n              class=\"mx-2\"\n              small\n              outlined\n            >\n              <v-avatar left>\n                <img :src=\"contributor.avatar_url\" :alt=\"contributor.login\" />\n              </v-avatar>\n              <a\n                :href=\"contributor.html_url\"\n                target=\"_blank\"\n                class=\"text-decoration-none text-grey-lighten-1\"\n              >\n                {{ contributor.login }}\n              </a>\n            </v-chip>\n          </p>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-footer>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        contributors: [], // Array to hold contributors' data\n      }\n    },\n    mounted() {\n      this.fetchContributors()\n    },\n    methods: {\n      async fetchContributors() {\n        try {\n          const response = await fetch(\n            'https://api.github.com/orgs/PlanktoScope/people'\n          )\n          if (response.ok) {\n            this.contributors = await response.json()\n          } else {\n            console.error('Failed to fetch contributors')\n          }\n        } catch (error) {\n          console.error('Error fetching contributors:', error)\n        }\n      },\n    },\n  }\n</script>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 490,
-        "y": 300,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "35d8e8e4b1e0ef7d",
-        "type": "ui-template",
-        "z": "8018bd5586fd4054",
-        "group": "c29c835a70533b69",
-        "page": "",
-        "ui": "",
-        "name": "header",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n  <v-empty-state\n    headline=\"Calibration steps\"\n    icon=\"$vuetify\"\n    title=\"Follow these steps to ensure optimal image quality and measurement accuracy\"\n  >\n  </v-empty-state>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 490,
-        "y": 180,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "590ff706a46acf3a",
-        "type": "ui-template",
-        "z": "8018bd5586fd4054",
-        "group": "51c3afdaa8de27c7",
-        "page": "",
-        "ui": "",
-        "name": "links",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n    <v-row justify=\"center\" class=\"my-2\">\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://www.figma.com/design/KXH3qkalr7eeFbyGsutZKt/PlanktoScope-Dashboard-v2?node-id=6-2&m=dev&t=Nn2N1o9OJveQCSco-1\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"primary\" class=\"mr-1\">mdi-image</v-icon>Figma Design\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues/new?template=bug_report.md\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"red\" class=\"mr-1\">mdi-bug</v-icon>Report a Bug\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"orange\" class=\"mr-1\">mdi-information-outline</v-icon>Open\n        issues\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"black\" class=\"mr-1\">mdi-github</v-icon>View on GitHub\n      </v-chip>\n    </v-row>\n</template>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 490,
-        "y": 260,
-        "wires": [
-            []
         ]
     },
     {
@@ -15861,6 +16743,102 @@
         "wires": []
     },
     {
+        "id": "8e11bb014b9664be",
+        "type": "ui-template",
+        "z": "8018bd5586fd4054",
+        "group": "822cdc5b6ef13f39",
+        "page": "",
+        "ui": "",
+        "name": "body",
+        "order": 1,
+        "width": "12",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n  <v-container>\n    <v-row>\n      <!-- Step 1: White Balance -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_saturation_level\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-eyedropper-variant</v-icon>\n          <v-card-title class=\"text-h6\">White Balance</v-card-title>\n          <v-card-text>\n            Use the color picker to measure the current color values and adjust the white balance accordingly.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 2: Lightness -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_lightness\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-brightness-6</v-icon>\n          <v-card-title class=\"text-h6\">Lightness</v-card-title>\n          <v-card-text>\n            Measure the current lightness value and update the LED intensity or ISO if below optimal levels.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 3: Pixel Size -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_pixel_size\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-ruler</v-icon>\n          <v-card-title class=\"text-h6\">Pixel Size</v-card-title>\n          <v-card-text>\n            Place markers on the micrometric ruler image to calculate the pixel size in microns per pixel.\n          </v-card-text>\n        </v-card>\n      </v-col>\n\n      <!-- Step 4: Pump Calibration -->\n      <v-col cols=\"12\" md=\"3\">\n        <v-card\n          href=\"calibration_pump\"\n          target=\"_blank\"\n          class=\"text-center py-2\"\n        >\n          <v-icon size=\"64\" color=\"primary\">mdi-water-pump</v-icon>\n          <v-card-title class=\"text-h6\">Pump Calibration</v-card-title>\n          <v-card-text>\n            Measure the transferred volume and adjust pump steps to improve accuracy in fluid handling.\n          </v-card-text>\n        </v-card>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "65c11a088942faf2",
+        "type": "ui-template",
+        "z": "8018bd5586fd4054",
+        "group": "896524155233e2ed",
+        "page": "",
+        "ui": "",
+        "name": "footer",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-footer class=\"pa-0\" color=\"grey-darken-4\">\n    <v-container>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">PlanktoScope</h4>\n          <p class=\"text-grey-lighten-1\">\n            Open and Affordable Quantitative Imaging Platform.\n          </p>\n        </v-col>\n      </v-row>\n      <v-divider class=\"my-3\"></v-divider>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">Thanks to:</h4>\n          <p class=\"text-grey-lighten-1\">\n            <v-chip\n              v-for=\"contributor in contributors\"\n              :key=\"contributor.id\"\n              class=\"mx-2\"\n              small\n              outlined\n            >\n              <v-avatar left>\n                <img :src=\"contributor.avatar_url\" :alt=\"contributor.login\" />\n              </v-avatar>\n              <a\n                :href=\"contributor.html_url\"\n                target=\"_blank\"\n                class=\"text-decoration-none text-grey-lighten-1\"\n              >\n                {{ contributor.login }}\n              </a>\n            </v-chip>\n          </p>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-footer>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        contributors: [], // Array to hold contributors' data\n      }\n    },\n    mounted() {\n      this.fetchContributors()\n    },\n    methods: {\n      async fetchContributors() {\n        try {\n          const response = await fetch(\n            'https://api.github.com/orgs/PlanktoScope/people'\n          )\n          if (response.ok) {\n            this.contributors = await response.json()\n          } else {\n            console.error('Failed to fetch contributors')\n          }\n        } catch (error) {\n          console.error('Error fetching contributors:', error)\n        }\n      },\n    },\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "35d8e8e4b1e0ef7d",
+        "type": "ui-template",
+        "z": "8018bd5586fd4054",
+        "group": "c29c835a70533b69",
+        "page": "",
+        "ui": "",
+        "name": "header",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-empty-state\n    headline=\"Calibration steps\"\n    icon=\"$vuetify\"\n    title=\"Follow these steps to ensure optimal image quality and measurement accuracy\"\n  >\n  </v-empty-state>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "590ff706a46acf3a",
+        "type": "ui-template",
+        "z": "8018bd5586fd4054",
+        "group": "518a4242f548c1f2",
+        "page": "",
+        "ui": "",
+        "name": "links",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <v-row justify=\"center\" class=\"my-2\">\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://www.figma.com/design/KXH3qkalr7eeFbyGsutZKt/PlanktoScope-Dashboard-v2?node-id=6-2&m=dev&t=Nn2N1o9OJveQCSco-1\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"primary\" class=\"mr-1\">mdi-image</v-icon>Figma Design\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues/new?template=bug_report.md\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"red\" class=\"mr-1\">mdi-bug</v-icon>Report a Bug\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard/issues\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"orange\" class=\"mr-1\">mdi-information-outline</v-icon>Open\n        issues\n      </v-chip>\n      <v-chip\n        size=\"small\"\n        color=\"grey-darken-3\"\n        href=\"https://github.com/PlanktoScope/dashboard\"\n        target=\"_blank\"\n        class=\"mx-2\"\n      >\n        <v-icon color=\"black\" class=\"mr-1\">mdi-github</v-icon>View on GitHub\n      </v-chip>\n    </v-row>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 490,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "3829aff60cdc5be4",
         "type": "ui-template",
         "z": "6426e7bea6900426",
@@ -15894,7 +16872,7 @@
         "page": "",
         "ui": "",
         "name": "2. Measure the Current Saturation Level",
-        "order": 4,
+        "order": 3,
         "width": 0,
         "height": 0,
         "head": "",
@@ -15921,7 +16899,7 @@
         "page": "",
         "ui": "",
         "name": "3. Display White Balance Settings",
-        "order": 5,
+        "order": 4,
         "width": "4",
         "height": "1",
         "head": "",
@@ -15946,7 +16924,7 @@
         "page": "",
         "ui": "",
         "name": "4. Adjust White Balance Settings",
-        "order": 6,
+        "order": 5,
         "width": "4",
         "height": "1",
         "head": "",
@@ -16095,7 +17073,7 @@
         "page": "",
         "ui": "",
         "name": "1. Reset the value of the gains",
-        "order": 3,
+        "order": 2,
         "width": 0,
         "height": 0,
         "head": "",
@@ -16263,7 +17241,7 @@
         "page": "",
         "ui": "",
         "name": "Step Bar",
-        "order": 2,
+        "order": 1,
         "width": 0,
         "height": 0,
         "head": "",
@@ -16522,55 +17500,6 @@
                 "a99be895898a4f2f"
             ]
         ]
-    },
-    {
-        "id": "64813761dc02b452",
-        "type": "ui-switch",
-        "z": "6426e7bea6900426",
-        "name": "Switch LED",
-        "label": "Switch LED (label)",
-        "group": "af8acdfe9afbad74",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "passthru": false,
-        "decouple": false,
-        "topic": "pump",
-        "topicType": "str",
-        "style": "",
-        "className": "",
-        "onvalue": "true",
-        "onvalueType": "bool",
-        "onicon": "",
-        "oncolor": "",
-        "offvalue": "false",
-        "offvalueType": "bool",
-        "officon": "",
-        "offcolor": "",
-        "x": 510,
-        "y": 160,
-        "wires": [
-            [
-                "e593ddbbe78ae702"
-            ]
-        ]
-    },
-    {
-        "id": "e593ddbbe78ae702",
-        "type": "debug",
-        "z": "6426e7bea6900426",
-        "name": "debug 70",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "true",
-        "targetType": "full",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 680,
-        "y": 160,
-        "wires": []
     },
     {
         "id": "778ef58f071d9dc0",
