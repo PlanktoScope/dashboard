@@ -1,7 +1,6 @@
 {
     "name": "dashboard",
     "description": "PlanktoScope dashboard",
-    "version": "2024.0.0-beta.3",
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
