@@ -93,9 +93,25 @@
         "env": []
     },
     {
+        "id": "190b0c9aa75e8843",
+        "type": "tab",
+        "label": "Metadata",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "35d7387466dd0bc0",
         "type": "tab",
         "label": "Acquisition",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0fd76ac156d78937",
+        "type": "tab",
+        "label": "Segmentation",
         "disabled": false,
         "info": "",
         "env": []
@@ -168,14 +184,6 @@
         "id": "d5b2c64b84f8ed4f",
         "type": "tab",
         "label": "Calibration - Pump",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "790542fce70aced2",
-        "type": "tab",
-        "label": "Flow 4",
         "disabled": false,
         "info": "",
         "env": []
@@ -280,8 +288,8 @@
             "e42e71164274acdc",
             "a2eff4bb38731253"
         ],
-        "x": 28,
-        "y": 253,
+        "x": 48,
+        "y": 273,
         "w": 844,
         "h": 174
     },
@@ -298,7 +306,7 @@
             "cead53fe6d7fe793"
         ],
         "x": 34,
-        "y": 459,
+        "y": 659,
         "w": 232,
         "h": 122
     },
@@ -315,7 +323,7 @@
             "a43e9d9c640f6a51"
         ],
         "x": 34,
-        "y": 599,
+        "y": 799,
         "w": 292,
         "h": 122
     },
@@ -348,7 +356,7 @@
             "55bf230acc0db31a"
         ],
         "x": 34,
-        "y": 739,
+        "y": 939,
         "w": 232,
         "h": 122
     },
@@ -365,7 +373,7 @@
             "a1de4783b40b22c7"
         ],
         "x": 34,
-        "y": 879,
+        "y": 1079,
         "w": 252,
         "h": 122
     },
@@ -403,7 +411,7 @@
             "9496c5ceae312a6b"
         ],
         "x": 34,
-        "y": 1039,
+        "y": 1239,
         "w": 1192,
         "h": 162
     },
@@ -423,7 +431,7 @@
             "be327c38d0d4571c"
         ],
         "x": 34,
-        "y": 1219,
+        "y": 1419,
         "w": 712,
         "h": 202
     },
@@ -886,75 +894,6 @@
         "h": 122
     },
     {
-        "id": "f9b137cda6a41cc8",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f142197f943e06c3",
-            "ba32092924c21704"
-        ],
-        "x": 54,
-        "y": 279,
-        "w": 252,
-        "h": 122
-    },
-    {
-        "id": "e42e71164274acdc",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "09145421eca576b2",
-            "96d4f5ed69c26184"
-        ],
-        "x": 314,
-        "y": 279,
-        "w": 272,
-        "h": 122
-    },
-    {
-        "id": "a2eff4bb38731253",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f467dd95ca327abe",
-            "9460aed131d64851"
-        ],
-        "x": 594,
-        "y": 279,
-        "w": 252,
-        "h": 122
-    },
-    {
         "id": "6452e42f1093802f",
         "type": "group",
         "z": "ab58b3fd0e6bcd77",
@@ -970,81 +909,6 @@
         "y": 79,
         "w": 192,
         "h": 82
-    },
-    {
-        "id": "95995126a74c9462",
-        "type": "group",
-        "z": "ab58b3fd0e6bcd77",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "8c0dc4c89ed361a0",
-            "2086dfa80d223fa1",
-            "b1ecc016686e9ee1",
-            "4bfcd454871ad31f",
-            "f9e9ad7833e9a58f"
-        ],
-        "x": 214,
-        "y": 179,
-        "w": 832,
-        "h": 142
-    },
-    {
-        "id": "8af1a61ad0c81034",
-        "type": "group",
-        "z": "ab58b3fd0e6bcd77",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "2c7673b6e71f6d69",
-            "8fc647cac4bd8cfd",
-            "6d0408bb7ca6e5f3",
-            "d04fdf594224f8af",
-            "d7ca56746e08f158"
-        ],
-        "x": 214,
-        "y": 399,
-        "w": 832,
-        "h": 142
-    },
-    {
-        "id": "e2895c2cd3e0bf12",
-        "type": "group",
-        "z": "ab58b3fd0e6bcd77",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "4829dc3c55043962",
-            "902d28823a121972",
-            "f57da16317e29f43",
-            "ad265a65cffbe1e9",
-            "b07dcf11598a423f"
-        ],
-        "x": 214,
-        "y": 579,
-        "w": 832,
-        "h": 162
     },
     {
         "id": "4b86185ad4a4ade1",
@@ -1089,9 +953,78 @@
         "h": 142
     },
     {
+        "id": "f9b137cda6a41cc8",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f142197f943e06c3",
+            "ba32092924c21704"
+        ],
+        "x": 74,
+        "y": 299,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "e42e71164274acdc",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09145421eca576b2",
+            "96d4f5ed69c26184"
+        ],
+        "x": 334,
+        "y": 299,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "a2eff4bb38731253",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f467dd95ca327abe",
+            "9460aed131d64851"
+        ],
+        "x": 614,
+        "y": 299,
+        "w": 252,
+        "h": 122
+    },
+    {
         "id": "e6ae26617c24c3ea",
         "type": "ui-base",
-        "name": "My Dashboard",
+        "name": "PlanktoScope GUI v.2",
         "path": "/dashboard",
         "appIcon": "",
         "includeClientData": true,
@@ -1100,223 +1033,12 @@
             "ui-control"
         ],
         "showPathInSidebar": true,
+        "headerContent": "dashpage",
         "navigationStyle": "icon",
-        "titleBarStyle": "hidden",
+        "titleBarStyle": "fixed",
         "showReconnectNotification": true,
         "notificationDisplayTime": "1",
         "showDisconnectNotification": true
-    },
-    {
-        "id": "b9f88d899abc43e6",
-        "type": "ui-page",
-        "name": "Dev Kit",
-        "ui": "e6ae26617c24c3ea",
-        "path": "/devkit",
-        "icon": "mdi-database-plus",
-        "layout": "tabs",
-        "theme": "2ad26e39f0bc37f6",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 4,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "3496e96aaf509c63",
-        "type": "ui-group",
-        "name": "Generic",
-        "page": "b9f88d899abc43e6",
-        "width": "12",
-        "height": "1",
-        "order": 1,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "0b938df814df6f89",
-        "type": "ui-group",
-        "name": "Text fields",
-        "page": "b9f88d899abc43e6",
-        "width": "12",
-        "height": "1",
-        "order": 5,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "4b77e32bb8af68b1",
-        "type": "ui-group",
-        "name": "Loading methods",
-        "page": "b9f88d899abc43e6",
-        "width": "12",
-        "height": "1",
-        "order": 2,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "42ad8472e579096e",
-        "type": "ui-group",
-        "name": "Sliders",
-        "page": "b9f88d899abc43e6",
-        "width": "12",
-        "height": "1",
-        "order": 6,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "e461e16bf6fe45b0",
-        "type": "ui-group",
-        "name": "Button toggles",
-        "page": "b9f88d899abc43e6",
-        "width": "12",
-        "height": "1",
-        "order": 7,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "c503a4c01451fec2",
-        "type": "ui-group",
-        "name": "Preview",
-        "page": "b9f88d899abc43e6",
-        "width": "12",
-        "height": "1",
-        "order": 8,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "9919d82f68c7a152",
-        "type": "ui-group",
-        "name": "Textareas",
-        "page": "b9f88d899abc43e6",
-        "width": "12",
-        "height": "1",
-        "order": 9,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "2ca4adc305fbadd5",
-        "type": "ui-group",
-        "name": "Landing Page",
-        "page": "b9f88d899abc43e6",
-        "width": "6",
-        "height": "1",
-        "order": 4,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "72483a7aac978971",
-        "type": "ui-group",
-        "name": "Get and set variable in Global",
-        "page": "b9f88d899abc43e6",
-        "width": "12",
-        "height": "1",
-        "order": 3,
-        "showTitle": true,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "632260133d581caa",
-        "type": "ui-page",
-        "name": "Home",
-        "ui": "e6ae26617c24c3ea",
-        "path": "/home",
-        "icon": "home",
-        "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 1,
-        "className": "",
-        "visible": true,
-        "disabled": false
-    },
-    {
-        "id": "713fd4c3b9030f45",
-        "type": "ui-group",
-        "name": "body",
-        "page": "632260133d581caa",
-        "width": "12",
-        "height": "1",
-        "order": 2,
-        "showTitle": false,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
     },
     {
         "id": "8dc3722c.06efa8",
@@ -2057,33 +1779,167 @@
         "collapse": false
     },
     {
-        "id": "2ad26e39f0bc37f6",
+        "id": "f7770f0b818c3a67",
         "type": "ui-theme",
-        "name": "Default Theme",
+        "name": "PlanktoScope GUI 2",
         "colors": {
-            "surface": "#000000",
-            "primary": "#6600ff",
-            "bgPage": "#ededed",
-            "groupBg": "#ededed",
-            "groupOutline": "#ededed"
+            "surface": "#ffffff",
+            "primary": "#1976d2",
+            "bgPage": "#dedede",
+            "groupBg": "#ffffff",
+            "groupOutline": "#9c9c9c"
         },
         "sizes": {
             "density": "compact",
-            "pagePadding": "0px",
-            "groupGap": "0px",
-            "groupBorderRadius": "6px",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
             "widgetGap": "12px"
         }
     },
     {
-        "id": "ec4034b59a08cd35",
+        "id": "73070e06474249b4",
         "type": "ui-page",
-        "name": "Controls",
+        "name": "Metadata",
         "ui": "e6ae26617c24c3ea",
-        "path": "/controls",
-        "icon": "controller-classic",
+        "path": "/metadata",
+        "icon": "mdi-comment-text",
         "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
+        "theme": "f7770f0b818c3a67",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 3,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "dd015fda7456b9b0",
+        "type": "ui-group",
+        "name": "Navigation Top",
+        "page": "73070e06474249b4",
+        "width": "12",
+        "height": 1,
+        "order": 1,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "69c772603e9cec0d",
+        "type": "ui-group",
+        "name": "Sample Information",
+        "page": "73070e06474249b4",
+        "width": "12",
+        "height": 1,
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6fab47af451c6d95",
+        "type": "ui-group",
+        "name": "Starting point",
+        "page": "73070e06474249b4",
+        "width": "12",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "1cfe3062a8353012",
+        "type": "ui-group",
+        "name": "Ending point",
+        "page": "73070e06474249b4",
+        "width": "12",
+        "height": 1,
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "cb3521392eb4e9ed",
+        "type": "ui-group",
+        "name": "Net Specificity",
+        "page": "73070e06474249b4",
+        "width": "12",
+        "height": 1,
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "dd4d9707051041c9",
+        "type": "ui-group",
+        "name": "Other informations",
+        "page": "73070e06474249b4",
+        "width": "12",
+        "height": 1,
+        "order": 6,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "59ce6abfbb7f8683",
+        "type": "ui-group",
+        "name": "Navigation Bottom",
+        "page": "73070e06474249b4",
+        "width": "12",
+        "height": 1,
+        "order": 7,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "7a4e042a60b734a6",
+        "type": "ui-page",
+        "name": "Segmentation",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/segmentation",
+        "icon": "mdi-vector-square",
+        "layout": "grid",
+        "theme": "f7770f0b818c3a67",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2107,6 +1963,56 @@
             }
         ],
         "order": 5,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "bfd4acb7b243514f",
+        "type": "ui-group",
+        "name": "Table",
+        "page": "7a4e042a60b734a6",
+        "width": "8",
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "ec4034b59a08cd35",
+        "type": "ui-page",
+        "name": "Controls",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/controls",
+        "icon": "controller-classic",
+        "layout": "grid",
+        "theme": "f7770f0b818c3a67",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 7,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2147,7 +2053,7 @@
         "path": "/plots",
         "icon": "sync",
         "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
+        "theme": "f7770f0b818c3a67",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2170,7 +2076,7 @@
                 "cols": "12"
             }
         ],
-        "order": 6,
+        "order": 8,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2255,7 +2161,7 @@
         "path": "/calibration_lightness",
         "icon": "target-variant",
         "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
+        "theme": "f7770f0b818c3a67",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2278,7 +2184,7 @@
                 "cols": "12"
             }
         ],
-        "order": 9,
+        "order": 11,
         "className": "",
         "visible": "false",
         "disabled": "false"
@@ -2317,7 +2223,7 @@
         "path": "/calibration_pixel_size",
         "icon": "target-variant",
         "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
+        "theme": "f7770f0b818c3a67",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2340,7 +2246,7 @@
                 "cols": "12"
             }
         ],
-        "order": 10,
+        "order": 12,
         "className": "",
         "visible": "false",
         "disabled": "false"
@@ -2379,7 +2285,7 @@
         "path": "/calibration_pump",
         "icon": "target-variant",
         "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
+        "theme": "f7770f0b818c3a67",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2402,7 +2308,7 @@
                 "cols": "12"
             }
         ],
-        "order": 11,
+        "order": 13,
         "className": "",
         "visible": "false",
         "disabled": "false"
@@ -2441,7 +2347,7 @@
         "path": "/calibration_saturation_level",
         "icon": "target-variant",
         "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
+        "theme": "f7770f0b818c3a67",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2464,7 +2370,7 @@
                 "cols": "12"
             }
         ],
-        "order": 8,
+        "order": 10,
         "className": "",
         "visible": "false",
         "disabled": "false"
@@ -2504,7 +2410,7 @@
         "path": "/calibration",
         "icon": "mdi-tune",
         "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
+        "theme": "f7770f0b818c3a67",
         "breakpoints": [
             {
                 "name": "Default",
@@ -2527,7 +2433,7 @@
                 "cols": "12"
             }
         ],
-        "order": 7,
+        "order": 9,
         "className": "",
         "visible": "true",
         "disabled": "false"
@@ -2547,9 +2453,23 @@
         "groupType": "default"
     },
     {
-        "id": "896524155233e2ed",
+        "id": "822cdc5b6ef13f39",
         "type": "ui-group",
-        "name": "footer",
+        "name": "body",
+        "page": "f8dd620721c6d70b",
+        "width": "12",
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "518a4242f548c1f2",
+        "type": "ui-group",
+        "name": "links",
         "page": "f8dd620721c6d70b",
         "width": "12",
         "height": 1,
@@ -2561,12 +2481,338 @@
         "groupType": "default"
     },
     {
-        "id": "822cdc5b6ef13f39",
+        "id": "bcc78241b99ba27f",
+        "type": "ui-page",
+        "name": "Preview",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/preview",
+        "icon": "mdi-eye",
+        "layout": "grid",
+        "theme": "f7770f0b818c3a67",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "58ab4d5e3dd68192",
+        "type": "ui-group",
+        "name": "Streaming",
+        "page": "bcc78241b99ba27f",
+        "width": "7",
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "39cbd2658f16d608",
+        "type": "ui-group",
+        "name": "Pump settings",
+        "page": "bcc78241b99ba27f",
+        "width": "5",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "5c3e73c675caac42",
+        "type": "ui-page",
+        "name": "Acquisition",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/acquisition",
+        "icon": "mdi-play-circle",
+        "layout": "grid",
+        "theme": "f7770f0b818c3a67",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 4,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "b274327af3807b79",
+        "type": "ui-group",
+        "name": "Streaming",
+        "page": "5c3e73c675caac42",
+        "width": "7",
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "d2f77573ed4317e4",
+        "type": "ui-group",
+        "name": "Acquisition settings",
+        "page": "5c3e73c675caac42",
+        "width": "5",
+        "height": 1,
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "b9f88d899abc43e6",
+        "type": "ui-page",
+        "name": "Dev Kit",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/devkit",
+        "icon": "mdi-database-plus",
+        "layout": "tabs",
+        "theme": "f7770f0b818c3a67",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 6,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "3496e96aaf509c63",
+        "type": "ui-group",
+        "name": "Generic",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "0b938df814df6f89",
+        "type": "ui-group",
+        "name": "Text fields",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "4b77e32bb8af68b1",
+        "type": "ui-group",
+        "name": "Loading methods",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "42ad8472e579096e",
+        "type": "ui-group",
+        "name": "Sliders",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 7,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "e461e16bf6fe45b0",
+        "type": "ui-group",
+        "name": "Button toggles",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 8,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c503a4c01451fec2",
+        "type": "ui-group",
+        "name": "Preview",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 9,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "9919d82f68c7a152",
+        "type": "ui-group",
+        "name": "Textareas",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 10,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "2ca4adc305fbadd5",
+        "type": "ui-group",
+        "name": "Landing Page",
+        "page": "b9f88d899abc43e6",
+        "width": "6",
+        "height": "1",
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "72483a7aac978971",
+        "type": "ui-group",
+        "name": "Get and set variable in Global",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "632260133d581caa",
+        "type": "ui-page",
+        "name": "Home",
+        "ui": "e6ae26617c24c3ea",
+        "path": "/home",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "f7770f0b818c3a67",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "713fd4c3b9030f45",
         "type": "ui-group",
         "name": "body",
-        "page": "f8dd620721c6d70b",
+        "page": "632260133d581caa",
         "width": "12",
-        "height": 1,
+        "height": "1",
         "order": 2,
         "showTitle": false,
         "className": "",
@@ -2603,75 +2849,11 @@
         "groupType": "default"
     },
     {
-        "id": "12a5b593fef67597",
+        "id": "7572915171e440cd",
         "type": "ui-group",
-        "name": "footer",
-        "page": "632260133d581caa",
-        "width": "12",
-        "height": 1,
-        "order": 4,
-        "showTitle": false,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "518a4242f548c1f2",
-        "type": "ui-group",
-        "name": "links",
-        "page": "f8dd620721c6d70b",
-        "width": "12",
-        "height": 1,
-        "order": 4,
-        "showTitle": false,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "bcc78241b99ba27f",
-        "type": "ui-page",
-        "name": "Preview",
-        "ui": "e6ae26617c24c3ea",
-        "path": "/preview",
-        "icon": "mdi-eye",
-        "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 2,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "58ab4d5e3dd68192",
-        "type": "ui-group",
-        "name": "Streaming",
+        "name": "Navigation",
         "page": "bcc78241b99ba27f",
-        "width": "6",
+        "width": "12",
         "height": 1,
         "order": 1,
         "showTitle": false,
@@ -2681,61 +2863,11 @@
         "groupType": "default"
     },
     {
-        "id": "39cbd2658f16d608",
+        "id": "3ae252a2e5abca89",
         "type": "ui-group",
-        "name": "Controls",
-        "page": "bcc78241b99ba27f",
-        "width": "6",
-        "height": 1,
-        "order": 2,
-        "showTitle": false,
-        "className": "",
-        "visible": "true",
-        "disabled": "false",
-        "groupType": "default"
-    },
-    {
-        "id": "5c3e73c675caac42",
-        "type": "ui-page",
-        "name": "Acquisition",
-        "ui": "e6ae26617c24c3ea",
-        "path": "/acquisition",
-        "icon": "mdi-play-circle",
-        "layout": "grid",
-        "theme": "2ad26e39f0bc37f6",
-        "breakpoints": [
-            {
-                "name": "Default",
-                "px": "0",
-                "cols": "3"
-            },
-            {
-                "name": "Tablet",
-                "px": "576",
-                "cols": "6"
-            },
-            {
-                "name": "Small Desktop",
-                "px": "768",
-                "cols": "9"
-            },
-            {
-                "name": "Desktop",
-                "px": "1024",
-                "cols": "12"
-            }
-        ],
-        "order": 3,
-        "className": "",
-        "visible": "true",
-        "disabled": "false"
-    },
-    {
-        "id": "b274327af3807b79",
-        "type": "ui-group",
-        "name": "Streaming",
+        "name": "Navigation",
         "page": "5c3e73c675caac42",
-        "width": "6",
+        "width": "12",
         "height": 1,
         "order": 1,
         "showTitle": false,
@@ -2745,14 +2877,56 @@
         "groupType": "default"
     },
     {
-        "id": "d2f77573ed4317e4",
+        "id": "7dcc8848e91343c8",
         "type": "ui-group",
-        "name": "Controls",
-        "page": "5c3e73c675caac42",
-        "width": 6,
+        "name": "Focus settings",
+        "page": "bcc78241b99ba27f",
+        "width": "5",
         "height": 1,
-        "order": 2,
-        "showTitle": false,
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "86e89a98bf95c5fa",
+        "type": "ui-group",
+        "name": "Light settings",
+        "page": "bcc78241b99ba27f",
+        "width": "5",
+        "height": 1,
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6b7305fbb10eb680",
+        "type": "ui-group",
+        "name": "Camera settings",
+        "page": "bcc78241b99ba27f",
+        "width": "5",
+        "height": 1,
+        "order": 6,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "1c1efabff5115209",
+        "type": "ui-group",
+        "name": "Number field",
+        "page": "b9f88d899abc43e6",
+        "width": "12",
+        "height": 1,
+        "order": 6,
+        "showTitle": true,
         "className": "",
         "visible": "true",
         "disabled": "false",
@@ -9958,7 +10132,7 @@
         "type": "function",
         "z": "a93cd90e1ab9222e",
         "name": "set global",
-        "func": "global.set(\"acq_software\", \"PlanktoScope \" + msg.payload);\n",
+        "func": "global.set(\"acq_software\", msg.payload);\n",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -12891,14 +13065,14 @@
         "width": "12",
         "height": "1",
         "head": "",
-        "format": "<template>\n  <v-empty-state>\n    <v-container>\n      <v-row>\n        <!-- First Row: Larger cards with icon centered above title -->\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"preview\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-eye</v-icon>\n            <v-card-title class=\"text-h6\">Launch the Preview</v-card-title>\n            <v-card-text>Access a real-time, high-resolution preview to inspect the contents of your current water sample.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"acquisition\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-play-circle</v-icon>\n            <v-card-title class=\"text-h6\">Start Acquisition</v-card-title>\n            <v-card-text>Start a new acquisition process to continuously collect images and metadata from your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"/ps/data/browse/files/\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-database-search</v-icon>\n            <v-card-title class=\"text-h6\">Explore Your Data</v-card-title>\n            <v-card-text>Open the data explorer to review, categorize, and interpret all previously captured sample information.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n\n      <!-- Second Row: Standard size cards -->\n      <v-row>\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"/ps/docs/operation/protocol-v4.pdf\"\n            target=\"_blank\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-book-open-variant</v-icon>\n              Learn the Basics\n            </v-card-title>\n            <v-card-text>Find detailed instructions on using your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"http://pkscope-rich-kettle-10463.local/admin/grafana/d/host-summary/host-summary?orgId=1&from=now-5m&to=now&timezone=browser&var-DS_PROMETHEUS=PBFA97CFB590B2093&var-job=node-exporter&var-node=host.docker.internal:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B&refresh=5s\"\n            target=\"_blank\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-speedometer</v-icon>\n              Monitoring\n            </v-card-title>\n            <v-card-text>Keep track of system status and performance metrics.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"calibration\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-tune</v-icon>\n              Calibration\n            </v-card-title>\n            <v-card-text>Adjust and verify settings for consistent results.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-empty-state>\n</template>\n",
+        "format": "<template>\n    <v-container>\n      <v-row>\n        <!-- First Row: Larger cards with icon centered above title -->\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"preview\"\n            class=\"text-center py-2\"\n            variant=\"flat\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-eye</v-icon>\n            <v-card-title class=\"text-h6\">Launch the Preview</v-card-title>\n            <v-card-text>Access a real-time, high-resolution preview to inspect the contents of your current water sample.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"metadata\"\n            class=\"text-center py-2\"\n            variant=\"outlined\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-play-circle</v-icon>\n            <v-card-title class=\"text-h6\">Start Acquisition</v-card-title>\n            <v-card-text>Start a new acquisition process to continuously collect images and metadata from your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"/ps/data/browse/files/\"\n            target=\"_blank\"\n            class=\"text-center py-2\"\n            variant=\"outlined\"\n          >\n            <v-icon size=\"64\" color=\"primary\">mdi-database-search</v-icon>\n            <v-card-title class=\"text-h6\">Explore Your Data</v-card-title>\n            <v-card-text>Open the data explorer to review, categorize, and interpret all previously captured sample information.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n\n      <!-- Second Row: Standard size cards -->\n      <v-row>\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"/ps/docs/operation/protocol-v4.pdf\"\n            target=\"_blank\"\n            variant=\"outlined\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-book-open-variant</v-icon>\n              Learn the Basics\n            </v-card-title>\n            <v-card-text>Find detailed instructions on using your PlanktoScope.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"http://pkscope-rich-kettle-10463.local/admin/grafana/d/host-summary/host-summary?orgId=1&from=now-5m&to=now&timezone=browser&var-DS_PROMETHEUS=PBFA97CFB590B2093&var-job=node-exporter&var-node=host.docker.internal:9100&var-diskdevices=%5Ba-z%5D%2B%7Cnvme%5B0-9%5D%2Bn%5B0-9%5D%2B%7Cmmcblk%5B0-9%5D%2B&refresh=5s\"\n            target=\"_blank\"\n            variant=\"outlined\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-speedometer</v-icon>\n              Monitoring\n            </v-card-title>\n            <v-card-text>Keep track of system status and performance metrics.</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card\n            href=\"calibration\"\n            variant=\"outlined\"\n          >\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-tune</v-icon>\n              Calibration\n            </v-card-title>\n            <v-card-text>Adjust and verify settings for consistent results.</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n      \n    </v-container>\n</template>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 350,
-        "y": 220,
+        "x": 690,
+        "y": 340,
         "wires": [
             []
         ]
@@ -12907,9 +13081,9 @@
         "id": "1cf1b20e425ec126",
         "type": "ui-template",
         "z": "1b667c6443413ced",
-        "group": "12a5b593fef67597",
+        "group": "",
         "page": "",
-        "ui": "",
+        "ui": "e6ae26617c24c3ea",
         "name": "footer",
         "order": 1,
         "width": 0,
@@ -12919,10 +13093,10 @@
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
-        "templateScope": "local",
+        "templateScope": "widget:ui",
         "className": "",
-        "x": 350,
-        "y": 300,
+        "x": 690,
+        "y": 480,
         "wires": [
             []
         ]
@@ -12945,8 +13119,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 350,
-        "y": 180,
+        "x": 690,
+        "y": 300,
         "wires": [
             []
         ]
@@ -12969,8 +13143,140 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 350,
-        "y": 260,
+        "x": 690,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "67b871e8f9c64c2b",
+        "type": "switch",
+        "z": "1b667c6443413ced",
+        "name": "msg.payload.page.path === \"/home\"",
+        "property": "payload.page.path",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/home",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 100,
+        "wires": [
+            [
+                "28937f51511569e1"
+            ]
+        ]
+    },
+    {
+        "id": "e74e4d04e4a79458",
+        "type": "switch",
+        "z": "1b667c6443413ced",
+        "name": "msg.topic === \"$pageview\"",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "$pageview",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 100,
+        "wires": [
+            [
+                "67b871e8f9c64c2b"
+            ]
+        ]
+    },
+    {
+        "id": "7c16cbd0b2c40ea4",
+        "type": "ui-event",
+        "z": "1b667c6443413ced",
+        "ui": "e6ae26617c24c3ea",
+        "name": "UI Event",
+        "x": 120,
+        "y": 100,
+        "wires": [
+            [
+                "e74e4d04e4a79458"
+            ]
+        ]
+    },
+    {
+        "id": "401d92ce8e2ee079",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "713fd4c3b9030f45",
+        "page": "",
+        "ui": "",
+        "name": "metrics",
+        "order": 2,
+        "width": "12",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n    <v-container>\n\n      <!-- Third Row: Standard size cards -->\n      <v-row>\n        <v-col cols=\"12\" md=\"3\">\n          <v-card variant=\"tonal\">\n            <v-card-title>\n              <v-icon class=\"mr-2\" color=\"primary\">mdi-cube-outline</v-icon>\n              Model of your machine\n            </v-card-title>\n            <v-card-text>{{ msg.acq_instrument }}</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"3\">\n          <v-card variant=\"tonal\">\n            <v-card-title>\n              <v-icon class=\"mr-2\">mdi-barcode-scan</v-icon>\n              Serial number\n            </v-card-title>\n            <v-card-text>U178</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"3\">\n          <v-card variant=\"tonal\">\n            <v-card-title>\n              <v-icon class=\"mr-2\">mdi-label-outline</v-icon>\n              Name of your machine\n            </v-card-title>\n            <v-card-text>{{ msg.acq_instrument_id }}</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"3\">\n          <v-card variant=\"tonal\">\n            <v-card-title>\n              <v-icon class=\"mr-2\">mdi-code-tags</v-icon>\n              Software version\n            </v-card-title>\n            <v-card-text>{{ msg.acq_software }}</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n\n      <!-- Third Row: Standard size cards -->\n      <v-row>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card variant=\"tonal\">\n            <v-card-title>\n              <v-icon class=\"mr-2\">mdi-barcode-scan</v-icon>\n              Serial number\n            </v-card-title>\n            <v-card-text>U178</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card variant=\"tonal\">\n            <v-card-title>\n              <v-icon class=\"mr-2\">mdi-label-outline</v-icon>\n              Name of your machine\n            </v-card-title>\n            <v-card-text>{{ msg.acq_instrument_id }}</v-card-text>\n          </v-card>\n        </v-col>\n\n        <v-col cols=\"12\" md=\"4\">\n          <v-card variant=\"tonal\">\n            <v-card-title>\n              <v-icon class=\"mr-2\">mdi-code-tags</v-icon>\n              Software version\n            </v-card-title>\n            <v-card-text>{{ msg.acq_software }}</v-card-text>\n          </v-card>\n        </v-col>\n      </v-row>\n      \n    </v-container>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 700,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "28937f51511569e1",
+        "type": "function",
+        "z": "1b667c6443413ced",
+        "name": "Get Global Variables",
+        "func": "const keys = global.keys(); // Get all global keys\n\nkeys.forEach(key => {\n    msg[key] = global.get(key);\n});\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 500,
+        "y": 380,
+        "wires": [
+            [
+                "401d92ce8e2ee079"
+            ]
+        ]
+    },
+    {
+        "id": "5d4e95854b504124",
+        "type": "ui-template",
+        "z": "1b667c6443413ced",
+        "group": "",
+        "page": "",
+        "ui": "e6ae26617c24c3ea",
+        "name": "CSS (All Pages)",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "  .v-btn--variant-outlined.v-btn--active {\n    background-color: #1976d2 !important;\n    color: white !important;\n  }",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "site:style",
+        "className": "",
+        "x": 1240,
+        "y": 80,
         "wires": [
             []
         ]
@@ -12988,7 +13294,7 @@
         "width": "0",
         "height": "0",
         "head": "",
-        "format": "<center>\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
+        "format": "<center class=\"pa-0\">\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\" class=\"pa-0\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -13004,36 +13310,25 @@
         "id": "8c0dc4c89ed361a0",
         "type": "mqtt out",
         "z": "ab58b3fd0e6bcd77",
-        "g": "95995126a74c9462",
-        "name": "",
+        "name": "MQTT",
         "topic": "",
         "qos": "",
         "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
         "broker": "8dc3722c.06efa8",
-        "x": 970,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "2086dfa80d223fa1",
-        "type": "mqtt out",
-        "z": "ab58b3fd0e6bcd77",
-        "g": "95995126a74c9462",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "broker": "8dc3722c.06efa8",
-        "x": 970,
-        "y": 220,
+        "x": 1650,
+        "y": 320,
         "wires": []
     },
     {
         "id": "b1ecc016686e9ee1",
         "type": "function",
         "z": "ab58b3fd0e6bcd77",
-        "g": "95995126a74c9462",
-        "name": "pump",
+        "name": "Pump MQTT Preparation",
         "func": "var manual_volume= global.get(\"pump_manual_volume\");\nvar flowrate= global.get(\"pump_flowrate\");\n\nif (manual_volume === undefined || manual_volume === \"\" || manual_volume === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Volume to pass\";\n    return [null, msg];\n}\nelse if (flowrate === undefined || flowrate === \"\" || flowrate === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Flowrate\";\n    return [null, msg];\n}\nelse {\n    msg.topic = \"actuator/pump\";\n    // msg.payload is FORWARD or BACKWARD here\n    msg.payload={\"action\":\"move\", \n                \"direction\":msg.payload,\n                \"volume\":manual_volume,\n                \"flowrate\":flowrate};\n}\nreturn [msg, null];",
         "outputs": 2,
         "timeout": "",
@@ -13041,8 +13336,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 280,
+        "x": 1250,
+        "y": 300,
         "wires": [
             [
                 "8c0dc4c89ed361a0"
@@ -13058,27 +13353,9 @@
         ]
     },
     {
-        "id": "4bfcd454871ad31f",
-        "type": "function",
-        "z": "ab58b3fd0e6bcd77",
-        "g": "95995126a74c9462",
-        "name": "set global",
-        "func": "global.set(msg.topic,msg.payload);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 460,
-        "y": 280,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "f9e9ad7833e9a58f",
         "type": "ui-template",
         "z": "ab58b3fd0e6bcd77",
-        "g": "95995126a74c9462",
         "group": "39cbd2658f16d608",
         "page": "",
         "ui": "",
@@ -13087,59 +13364,35 @@
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<template>\n  <v-card class=\"pa-4\" flat color=\"white\">\n    <v-card-title class=\"text-h6 font-weight-bold\">\n      Pump settings\n    </v-card-title>\n\n    <!-- Flowrate -->\n    <v-row class=\"mt-0\">\n      <v-col cols=\"12\" sm=\"8\">\n        <v-slider\n          v-model.number=\"flowrate\"\n          :min=\"min\"\n          :max=\"max\"\n          :step=\"0.2\"\n          class=\"align-center\"\n          hide-details\n          label=\"Flowrate\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" sm=\"4\">\n        <v-text-field\n          v-model.number=\"flowrate\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"ml/min\"\n        />\n      </v-col>\n    </v-row>\n\n    <v-row class=\"mt-0\">\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          v-model=\"flowratePreset\"\n          class=\"d-flex justify-space-between\"\n          color=\"primary\"\n          variant=\"outlined\"\n          density=\"compact\"\n          divided\n          shaped\n          mandatory\n          @update:model-value=\"onFlowrateToggle\"\n        >\n          <v-btn\n            v-for=\"value in flowratePresets\"\n            :key=\"'flowrate-' + value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n\n    <!-- Volume -->\n    <v-row class=\"mt-4\">\n      <v-col cols=\"12\" sm=\"8\">\n        <v-slider\n          v-model.number=\"volume\"\n          :min=\"min\"\n          :max=\"max\"\n          :step=\"0.2\"\n          class=\"align-center\"\n          hide-details\n          label=\"Volume\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" sm=\"4\">\n        <v-text-field\n          v-model.number=\"volume\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"ml\"\n        />\n      </v-col>\n    </v-row>\n\n    <v-row class=\"mt-0\">\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          v-model=\"volumePreset\"\n          class=\"d-flex justify-space-between\"\n          variant=\"outlined\"\n          color=\"primary\"\n          divided\n          shaped\n          mandatory\n          @update:model-value=\"onVolumeToggle\"\n        >\n          <v-btn\n            v-for=\"value in volumePresets\"\n            :key=\"'volume-' + value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n\n    <!-- Direction Control -->\n    <v-row class=\"mt-4\">\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"direction\"\n          color=\"primary\"\n          mandatory\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n        >\n          <v-btn class=\"flex-grow-1\" :value=\"'backward'\">Backward</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'stop'\">Stop</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'forward'\">Forward</v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      min: 0.02,\n      max: 30,\n      flowrate: 10,\n      volume: 10,\n      flowratePreset: null,\n      volumePreset: null,\n      flowratePresets: [0.02, 0.2, 2, 20],\n      volumePresets: [0.02, 2, 10, 20],\n      direction: 'stop',\n    };\n  },\n  watch: {\n    flowrate(newVal) {\n      this.flowratePreset = this.flowratePresets.find(val => val === newVal) ?? null;\n    },\n    volume(newVal) {\n      this.volumePreset = this.volumePresets.find(val => val === newVal) ?? null;\n    },\n  },\n  methods: {\n    onFlowrateToggle(val) {\n      if (val != null) {\n        this.flowrate = val;\n      }\n    },\n    onVolumeToggle(val) {\n      if (val != null) {\n        this.volume = val;\n      }\n    },\n  },\n};\n</script>\n",
+        "format": "<template>\n\n    <!-- Flowrate -->\n    <v-row>\n      <v-col cols=\"12\" sm=\"7\">\n        <v-slider\n          v-model.number=\"flowrate\"\n          :min=\"min\"\n          :max=\"max\"\n          :step=\"0.2\"\n          class=\"align-center\"\n          hide-details\n          label=\"Flowrate\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" sm=\"5\">\n        <v-text-field\n          v-model.number=\"flowrate\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"ml/min\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n    </v-row>\n\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          v-model=\"flowratePreset\"\n          class=\"d-flex justify-space-between\"\n          color=\"primary\"\n          variant=\"outlined\"\n          divided\n          shaped\n          mandatory\n          @update:model-value=\"onFlowrateToggle\"\n        >\n          <v-btn\n            v-for=\"value in flowratePresets\"\n            :key=\"'flowrate-' + value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n\n    <!-- Volume -->\n    <v-row>\n      <v-col cols=\"12\" sm=\"8\">\n        <v-slider\n          v-model.number=\"volume\"\n          :min=\"min\"\n          :max=\"max\"\n          :step=\"0.2\"\n          class=\"align-center\"\n          hide-details\n          label=\"Volume\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" sm=\"4\">\n        <v-text-field\n          v-model.number=\"volume\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"ml\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n    </v-row>\n\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          v-model=\"volumePreset\"\n          class=\"d-flex justify-space-between\"\n          variant=\"outlined\"\n          color=\"primary\"\n          divided\n          shaped\n          mandatory\n          @update:model-value=\"onVolumeToggle\"\n        >\n          <v-btn\n            v-for=\"value in volumePresets\"\n            :key=\"'volume-' + value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n\n    <!-- Direction Control -->\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"direction\"\n          color=\"primary\"\n          mandatory\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n        >\n          <v-btn class=\"flex-grow-1\" :value=\"'backward'\">Backward</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'stop'\">Stop</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'forward'\">Forward</v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      min: 0.02,\n      max: 30,\n      flowrate: 10,\n      volume: 10,\n      flowratePreset: null,\n      volumePreset: null,\n      flowratePresets: [0.02, 0.2, 2, 20],\n      volumePresets: [0.02, 2, 10, 20],\n      direction: 'stop',\n    };\n  },\n  watch: {\n    flowrate(newVal) {\n      this.flowratePreset = this.flowratePresets.find(val => val === newVal) ?? null;\n    },\n    volume(newVal) {\n      this.volumePreset = this.volumePresets.find(val => val === newVal) ?? null;\n    },\n  },\n  methods: {\n    onFlowrateToggle(val) {\n      if (val != null) {\n        this.flowrate = val;\n      }\n    },\n    onVolumeToggle(val) {\n      if (val != null) {\n        this.volume = val;\n      }\n    },\n  },\n};\n</script>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 290,
-        "y": 260,
+        "x": 950,
+        "y": 300,
         "wires": [
-            []
+            [
+                "6d0408bb7ca6e5f3",
+                "b1ecc016686e9ee1"
+            ]
         ]
-    },
-    {
-        "id": "2c7673b6e71f6d69",
-        "type": "mqtt out",
-        "z": "ab58b3fd0e6bcd77",
-        "g": "8af1a61ad0c81034",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "broker": "8dc3722c.06efa8",
-        "x": 970,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "8fc647cac4bd8cfd",
-        "type": "mqtt out",
-        "z": "ab58b3fd0e6bcd77",
-        "g": "8af1a61ad0c81034",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "broker": "8dc3722c.06efa8",
-        "x": 970,
-        "y": 440,
-        "wires": []
     },
     {
         "id": "6d0408bb7ca6e5f3",
         "type": "function",
         "z": "ab58b3fd0e6bcd77",
-        "g": "8af1a61ad0c81034",
         "name": "set global",
         "func": "global.set(msg.topic,msg.payload);",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
-        "x": 460,
-        "y": 480,
+        "libs": [],
+        "x": 1200,
+        "y": 260,
         "wires": [
             []
         ]
@@ -13148,33 +13401,34 @@
         "id": "d04fdf594224f8af",
         "type": "ui-template",
         "z": "ab58b3fd0e6bcd77",
-        "g": "8af1a61ad0c81034",
-        "group": "39cbd2658f16d608",
+        "group": "7dcc8848e91343c8",
         "page": "",
         "ui": "",
         "name": "Focus",
-        "order": 2,
+        "order": 1,
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<template>\n  <v-card class=\"pa-4\" flat color=\"white\">\n    <v-card-title class=\"text-h6 font-weight-bold\">\n      Focus settings\n    </v-card-title>\n\n    <!-- Focus Distance Slider -->\n    <v-row class=\"mt-0\">\n      <v-col cols=\"12\" sm=\"8\">\n        <v-slider\n          v-model.number=\"distance\"\n          :max=\"max\"\n          :min=\"min\"\n          :step=\"25\"\n          class=\"align-center\"\n          hide-details\n          label=\"Distance\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n      <v-col cols=\"12\" sm=\"4\">\n        <v-text-field\n          v-model.number=\"distance\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"μm\"\n          density=\"compact\"\n        />\n      </v-col>\n    </v-row>\n\n    <!-- Preset Distances -->\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"distancePreset\"\n          density=\"compact\"\n          divided\n          shaped\n          color=\"primary\"\n          class=\"d-flex justify-space-between\"\n          mandatory\n          @update:model-value=\"onDistanceToggle\"\n        >\n          <v-btn\n            v-for=\"value in presetDistances\"\n            :key=\"'distance-' + value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n\n    <!-- Directional Focus Control -->\n    <v-row class=\"mt-4\">\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"focusDirection\"\n          density=\"compact\"\n          color=\"primary\"\n          mandatory\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n        >\n          <v-btn class=\"flex-grow-1\" :value=\"'left'\">Left</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'stop'\">Stop</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'right'\">Right</v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      min: 25,\n      max: 5000,\n      distance: 25,\n      distancePreset: null,\n      presetDistances: [25, 150, 500, 5000],\n      focusDirection: 'stop',\n    };\n  },\n  watch: {\n    distance(newVal) {\n      const exactMatch = this.presetDistances.find((val) => val === newVal);\n      this.distancePreset = exactMatch ?? null;\n    },\n  },\n  methods: {\n    onDistanceToggle(val) {\n      if (val != null) {\n        this.distance = val;\n      }\n    },\n  },\n};\n</script>\n",
+        "format": "<template>\n\n    <!-- Focus Distance Slider -->\n    <v-row>\n      <v-col cols=\"12\" sm=\"8\">\n        <v-slider\n          v-model.number=\"distance\"\n          :max=\"max\"\n          :min=\"min\"\n          :step=\"25\"\n          class=\"align-center\"\n          hide-details\n          label=\"Distance\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n      <v-col cols=\"12\" sm=\"4\">\n        <v-text-field\n          v-model.number=\"distance\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"μm\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n    </v-row>\n\n    <!-- Preset Distances -->\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"distancePreset\"\n          divided\n          shaped\n          color=\"primary\"\n          class=\"d-flex justify-space-between\"\n          mandatory\n          @update:model-value=\"onDistanceToggle\"\n        >\n          <v-btn\n            v-for=\"value in presetDistances\"\n            :key=\"'distance-' + value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n\n    <!-- Directional Focus Control -->\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"focusDirection\"\n          color=\"primary\"\n          mandatory\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n        >\n          <v-btn class=\"flex-grow-1\" :value=\"'left'\">Left</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'stop'\">Stop</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'right'\">Right</v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      min: 25,\n      max: 5000,\n      distance: 25,\n      distancePreset: null,\n      presetDistances: [25, 150, 500, 5000],\n      focusDirection: 'stop',\n    };\n  },\n  watch: {\n    distance(newVal) {\n      const exactMatch = this.presetDistances.find((val) => val === newVal);\n      this.distancePreset = exactMatch ?? null;\n    },\n  },\n  methods: {\n    onDistanceToggle(val) {\n      if (val != null) {\n        this.distance = val;\n      }\n    },\n  },\n};\n</script>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 290,
-        "y": 480,
+        "x": 950,
+        "y": 340,
         "wires": [
-            []
+            [
+                "6d0408bb7ca6e5f3",
+                "d7ca56746e08f158"
+            ]
         ]
     },
     {
         "id": "d7ca56746e08f158",
         "type": "function",
         "z": "ab58b3fd0e6bcd77",
-        "g": "8af1a61ad0c81034",
-        "name": "focus",
+        "name": "Focus MQTT Preparation",
         "func": "var distance = global.get(\"focus_distance\");\nvar speed = global.get(\"focus_speed\");\n\nif (distance === undefined || distance === \"\" || distance === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Distance\";\n    return [null, msg]\n}\nif (speed === undefined || speed === \"\" || speed === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Speed\";\n    return [null, msg]\n}\n// msg.payload is UP or DOWN here\nmsg.payload={\"action\":\"move\", \n            \"direction\":msg.payload,\n            \"distance\":(distance/1000),\n            \"speed\": (speed/1000)\n};\nreturn [msg, null];",
         "outputs": 2,
         "timeout": "",
@@ -13182,11 +13436,11 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 500,
+        "x": 1250,
+        "y": 340,
         "wires": [
             [
-                "2c7673b6e71f6d69"
+                "8c0dc4c89ed361a0"
             ],
             []
         ],
@@ -13196,96 +13450,99 @@
         "outputLabels": [
             "message",
             "error"
-        ]
-    },
-    {
-        "id": "4829dc3c55043962",
-        "type": "mqtt out",
-        "z": "ab58b3fd0e6bcd77",
-        "g": "e2895c2cd3e0bf12",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "broker": "8dc3722c.06efa8",
-        "x": 970,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "902d28823a121972",
-        "type": "mqtt out",
-        "z": "ab58b3fd0e6bcd77",
-        "g": "e2895c2cd3e0bf12",
-        "name": "",
-        "topic": "",
-        "qos": "",
-        "retain": "",
-        "broker": "8dc3722c.06efa8",
-        "x": 970,
-        "y": 620,
-        "wires": []
-    },
-    {
-        "id": "f57da16317e29f43",
-        "type": "function",
-        "z": "ab58b3fd0e6bcd77",
-        "g": "e2895c2cd3e0bf12",
-        "name": "set global",
-        "func": "global.set(msg.topic,msg.payload);",
-        "outputs": 1,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "x": 460,
-        "y": 640,
-        "wires": [
-            []
         ]
     },
     {
         "id": "ad265a65cffbe1e9",
         "type": "ui-template",
         "z": "ab58b3fd0e6bcd77",
-        "g": "e2895c2cd3e0bf12",
-        "group": "39cbd2658f16d608",
+        "group": "86e89a98bf95c5fa",
         "page": "",
         "ui": "",
-        "name": "LED",
-        "order": 3,
+        "name": "Light",
+        "order": 1,
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<template>\n  <v-card class=\"pa-4\" flat color=\"white\">\n    <v-card-title class=\"text-h6 font-weight-bold\">\n     LED settings\n    </v-card-title>\n\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"ledState\"\n          density=\"compact\"\n          color=\"primary\"\n          mandatory\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n        >\n          <v-btn class=\"flex-grow-1\" :value=\"'on'\">On</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'off'\">Off</v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      ledState: 'off',\n    };\n  },\n};\n</script>\n",
+        "format": "<template>\n\n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"ledState\"\n          color=\"primary\"\n          mandatory\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n        >\n          <v-btn class=\"flex-grow-1\" :value=\"'on'\">On</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'off'\">Off</v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      ledState: 'off',\n    };\n  },\n};\n</script>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 290,
-        "y": 700,
+        "x": 950,
+        "y": 380,
+        "wires": [
+            [
+                "6d0408bb7ca6e5f3",
+                "f5cf7a0fafc8f14d"
+            ]
+        ]
+    },
+    {
+        "id": "267aba9da1b9665b",
+        "type": "ui-template",
+        "z": "ab58b3fd0e6bcd77",
+        "group": "6b7305fbb10eb680",
+        "page": "",
+        "ui": "",
+        "name": "Camera",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n\n    <v-card-text>\n      Modify your camera settings through the calibration page. Adjust optical parameters to ensure accurate imaging.\n    </v-card-text>\n\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 960,
+        "y": 420,
         "wires": [
             []
         ]
     },
     {
-        "id": "b07dcf11598a423f",
+        "id": "c8de0186a0a927e8",
         "type": "function",
         "z": "ab58b3fd0e6bcd77",
-        "g": "e2895c2cd3e0bf12",
-        "name": "focus",
-        "func": "var distance = global.get(\"focus_distance\");\nvar speed = global.get(\"focus_speed\");\n\nif (distance === undefined || distance === \"\" || distance === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Distance\";\n    return [null, msg]\n}\nif (speed === undefined || speed === \"\" || speed === null) {\n    msg.topic = \"Missing entry :\"\n    msg.payload = \"Speed\";\n    return [null, msg]\n}\n// msg.payload is UP or DOWN here\nmsg.payload={\"action\":\"move\", \n            \"direction\":msg.payload,\n            \"distance\":(distance/1000),\n            \"speed\": (speed/1000)\n};\nreturn [msg, null];",
+        "name": "Get Global Variables",
+        "func": "const keys = global.keys(); // Get all global keys\n\nkeys.forEach(key => {\n    msg[key] = global.get(key);\n});\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 700,
+        "y": 300,
+        "wires": [
+            [
+                "f9e9ad7833e9a58f",
+                "d04fdf594224f8af",
+                "ad265a65cffbe1e9",
+                "267aba9da1b9665b"
+            ]
+        ]
+    },
+    {
+        "id": "f5cf7a0fafc8f14d",
+        "type": "function",
+        "z": "ab58b3fd0e6bcd77",
+        "name": "Light MQTT Preparation",
+        "func": "//TODO\nreturn [msg, null];",
         "outputs": 2,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 830,
-        "y": 680,
+        "x": 1250,
+        "y": 380,
         "wires": [
             [
-                "4829dc3c55043962"
+                "8c0dc4c89ed361a0"
             ],
             []
         ],
@@ -13298,25 +13555,277 @@
         ]
     },
     {
-        "id": "267aba9da1b9665b",
+        "id": "927b92eee9edfcbe",
         "type": "ui-template",
         "z": "ab58b3fd0e6bcd77",
-        "group": "39cbd2658f16d608",
+        "group": "7572915171e440cd",
         "page": "",
         "ui": "",
-        "name": "Camera",
-        "order": 4,
+        "name": "Navigation",
+        "order": 1,
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<template>\n  <v-card class=\"pa-4\" flat color=\"white\">\n    <v-card-title class=\"text-h6 font-weight-bold\">\n      Camera settings\n    </v-card-title>\n\n    <v-card-text>\n      Modify your camera settings through the calibration page. Adjust optical parameters to ensure accurate imaging.\n    </v-card-text>\n\n  </v-card>\n</template>\n",
+        "format": "<template>\n  <v-container fluid class=\"ma-0 pa-0\">\n\n    <v-row justify=\"space-between\" align=\"center\">\n      <v-col cols=\"auto\">\n        <v-btn\n          variant=\"text\"\n          to=\"home\"\n        >\n          <v-icon start>mdi-chevron-left</v-icon>\n          Home\n        </v-btn>\n      </v-col>\n\n      <v-col cols=\"auto\">\n        <v-btn\n          variant=\"text\"\n          to=\"metadata\"\n        >\n          Metadata\n          <v-icon end>mdi-chevron-right</v-icon>\n        </v-btn>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 300,
-        "y": 820,
+        "x": 530,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d5eadf60a2fd54b",
+        "type": "switch",
+        "z": "ab58b3fd0e6bcd77",
+        "name": "msg.topic === \"$pageview\"",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "$pageview",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "6074fc31218f9a74"
+            ]
+        ]
+    },
+    {
+        "id": "da4fbaab826b0d62",
+        "type": "ui-event",
+        "z": "ab58b3fd0e6bcd77",
+        "ui": "e6ae26617c24c3ea",
+        "name": "UI Event",
+        "x": 140,
+        "y": 220,
+        "wires": [
+            [
+                "8d5eadf60a2fd54b"
+            ]
+        ]
+    },
+    {
+        "id": "6074fc31218f9a74",
+        "type": "switch",
+        "z": "ab58b3fd0e6bcd77",
+        "name": "msg.payload.page.path === \"/preview\"",
+        "property": "payload.page.path",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/preview",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 640,
+        "y": 220,
+        "wires": [
+            [
+                "c8de0186a0a927e8"
+            ]
+        ]
+    },
+    {
+        "id": "349d0f7644f26a62",
+        "type": "ui-template",
+        "z": "190b0c9aa75e8843",
+        "group": "dd015fda7456b9b0",
+        "page": "",
+        "ui": "",
+        "name": "Navigation Top",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-container fluid class=\"ma-0 pa-0\">\n\n    <v-row justify=\"space-between\" align=\"center\">\n      <v-col cols=\"auto\">\n        <v-btn\n          variant=\"text\"\n          to=\"preview\"\n        >\n          <v-icon start>mdi-chevron-left</v-icon>\n          Preview\n        </v-btn>\n      </v-col>\n\n      <v-col cols=\"auto\">\n        <v-btn\n          variant=\"text\"\n          to=\"acquisition\"\n        >\n          Acquisition\n          <v-icon end>mdi-chevron-right</v-icon>\n        </v-btn>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 200,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "279f3ddada9cadaa",
+        "type": "ui-template",
+        "z": "190b0c9aa75e8843",
+        "group": "69c772603e9cec0d",
+        "page": "",
+        "ui": "",
+        "name": "Sample Information",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <!-- Project Metadata Inputs -->\n  <v-row class=\"mt-2\">\n    <v-col cols=\"12\" md=\"4\">\n      <v-text-field\n        v-model=\"projectName\"\n        label=\"Name of the project\"\n        placeholder=\"ex : Tara Pacifique\"\n        variant=\"outlined\"\n        clearable\n        hint=\"Enter the research project or expedition name this sample is part of.\" append-icon=\"mdi-information\"\n      />\n    </v-col>\n\n    <v-col cols=\"12\" md=\"4\">\n      <v-text-field\n        v-model=\"sampleId\"\n        label=\"Sample ID\"\n        placeholder=\"ex : S001\"\n        type=\"text\"\n        variant=\"outlined\"\n        clearable\n        hint=\"Provide a unique identifier for this sample (e.g., S001).\" append-icon=\"mdi-information\"\n      />\n    </v-col>\n\n    <v-col cols=\"12\" md=\"4\">\n      <v-text-field\n        v-model=\"operatorName\"\n        label=\"Operator name\"\n        placeholder=\"ex : Manu Prakash\"\n        type=\"text\"\n        variant=\"outlined\"\n        clearable\n        hint=\"Name of the person who collected the sample.\" append-icon=\"mdi-information\"\n      />\n    </v-col>\n  </v-row>\n\n  <!-- Sampling Gear Selector -->\n  <v-row class=\"mt-4\">\n    <v-col cols=\"12\">\n      <label class=\"text-subtitle-2 font-weight-medium mb-2 d-block\" append-icon=\"mdi-information\">\n        Sampling Gear\n      </label>\n      <v-row>\n          <v-col cols=\"12\">\n            <div style=\"overflow-x: auto;\">\n              <v-btn-toggle\n                variant=\"outlined\"\n                v-model=\"sample_gear\"\n                color=\"primary\"\n                mandatory\n                divided\n                shaped\n                class=\"d-flex\"\n                style=\"min-width: max-content;min-height:100px\"\n              >\n                <v-btn value=\"Horizontal Net\" prepend-icon=\"mdi-arrow-right-bold\" stacked>\n                  <span>Horizontal Net</span>\n                </v-btn>\n                <v-btn value=\"Vertical Net\" prepend-icon=\"mdi-arrow-up-bold\" stacked>\n                  <span>Vertical Net</span>\n                </v-btn>\n                <v-btn value=\"Niskin bottle\" prepend-icon=\"mdi-bottle-tonic\" stacked>\n                  <span>Niskin bottle</span>\n                </v-btn>\n                <v-btn value=\"Lab culture\" prepend-icon=\"mdi-flask-outline\" stacked>\n                  <span>Lab culture</span>\n                </v-btn>\n                <v-btn value=\"Demo / Test\" prepend-icon=\"mdi-beaker-outline\" stacked>\n                  <span>Demo / Test</span>\n                </v-btn>\n              </v-btn-toggle>\n            </div>\n          </v-col>\n        </v-row>\n\n      <div class=\"text-caption text-medium-emphasis mt-1\">\n        The type of gear used to collect the sample. This field describes the specific equipment used during the sampling process and provides context about the sampling method and conditions.\n      </div>\n    </v-col>\n  </v-row>\n</template>\n<script>\nexport default {\n  data() {\n    return {\n      projectName: '',\n      sampleId: '',\n      operatorName: '',\n      sample_gear: null,\n    };\n  },\n};\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 650,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "96550b272e3da513",
+        "type": "ui-template",
+        "z": "190b0c9aa75e8843",
+        "group": "6fab47af451c6d95",
+        "page": "",
+        "ui": "",
+        "name": "Starting point",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-container>\n    <v-row>\n      <!-- Date -->\n      <v-col cols=\"12\" md=\"6\">\n        <v-text-field\n          label=\"Date\"\n          variant=\"outlined\"\n          placeholder=\"jj/mm/aaaa\"\n          type=\"date\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n\n      <!-- Time -->\n      <v-col cols=\"12\" md=\"6\">\n        <v-text-field\n          label=\"Time\"\n          variant=\"outlined\"\n          placeholder=\"--:--\"\n          type=\"time\"\n          density=\"compact\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n    </v-row>\n    <v-row>\n      <!-- GPS Latitude -->\n      <v-col cols=\"12\" md=\"12\">\n        <v-row>\n          <v-col cols=\"1\"> Latitude </v-col>\n          <v-col cols=\"1\">\n            <v-text-field\n              v-model.number=\"latitude_D\"\n              :min=\"0\"\n              :max=\"90\"\n              :step=\"1\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            />\n          </v-col>\n          <v-col cols=\"1\">\n            <v-text-field\n              v-model.number=\"latitude_M\"\n              :min=\"0\"\n              :max=\"59\"\n              :step=\"1\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            />\n          </v-col>\n          <v-col cols=\"2\">\n            <v-text-field\n              v-model.number=\"latitude_S\"\n              :min=\"0\"\n              :max=\"59.9999\"\n              :step=\"0.0001\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            />\n          </v-col>\n          <v-col cols=\"1\">\n            <v-select variant=\"outlined\" :items=\"['N', 'S']\" hide-details append-icon=\"mdi-information\" />\n          </v-col>\n\n          <v-col cols=\"1\"> Longitude </v-col>\n\n          <!-- GPS Longitude -->\n\n          <v-col cols=\"1\">\n            <v-text-field\n              v-model.number=\"longitude_D\"\n              :min=\"0\"\n              :max=\"180\"\n              :step=\"1\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            />\n          </v-col>\n          <v-col cols=\"1\">\n            <v-text-field\n              v-model.number=\"longitude_M\"\n              :min=\"0\"\n              :max=\"59\"\n              :step=\"1\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            />\n          </v-col>\n          <v-col cols=\"2\">\n            <v-text-field\n              v-model.number=\"longitude_S\"\n              :min=\"0\"\n              :max=\"59.9999\"\n              :step=\"0.0001\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            />\n          </v-col>\n          <v-col cols=\"1\">\n            <v-select :items=\"['E', 'W']\" hide-details variant=\"outlined\" append-icon=\"mdi-information\" />\n          </v-col>\n        </v-row>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1c90e219a749e53e",
+        "type": "ui-template",
+        "z": "190b0c9aa75e8843",
+        "group": "1cfe3062a8353012",
+        "page": "",
+        "ui": "",
+        "name": "Ending point",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-container>\n    <v-row>\n      <!-- Date -->\n      <v-col cols=\"12\" md=\"6\">\n        <v-text-field\n          label=\"Date\"\n          variant=\"outlined\"\n          placeholder=\"jj/mm/aaaa\"\n          type=\"date\"\n        />\n      </v-col>\n\n      <!-- Time -->\n      <v-col cols=\"12\" md=\"6\">\n        <v-text-field\n          label=\"Time\"\n          variant=\"outlined\"\n          placeholder=\"--:--\"\n          type=\"time\"\n          density=\"compact\"\n        />\n      </v-col>\n    </v-row>\n        <v-row>\n\n      <!-- GPS Latitude -->\n      <v-col cols=\"12\" md=\"12\">\n        <v-row>\n          <v-col cols=\"1\">\n            Latitude\n          </v-col>\n          <v-col cols=\"1\">\n\n            <v-text-field\n              v-model.number=\"latitude_D\"\n              :min=\"0\"\n              :max=\"90\"\n              :step=\"1\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            /></v-text-field>\n          </v-col>\n          <v-col cols=\"1\">\n              \n            <v-text-field\n              v-model.number=\"latitude_M\"\n              :min=\"0\"\n              :max=\"59\"\n              :step=\"1\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            /></v-text-field>\n          </v-col>\n          <v-col cols=\"2\">\n              \n            <v-text-field\n              v-model.number=\"latitude_S\"\n              :min=\"0\"\n              :max=\"59.9999\"\n              :step=\"0.0001\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            /></v-text-field>\n          </v-col>\n          <v-col cols=\"1\">\n            <v-select variant=\"outlined\" :items=\"['N', 'S']\" hide-details \n               />\n          </v-col>\n\n          <v-col cols=\"1\">\n            Longitude\n          </v-col>\n\n          <!-- GPS Longitude -->\n          \n          \n          <v-col cols=\"1\">\n\n            <v-text-field\n              v-model.number=\"longitude_D\"\n              :min=\"0\"\n              :max=\"180\"\n              :step=\"1\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            /></v-text-field>\n          </v-col>\n          <v-col cols=\"1\">\n              \n            <v-text-field\n              v-model.number=\"longitude_M\"\n              :min=\"0\"\n              :max=\"59\"\n              :step=\"1\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            /></v-text-field>\n          </v-col>\n          <v-col cols=\"2\">\n              \n            <v-text-field\n              v-model.number=\"longitude_S\"\n              :min=\"0\"\n              :max=\"59.9999\"\n              :step=\"0.0001\"\n              :model-value=\"0\"\n              type=\"number\"\n              variant=\"outlined\"\n              hide-details\n            /></v-text-field>\n          </v-col>\n          <v-col cols=\"1\">\n            <v-select :items=\"['E', 'W']\" hide-details variant=\"outlined\" />\n          </v-col>\n        </v-row>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 630,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "09b551fa202d8029",
+        "type": "ui-template",
+        "z": "190b0c9aa75e8843",
+        "group": "cb3521392eb4e9ed",
+        "page": "",
+        "ui": "",
+        "name": "Net Specificity",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-container>\n    <v-row>\n      <v-col cols=\"12\" md=\"3\">\n        <v-text-field\n          label=\"Mouth Opening Diameter\"\n          v-model=\"sample_net_mouth_diameter\"\n          :min=\"0\"\n          :max=\"1000\"\n          :step=\"1\"\n          suffix=\"cm\"\n          type=\"number\"\n          variant=\"outlined\"\n          clearable\n          hint=\"The diameter of the mouth (or opening) of the net used in sampling, measured in centimeters (cm).\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" md=\"3\">\n        <v-text-field\n          label=\"Length of the Net\"\n          v-model=\"sample_net_length\"\n          :min=\"0\"\n          :max=\"1000\"\n          :step=\"1\"\n          suffix=\"cm\"\n          type=\"number\"\n          variant=\"outlined\"\n          clearable\n          hint=\"The length of the net used for sampling from the opening to the collector, measured in centimeters (cm). Measure from mouth to bottom of collector.\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" md=\"3\">\n        <v-text-field\n          label=\"Net mesh size\"\n          v-model=\"sample_net_mesh_size\"\n          :min=\"0\"\n          :max=\"1000\"\n          :step=\"1\"\n          suffix=\"μm\"\n          type=\"number\"\n          variant=\"outlined\"\n          clearable\n          hint=\"The size of the mesh used in the net, measured in micrometers (μm).\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" md=\"3\">\n        <v-text-field\n          label=\"Volume of the collector\"\n          v-model=\"sample_collected_volume\"\n          :min=\"0\"\n          :max=\"1000\"\n          :step=\"1\"\n          suffix=\"mL\"\n          type=\"number\"\n          variant=\"outlined\"\n          clearable\n          hint=\"The volume of water collected after sampling, measured in milliliters (ml).\" append-icon=\"mdi-information\"\n        />\n        \n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n<script>\n  export default {\n    data: () => ({\n      sample_net_mouth_diameter: 30,\n      sample_net_length: 120,\n      sample_net_mesh_size: 20,\n      sample_collected_volume: 50\n    }),\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 640,
+        "y": 360,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "956497903d6d3038",
+        "type": "function",
+        "z": "190b0c9aa75e8843",
+        "name": "Get Global Variables",
+        "func": "const keys = global.keys(); // Get all global keys\n\nkeys.forEach(key => {\n    msg[key] = global.get(key);\n});\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "279f3ddada9cadaa"
+            ]
+        ]
+    },
+    {
+        "id": "93a68ffbce74d70d",
+        "type": "ui-template",
+        "z": "190b0c9aa75e8843",
+        "group": "dd4d9707051041c9",
+        "page": "",
+        "ui": "",
+        "name": "Other Informations",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-container>\n    <v-row>\n      <v-col cols=\"12\" md=\"3\">\n        <v-text-field\n          label=\"Filtered volume\"\n          v-model=\"sample_filtered_volume\"\n          :min=\"0\"\n          :max=\"100000\"\n          :step=\"1\"\n          suffix=\"L\"\n          type=\"number\"\n          variant=\"outlined\"\n          clearable\n          hint=\"The volume of water filtered through the net during sampling, measured in liters (L).\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" md=\"3\">\n        <v-text-field\n          label=\"Concentration factor\"\n          v-model=\"sample_concentration_factor\"\n          :min=\"0\"\n          :max=\"100\"\n          :step=\"0.01\"\n          suffix=\"L\"\n          type=\"number\"\n          variant=\"outlined\"\n          clearable\n          hint=\"TO DO\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" md=\"3\">\n        <v-text-field\n          label=\"Sieve mesh size\"\n          v-model=\"sample_sieve_mesh_size\"\n          :min=\"1\"\n          :max=\"1000\"\n          :step=\"10\"\n          suffix=\"μm\"\n          type=\"number\"\n          variant=\"outlined\"\n          clearable\n          hint=\"The size of the mesh used in the sieve, measured in micrometers (μm).\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" md=\"3\">\n        <v-text-field\n          label=\"Depth of the sample\"\n          v-model=\"sample_depth\"\n          :min=\"0\"\n          :max=\"10935\"\n          :step=\"1\"\n          suffix=\"m\"\n          type=\"number\"\n          variant=\"outlined\"\n          clearable\n          hint=\"The depth at which the sample was collected during a horizontal tow or Niskin bottle sampling, measured in meters (m).\" append-icon=\"mdi-information\"\n        />\n      </v-col>\n    </v-row>\n    <v-row>\n      <v-col cols=\"12\" md=\"12\">\n        <v-textarea\n          clearable\n          label=\"Sample Comment\"\n          variant=\"outlined\"\n          row-height=\"20\"\n          rows=\"2\"\n          hint=\"Any additional comments or notes about the sample that may be useful for analysis, or any other useful information to keep in the metadata for this particular sample.\" append-icon=\"mdi-information\"\n        ></v-textarea>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n<script>\n  export default {\n    data: () => ({\n      sample_filtered_volume: 1500,\n      sample_concentration_factor: 1,\n      sample_sieve_mesh_size: 200,\n      sample_depth: 1,\n    }),\n  }\n</script>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 650,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8e3eed5be42ad41f",
+        "type": "ui-template",
+        "z": "190b0c9aa75e8843",
+        "group": "59ce6abfbb7f8683",
+        "page": "",
+        "ui": "",
+        "name": "Navigation Bottom",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-container fluid class=\"ma-0 pa-0\">\n\n    <v-row justify=\"space-between\" align=\"center\">\n      <v-col cols=\"auto\">\n        <v-btn\n          variant=\"text\"\n          to=\"preview\"\n        >\n          <v-icon start>mdi-chevron-left</v-icon>\n          Preview\n        </v-btn>\n      </v-col>\n\n      <v-col cols=\"auto\">\n        <v-btn\n          variant=\"text\"\n          to=\"acquisition\"\n        >\n          Acquisition\n          <v-icon end>mdi-chevron-right</v-icon>\n        </v-btn>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 650,
+        "y": 440,
         "wires": [
             []
         ]
@@ -13334,7 +13843,7 @@
         "width": "0",
         "height": "0",
         "head": "",
-        "format": "<center>\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
+        "format": "<template class=\"pr-0\">\n    <center>\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>\n</template>",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -13433,7 +13942,7 @@
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<template>\n  <v-card class=\"pa-4\" flat color=\"white\">\n    <v-card-title class=\"text-h6 font-weight-bold\">\n      Pump settings\n    </v-card-title>\n\n    <!-- Flowrate -->\n    <v-row class=\"mt-0\">\n      <v-col cols=\"12\" sm=\"8\">\n        <v-slider\n          v-model.number=\"flowrate\"\n          :min=\"min\"\n          :max=\"max\"\n          :step=\"0.2\"\n          class=\"align-center\"\n          hide-details\n          label=\"Flowrate\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" sm=\"4\">\n        <v-text-field\n          v-model.number=\"flowrate\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"ml/min\"\n        />\n      </v-col>\n    </v-row>\n\n    <v-row class=\"mt-0\">\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          v-model=\"flowratePreset\"\n          class=\"d-flex justify-space-between\"\n          color=\"primary\"\n          variant=\"outlined\"\n          density=\"compact\"\n          divided\n          shaped\n          mandatory\n          @update:model-value=\"onFlowrateToggle\"\n        >\n          <v-btn\n            v-for=\"value in flowratePresets\"\n            :key=\"'flowrate-' + value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n\n    <!-- Volume -->\n    <v-row class=\"mt-4\">\n      <v-col cols=\"12\" sm=\"8\">\n        <v-slider\n          v-model.number=\"volume\"\n          :min=\"min\"\n          :max=\"max\"\n          :step=\"0.2\"\n          class=\"align-center\"\n          hide-details\n          label=\"Volume\"\n          :thumb-size=\"20\"\n        />\n      </v-col>\n\n      <v-col cols=\"12\" sm=\"4\">\n        <v-text-field\n          v-model.number=\"volume\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"ml\"\n        />\n      </v-col>\n    </v-row>\n\n    <v-row class=\"mt-0\">\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          v-model=\"volumePreset\"\n          class=\"d-flex justify-space-between\"\n          variant=\"outlined\"\n          color=\"primary\"\n          divided\n          shaped\n          mandatory\n          @update:model-value=\"onVolumeToggle\"\n        >\n          <v-btn\n            v-for=\"value in volumePresets\"\n            :key=\"'volume-' + value\"\n            :value=\"value\"\n            class=\"flex-grow-1\"\n          >\n            {{ value }}\n          </v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n\n    <!-- Direction Control -->\n    <v-row class=\"mt-4\">\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          variant=\"outlined\"\n          v-model=\"direction\"\n          color=\"primary\"\n          mandatory\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n        >\n          <v-btn class=\"flex-grow-1\" :value=\"'backward'\">Backward</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'stop'\">Stop</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'forward'\">Forward</v-btn>\n        </v-btn-toggle>\n      </v-col>\n    </v-row>\n  </v-card>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      min: 0.02,\n      max: 30,\n      flowrate: 10,\n      volume: 10,\n      flowratePreset: null,\n      volumePreset: null,\n      flowratePresets: [0.02, 0.2, 2, 20],\n      volumePresets: [0.02, 2, 10, 20],\n      direction: 'stop',\n    };\n  },\n  watch: {\n    flowrate(newVal) {\n      this.flowratePreset = this.flowratePresets.find(val => val === newVal) ?? null;\n    },\n    volume(newVal) {\n      this.volumePreset = this.volumePresets.find(val => val === newVal) ?? null;\n    },\n  },\n  methods: {\n    onFlowrateToggle(val) {\n      if (val != null) {\n        this.flowrate = val;\n      }\n    },\n    onVolumeToggle(val) {\n      if (val != null) {\n        this.volume = val;\n      }\n    },\n  },\n};\n</script>\n",
+        "format": "<template>\n  <v-row>\n    <v-col cols=\"12\" sm=\"12\">\n      <v-text-field\n        label=\"Acquisition ID\"\n        v-model=\"acq_id\"\n        variant=\"outlined\"\n        clearable\n        hint=\"A unique identifier assigned to each acquisition. Multiple acquisitions are sometimes required to adjust some parameters.\"\n        append-icon=\"mdi-information\"\n      />\n    </v-col>\n  </v-row>\n  <v-row>\n    <v-col cols=\"12\" sm=\"8\">\n      <v-slider\n        v-model.number=\"acq_number_image_acquired\"\n        :max=\"10000\"\n        :min=\"1\"\n        :step=\"1\"\n        class=\"align-center\"\n        hide-details\n        label=\"Number of Images\"\n      />\n    </v-col>\n    <v-col cols=\"12\" sm=\"4\">\n      <v-text-field\n        v-model=\"acq_number_image_acquired\"\n        type=\"number\"\n        variant=\"outlined\"\n        hide-details\n        suffix=\"img\"\n        append-icon=\"mdi-information\"\n      />\n    </v-col>\n  </v-row>\n  <v-row>\n    <v-col cols=\"12\" sm=\"8\">\n      <v-slider\n        v-model.number=\"acq_interframe_volume\"\n        :max=\"100\"\n        :min=\"1\"\n        :step=\"1\"\n        class=\"align-center\"\n        hide-details\n        label=\"Volume in between frames\"\n      />\n    </v-col>\n    <v-col cols=\"12\" sm=\"4\">\n      <v-text-field\n        v-model=\"acq_interframe_volume\"\n        type=\"number\"\n        variant=\"outlined\"\n        hide-details\n        suffix=\"µL\"\n        append-icon=\"mdi-information\"\n      />\n    </v-col>\n  </v-row>\n  <v-row>\n    <v-col cols=\"12\" sm=\"8\">\n    <span class=\"text-subtitle-1 text-medium-emphasis ma-2\">Volume Imaged :</span>\n    </v-col>\n    <v-col cols=\"12\" sm=\"4\">\n      <v-text-field\n        v-model=\"acq_imaged_volume\"\n        type=\"number\"\n        hide-details\n        suffix=\"mL\"\n        append-icon=\"mdi-information\"\n        variant=\"plain\"\n        readonly\n      />\n    </v-col>\n  </v-row>\n  <v-row>\n    <v-col cols=\"12\" sm=\"8\">\n    <span class=\"text-subtitle-1 text-medium-emphasis ma-2\">Volume total displaced :</span>\n    </v-col>\n    <v-col cols=\"12\" sm=\"4\">\n      <v-text-field\n        v-model=\"acq_pumped_volume\"\n        type=\"number\"\n        hide-details\n        suffix=\"mL\"\n        append-icon=\"mdi-information\"\n        variant=\"plain\"\n        readonly\n      />\n    </v-col>\n  </v-row>\n  <v-row>\n    <v-col cols=\"12\" sm=\"12\">\n  \n          <v-textarea\n          clearable\n        \n          label=\"Acquisition comment\"\n          variant=\"outlined\"\n          row-height=\"20\"\n          rows=\"2\"\n          hint=\"This field is for any additional comments or notes related to the acquisition process.\" append-icon=\"mdi-information\"\n        ></v-textarea>\n    </v-col>\n        \n  </v-row>\n  \n  <v-row>\n    <v-col cols=\"12\" sm=\"12\">\n    <v-progress-linear v-model=\"acq_progression\" \n      striped color=\"primary\" height=\"25\">\n      <template v-slot:default=\"{ value }\">\n        <strong>{{ Math.ceil(value) }}%</strong>\n      </template>\n    </v-progress-linear>\n    </v-col>\n        \n  </v-row>\n  <v-row>\n    <v-col cols=\"12\" sm=\"8\">\n    <span class=\"text-subtitle-1 text-medium-emphasis ma-2\">Estimated duration left :</span>\n    </v-col>\n    <v-col cols=\"12\" sm=\"4\">\n      <v-text-field\n        v-model=\"acq_duration_left\"\n        type=\"number\"\n        hide-details\n        suffix=\"min\"\n        append-icon=\"mdi-information\"\n        variant=\"plain\"\n        readonly\n      />\n    </v-col>\n  </v-row>\n  \n    <v-row>\n      <v-col cols=\"12\">\n        <v-btn-toggle\n          v-model=\"acq_status\"\n          variant=\"outlined\"\n          mandatory\n          divided\n          shaped\n          class=\"d-flex justify-space-between\"\n        >\n          <v-btn class=\"flex-grow-1\" :value=\"'off'\">Stop</v-btn>\n          <v-btn class=\"flex-grow-1\" :value=\"'on'\">Start</v-btn>\n        </v-btn-toggle>\n      </v-col>\n     \n    </v-row>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        acq_id: null,\n        acq_number_image_acquired: 100,\n        acq_interframe_volume: 2,\n        acq_imaged_volume:0.020,\n        acq_pumped_volume:15,\n        acq_progression: 20,\n        acq_duration_left: 15,\n        acq_status:\"off\"\n        \n      }\n    },\n  }\n</script>\n",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -13444,6 +13953,306 @@
         "wires": [
             []
         ]
+    },
+    {
+        "id": "a39e07fd1a86ac84",
+        "type": "ui-template",
+        "z": "35d7387466dd0bc0",
+        "group": "3ae252a2e5abca89",
+        "page": "",
+        "ui": "",
+        "name": "Navigation",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n  <v-container fluid class=\"ma-0 pa-0\">\n\n    <v-row justify=\"space-between\" align=\"center\">\n      <v-col cols=\"auto\">\n        <v-btn\n          variant=\"text\"\n          to=\"metadata\"\n        >\n          <v-icon start>mdi-chevron-left</v-icon>\n          Metadata\n        </v-btn>\n      </v-col>\n\n      <v-col cols=\"auto\">\n        <v-btn\n          variant=\"text\"\n          to=\"segmentation\"\n        >\n          Segmentation\n          <v-icon end>mdi-chevron-right</v-icon>\n        </v-btn>\n      </v-col>\n    </v-row>\n  </v-container>\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 550,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ef632b53f227156b",
+        "type": "dir2files",
+        "z": "0fd76ac156d78937",
+        "name": "",
+        "dirname": "/home/pi/data/img/",
+        "pathRegex": "",
+        "isRecursive": true,
+        "findDir": true,
+        "isArray": true,
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "369b19dceb37533d"
+            ]
+        ]
+    },
+    {
+        "id": "250979b4672d81b6",
+        "type": "ui-event",
+        "z": "0fd76ac156d78937",
+        "ui": "e6ae26617c24c3ea",
+        "name": "UI Event",
+        "x": 120,
+        "y": 40,
+        "wires": [
+            [
+                "72421c36bb0418bc"
+            ]
+        ]
+    },
+    {
+        "id": "72421c36bb0418bc",
+        "type": "switch",
+        "z": "0fd76ac156d78937",
+        "name": "msg.topic === \"$pageview\"",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "$pageview",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 320,
+        "y": 40,
+        "wires": [
+            [
+                "66d295cc27d69cec"
+            ]
+        ]
+    },
+    {
+        "id": "66d295cc27d69cec",
+        "type": "switch",
+        "z": "0fd76ac156d78937",
+        "name": "msg.payload.page.path === \"/segmentation\"",
+        "property": "payload.page.path",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "/segmentation",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 630,
+        "y": 40,
+        "wires": [
+            [
+                "ef632b53f227156b"
+            ]
+        ]
+    },
+    {
+        "id": "eaa2a13eb1c6577c",
+        "type": "debug",
+        "z": "0fd76ac156d78937",
+        "name": "Résultat final",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1570,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "369b19dceb37533d",
+        "type": "function",
+        "z": "0fd76ac156d78937",
+        "name": "function 1",
+        "func": "let input = msg.payload;\nlet output = [];\n\n// Filter only the deepest paths (not a prefix of any other path)\ninput.forEach(path => {\n    let isDeepest = input.every(other => {\n        return path === other || !other.startsWith(path + '/');\n    });\n    if (isDeepest) {\n        output.push(path + '/metadata.json');\n    }\n});\n\nmsg.payload = output;\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 120,
+        "wires": [
+            [
+                "3c919c7004a1ec45"
+            ]
+        ]
+    },
+    {
+        "id": "331a77cdd26b0522",
+        "type": "file in",
+        "z": "0fd76ac156d78937",
+        "name": "",
+        "filename": "payload",
+        "filenameType": "msg",
+        "format": "utf8",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 500,
+        "y": 120,
+        "wires": [
+            [
+                "472d2096ae2eefaa"
+            ]
+        ]
+    },
+    {
+        "id": "472d2096ae2eefaa",
+        "type": "json",
+        "z": "0fd76ac156d78937",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 630,
+        "y": 120,
+        "wires": [
+            [
+                "b6179c8a5f70c13b"
+            ]
+        ]
+    },
+    {
+        "id": "61c2c281b1c6e055",
+        "type": "ui-table",
+        "z": "0fd76ac156d78937",
+        "group": "bfd4acb7b243514f",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": false,
+        "showSearch": true,
+        "selectionType": "checkbox",
+        "columns": [
+            {
+                "title": "Sample Project",
+                "key": "sample_project",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "center"
+            },
+            {
+                "title": "Sample ID",
+                "key": "sample_id",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "center"
+            },
+            {
+                "title": "Acquisition ID",
+                "key": "acq_id",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "center"
+            },
+            {
+                "title": "Operator Name",
+                "key": "sample_operator",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 850,
+        "y": 120,
+        "wires": [
+            [
+                "0c8a74d698c153c3"
+            ]
+        ]
+    },
+    {
+        "id": "b6179c8a5f70c13b",
+        "type": "join",
+        "z": "0fd76ac156d78937",
+        "name": "",
+        "mode": "auto",
+        "build": "object",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "useparts": false,
+        "accumulate": "false",
+        "timeout": "",
+        "count": "",
+        "reduceRight": false,
+        "x": 710,
+        "y": 180,
+        "wires": [
+            [
+                "61c2c281b1c6e055"
+            ]
+        ]
+    },
+    {
+        "id": "3c919c7004a1ec45",
+        "type": "split",
+        "z": "0fd76ac156d78937",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 370,
+        "y": 120,
+        "wires": [
+            [
+                "331a77cdd26b0522"
+            ]
+        ]
+    },
+    {
+        "id": "0c8a74d698c153c3",
+        "type": "debug",
+        "z": "0fd76ac156d78937",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 180,
+        "wires": []
     },
     {
         "id": "f142197f943e06c3",
@@ -13464,8 +14273,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 180,
-        "y": 320,
+        "x": 200,
+        "y": 340,
         "wires": [
             []
         ]
@@ -13482,8 +14291,8 @@
         "height": "1",
         "content": "# Template with dialog\n```html\n<template>\n  <div>\n    <v-text-field\n      label=\"Prepend inner\"\n      prepend-inner-icon=\"mdi-information-outline\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      @click:prepend-inner=\"showDialog = true\"\n    ></v-text-field>\n\n    <v-dialog v-model=\"showDialog\" max-width=\"500px\">\n      <v-card>\n        <v-card-title> Information </v-card-title>\n        <v-card-text>\n          This is some additional information displayed in a dialog.\n        </v-card-text>\n        <v-card-actions>\n          <v-btn text @click=\"showDialog = false\">Close</v-btn>\n        </v-card-actions>\n      </v-card>\n    </v-dialog>\n  </div>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        showDialog: false, // Controls dialog visibility\n      }\n    },\n  }\n</script>\n\n```",
         "className": "",
-        "x": 180,
-        "y": 360,
+        "x": 200,
+        "y": 380,
         "wires": [
             []
         ]
@@ -13507,8 +14316,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 450,
-        "y": 320,
+        "x": 470,
+        "y": 340,
         "wires": [
             []
         ]
@@ -13532,8 +14341,8 @@
         "resendOnRefresh": true,
         "templateScope": "local",
         "className": "",
-        "x": 720,
-        "y": 320,
+        "x": 740,
+        "y": 340,
         "wires": [
             []
         ]
@@ -13550,8 +14359,8 @@
         "height": "1",
         "content": "# Template persistent hint\n```html\n<template>\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      persistent-hint\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n</template>\n\n```",
         "className": "",
-        "x": 450,
-        "y": 360,
+        "x": 470,
+        "y": 380,
         "wires": [
             []
         ]
@@ -13568,8 +14377,8 @@
         "height": "1",
         "content": "# Template hidden hint\n```html\n<template>\n    <v-text-field\n    type=\"number\"\n      label=\"Label\"\n      variant=\"outlined\"\n      suffix=\"suffix\"\n      density=\"compact\"\n      clearable\n      hint=\"This is some additional information displayed in a hint.\"\n    ></v-text-field>\n</template>\n\n```",
         "className": "",
-        "x": 720,
-        "y": 360,
+        "x": 740,
+        "y": 380,
         "wires": [
             []
         ]
@@ -13594,7 +14403,7 @@
         "templateScope": "local",
         "className": "",
         "x": 110,
-        "y": 500,
+        "y": 700,
         "wires": [
             []
         ]
@@ -13612,7 +14421,7 @@
         "content": "# Template for slider\n```html\n<template>\n  <v-card class=\"ma-20 pa-2\">\n    <v-row class=\"ma-20 pa-2\">\n      <v-col cols=\"12\" sm=\"10\">\n        <v-slider\n          v-model=\"slider\"\n          :max=\"max\"\n          :min=\"min\"\n          :step=\"0.2\"\n          class=\"align-center\"\n          hide-details\n          label=\"Label\"\n          :thumb-size=\"30\"\n        />\n      </v-col>\n      <v-col cols=\"12\" sm=\"2\">\n        <v-text-field\n          v-model=\"slider\"\n          prepend-inner-icon=\"mdi-information-outline\"\n          type=\"number\"\n          variant=\"outlined\"\n          hide-details\n          suffix=\"suffix\"\n          density=\"compact\"\n          @click:prepend-inner=\"showDialog = true\"\n        />\n        <v-dialog v-model=\"showDialog\" max-width=\"500px\">\n          <v-card>\n            <v-card-title>Information</v-card-title>\n            <v-card-text>\n              This is some additional information displayed in a dialog.\n            </v-card-text>\n            <v-card-actions>\n              <v-btn text @click=\"showDialog = false\">Close</v-btn>\n            </v-card-actions>\n          </v-card>\n        </v-dialog>\n      </v-col>\n    </v-row>\n  </v-card>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        showDialog: false, // Controls dialog visibility\n        min: -50,\n        max: 90,\n        slider: 40,\n      }\n    },\n  }\n</script>\n```",
         "className": "",
         "x": 150,
-        "y": 540,
+        "y": 740,
         "wires": [
             []
         ]
@@ -13637,7 +14446,7 @@
         "templateScope": "local",
         "className": "",
         "x": 140,
-        "y": 640,
+        "y": 840,
         "wires": [
             []
         ]
@@ -13655,7 +14464,7 @@
         "content": "# Template for btn group\n\n```html\n<template>\n  <v-btn-toggle\n    v-model=\"toggle_btn\"\n    color=\"primary\"\n    mandatory\n    shaped\n    class=\"d-flex justify-space-between\"\n  >\n    <v-btn class=\"flex-grow-1\"> 1 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 2 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 3 </v-btn>\n\n    <v-btn class=\"flex-grow-1\"> 4 </v-btn>\n  </v-btn-toggle>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        toggle_btn: 0,\n      }\n    },\n  }\n</script>\n\n```",
         "className": "",
         "x": 180,
-        "y": 680,
+        "y": 880,
         "wires": [
             []
         ]
@@ -13691,7 +14500,7 @@
         "content": "# Template for preview\n\n## Option 1 - ElevateZoom from jQuery\n\nUse the library depending on jQuery - [ElevateZoom](https://igorlino.github.io/elevatezoom-plus/)\n\n```html\n<script src=\"https://code.jquery.com/jquery-3.6.4.min.js\"></script>\n<script src=\"https://cdn.jsdelivr.net/gh/igorlino/elevatezoom-plus@1.1.6/src/jquery.ez-plus.js\"></script>\n\n<div>\n  <img \n    id=\"zoom\" \n    src=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\" \n    data-zoom-image=\"http://90.28.148.199/ps/hal/camera/streams/preview.mjpg\" \n    alt=\"Live camera stream with zoom feature\" \n  />\n</div>\n\n<script>\n  $(document).ready(function () {\n    $('#zoom').ezPlus({\n      scrollZoom: true,      \n    });\n  });\n</script>\n```\n## Option 2 - ngx-image-zoom from AngularJS\n\nUse the pure Angular library - [ngx-image-zoom](https://www.npmjs.com/package/ngx-image-zoom)\n",
         "className": "",
         "x": 150,
-        "y": 820,
+        "y": 1020,
         "wires": [
             []
         ]
@@ -13716,7 +14525,7 @@
         "templateScope": "local",
         "className": "",
         "x": 120,
-        "y": 780,
+        "y": 980,
         "wires": [
             []
         ]
@@ -13734,7 +14543,7 @@
         "content": "# Template for Textareas\n\n```html\n<template>\n  <v-textarea\n    clearable\n    label=\"Label\"\n    variant=\"outlined\"\n    row-height=\"20\"\n    rows=\"2\"\n  ></v-textarea>\n</template>\n\n\n```",
         "className": "",
         "x": 160,
-        "y": 960,
+        "y": 1160,
         "wires": [
             []
         ]
@@ -13759,7 +14568,7 @@
         "templateScope": "local",
         "className": "",
         "x": 120,
-        "y": 920,
+        "y": 1120,
         "wires": [
             []
         ]
@@ -13815,7 +14624,7 @@
         "ui": "e6ae26617c24c3ea",
         "name": "UI Event",
         "x": 120,
-        "y": 1080,
+        "y": 1280,
         "wires": [
             [
                 "c7af759e6348052a"
@@ -13841,7 +14650,7 @@
         "repair": false,
         "outputs": 1,
         "x": 380,
-        "y": 1080,
+        "y": 1280,
         "wires": [
             [
                 "05f282f697c8d264"
@@ -13863,7 +14672,7 @@
         "statusVal": "",
         "statusType": "auto",
         "x": 1070,
-        "y": 1080,
+        "y": 1280,
         "wires": []
     },
     {
@@ -13885,7 +14694,7 @@
         "repair": false,
         "outputs": 1,
         "x": 730,
-        "y": 1080,
+        "y": 1280,
         "wires": [
             [
                 "f8450ada286a255f"
@@ -13904,7 +14713,7 @@
         "flow": "[     {         \"id\": \"f8450ada286a255f\",         \"type\": \"debug\",         \"z\": \"061f6587029fa891\",         \"name\": \"msg.payload.page.path\",         \"active\": true,         \"tosidebar\": true,         \"console\": false,         \"tostatus\": false,         \"complete\": \"payload.page.path\",         \"targetType\": \"msg\",         \"statusVal\": \"\",         \"statusType\": \"auto\",         \"x\": 1030,         \"y\": 40,         \"wires\": []     },     {         \"id\": \"05f282f697c8d264\",         \"type\": \"switch\",         \"z\": \"061f6587029fa891\",         \"name\": \"msg.payload.page.path === \\\"/home\\\"\",         \"property\": \"payload.page.path\",         \"propertyType\": \"msg\",         \"rules\": [             {                 \"t\": \"eq\",                 \"v\": \"/load\",                 \"vt\": \"str\"             }         ],         \"checkall\": \"true\",         \"repair\": false,         \"outputs\": 1,         \"x\": 690,         \"y\": 40,         \"wires\": [             [                 \"f8450ada286a255f\",                 \"328128b08bc72b65\"             ]         ]     },     {         \"id\": \"c7af759e6348052a\",         \"type\": \"switch\",         \"z\": \"061f6587029fa891\",         \"name\": \"msg.topic === \\\"$pageview\\\"\",         \"property\": \"topic\",         \"propertyType\": \"msg\",         \"rules\": [             {                 \"t\": \"eq\",                 \"v\": \"$pageview\",                 \"vt\": \"str\"             }         ],         \"checkall\": \"true\",         \"repair\": false,         \"outputs\": 1,         \"x\": 340,         \"y\": 40,         \"wires\": [             [                 \"05f282f697c8d264\"             ]         ]     },     {         \"id\": \"bdd5061dc2808c7b\",         \"type\": \"ui-event\",         \"z\": \"061f6587029fa891\",         \"ui\": \"e6ae26617c24c3ea\",         \"name\": \"UI Event\",         \"x\": 80,         \"y\": 40,         \"wires\": [             [                 \"c7af759e6348052a\"             ]         ]     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": true,         \"showPageTitle\": false,         \"navigationStyle\": \"fixed\",         \"titleBarStyle\": \"fixed\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     } ]",
         "height": "0",
         "x": 1030,
-        "y": 1120,
+        "y": 1320,
         "wires": []
     },
     {
@@ -13920,7 +14729,7 @@
         "content": "\n\n## Illustration of the Flow\n\n### **1. UI Event**\n**Node Name**: `UI Event`  \n**Description**: Captures user events from the dashboard (e.g., page navigation).  \n**Connected Dashboard**: `My Dashboard`.\n\n```javascript\n// Emits messages with the topic and page path when an event occurs.\n```\n\n---\n\n### **2. Switch: `$pageview`**\n**Node Name**: `msg.topic === \"$pageview\"`  \n**Description**: Filters messages where `msg.topic` equals `$pageview`, ensuring only page navigation events are processed.\n\n**Rule**:\n```javascript\nmsg.topic === \"$pageview\";\n```\n\n---\n\n### **3. Switch: `/load`**\n**Node Name**: `msg.payload.page.path === \"/load\"`  \n**Description**: Filters messages to pass only those where the page path matches `/load`.\n\n**Rule**:\n```javascript\nmsg.payload.page.path === \"/load\";\n```\n\n---\n\n### **4. Debug**\n**Node Name**: `msg.payload.page.path`  \n**Description**: Outputs the value of `msg.payload.page.path` to the debug sidebar in Node-RED for monitoring purposes.\n\n```javascript\n// Outputs:\n// msg.payload.page.path\n```\n\n---\n\n## Supporting Details\n\n- **Dashboard Base**: `My Dashboard`  \n  - Accessible at `/dashboard`.  \n  - Includes navigation and notification configurations for seamless user interaction.\n\n---\n",
         "className": "",
         "x": 1060,
-        "y": 1160,
+        "y": 1360,
         "wires": [
             []
         ]
@@ -13945,7 +14754,7 @@
         "templateScope": "local",
         "className": "",
         "x": 380,
-        "y": 1260,
+        "y": 1460,
         "wires": [
             [
                 "fc73d6b9b216ac9c"
@@ -13966,7 +14775,7 @@
         "finalize": "",
         "libs": [],
         "x": 150,
-        "y": 1260,
+        "y": 1460,
         "wires": [
             [
                 "bdef59faea812013"
@@ -13987,7 +14796,7 @@
         "finalize": "",
         "libs": [],
         "x": 610,
-        "y": 1260,
+        "y": 1460,
         "wires": [
             []
         ]
@@ -14005,7 +14814,7 @@
         "content": "## Illustration of the Flow\n\n### **1. Get Global Variable**\n**Node Name**: `get global variable`  \n**Description**: Retrieves a global variable (`variable`) stored in the Node-RED context.\n\n```javascript\n// Retrieve the global variable\nmsg.variable = global.get('variable');\n\nreturn msg;\n```\n\n---\n\n### **2. Template**\n**Node Name**: `template`  \n**Description**: Displays a Vue.js-based text field in the user interface, allowing the user to view and update the global variable.\n\n```html\n<template>\n    <v-divider class=\"my-5\"></v-divider>\n    <v-text-field\n        label=\"My variable\"\n        variant=\"outlined\"\n        v-model=\"msg.variable\"\n        @update:model-value=\"send({ variable: msg.variable })\"\n    ></v-text-field>\n</template>\n```\n\n---\n\n### **3. Set Global Variable**\n**Node Name**: `set global variable`  \n**Description**: Updates the global variable (`variable`) with the value entered in the UI text field.\n\n```javascript\n// Set a value in the global context\nglobal.set('variable', msg.variable);\n\nreturn msg;\n```\n\n---\n\n## Supporting Details\n\n- **UI Group**: `Value and payloads`  \n  Groups the widgets under a dashboard section for better organization.\n\n- **UI Page**: `Data in global.json`  \n  Displays the group on a dashboard page accessible via the `/data` URL.\n\n- **Theme**: `FairScope Theme`  \n  Configures the visual style of the dashboard, using a clean and modern design with primary and background colors.\n",
         "className": "",
         "x": 620,
-        "y": 1380,
+        "y": 1580,
         "wires": [
             []
         ]
@@ -14022,8 +14831,49 @@
         "flow": "[     {         \"id\": \"5a9af1c11b3c3c31\",         \"type\": \"function\",         \"z\": \"775111265b9951a8\",         \"name\": \"get global variable\",         \"func\": \"// Retrieve the global variable\\nmsg.variable = global.get('variable');\\n\\nreturn msg;\\n\",         \"outputs\": 1,         \"timeout\": 0,         \"noerr\": 0,         \"initialize\": \"\",         \"finalize\": \"\",         \"libs\": [],         \"x\": 290,         \"y\": 40,         \"wires\": [             [                 \"bdef59faea812013\"             ]         ]     },     {         \"id\": \"bdef59faea812013\",         \"type\": \"ui-template\",         \"z\": \"775111265b9951a8\",         \"group\": \"9db62e7f60daa367\",         \"page\": \"\",         \"ui\": \"\",         \"name\": \"\",         \"order\": 2,         \"width\": \"6\",         \"height\": \"1\",         \"head\": \"\",         \"format\": \"<template>\\n    <v-text-field\\n        label=\\\"My variable\\\"\\n        variant=\\\"outlined\\\"\\n        v-model=\\\"msg.variable\\\"\\n      hide-details=\\\"auto\\\"\\n        @update:model-value=\\\"send({ variable: msg.variable})\\\"\\n    ></v-text-field>\\n</template>\\n\",         \"storeOutMessages\": true,         \"passthru\": true,         \"resendOnRefresh\": true,         \"templateScope\": \"local\",         \"className\": \"\",         \"x\": 520,         \"y\": 40,         \"wires\": [             [                 \"fc73d6b9b216ac9c\"             ]         ]     },     {         \"id\": \"fc73d6b9b216ac9c\",         \"type\": \"function\",         \"z\": \"775111265b9951a8\",         \"name\": \"set global variable\",         \"func\": \"// Set a value in the global context\\nglobal.set('variable', msg.variable);\\n\\nreturn msg;\\n\",         \"outputs\": 1,         \"timeout\": 0,         \"noerr\": 0,         \"initialize\": \"\",         \"finalize\": \"\",         \"libs\": [],         \"x\": 750,         \"y\": 40,         \"wires\": [             []         ]     },     {         \"id\": \"9db62e7f60daa367\",         \"type\": \"ui-group\",         \"name\": \"Get and set variable in Global\",         \"page\": \"69706da10df85266\",         \"width\": \"12\",         \"height\": \"1\",         \"order\": 1,         \"showTitle\": true,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\",         \"groupType\": \"default\"     },     {         \"id\": \"69706da10df85266\",         \"type\": \"ui-page\",         \"name\": \"Data in global.json\",         \"ui\": \"e6ae26617c24c3ea\",         \"path\": \"/data\",         \"icon\": \"mdi-database\",         \"layout\": \"grid\",         \"theme\": \"acdf17df5536b1d3\",         \"breakpoints\": [             {                 \"name\": \"Default\",                 \"px\": \"0\",                 \"cols\": \"3\"             },             {                 \"name\": \"Tablet\",                 \"px\": \"576\",                 \"cols\": \"6\"             },             {                 \"name\": \"Small Desktop\",                 \"px\": \"768\",                 \"cols\": \"9\"             },             {                 \"name\": \"Desktop\",                 \"px\": \"1024\",                 \"cols\": \"12\"             }         ],         \"order\": 2,         \"className\": \"\",         \"visible\": \"true\",         \"disabled\": \"false\"     },     {         \"id\": \"e6ae26617c24c3ea\",         \"type\": \"ui-base\",         \"name\": \"My Dashboard\",         \"path\": \"/dashboard\",         \"appIcon\": \"\",         \"includeClientData\": true,         \"acceptsClientConfig\": [             \"ui-notification\",             \"ui-control\"         ],         \"showPathInSidebar\": true,         \"showPageTitle\": false,         \"navigationStyle\": \"fixed\",         \"titleBarStyle\": \"fixed\",         \"showReconnectNotification\": true,         \"notificationDisplayTime\": \"1\",         \"showDisconnectNotification\": true     },     {         \"id\": \"acdf17df5536b1d3\",         \"type\": \"ui-theme\",         \"name\": \"FairScope Theme\",         \"colors\": {             \"surface\": \"#ffffff\",             \"primary\": \"#0094ce\",             \"bgPage\": \"#eeeeee\",             \"groupBg\": \"#ffffff\",             \"groupOutline\": \"#cccccc\"         },         \"sizes\": {             \"density\": \"default\",             \"pagePadding\": \"10px\",             \"groupGap\": \"10px\",             \"groupBorderRadius\": \"0px\",             \"widgetGap\": \"10px\"         }     } ]",
         "height": "0",
         "x": 590,
-        "y": 1300,
+        "y": 1500,
         "wires": []
+    },
+    {
+        "id": "54d6eeb38d467c03",
+        "type": "ui-template",
+        "z": "ae92a0a869ca847f",
+        "group": "1c1efabff5115209",
+        "page": "",
+        "ui": "",
+        "name": "template number field",
+        "order": 1,
+        "width": "4",
+        "height": "1",
+        "head": "",
+        "format": "<template>\n <v-number-input\n          label=\"Volume of the collector\"\n          variant=\"outlined\"\n          :max=\"50\"\n          :min=\"10\"\n          :step=\"2\"\n          :model-value=\"30\"\n          control-variant=\"hidden\"\n          :precision=\"2\"\n          suffix=\"mL\"\n          clearable\n          hint=\"The volume of water collected after sampling, measured in milliliters (ml).\"\n        ></v-number-input>\n\n</template>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 180,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "48666748de82f1a9",
+        "type": "ui-markdown",
+        "z": "ae92a0a869ca847f",
+        "group": "1c1efabff5115209",
+        "name": "template number field",
+        "order": 2,
+        "width": "4",
+        "height": "1",
+        "content": "# Template hidden hint\n```html\n<template>\n <v-number-input\n          label=\"Volume of the collector\"\n          variant=\"outlined\"\n          :max=\"50\"\n          :min=\"10\"\n          :step=\"2\"\n          :model-value=\"30\"\n          control-variant=\"hidden\"\n          :precision=\"2\"\n          suffix=\"mL\"\n          clearable\n          hint=\"The volume of water collected after sampling, measured in milliliters (ml).\"\n        ></v-number-input>\n</template>\n\n```",
+        "className": "",
+        "x": 180,
+        "y": 580,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "9c3c96530b96a5d1",
@@ -14354,9 +15204,11 @@
         "name": "set global",
         "func": "global.set(msg.topic,msg.payload);",
         "outputs": 1,
+        "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
+        "libs": [],
         "x": 580,
         "y": 320,
         "wires": [
@@ -16296,8 +17148,8 @@
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
-        "x": 140,
-        "y": 240,
+        "x": 160,
+        "y": 140,
         "wires": [
             [
                 "e2_credentials"
@@ -16309,15 +17161,15 @@
         "type": "function",
         "z": "8555b76c53e789e0",
         "name": "Identifiants",
-        "func": "msg.payload = {\n  username: \"thibaut@fairscope.com\",\n  password: \"XXXXXX\"\n};\nmsg.headers = {\"Content-Type\": \"application/json\"};\nreturn msg;",
+        "func": "msg.payload = {\n  username: \"thibaut@fairscope.com\",\n  password: \"XXXX\"\n};\nmsg.headers = {\"Content-Type\": \"application/json\"};\nreturn msg;",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 310,
-        "y": 240,
+        "x": 330,
+        "y": 140,
         "wires": [
             [
                 "e3_login"
@@ -16340,8 +17192,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 490,
-        "y": 240,
+        "x": 520,
+        "y": 140,
         "wires": [
             [
                 "e4_save_token",
@@ -16356,8 +17208,13 @@
         "name": "Stocker token",
         "func": "flow.set(\"token\", msg.payload.token);\nreturn msg;",
         "outputs": 1,
-        "x": 680,
-        "y": 240,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 140,
         "wires": [
             [
                 "e5_read_file"
@@ -16369,14 +17226,14 @@
         "type": "file in",
         "z": "8555b76c53e789e0",
         "name": "Lire .zip",
-        "filename": "/home/pi/data/export/ecotaxa/ecotaxa_Projects_name_1_1.zip",
+        "filename": "/home/pi/data/export/ecotaxa/ecotaxa_2025_04_09_15_35_01.zip",
         "filenameType": "str",
         "format": "",
         "chunk": false,
         "sendError": true,
         "allProps": false,
         "x": 160,
-        "y": 320,
+        "y": 280,
         "wires": [
             [
                 "e6_prepare_upload",
@@ -16396,8 +17253,8 @@
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 360,
-        "y": 320,
+        "x": 340,
+        "y": 280,
         "wires": [
             [
                 "e7_upload_zip"
@@ -16420,8 +17277,8 @@
         "authType": "",
         "senderr": false,
         "headers": [],
-        "x": 560,
-        "y": 320,
+        "x": 530,
+        "y": 280,
         "wires": [
             [
                 "e8_post_import",
@@ -16436,7 +17293,7 @@
         "name": "Préparer POST import",
         "func": "msg.headers = {\n  \"Authorization\": \"Bearer \" + flow.get(\"token\"),\n  \"Content-Type\": \"application/json\"\n};\nmsg.payload = {\n  source_path: \"FairScope/ecotaxa_2025_03_12_14_35_01.zip\",\n  taxo_mappings: {\n    \"23444\": 76543\n  },\n  skip_loaded_files: false,\n  skip_existing_objects: false,\n  update_mode: \"Yes\"\n};\nmsg.method = \"POST\";\nmsg.url = \"https://ecotaxa.obs-vlfr.fr/api/file_import/16205\";\nreturn msg;",
         "outputs": 1,
-        "x": 190,
+        "x": 320,
         "y": 400,
         "wires": [
             [
@@ -16453,7 +17310,7 @@
         "ret": "obj",
         "url": "",
         "headers": [],
-        "x": 410,
+        "x": 540,
         "y": 400,
         "wires": [
             [
@@ -16469,7 +17326,7 @@
         "active": true,
         "tosidebar": true,
         "complete": "payload",
-        "x": 610,
+        "x": 750,
         "y": 400,
         "wires": []
     },
@@ -16485,8 +17342,8 @@
         "complete": "payload",
         "statusVal": "",
         "statusType": "auto",
-        "x": 670,
-        "y": 200,
+        "x": 710,
+        "y": 100,
         "wires": []
     },
     {
@@ -16501,8 +17358,8 @@
         "complete": "payload",
         "statusVal": "",
         "statusType": "auto",
-        "x": 790,
-        "y": 320,
+        "x": 730,
+        "y": 280,
         "wires": []
     },
     {
@@ -16517,9 +17374,31 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 380,
-        "y": 160,
+        "x": 320,
+        "y": 240,
         "wires": []
+    },
+    {
+        "id": "62f79470cdfe7139",
+        "type": "http request",
+        "z": "8555b76c53e789e0",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 510,
+        "y": 240,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "8e11bb014b9664be",
@@ -16541,30 +17420,6 @@
         "className": "",
         "x": 490,
         "y": 220,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "65c11a088942faf2",
-        "type": "ui-template",
-        "z": "8018bd5586fd4054",
-        "group": "896524155233e2ed",
-        "page": "",
-        "ui": "",
-        "name": "footer",
-        "order": 1,
-        "width": 0,
-        "height": 0,
-        "head": "",
-        "format": "<template>\n  <v-footer class=\"pa-0\" color=\"grey-darken-4\">\n    <v-container>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">PlanktoScope</h4>\n          <p class=\"text-grey-lighten-1\">\n            Open and Affordable Quantitative Imaging Platform.\n          </p>\n        </v-col>\n      </v-row>\n      <v-divider class=\"my-3\"></v-divider>\n      <v-row justify=\"space-between\">\n        <!-- Branding Section -->\n        <v-col cols=\"12\" md=\"12\" class=\"text-center text-md-start\">\n          <h4 class=\"text-white\">Thanks to:</h4>\n          <p class=\"text-grey-lighten-1\">\n            <v-chip\n              v-for=\"contributor in contributors\"\n              :key=\"contributor.id\"\n              class=\"mx-2\"\n              small\n              outlined\n            >\n              <v-avatar left>\n                <img :src=\"contributor.avatar_url\" :alt=\"contributor.login\" />\n              </v-avatar>\n              <a\n                :href=\"contributor.html_url\"\n                target=\"_blank\"\n                class=\"text-decoration-none text-grey-lighten-1\"\n              >\n                {{ contributor.login }}\n              </a>\n            </v-chip>\n          </p>\n        </v-col>\n      </v-row>\n    </v-container>\n  </v-footer>\n</template>\n\n<script>\n  export default {\n    data() {\n      return {\n        contributors: [], // Array to hold contributors' data\n      }\n    },\n    mounted() {\n      this.fetchContributors()\n    },\n    methods: {\n      async fetchContributors() {\n        try {\n          const response = await fetch(\n            'https://api.github.com/orgs/PlanktoScope/people'\n          )\n          if (response.ok) {\n            this.contributors = await response.json()\n          } else {\n            console.error('Failed to fetch contributors')\n          }\n        } catch (error) {\n          console.error('Error fetching contributors:', error)\n        }\n      },\n    },\n  }\n</script>\n",
-        "storeOutMessages": true,
-        "passthru": true,
-        "resendOnRefresh": true,
-        "templateScope": "local",
-        "className": "",
-        "x": 490,
-        "y": 300,
         "wires": [
             []
         ]
