@@ -16672,354 +16672,78 @@
         ]
     },
     {
-        "id": "e1_token_login",
-        "type": "inject",
-        "z": "8555b76c53e789e0",
-        "name": "1️⃣ Lancer import",
-        "props": [],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "x": 160,
-        "y": 140,
-        "wires": [
-            [
-                "e2_credentials"
-            ]
-        ]
-    },
-    {
-        "id": "e2_credentials",
-        "type": "function",
-        "z": "8555b76c53e789e0",
-        "name": "Identifiants",
-        "func": "msg.payload = {\n  username: \"thibaut@fairscope.com\",\n  password: \"XXXX\"\n};\nmsg.headers = {\"Content-Type\": \"application/json\"};\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 330,
-        "y": 140,
-        "wires": [
-            [
-                "e3_login"
-            ]
-        ]
-    },
-    {
-        "id": "e3_login",
-        "type": "http request",
-        "z": "8555b76c53e789e0",
-        "name": "Login EcoTaxa",
-        "method": "POST",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "https://ecotaxa.obs-vlfr.fr/api/login",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 520,
-        "y": 140,
-        "wires": [
-            [
-                "e4_save_token",
-                "43bc1cea309904dc"
-            ]
-        ]
-    },
-    {
-        "id": "e4_save_token",
-        "type": "function",
-        "z": "8555b76c53e789e0",
-        "name": "Stocker token",
-        "func": "flow.set(\"token\", msg.payload.token);\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 720,
-        "y": 140,
-        "wires": [
-            [
-                "e5_read_file"
-            ]
-        ]
-    },
-    {
-        "id": "e5_read_file",
-        "type": "file in",
-        "z": "8555b76c53e789e0",
-        "name": "Lire .zip",
-        "filename": "/home/pi/data/export/ecotaxa/ecotaxa_2025_04_09_15_35_01.zip",
-        "filenameType": "str",
-        "format": "",
-        "chunk": false,
-        "sendError": true,
-        "allProps": false,
-        "x": 160,
-        "y": 280,
-        "wires": [
-            [
-                "e6_prepare_upload",
-                "4c3781d1bca2a493"
-            ]
-        ]
-    },
-    {
-        "id": "e6_prepare_upload",
-        "type": "function",
-        "z": "8555b76c53e789e0",
-        "name": "Préparer PUT",
-        "func": "msg.headers = {\n  \"Authorization\": \"Bearer \" + flow.get(\"token\"),\n  \"Content-Type\": \"application/zip\"\n};\nmsg.method = \"PUT\";\nmsg.url = \"https://ecotaxa.obs-vlfr.fr/api/file_import/FairScope/ecotaxa_Projects_name_1_1.zip\";\nreturn msg;",
-        "outputs": 1,
-        "timeout": "",
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 340,
-        "y": 280,
-        "wires": [
-            [
-                "e7_upload_zip"
-            ]
-        ]
-    },
-    {
-        "id": "e7_upload_zip",
-        "type": "http request",
-        "z": "8555b76c53e789e0",
-        "name": "PUT vers EcoTaxa",
-        "method": "use",
-        "ret": "obj",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 530,
-        "y": 280,
-        "wires": [
-            [
-                "e8_post_import",
-                "e10f1a376d0e056a"
-            ]
-        ]
-    },
-    {
-        "id": "e8_post_import",
-        "type": "function",
-        "z": "8555b76c53e789e0",
-        "name": "Préparer POST import",
-        "func": "msg.headers = {\n  \"Authorization\": \"Bearer \" + flow.get(\"token\"),\n  \"Content-Type\": \"application/json\"\n};\nmsg.payload = {\n  source_path: \"FairScope/ecotaxa_2025_03_12_14_35_01.zip\",\n  taxo_mappings: {\n    \"23444\": 76543\n  },\n  skip_loaded_files: false,\n  skip_existing_objects: false,\n  update_mode: \"Yes\"\n};\nmsg.method = \"POST\";\nmsg.url = \"https://ecotaxa.obs-vlfr.fr/api/file_import/16205\";\nreturn msg;",
-        "outputs": 1,
-        "x": 320,
-        "y": 400,
-        "wires": [
-            [
-                "e9_post_import"
-            ]
-        ]
-    },
-    {
-        "id": "e9_post_import",
-        "type": "http request",
-        "z": "8555b76c53e789e0",
-        "name": "POST Import EcoTaxa",
-        "method": "use",
-        "ret": "obj",
-        "url": "",
-        "headers": [],
-        "x": 540,
-        "y": 400,
-        "wires": [
-            [
-                "e10_debug_response"
-            ]
-        ]
-    },
-    {
-        "id": "e10_debug_response",
-        "type": "debug",
-        "z": "8555b76c53e789e0",
-        "name": "✅ Réponse finale",
-        "active": true,
-        "tosidebar": true,
-        "complete": "payload",
-        "x": 750,
-        "y": 400,
-        "wires": []
-    },
-    {
-        "id": "43bc1cea309904dc",
-        "type": "debug",
-        "z": "8555b76c53e789e0",
-        "name": "JWT Token",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 710,
-        "y": 100,
-        "wires": []
-    },
-    {
-        "id": "e10f1a376d0e056a",
-        "type": "debug",
-        "z": "8555b76c53e789e0",
-        "name": "Réponse EcoTaxa",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 730,
-        "y": 280,
-        "wires": []
-    },
-    {
-        "id": "4c3781d1bca2a493",
-        "type": "debug",
-        "z": "8555b76c53e789e0",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 320,
-        "y": 240,
-        "wires": []
-    },
-    {
-        "id": "62f79470cdfe7139",
-        "type": "http request",
-        "z": "8555b76c53e789e0",
-        "name": "",
-        "method": "POST",
-        "ret": "txt",
-        "paytoqs": "ignore",
-        "url": "",
-        "tls": "",
-        "persist": false,
-        "proxy": "",
-        "insecureHTTPParser": false,
-        "authType": "",
-        "senderr": false,
-        "headers": [],
-        "x": 510,
-        "y": 240,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "124acf5ce2c0da51",
+        "id": "64ae825a687fb054",
         "type": "ecotaxa",
         "z": "8555b76c53e789e0",
-        "name": "",
-        "x": 660,
-        "y": 660,
+        "name": "Import to Ecotaxa Project",
+        "api_url": "http://192.168.1.128:8088/api/",
+        "username": "administrator",
+        "password": "__PWRD__",
+        "project_id": "30",
+        "x": 830,
+        "y": 300,
         "wires": [
             [
-                "2ebffc335941d3fc"
+                "c21f20a7a9902ee4"
             ]
         ]
     },
     {
-        "id": "5b1cd80561b70598",
+        "id": "af1ec6323cc00231",
         "type": "inject",
         "z": "8555b76c53e789e0",
-        "name": "Let's go",
+        "d": true,
+        "name": "Lancer import",
         "props": [],
         "repeat": "",
         "crontab": "",
         "once": true,
-        "onceDelay": 0.1,
+        "onceDelay": "0",
         "topic": "",
-        "x": 300,
-        "y": 600,
+        "x": 320,
+        "y": 300,
         "wires": [
             [
-                "2925404f7cf6d8c7"
+                "28f8eb0318735246"
             ]
         ]
     },
     {
-        "id": "2925404f7cf6d8c7",
+        "id": "c21f20a7a9902ee4",
+        "type": "debug",
+        "z": "8555b76c53e789e0",
+        "name": "Show import result",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "28f8eb0318735246",
         "type": "function",
         "z": "8555b76c53e789e0",
-        "name": "Identifiants",
-        "func": "msg.payload = {\n  username: \"thibaut@fairscope.com\",\n  password: \"XXXX\"\n};\nmsg.headers = {\"Content-Type\": \"application/json\"};\nreturn msg;",
+        "name": "Set file_path",
+        "func": "msg.payload = {}\nmsg.payload.file_path = \"/home/pi/data/export/ecotaxa/ecotaxa_Project's_name_1_1.zip\"\n\n\nreturn msg;",
         "outputs": 1,
-        "timeout": "",
+        "timeout": 0,
         "noerr": 0,
         "initialize": "",
         "finalize": "",
         "libs": [],
-        "x": 450,
-        "y": 660,
+        "x": 570,
+        "y": 300,
         "wires": [
             [
-                "124acf5ce2c0da51",
-                "1e1364282a32bcae"
+                "64ae825a687fb054"
             ]
         ]
-    },
-    {
-        "id": "2ebffc335941d3fc",
-        "type": "debug",
-        "z": "8555b76c53e789e0",
-        "name": "debug 3",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 850,
-        "y": 680,
-        "wires": []
-    },
-    {
-        "id": "1e1364282a32bcae",
-        "type": "debug",
-        "z": "8555b76c53e789e0",
-        "name": "debug 4",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 800,
-        "y": 560,
-        "wires": []
     },
     {
         "id": "8e11bb014b9664be",
