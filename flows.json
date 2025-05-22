@@ -1954,15 +1954,15 @@
         ],
         "order": 5,
         "className": "",
-        "visible": "true",
-        "disabled": "false"
+        "visible": true,
+        "disabled": false
     },
     {
         "id": "bfd4acb7b243514f",
         "type": "ui-group",
         "name": "Table",
         "page": "7a4e042a60b734a6",
-        "width": "8",
+        "width": "12",
         "height": 1,
         "order": 1,
         "showTitle": true,
@@ -2917,6 +2917,20 @@
         "height": 1,
         "order": 6,
         "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "1190bcb9f9eb9202",
+        "type": "ui-group",
+        "name": "To Segment",
+        "page": "7a4e042a60b734a6",
+        "width": "12",
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
         "className": "",
         "visible": "true",
         "disabled": "false",
@@ -13595,10 +13609,10 @@
         "order": 1,
         "width": 0,
         "height": 0,
-        "maxrows": 0,
+        "maxrows": "10",
         "passthru": false,
         "autocols": false,
-        "showSearch": true,
+        "showSearch": false,
         "selectionType": "checkbox",
         "columns": [
             {
@@ -13626,8 +13640,24 @@
                 "align": "center"
             },
             {
+                "title": "acq_local_datetime",
+                "key": "acq_local_datetime",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
                 "title": "Operator Name",
                 "key": "sample_operator",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Number of images",
+                "key": "acq_nb_frame",
                 "keyType": "key",
                 "type": "text",
                 "width": "",
@@ -13641,7 +13671,8 @@
         "y": 240,
         "wires": [
             [
-                "0c8a74d698c153c3"
+                "0c8a74d698c153c3",
+                "b888b35ab94613f6"
             ]
         ]
     },
@@ -13702,9 +13733,59 @@
         "complete": "false",
         "statusVal": "",
         "statusType": "auto",
-        "x": 480,
-        "y": 240,
+        "x": 460,
+        "y": 360,
         "wires": []
+    },
+    {
+        "id": "b888b35ab94613f6",
+        "type": "ui-table",
+        "z": "0fd76ac156d78937",
+        "group": "1190bcb9f9eb9202",
+        "name": "",
+        "label": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "maxrows": "10",
+        "passthru": false,
+        "autocols": false,
+        "showSearch": false,
+        "selectionType": "none",
+        "columns": [
+            {
+                "title": "Sample Project",
+                "key": "sample_project",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "center"
+            },
+            {
+                "title": "Sample ID",
+                "key": "sample_id",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "center"
+            },
+            {
+                "title": "Acquisition ID",
+                "key": "acq_id",
+                "keyType": "key",
+                "type": "text",
+                "width": "",
+                "align": "center"
+            }
+        ],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 730,
+        "y": 260,
+        "wires": [
+            []
+        ]
     },
     {
         "id": "f142197f943e06c3",
