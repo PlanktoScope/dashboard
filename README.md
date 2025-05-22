@@ -71,7 +71,18 @@ To enable essential Node-RED features, edit the `settings.js` file.
      },
      ```
 
-4. **Save and Restart**
+4. **Add node-red-contrib-ecotaxa**
+
+  * Go into the PlanktoScope terminal and type the following
+
+     ```sh
+    cd /home/pi/
+    git clone -b node-red-contrib-ecotaxa https://github.com/PlanktoScope/PlanktoScope.git repo
+    cd /home/pi/.node-red/nodes
+    ln -s /home/pi/repo/software/node-red-dashboard/planktoscopehat/nodes/ecotaxa ecotaxa
+     ```
+
+5. **Save and Restart**
 
    * Save the changes to `settings.js`.
    * Restart the PlanktoScope using the **Reboot** button in the Node-RED dashboard:\
