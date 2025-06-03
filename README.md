@@ -41,7 +41,7 @@ This is the new [Node-RED](https://nodered.org/) project for the [PlanktoScope](
 Before making contributions you will need to setup authentication, there are 2 methods available
 
 <details>
-  <summary>Simple Node-RED and token</summary>
+  <summary>Simple (Node-RED and token)</summary>
 
 - Go to https://github.com/settings/personal-access-tokens
 - `Generate new token`
@@ -59,8 +59,10 @@ Use your GitHub username and the generated token as password.
 
 </details>
 
+<!-- TODO: Once the PlanktoScope is secured use SSH with passphrase? -->
+
 <details>
-  <summary>Advanced CLI and SSH</summary>
+  <summary>Advanced (CLI and SSH)</summary>
 
 See [Development Environment](https://github.com/PlanktoScope/PlanktoScope/blob/master/documentation/docs/community/contribute/tips-and-tricks.md#development-environment) then:
 
