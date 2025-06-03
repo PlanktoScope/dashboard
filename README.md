@@ -28,21 +28,54 @@ This is the new [Node-RED](https://nodered.org/) project for the [PlanktoScope](
 
 4. **Switch to the Node-RED dashboard project**
 
-- Go to [Node-RED admin](http://192.168.1.84/admin/ps/node-red-v2/)
-- In the main menu, select Projects -> Open -> dashboard
-- In the history tab, make sure to use the latest version of the dashboard
+- Go to [Node-RED admin](http://planktoscope.local/admin/ps/node-red-v2/)
+- In the main menu, select `Projects` → `Open` and select "dashboard"
 
-With these steps, your PlanktoScope is fully configured and ready for use.
+5. **Update the dashboard project**
+
+- In the right sidebar, open the `history` tab → `Commit History` → hit the refresh button
+- If there are remote changes hit the `pull` button
 
 ## Development
 
-See [Development Environment](https://github.com/PlanktoScope/PlanktoScope/blob/master/documentation/docs/community/contribute/tips-and-tricks.md#development-environment)
+Before making contributions you will need to setup authentication, there are 2 methods available
 
----
+<details>
+  <summary>Simple Node-RED and token</summary>
+
+- Go to https://github.com/settings/personal-access-tokens
+- `Generate new token`
+- `Token name`: "PlanktoScope dashboard"
+- `Resource owner`: "PlanktoScope"
+- `Repository access` → `Only select repositories` select `PlanktoScope/dashboard`
+- `Permissions` → `Repository permissions` → `Contents` select `Read and Write`
+- Hit `Generate token`
+
+Copy the token somehwere safe.
+
+When using the Node-RED GUI to push changes, you will be prompted for git username and password.
+
+Use your GitHub username and the generated token as password.
+
+</details>
+
+<details>
+  <summary>Advanced CLI and SSH</summary>
+
+See [Development Environment](https://github.com/PlanktoScope/PlanktoScope/blob/master/documentation/docs/community/contribute/tips-and-tricks.md#development-environment) then:
+
+```sh
+cd PlanktoScope/node-red/projects/dashboard
+git remote set-url origin git@github.com:PlanktoScope/dashboard.git
+git pull
+# use git CLI instead of Node-RED history tab
+```
+
+</details>
 
 ## Read and Write Data in global.json
 
-With Context Storage enabled, data can be stored in a file located at: [`/home/pi/PlanktoScope/node-red/context/global/global.json`](http://planktoscope.local/admin/fs/files/home/pi/PlanktoScope/node-red/context/global/global.json).
+Data is stored in a file located at: [`/home/pi/PlanktoScope/node-red/context/global/global.json`](http://planktoscope.local/admin/fs/files/home/pi/PlanktoScope/node-red/context/global/global.json).
 
 ### Read Data
 
@@ -76,18 +109,3 @@ To set a value in the file, use the following script in a Function Node:
 global.set("variable", msg.variable)
 return msg
 ```
-
-https://github.com/settings/personal-access-tokens
-
-Token name: "PlanktoScope dashboard"
-
-Under "Resource owner" select PlanktoScope
-
-Under "Repository Access" -> "Only select repositories" select "Only select repositories" and pick "dashboard"
-
-Unde "Repository permissions" -> "Contents" select "Read and write"
-
-Hit "Generate token"
-
-Copy the token, it will be the password
-Your github username
