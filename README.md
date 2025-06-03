@@ -69,8 +69,11 @@ See [Development Environment](https://github.com/PlanktoScope/PlanktoScope/blob/
 ```sh
 cd PlanktoScope/node-red/projects/dashboard
 git remote set-url origin git@github.com:PlanktoScope/dashboard.git
+git fetch
+git checkout main
 git pull
-# use git CLI instead of Node-RED history tab
+
+# use Git CLI instead of Node-RED history tab
 ```
 
 </details>
