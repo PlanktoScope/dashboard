@@ -76,3 +76,18 @@ To set a value in the file, use the following script in a Function Node:
 global.set("variable", msg.variable)
 return msg
 ```
+
+https://github.com/settings/personal-access-tokens
+
+Token name: "PlanktoScope dashboard"
+
+Under "Resource owner" select PlanktoScope
+
+Under "Repository Access" -> "Only select repositories" select "Only select repositories" and pick "dashboard"
+
+Unde "Repository permissions" -> "Contents" select "Read and write"
+
+Hit "Generate token"
+
+Copy the token, it will be the password
+Your github username
