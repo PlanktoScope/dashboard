@@ -61,7 +61,7 @@ Use your GitHub username and the generated token as password.
 
 <!-- TODO: Once the PlanktoScope is secured use SSH with passphrase? -->
 
-<details>
+<!-- <details>
   <summary>Advanced (CLI and SSH)</summary>
 
 See [Development Environment](https://github.com/PlanktoScope/PlanktoScope/blob/master/documentation/docs/community/contribute/tips-and-tricks.md#development-environment) then:
@@ -69,12 +69,12 @@ See [Development Environment](https://github.com/PlanktoScope/PlanktoScope/blob/
 ```sh
 cd PlanktoScope/node-red/projects/dashboard
 git remote set-url origin git@github.com:PlanktoScope/dashboard.git
-git fetch
+git fetch origin
 git checkout main
 git pull
 
 # use Git CLI instead of Node-RED history tab
-```
+``` -->
 
 </details>
 
