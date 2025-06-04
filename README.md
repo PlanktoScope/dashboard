@@ -36,6 +36,9 @@ This is the new [Node-RED](https://nodered.org/) project for the [PlanktoScope](
 - In the right sidebar, open the `history` tab → `Commit History` → hit the refresh button
 - If there are remote changes hit the `pull` button
 
+[/ps/node-red-v2/dashboard/](http://planktoscope.local/ps/node-red-v2/dashboard/) to access the dashboard
+[/admin/ps/node-red-v2/](http://planktoscope.local/admin/ps/node-red-v2/) to access the Node-RED editor
+
 ## Development
 
 Before making contributions you will need to setup authentication, there are 2 methods available
