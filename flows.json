@@ -884,75 +884,6 @@
         "h": 142
     },
     {
-        "id": "f9b137cda6a41cc8",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f142197f943e06c3",
-            "ba32092924c21704"
-        ],
-        "x": 74,
-        "y": 299,
-        "w": 252,
-        "h": 122
-    },
-    {
-        "id": "e42e71164274acdc",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "09145421eca576b2",
-            "96d4f5ed69c26184"
-        ],
-        "x": 334,
-        "y": 299,
-        "w": 272,
-        "h": 122
-    },
-    {
-        "id": "a2eff4bb38731253",
-        "type": "group",
-        "z": "ae92a0a869ca847f",
-        "g": "349e8016ec7515c6",
-        "style": {
-            "stroke": "#999999",
-            "stroke-opacity": "1",
-            "fill": "none",
-            "fill-opacity": "1",
-            "label": true,
-            "label-position": "nw",
-            "color": "#a4a4a4"
-        },
-        "nodes": [
-            "f467dd95ca327abe",
-            "9460aed131d64851"
-        ],
-        "x": 614,
-        "y": 299,
-        "w": 252,
-        "h": 122
-    },
-    {
         "id": "3bb20cd87e85a6b8",
         "type": "group",
         "z": "a02961610bc3982a",
@@ -1134,6 +1065,99 @@
         "y": 39,
         "w": 352,
         "h": 262
+    },
+    {
+        "id": "dc792afbab434446",
+        "type": "group",
+        "z": "a02961610bc3982a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "50128147f802f133",
+            "76fd33c347db95b0",
+            "b9c2e0abaad12bd9",
+            "61ebceb724041fb2"
+        ],
+        "x": 994,
+        "y": 339,
+        "w": 392,
+        "h": 142
+    },
+    {
+        "id": "f9b137cda6a41cc8",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f142197f943e06c3",
+            "ba32092924c21704"
+        ],
+        "x": 74,
+        "y": 299,
+        "w": 252,
+        "h": 122
+    },
+    {
+        "id": "e42e71164274acdc",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "09145421eca576b2",
+            "96d4f5ed69c26184"
+        ],
+        "x": 334,
+        "y": 299,
+        "w": 272,
+        "h": 122
+    },
+    {
+        "id": "a2eff4bb38731253",
+        "type": "group",
+        "z": "ae92a0a869ca847f",
+        "g": "349e8016ec7515c6",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f467dd95ca327abe",
+            "9460aed131d64851"
+        ],
+        "x": 614,
+        "y": 299,
+        "w": 252,
+        "h": 122
     },
     {
         "id": "e6ae26617c24c3ea",
@@ -3627,24 +3651,6 @@
         ]
     },
     {
-        "id": "ef632b53f227156b",
-        "type": "dir2files",
-        "z": "0fd76ac156d78937",
-        "name": "",
-        "dirname": "/home/pi/data/img/",
-        "pathRegex": "",
-        "isRecursive": true,
-        "findDir": true,
-        "isArray": true,
-        "x": 100,
-        "y": 140,
-        "wires": [
-            [
-                "369b19dceb37533d"
-            ]
-        ]
-    },
-    {
         "id": "250979b4672d81b6",
         "type": "ui-event",
         "z": "0fd76ac156d78937",
@@ -3704,80 +3710,8 @@
         "y": 60,
         "wires": [
             [
-                "ef632b53f227156b"
-            ]
-        ]
-    },
-    {
-        "id": "eaa2a13eb1c6577c",
-        "type": "debug",
-        "z": "0fd76ac156d78937",
-        "name": "Résultat final",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 1570,
-        "y": 420,
-        "wires": []
-    },
-    {
-        "id": "369b19dceb37533d",
-        "type": "function",
-        "z": "0fd76ac156d78937",
-        "name": "Extract Deepest Metadata Paths",
-        "func": "let input = msg.payload;\nlet output = [];\n\n// Filter only the deepest paths (not a prefix of any other path)\ninput.forEach(path => {\n    let isDeepest = input.every(other => {\n        return path === other || !other.startsWith(path + '/');\n    });\n    if (isDeepest) {\n        output.push(path + '/metadata.json');\n    }\n});\n\nmsg.payload = output;\nreturn msg;\n",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 310,
-        "y": 140,
-        "wires": [
-            [
-                "3c919c7004a1ec45"
-            ]
-        ]
-    },
-    {
-        "id": "331a77cdd26b0522",
-        "type": "file in",
-        "z": "0fd76ac156d78937",
-        "name": "",
-        "filename": "payload",
-        "filenameType": "msg",
-        "format": "utf8",
-        "chunk": false,
-        "sendError": false,
-        "encoding": "none",
-        "allProps": false,
-        "x": 640,
-        "y": 140,
-        "wires": [
-            [
-                "472d2096ae2eefaa"
-            ]
-        ]
-    },
-    {
-        "id": "472d2096ae2eefaa",
-        "type": "json",
-        "z": "0fd76ac156d78937",
-        "name": "",
-        "property": "payload",
-        "action": "",
-        "pretty": false,
-        "x": 110,
-        "y": 240,
-        "wires": [
-            [
-                "b6179c8a5f70c13b"
+                "d4129bf3f5622aa6",
+                "b888b35ab94613f6"
             ]
         ]
     },
@@ -3795,15 +3729,16 @@
         "passthru": false,
         "autocols": false,
         "showSearch": false,
+        "deselect": true,
         "selectionType": "checkbox",
         "columns": [
             {
-                "title": "Sample Project",
-                "key": "sample_project",
+                "title": "Project name",
+                "key": "project_name",
                 "keyType": "key",
                 "type": "text",
                 "width": "",
-                "align": "center"
+                "align": "start"
             },
             {
                 "title": "Sample ID",
@@ -3811,19 +3746,11 @@
                 "keyType": "key",
                 "type": "text",
                 "width": "",
-                "align": "center"
+                "align": "start"
             },
             {
                 "title": "Acquisition ID",
-                "key": "acq_id",
-                "keyType": "key",
-                "type": "text",
-                "width": "",
-                "align": "center"
-            },
-            {
-                "title": "acq_local_datetime",
-                "key": "acq_local_datetime",
+                "key": "acquisition_id",
                 "keyType": "key",
                 "type": "text",
                 "width": "",
@@ -3831,17 +3758,25 @@
             },
             {
                 "title": "Operator Name",
-                "key": "sample_operator",
+                "key": "operator_name",
                 "keyType": "key",
                 "type": "text",
                 "width": "",
                 "align": "start"
             },
             {
-                "title": "Number of images",
-                "key": "acq_nb_frame",
+                "title": "Image",
+                "key": "image_acquired_count",
                 "keyType": "key",
                 "type": "text",
+                "width": "",
+                "align": "start"
+            },
+            {
+                "title": "Segmented",
+                "key": "is_segmented",
+                "keyType": "key",
+                "type": "tickcross",
                 "width": "",
                 "align": "start"
             }
@@ -3850,74 +3785,10 @@
         "mobileBreakpointType": "defaults",
         "action": "replace",
         "x": 350,
-        "y": 240,
+        "y": 180,
         "wires": [
-            [
-                "0c8a74d698c153c3",
-                "b888b35ab94613f6"
-            ]
+            []
         ]
-    },
-    {
-        "id": "b6179c8a5f70c13b",
-        "type": "join",
-        "z": "0fd76ac156d78937",
-        "name": "",
-        "mode": "auto",
-        "build": "object",
-        "property": "payload",
-        "propertyType": "msg",
-        "key": "topic",
-        "joiner": "\\n",
-        "joinerType": "str",
-        "useparts": false,
-        "accumulate": "false",
-        "timeout": "",
-        "count": "",
-        "reduceRight": false,
-        "x": 230,
-        "y": 240,
-        "wires": [
-            [
-                "61c2c281b1c6e055"
-            ]
-        ]
-    },
-    {
-        "id": "3c919c7004a1ec45",
-        "type": "split",
-        "z": "0fd76ac156d78937",
-        "name": "",
-        "splt": "\\n",
-        "spltType": "str",
-        "arraySplt": 1,
-        "arraySpltType": "len",
-        "stream": false,
-        "addname": "",
-        "property": "payload",
-        "x": 510,
-        "y": 140,
-        "wires": [
-            [
-                "331a77cdd26b0522"
-            ]
-        ]
-    },
-    {
-        "id": "0c8a74d698c153c3",
-        "type": "debug",
-        "z": "0fd76ac156d78937",
-        "name": "debug 2",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 460,
-        "y": 360,
-        "wires": []
     },
     {
         "id": "b888b35ab94613f6",
@@ -3933,6 +3804,7 @@
         "passthru": false,
         "autocols": false,
         "showSearch": false,
+        "deselect": true,
         "selectionType": "none",
         "columns": [
             {
@@ -3963,10 +3835,23 @@
         "mobileBreakpoint": "sm",
         "mobileBreakpointType": "defaults",
         "action": "replace",
-        "x": 730,
-        "y": 260,
+        "x": 330,
+        "y": 300,
         "wires": [
             []
+        ]
+    },
+    {
+        "id": "d4129bf3f5622aa6",
+        "type": "list acquisitions",
+        "z": "0fd76ac156d78937",
+        "name": "",
+        "x": 180,
+        "y": 180,
+        "wires": [
+            [
+                "61c2c281b1c6e055"
+            ]
         ]
     },
     {
@@ -9040,5 +8925,68 @@
                 "94a433cec8b54203"
             ]
         ]
+    },
+    {
+        "id": "61ebceb724041fb2",
+        "type": "list acquisitions",
+        "z": "a02961610bc3982a",
+        "g": "dc792afbab434446",
+        "name": "",
+        "x": 1120,
+        "y": 440,
+        "wires": [
+            [
+                "76fd33c347db95b0"
+            ]
+        ]
+    },
+    {
+        "id": "50128147f802f133",
+        "type": "inject",
+        "z": "a02961610bc3982a",
+        "g": "dc792afbab434446",
+        "name": "inject",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1090,
+        "y": 380,
+        "wires": [
+            [
+                "61ebceb724041fb2"
+            ]
+        ]
+    },
+    {
+        "id": "76fd33c347db95b0",
+        "type": "debug",
+        "z": "a02961610bc3982a",
+        "g": "dc792afbab434446",
+        "name": "debug",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1290,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "b9c2e0abaad12bd9",
+        "type": "comment",
+        "z": "a02961610bc3982a",
+        "g": "dc792afbab434446",
+        "name": "acquisitions",
+        "info": "",
+        "x": 1290,
+        "y": 380,
+        "wires": []
     }
 ]
