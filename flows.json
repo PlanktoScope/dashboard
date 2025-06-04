@@ -10559,7 +10559,7 @@
         "type": "file in",
         "z": "a93cd90e1ab9222e",
         "name": "Get machine name",
-        "filename": "/var/lib/planktoscope/machine-name",
+        "filename": "/run/machine-name",
         "filenameType": "str",
         "format": "utf8",
         "chunk": false,
