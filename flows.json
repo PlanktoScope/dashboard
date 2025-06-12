@@ -5880,7 +5880,7 @@
         "type": "exec",
         "z": "83b2474231efac73",
         "g": "910e195536aea223",
-        "command": "sudo systemctl restart planktoscope-org.device-backend.controller-planktoscopehat.service",
+        "command": "sudo systemctl restart planktoscope-org.controller.service",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
