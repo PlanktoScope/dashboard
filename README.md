@@ -6,7 +6,7 @@ This is the new [Node-RED](https://nodered.org/) project for the [PlanktoScope](
 
 1. **Prepare the SD Card**
 
-   - Download the [latest development PlanktoScope OS](https://github.com/PlanktoScope/PlanktoScope/blob/master/documentation/docs/community/contribute/tips-and-tricks.md#development-os).
+   - Download the [latest development PlanktoScope OS](https://github.com/PlanktoScope/PlanktoScope/blob/main/documentation/docs/community/contribute/tips-and-tricks.md#development-os).
 
    - Flash the `.img.xz` file to an SD card using [Raspberry Pi Imager](https://www.raspberrypi.com/software/).
 
@@ -67,7 +67,7 @@ Use your GitHub username and the generated token as password.
 <details>
   <summary>Advanced (CLI and SSH)</summary>
 
-See [Development Environment](https://github.com/PlanktoScope/PlanktoScope/blob/master/documentation/docs/community/contribute/tips-and-tricks.md#development-environment) then:
+See [Development Environment](https://github.com/PlanktoScope/PlanktoScope/blob/main/documentation/docs/community/contribute/tips-and-tricks.md#development-environment) then:
 
 ```sh
 cd PlanktoScope/node-red/projects/dashboard
