@@ -81,6 +81,20 @@ git pull
 
 </details>
 
+## Updating PlanktoScope
+
+If you pull changes on the dashboard project, Node-RED may complain about missing nodes.
+
+In that case you will need to type the following commands in the PlanktoScope
+
+```sh
+cd /home/pi/PlanktoScope
+git pull
+sudo systemctl restart nodered
+```
+
+You can use SSH or the Cockpit terminal.
+
 ## Read and Write Data in global.json
 
 Data is stored in a file located at: [`/home/pi/PlanktoScope/node-red/context/global/global.json`](http://planktoscope.local/admin/fs/files/home/pi/PlanktoScope/node-red/context/global/global.json).
