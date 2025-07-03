@@ -120,6 +120,14 @@
         "env": []
     },
     {
+        "id": "e4b1c9cc7670cae0",
+        "type": "tab",
+        "label": "Vigo - cron",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "4ed26b8b.253504",
         "type": "subflow",
         "name": "Save hardware config",
@@ -1091,6 +1099,30 @@
         "h": 142
     },
     {
+        "id": "dc307bb5d26c60f4",
+        "type": "group",
+        "z": "a02961610bc3982a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "300343e6b56f088e",
+            "743aaf81267c0a04",
+            "da645aa8ebbed646",
+            "7d1f9414be49d7c3"
+        ],
+        "x": 994,
+        "y": 519,
+        "w": 412,
+        "h": 142
+    },
+    {
         "id": "f9b137cda6a41cc8",
         "type": "group",
         "z": "ae92a0a869ca847f",
@@ -1160,9 +1192,9 @@
         "h": 122
     },
     {
-        "id": "dc307bb5d26c60f4",
+        "id": "e8f6dc92f3ddcf09",
         "type": "group",
-        "z": "a02961610bc3982a",
+        "z": "e4b1c9cc7670cae0",
         "style": {
             "stroke": "#999999",
             "stroke-opacity": "1",
@@ -1173,15 +1205,92 @@
             "color": "#a4a4a4"
         },
         "nodes": [
-            "300343e6b56f088e",
-            "743aaf81267c0a04",
-            "da645aa8ebbed646",
-            "7d1f9414be49d7c3"
+            "eb32f1ecaca9bc47",
+            "de3e49a384d2716a",
+            "9a61d109abf4afd6",
+            "c5a9e4745447323d",
+            "6f6f8392c7c0e306",
+            "726a9e818b8b2182",
+            "2e0cc6ec2ffa8936",
+            "338229c003c1a2bc",
+            "09bae7646f494544",
+            "43d3b349993e5dba",
+            "0f25ab3591af3ed7",
+            "a00e46305593e4c7",
+            "7d1242cd9144a090",
+            "b6014e9b6e5feb6a",
+            "7f1b4e70c4277902",
+            "f741d2f169492099",
+            "a4d7c7a004d6a2de",
+            "24e13395ddd30739",
+            "5eafec4c1274f8e8"
         ],
-        "x": 994,
-        "y": 519,
-        "w": 412,
-        "h": 142
+        "x": -46,
+        "y": 19,
+        "w": 1572,
+        "h": 577
+    },
+    {
+        "id": "90d5db0df00ab294",
+        "type": "group",
+        "z": "e4b1c9cc7670cae0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "a1e07a0657a4b8f9",
+            "35879616af7cfc0b",
+            "f7fc0c760213c7c1",
+            "4f5f934a05fb4aec",
+            "f77b66c3e7cd2073",
+            "6ded19c39cd58837",
+            "3cf87bc0c920a0ae",
+            "6c4105f6b8f9f999",
+            "3b3bb85dadd5b6ad",
+            "909e68dae2e5b17e",
+            "b81404029b07a28e",
+            "745c937805fecd5c",
+            "315406f36cf7a1e4",
+            "0b21b4818103e3ff",
+            "abfec2fd998be059",
+            "d209fb632887188b"
+        ],
+        "x": 24,
+        "y": 739,
+        "w": 1802,
+        "h": 522
+    },
+    {
+        "id": "b770bef092580e65",
+        "type": "group",
+        "z": "e4b1c9cc7670cae0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "3602f0e005f4c2bd",
+            "8217302b6e64d39a",
+            "c91c26087dc469cc",
+            "7ea6b087ea1ba683",
+            "35a387dd23aaa227",
+            "b3eb98f0fda7322c"
+        ],
+        "x": 14,
+        "y": 1211.5,
+        "w": 1152,
+        "h": 97
     },
     {
         "id": "e6ae26617c24c3ea",
@@ -9075,5 +9184,1530 @@
                 "743aaf81267c0a04"
             ]
         ]
+    },
+    {
+        "id": "de3e49a384d2716a",
+        "type": "switch",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "light",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "actuator/pump",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "imager/image/update_config",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "imager/image/image",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "segmenter/segment",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "restart/hardware_controller",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "restart/segmenter",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "restart/planktoscope",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "purge",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 9,
+        "x": 360,
+        "y": 160,
+        "wires": [
+            [
+                "726a9e818b8b2182",
+                "a00e46305593e4c7"
+            ],
+            [
+                "726a9e818b8b2182",
+                "a00e46305593e4c7"
+            ],
+            [
+                "9a61d109abf4afd6"
+            ],
+            [
+                "6f6f8392c7c0e306"
+            ],
+            [
+                "c5a9e4745447323d"
+            ],
+            [
+                "2e0cc6ec2ffa8936"
+            ],
+            [
+                "338229c003c1a2bc"
+            ],
+            [],
+            [
+                "b6014e9b6e5feb6a"
+            ]
+        ]
+    },
+    {
+        "id": "9a61d109abf4afd6",
+        "type": "function",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "update_config command",
+        "func": "const now = new Date();\n\nmsg.topic = \"imager/image\";\n\nconst pad = (n) => n.toString().padStart(2, '0');\n\nlet formattedDate = `${now.getUTCFullYear()}_${pad(now.getUTCMonth() + 1)}_${pad(now.getUTCDate())}_${pad(now.getUTCHours())}_${pad(now.getUTCMinutes())}_${pad(now.getUTCSeconds())}`;\n\nglobal.set(\"path\", `${now.toISOString().split('T')[0]}/S1/${formattedDate}`);\n\nmsg.payload = {\n    \"action\": \"update_config\",\n    \"config\": {\n        \"sample_project\": \"EMBL_CCM_Kit\",\n        \"sample_id\": \"Trec5_19c\",\n        \"sample_operator\": \"Jeremy\",\n        \"sample_instrument\": \"PlanktoScope v2.6\",\n        \"sample_date\": now.toISOString().split('T')[0],\n        \"acq_id\": formattedDate,\n        \"acq_instrument\": \"PlanktoScope v2.6\",\n        \"acq_magnification\": \"1.2\",\n        \"acq_software\": \"PlanktoScope v2024.0.0-alpha.1\",\n        \"acq_resolution\": \"1080p\",\n        \"acq_time_between_frames\": 0.1,\n        \"acq_minimum_mesh\": 15,\n        \"acq_maximum_mesh\": 300,\n        \"acq_min_esd\": 15,\n        \"acq_max_esd\": 300,\n        \"acq_camera_name\": \"HQ Camera\",\n        \"process_pixel\": 0.75,\n        \"acq_local_datetime\": now.toISOString().split('.')[0] + 'Z',\n        \"object_date\": now.toISOString().split('T')[0],\n        \"object_time\": now.toISOString().split('T')[1].split('.')[0] + 'Z',\n        \"object_lat\": 48.587424697483556,\n        \"object_lon\": -3.8382606493497824\n    }\n};\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 180,
+        "wires": [
+            [
+                "726a9e818b8b2182",
+                "a00e46305593e4c7"
+            ]
+        ]
+    },
+    {
+        "id": "c5a9e4745447323d",
+        "type": "function",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "segment command",
+        "func": "msg.payload = {\n  \"action\": \"segment\",\n  \"path\": global.get(\"path\"),\n  \"settings\": {\n    \"force\": false,\n    \"recursive\": true,\n    \"ecotaxa\": true,\n    \"keep\": true\n  }\n}\n\nreturn msg; ",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 260,
+        "wires": [
+            [
+                "726a9e818b8b2182",
+                "a00e46305593e4c7"
+            ]
+        ]
+    },
+    {
+        "id": "6f6f8392c7c0e306",
+        "type": "function",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "image command",
+        "func": "msg.topic = \"imager/image\"\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 630,
+        "y": 220,
+        "wires": [
+            [
+                "726a9e818b8b2182",
+                "a00e46305593e4c7"
+            ]
+        ]
+    },
+    {
+        "id": "726a9e818b8b2182",
+        "type": "mqtt out",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 1270,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "a1e07a0657a4b8f9",
+        "type": "mqtt in",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "name": "",
+        "topic": "status/#",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "8dc3722c.06efa8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 100,
+        "y": 800,
+        "wires": [
+            [
+                "f77b66c3e7cd2073"
+            ]
+        ]
+    },
+    {
+        "id": "35879616af7cfc0b",
+        "type": "function",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "name": "Count objects segmented",
+        "func": "var objectCount = global.get('objectCount') || 0;\n\nif (msg.payload.status === 'Done') {\n    msg.payload.objectCount = objectCount;\n    objectCount=0;\n    }\nelse if (msg.topic === 'status/segmenter/metric') {\n    objectCount++;\n}\n\nglobal.set('objectCount', objectCount);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 860,
+        "wires": [
+            [
+                "f7fc0c760213c7c1"
+            ]
+        ]
+    },
+    {
+        "id": "f7fc0c760213c7c1",
+        "type": "switch",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "name": "msg.payload.metadata.equivalent_diameter is not null",
+        "property": "payload.metadata.equivalent_diameter",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 880,
+        "y": 860,
+        "wires": [
+            [
+                "6c4105f6b8f9f999"
+            ]
+        ]
+    },
+    {
+        "id": "4f5f934a05fb4aec",
+        "type": "ui-template",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "7edf5f14f6ca0bdd",
+        "page": "",
+        "ui": "",
+        "name": "Stream Pi Camera",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<center>\n  <img src=\"/ps/hal/camera/streams/preview.mjpg\"\n    alt=\"If you see this, there probably is an error either with your camera or with the python service. Please try restarting your machine.\"\n    width=\"100%\" height=\"100%\">\n</center>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 390,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f77b66c3e7cd2073",
+        "type": "switch",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "status/segmenter/metric",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 350,
+        "y": 860,
+        "wires": [
+            [
+                "35879616af7cfc0b"
+            ]
+        ]
+    },
+    {
+        "id": "6ded19c39cd58837",
+        "type": "ui-chart",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "",
+        "label": "Histogram - Equivalent Diameter",
+        "order": 5,
+        "chartType": "histogram",
+        "category": "Equivalent Diameter (μm)",
+        "categoryType": "str",
+        "xAxisLabel": "Equivalent Diameter (μm)",
+        "xAxisProperty": "payload.metadata.equivalent_diameter",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "bins",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "20",
+        "xmax": "100",
+        "yAxisLabel": "Abundance",
+        "yAxisProperty": "payload.metadata.equivalent_diameter",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": "80",
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": 1,
+        "removeOlderUnit": "86400",
+        "removeOlderPoints": "",
+        "colors": [
+            "#00ff04",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "3",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1660,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2e0cc6ec2ffa8936",
+        "type": "exec",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "command": "sudo systemctl restart planktoscope-org.controller.service",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Restart hardware controller",
+        "x": 640,
+        "y": 320,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "338229c003c1a2bc",
+        "type": "exec",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "command": "docker restart apps_ps_backend_proc-segmenter-server-1",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Restart segmenter",
+        "x": 610,
+        "y": 380,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3cf87bc0c920a0ae",
+        "type": "ui-template",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "7edf5f14f6ca0bdd",
+        "page": "",
+        "ui": "",
+        "name": "Actions Clock",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<template>\n    <div class=\"clock-container\">\n        <canvas ref=\"clockCanvas\"></canvas>\n        <div class=\"legend\">\n            <div v-for=\"event in events\" :key=\"event.label\" class=\"legend-item\">\n                <span :style=\"{ backgroundColor: event.color }\" class=\"color-box\"></span>\n                {{ event.label }}\n            </div>\n        </div>\n    </div>\n</template>\n\n<script>\nexport default {\n    data() {\n        return {\n            events: [\n                { start: 1, end: 2, label: \"Pump dead volume\", color: \"rgba(255, 0, 0, 0.3)\" },\n                { start: 2, end: 5, label: \"Acquisition\", color: \"rgba(0, 255, 0, 0.3)\" },\n                { start: 10, end: 40, label: \"Segmentation\", color: \"rgba(0, 0, 255, 0.3)\" },\n                { start: 55, end: 56, label: \"Purge data\", color: \"rgba(255, 0, 0, 0.3)\" },\n                { start: 56, end: 58, label: \"Restart\", color: \"rgba(0, 255, 255, 0.3)\" }\n            ],\n            currentMinute: null,\n            clockRadius: 100\n        };\n    },\n    mounted() {\n        this.updateClock();\n        setInterval(this.updateClock, 1000);\n    },\n    methods: {\n        updateClock() {\n            const now = new Date();\n            this.currentMinute = now.getMinutes() + now.getSeconds() / 60;\n            this.drawClock();\n        },\n        drawClock() {\n            const canvas = this.$refs.clockCanvas;\n            const ctx = canvas.getContext(\"2d\");\n            const size = this.clockRadius * 2;\n            canvas.width = size;\n            canvas.height = size;\n            ctx.clearRect(0, 0, size, size);\n            ctx.translate(this.clockRadius, this.clockRadius);\n\n            // Draw circle\n            ctx.beginPath();\n            ctx.arc(0, 0, this.clockRadius, 0, 2 * Math.PI);\n            ctx.stroke();\n\n            // Draw minute marks\n            for (let i = 0; i < 60; i += 10) {\n                const angle = (i / 60) * 2 * Math.PI - Math.PI / 2;\n                const x1 = Math.cos(angle) * (this.clockRadius - 5);\n                const y1 = Math.sin(angle) * (this.clockRadius - 5);\n                const x2 = Math.cos(angle) * (this.clockRadius - 15);\n                const y2 = Math.sin(angle) * (this.clockRadius - 15);\n                ctx.strokeStyle = \"black\";\n                ctx.lineWidth = 2;\n                ctx.beginPath();\n                ctx.moveTo(x1, y1);\n                ctx.lineTo(x2, y2);\n                ctx.stroke();\n            }\n\n            // Draw event periods with colors\n            this.events.forEach(event => {\n                let startAngle = (event.start / 60) * 2 * Math.PI - Math.PI / 2;\n                let endAngle = (event.end / 60) * 2 * Math.PI - Math.PI / 2;\n                ctx.fillStyle = event.color;\n                ctx.beginPath();\n                ctx.moveTo(0, 0);\n                ctx.arc(0, 0, this.clockRadius - 10, startAngle, endAngle);\n                ctx.lineTo(0, 0);\n                ctx.fill();\n            });\n\n            // Draw current time hand\n            const angle = (this.currentMinute / 60) * 2 * Math.PI - Math.PI / 2;\n            const x = Math.cos(angle) * (this.clockRadius - 15);\n            const y = Math.sin(angle) * (this.clockRadius - 15);\n            ctx.strokeStyle = \"black\";\n            ctx.lineWidth = 2;\n            ctx.beginPath();\n            ctx.moveTo(0, 0);\n            ctx.lineTo(x, y);\n            ctx.stroke();\n        }\n    }\n};\n</script>\n\n<style scoped>\n.clock-container {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\n\ncanvas {\n    margin-right: 20px;\n}\n\n.legend {\n    display: flex;\n    flex-direction: column;\n    align-items: flex-start;\n}\n\n.legend-item {\n    display: flex;\n    align-items: center;\n    margin: 5px 0;\n}\n\n.color-box {\n    width: 15px;\n    height: 15px;\n    margin-right: 5px;\n    border-radius: 3px;\n}\n</style>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 380,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6c4105f6b8f9f999",
+        "type": "function",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "name": "convert px to um",
+        "func": "// Conversion factor from pixels to micrometers (µm)\nconst px_to_um = 0.75;\n\n// Convert relevant measurements\nmsg.payload.metadata.equivalent_diameter = Math.round(msg.payload.metadata.equivalent_diameter * px_to_um);\nmsg.payload.metadata.width = Math.round(msg.payload.metadata.width * px_to_um);\nmsg.payload.metadata.height = Math.round(msg.payload.metadata.height * px_to_um);\nmsg.payload.metadata.area = Math.round(msg.payload.metadata.area * (px_to_um ** 2)); // Area is in square units\nmsg.payload.metadata.area_exc = Math.round(msg.payload.metadata.area_exc * (px_to_um ** 2));\nmsg.payload.metadata.convex_area = Math.round(msg.payload.metadata.convex_area * (px_to_um ** 2));\nmsg.payload.metadata.major = Math.round(msg.payload.metadata.major * px_to_um);\nmsg.payload.metadata.minor = Math.round(msg.payload.metadata.minor * px_to_um);\nmsg.payload.metadata.perim = Math.round(msg.payload.metadata[\"perim.\"] * px_to_um); // Ensure proper key reference\nmsg.payload.metadata.bounding_box_area = Math.round(msg.payload.metadata.bounding_box_area * (px_to_um ** 2));\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 860,
+        "wires": [
+            [
+                "6ded19c39cd58837",
+                "b81404029b07a28e",
+                "0b21b4818103e3ff",
+                "abfec2fd998be059",
+                "d209fb632887188b"
+            ]
+        ]
+    },
+    {
+        "id": "3b3bb85dadd5b6ad",
+        "type": "ui-markdown",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "Histogram of equivalent_diameter",
+        "order": 6,
+        "width": "3",
+        "height": "6",
+        "content": "### Distribution of Object Sizes  \nUnderstanding the size distribution of planktonic objects helps identify dominant size classes and detect anomalies. A skewed distribution might indicate specific biological trends, such as a bloom of a particular species or a technical issue in the acquisition process.  \n\n*In the graph:*  \n- A **peak in smaller sizes** suggests dominance of tiny plankton.  \n- A **broad distribution** indicates a mix of various size classes.  \n- A **skewed or bimodal pattern** may reflect biological or technical factors (e.g., species-specific blooms or imaging biases).\n",
+        "className": "",
+        "x": 1660,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "909e68dae2e5b17e",
+        "type": "ui-markdown",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "elongation vs. area",
+        "order": 9,
+        "width": "3",
+        "height": "6",
+        "content": "### Relationship Between Elongation and Object Area  \nThis scatter plot helps assess whether larger objects tend to be more elongated or compact. Certain plankton species have characteristic shapes, and identifying correlations between elongation and area can aid in distinguishing different taxa or understanding morphological variability.  \n\n*In the graph:*  \n- **Top-right**: Large and highly elongated objects (e.g., filamentous plankton).  \n- **Bottom-right**: Small but highly elongated objects (e.g., thin needle-like forms). \n- **Top-left**: Large but compact objects (e.g., rounded or clustered plankton). \n- **Bottom-left**: Small and compact objects (e.g., spherical or short structures).",
+        "className": "",
+        "x": 1610,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b81404029b07a28e",
+        "type": "ui-chart",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "elongation vs. area",
+        "label": "elongation vs. area",
+        "order": 8,
+        "chartType": "scatter",
+        "category": "elongation vs. area",
+        "categoryType": "str",
+        "xAxisLabel": "elongation (ratio of major to minor axis)",
+        "xAxisProperty": "payload.metadata.elongation",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "0",
+        "xmax": "50",
+        "yAxisLabel": "area (μm²)",
+        "yAxisProperty": "payload.metadata.area",
+        "yAxisPropertyType": "msg",
+        "ymin": "300",
+        "ymax": "1500",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": true,
+        "pointShape": "circle",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": "1",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "300",
+        "colors": [
+            "#ff0088",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "3",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1610,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "745c937805fecd5c",
+        "type": "ui-markdown",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "equivalent_diameter vs. MeanValue",
+        "order": 12,
+        "width": "3",
+        "height": "6",
+        "content": "### Variation of Mean Brightness with Equivalent Diameter  \nThis graph explores whether larger objects tend to be brighter or darker. This can reveal differences in pigmentation, transparency, or even imaging inconsistencies.  \n\n*In the graph:*   \n- **Top-right**: Large and bright objects.\n- **Top-left**: Small and bright objects.\n- **Bottom-right**: Large and dark objects.\n- **Bottom-left**: Small and dark objects.  ",
+        "className": "",
+        "x": 1660,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "315406f36cf7a1e4",
+        "type": "ui-markdown",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "MeanSaturation vs. MeanValue",
+        "order": 15,
+        "width": "3",
+        "height": "6",
+        "content": "### Relationship Between Mean Saturation and Mean Brightness\nThis visualization helps understand how color properties vary with brightness. Some plankton groups exhibit distinct coloration, and saturation could be a useful feature for classification. A strong trend might suggest systematic differences in pigmentation or optical properties across plankton groups.\n\n*In the graph:*  \n- **Top-right**: Bright and highly saturated objects (vivid colors).  \n- **Top-left**: Bright but low-saturation objects (pale or near-white).  \n- **Bottom-right**: Dark but highly saturated objects (deep, rich colors).  \n- **Bottom-left**: Dark and low-saturation objects (grayish or faintly colored).",
+        "className": "",
+        "x": 1650,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0b21b4818103e3ff",
+        "type": "ui-chart",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "equivalent_diameter vs. MeanValue",
+        "label": "equivalent_diameter vs. MeanValue",
+        "order": 11,
+        "chartType": "scatter",
+        "category": "equivalent_diameter vs. MeanValue",
+        "categoryType": "str",
+        "xAxisLabel": "Equivalent Diameter (μm)",
+        "xAxisProperty": "payload.metadata.equivalent_diameter",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "0",
+        "xmax": "50",
+        "yAxisLabel": "MeanValue (0–255, grayscale value)",
+        "yAxisProperty": "payload.metadata.MeanValue",
+        "yAxisPropertyType": "msg",
+        "ymin": "150",
+        "ymax": "255",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": true,
+        "pointShape": "circle",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": "1",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "300",
+        "colors": [
+            "#8c00ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "3",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1660,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "abfec2fd998be059",
+        "type": "ui-chart",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "MeanSaturation vs. MeanValue",
+        "label": "MeanSaturation vs. MeanValue",
+        "order": 14,
+        "chartType": "scatter",
+        "category": "MeanSaturation vs. MeanValue",
+        "categoryType": "str",
+        "xAxisLabel": "MeanSaturation (%)",
+        "xAxisProperty": "payload.metadata.MeanSaturation",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "0",
+        "xmax": "50",
+        "yAxisLabel": "MeanValue (0–255, grayscale value)",
+        "yAxisProperty": "payload.metadata.MeanValue",
+        "yAxisPropertyType": "msg",
+        "ymin": "150",
+        "ymax": "255",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": true,
+        "pointShape": "circle",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": "1",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "300",
+        "colors": [
+            "#ff9500",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "3",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1650,
+        "y": 1120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "09bae7646f494544",
+        "type": "ui-template",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "group": "7edf5f14f6ca0bdd",
+        "page": "",
+        "ui": "",
+        "name": "Table",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "head": "",
+        "format": "<table border=\"1\" style=\"width:100%; text-align:center;\">\n    <tr>\n        <th>Topic</th>\n        <th>Action</th>\n        <th>Status</th>\n    </tr>\n    <tr>\n        <td>light</td>\n        <td>{{msg.payload.light.action}}</td>\n        <td>{{msg.payload.light.status}}</td>\n    </tr>\n    <tr>\n        <td>actuator/pump</td>\n        <td>{{msg.payload[\"actuator/pump\"].action}}</td>\n        <td>{{msg.payload[\"actuator/pump\"].status}}</td>\n    </tr>\n    <tr>\n        <td>imager/image</td>\n        <td>{{msg.payload[\"imager/image\"].action}}</td>\n        <td>{{msg.payload[\"imager/image\"].status}}</td>\n    </tr>\n    <tr>\n        <td>segmenter/segment</td>\n        <td>{{msg.payload[\"segmenter/segment\"].action}}</td>\n        <td>{{msg.payload[\"segmenter/segment\"].status}}</td>\n    </tr>\n</table>\n",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1330,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43d3b349993e5dba",
+        "type": "switch",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "status/light",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status/pump",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status/imager",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "status/segmenter",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 4,
+        "x": 770,
+        "y": 540,
+        "wires": [
+            [
+                "a00e46305593e4c7"
+            ],
+            [
+                "a00e46305593e4c7"
+            ],
+            [
+                "a00e46305593e4c7"
+            ],
+            [
+                "a00e46305593e4c7"
+            ]
+        ]
+    },
+    {
+        "id": "0f25ab3591af3ed7",
+        "type": "mqtt in",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "",
+        "topic": "status/#",
+        "qos": "0",
+        "datatype": "json",
+        "broker": "8dc3722c.06efa8",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 300,
+        "y": 540,
+        "wires": [
+            [
+                "43d3b349993e5dba"
+            ]
+        ]
+    },
+    {
+        "id": "a00e46305593e4c7",
+        "type": "function",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "save current actions & status",
+        "func": "// Récupérer les données précédentes stockées dans le flow context\nvar storedData = flow.get(\"deviceData\") || {\n    light: { action: \"\", status: \"\" },\n    \"actuator/pump\": { action: \"\", status: \"\" },\n    \"imager/image\": { action: \"\", status: \"\" },\n    \"segmenter/segment\": { action: \"\", status: \"\" }\n};\n\n// Mettre à jour les valeurs en fonction du topic reçu\nif (msg.topic === \"light\") {\n    storedData.light.action = msg.payload.action;\n} else if (msg.topic === \"status/light\") {\n    storedData.light.status = msg.payload.status;\n} else if (msg.topic === \"actuator/pump\") {\n    storedData[\"actuator/pump\"].action = msg.payload;\n} else if (msg.topic === \"status/pump\") {\n    storedData[\"actuator/pump\"].status = msg.payload.status;\n} else if (msg.topic === \"imager/image\") {\n    storedData[\"imager/image\"].action = msg.payload.action;\n} else if (msg.topic === \"status/imager\") {\n    storedData[\"imager/image\"].status = msg.payload.status;\n} else if (msg.topic === \"segmenter/segment\") {\n    storedData[\"segmenter/segment\"].action = msg.payload.action;\n} else if (msg.topic === \"status/segmenter\") {\n    storedData[\"segmenter/segment\"].status = msg.payload.status;\n}\n\n// Sauvegarder les nouvelles valeurs\nflow.set(\"deviceData\", storedData);\n\n// Attacher les données mises à jour au message\nmsg.payload = storedData;\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 320,
+        "wires": [
+            [
+                "09bae7646f494544"
+            ]
+        ]
+    },
+    {
+        "id": "7d1242cd9144a090",
+        "type": "exec",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "command": "sudo reboot now",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Restart PlanktoScope",
+        "x": 620,
+        "y": 440,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3602f0e005f4c2bd",
+        "type": "exec",
+        "z": "e4b1c9cc7670cae0",
+        "g": "b770bef092580e65",
+        "command": "echo -n \"[\"; first=1; for f in data/export/ecotaxa/ecotaxa_*.zip; do ts=$(basename \"$f\" | sed -E 's/ecotaxa_([0-9]{4})_([0-9]{2})_([0-9]{2})_([0-9]{2})_([0-9]{2})_([0-9]{2})\\.zip/\\1-\\2-\\3 \\4:\\5:\\6/'); ts_ms=$(date -d \"$ts\" +%s000); sz=$(stat -c%s \"$f\"); [ $first -eq 1 ] && first=0 || echo -n \",\"; echo -n \"{\\\"myTime\\\":$ts_ms,\\\"size\\\":$sz}\"; done; echo \"]\"",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Get IMG Counts",
+        "x": 380,
+        "y": 1260,
+        "wires": [
+            [
+                "8217302b6e64d39a"
+            ],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "8217302b6e64d39a",
+        "type": "json",
+        "z": "e4b1c9cc7670cae0",
+        "g": "b770bef092580e65",
+        "name": "Parse JSON",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 570,
+        "y": 1260,
+        "wires": [
+            [
+                "c91c26087dc469cc"
+            ]
+        ]
+    },
+    {
+        "id": "c91c26087dc469cc",
+        "type": "split",
+        "z": "e4b1c9cc7670cae0",
+        "g": "b770bef092580e65",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 710,
+        "y": 1260,
+        "wires": [
+            [
+                "7ea6b087ea1ba683"
+            ]
+        ]
+    },
+    {
+        "id": "7ea6b087ea1ba683",
+        "type": "function",
+        "z": "e4b1c9cc7670cae0",
+        "g": "b770bef092580e65",
+        "name": "Convert to nb per ml",
+        "func": "\n// Ajouter la concentration au message\nmsg.payload.concentration_nb_per_mL = msg.payload.size;\n\n// Retourner le message mis à jour\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 1260,
+        "wires": [
+            [
+                "35a387dd23aaa227"
+            ]
+        ]
+    },
+    {
+        "id": "35a387dd23aaa227",
+        "type": "ui-template",
+        "z": "e4b1c9cc7670cae0",
+        "g": "b770bef092580e65",
+        "group": "4a8738206c62b02e",
+        "page": "",
+        "ui": "",
+        "name": "Zip file size",
+        "order": 2,
+        "width": "6",
+        "height": "6",
+        "head": "",
+        "format": "<template>\n    <div id=\"chart-container\">\n        <canvas id=\"canvas_1\" ref=\"chart\"></canvas>\n    </div>\n</template>\n\n<script src=\"https://cdn.jsdelivr.net/npm/chart.js\"></script>\n\n<script>\n    export default {\n        mounted() {\n            // register a listener for incoming data\n            this.$socket.on('msg-input:' + this.id, this.onInput);\n\n            // check with ChartJS has loaded\n            let interval = setInterval(() => {\n                if (window.Chart) {\n                    clearInterval(interval);\n                    this.draw();\n                }\n            }, 100);\n        },\n        methods: {\n            draw() {\n                // get reference to the <canvas /> element\n                const ctx = this.$refs.chart;\n                \n                // Render the chart\n                const chart = new Chart(ctx, {\n                    type: 'line',\n                    data: {\n                        datasets: [{\n                            label: \"Zip file size\",\n                            data: []\n                        }]\n                    },\n                    options: {\n                        animation: false,\n                        responsive: true,\n                        maintainAspectRatio: false,\n                        scales: {\n                            x: {\n                                type: 'time',\n                                title: {\n                                    display: true,\n                                    text: 'Time'\n                                }\n                            },\n                            y: {\n                                title: {\n                                    display: true,\n                                    text: 'Size'\n                                }\n                            }\n                        },\n                        parsing: {\n                            xAxisKey: 'time',\n                            yAxisKey: 'value'\n                        },\n                        plugins: {\n                            legend: {\n                                position: 'top',\n                            },\n                            title: {\n                                display: true,\n                                text: 'Cell Abundance per mL'\n                            }\n                        }   \n                    },\n                });\n                this.chart = chart;\n            },\n            onInput(msg) {\n                this.chart.data.datasets[0].data.push({\n                    time: msg.payload.myTime,\n                    value: msg.payload.concentration_nb_per_mL\n                }); \n                this.chart.update();      \n            }\n        }\n    }\n</script>\n\n<style scoped>\n#chart-container {\n    width: 100%;\n    height: 400px;\n    position: relative;\n}\n#canvas_1 {\n    width: 100% !important;\n    height: 100% !important;\n}\n</style>",
+        "storeOutMessages": true,
+        "passthru": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 1070,
+        "y": 1260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b3eb98f0fda7322c",
+        "type": "ui-button",
+        "z": "e4b1c9cc7670cae0",
+        "g": "b770bef092580e65",
+        "group": "4a8738206c62b02e",
+        "name": "",
+        "label": "Load the plot (give it 5 sec)",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "iconPosition": "left",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "buttonColor": "",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 160,
+        "y": 1260,
+        "wires": [
+            [
+                "3602f0e005f4c2bd"
+            ]
+        ]
+    },
+    {
+        "id": "d209fb632887188b",
+        "type": "ui-chart",
+        "z": "e4b1c9cc7670cae0",
+        "g": "90d5db0df00ab294",
+        "group": "4a8738206c62b02e",
+        "name": "x vs. y",
+        "label": "x vs. y",
+        "order": 1,
+        "chartType": "scatter",
+        "category": "x vs. y",
+        "categoryType": "str",
+        "xAxisLabel": "x",
+        "xAxisProperty": "payload.metadata.x",
+        "xAxisPropertyType": "msg",
+        "xAxisType": "linear",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "0",
+        "xmax": "50",
+        "yAxisLabel": "y",
+        "yAxisProperty": "payload.metadata.y",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": true,
+        "pointShape": "circle",
+        "pointRadius": "1",
+        "showLegend": true,
+        "removeOlder": "1",
+        "removeOlderUnit": "3600",
+        "removeOlderPoints": "300",
+        "colors": [
+            "#2b00ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": "6",
+        "height": "6",
+        "className": "",
+        "interpolation": "linear",
+        "x": 1570,
+        "y": 1220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b6014e9b6e5feb6a",
+        "type": "exec",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "command": "rm -rf data/img/* data/clean/* data/objects/*",
+        "addpay": false,
+        "append": "",
+        "useSpawn": "false",
+        "timer": "",
+        "winHide": false,
+        "oldrc": false,
+        "name": "Purge data",
+        "x": 590,
+        "y": 500,
+        "wires": [
+            [],
+            [],
+            []
+        ]
+    },
+    {
+        "id": "eb32f1ecaca9bc47",
+        "type": "cronplus",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "200 img every Hour",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "purge",
+                "topic": "purge",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 18 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "schedule9",
+                "topic": "restart/planktoscope",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 20 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "restart_segmenter",
+                "topic": "restart/segmenter",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 25 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "restart_hardware_controller",
+                "topic": "restart/hardware_controller",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 30 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "light_on",
+                "topic": "light",
+                "payloadType": "json",
+                "payload": "{\"action\": \"on\"}",
+                "expressionType": "cron",
+                "expression": "0 35 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "update_config",
+                "topic": "imager/image/update_config",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "1 35 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "pump",
+                "topic": "actuator/pump",
+                "payloadType": "json",
+                "payload": "{\"action\": \"move\",\"direction\": \"FORWARD\",\"volume\": 3,\"flowrate\": 30}",
+                "expressionType": "cron",
+                "expression": "2 35 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "image",
+                "topic": "imager/image/image",
+                "payloadType": "json",
+                "payload": "{\"action\": \"image\",\"pump_direction\": \"FORWARD\",\"volume\": 0.008,\"nb_frame\": 200,\"sleep\": 0.1}",
+                "expressionType": "cron",
+                "expression": "0 36 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "light_off",
+                "topic": "light",
+                "payloadType": "json",
+                "payload": "{\"action\": \"off\"}",
+                "expressionType": "cron",
+                "expression": "0 45 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "segment",
+                "topic": "segmenter/segment",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "1 45 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 130,
+        "y": 60,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7f1b4e70c4277902",
+        "type": "cronplus",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "Cron 4 x 2000img every 6 hours",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "light_on",
+                "topic": "light",
+                "payloadType": "json",
+                "payload": "{\"action\": \"on\"}",
+                "expressionType": "cron",
+                "expression": "0 0 0,6,12,18 * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "pump",
+                "topic": "actuator/pump",
+                "payloadType": "json",
+                "payload": "{\"action\": \"move\",\"direction\": \"FORWARD\",\"volume\": 3,\"flowrate\": 30}",
+                "expressionType": "cron",
+                "expression": "10 0 0,6,12,18 * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "update_config",
+                "topic": "imager/image/update_config",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 1 0,6,12,18 * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "image",
+                "topic": "imager/image/image",
+                "payloadType": "json",
+                "payload": "{\"action\": \"image\",\"pump_direction\": \"FORWARD\",\"volume\": 0.008,\"nb_frame\": 2000,\"sleep\": 0.2}",
+                "expressionType": "cron",
+                "expression": "0 2 0,6,12,18 * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "light_off",
+                "topic": "light",
+                "payloadType": "json",
+                "payload": "{\"action\": \"off\"}",
+                "expressionType": "cron",
+                "expression": "0 2 0,6,12,18 * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "segment",
+                "topic": "segmenter/segment",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 2 0,6,12,18 * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "purge",
+                "topic": "purge",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 18 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "schedule9",
+                "topic": "restart/planktoscope",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 20 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 130,
+        "y": 180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f741d2f169492099",
+        "type": "cronplus",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "Phase 1 Ellie 200 img every hour",
+        "outputField": "payload",
+        "timeZone": "",
+        "storeName": "",
+        "commandResponseMsgOutput": "output1",
+        "defaultLocation": "",
+        "defaultLocationType": "default",
+        "outputs": 1,
+        "options": [
+            {
+                "name": "light_on",
+                "topic": "light",
+                "payloadType": "json",
+                "payload": "{\"action\": \"on\"}",
+                "expressionType": "cron",
+                "expression": "0 0 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "update_config",
+                "topic": "imager/image/update_config",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "2 0 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "pump",
+                "topic": "actuator/pump",
+                "payloadType": "json",
+                "payload": "{\"action\": \"move\",\"direction\": \"FORWARD\",\"volume\": 10,\"flowrate\": 10}",
+                "expressionType": "cron",
+                "expression": "5 0 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "image",
+                "topic": "imager/image/image",
+                "payloadType": "json",
+                "payload": "{\"action\": \"image\",\"pump_direction\": \"FORWARD\",\"volume\": 0.01,\"nb_frame\": 200,\"sleep\": 0.5}",
+                "expressionType": "cron",
+                "expression": "0 2 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "light_off",
+                "topic": "light",
+                "payloadType": "json",
+                "payload": "{\"action\": \"off\"}",
+                "expressionType": "cron",
+                "expression": "0 10 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "segment",
+                "topic": "segmenter/segment",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "1 10 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "purge",
+                "topic": "purge",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 55 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            },
+            {
+                "name": "schedule9",
+                "topic": "restart/planktoscope",
+                "payloadType": "default",
+                "payload": "",
+                "expressionType": "cron",
+                "expression": "0 56 * * * *",
+                "location": "",
+                "offset": "0",
+                "solarType": "all",
+                "solarEvents": "sunrise,sunset"
+            }
+        ],
+        "x": 140,
+        "y": 120,
+        "wires": [
+            [
+                "5eafec4c1274f8e8"
+            ]
+        ]
+    },
+    {
+        "id": "a4d7c7a004d6a2de",
+        "type": "ui-button",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "group": "7edf5f14f6ca0bdd",
+        "name": "Stop Pump",
+        "label": "Stop pump",
+        "order": 1,
+        "width": "0",
+        "height": "0",
+        "emulateClick": false,
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "stop",
+        "iconPosition": "left",
+        "payload": "{\"action\":\"stop\"}",
+        "payloadType": "json",
+        "topic": "actuator/pump",
+        "topicType": "str",
+        "buttonColor": "#AD1625",
+        "textColor": "",
+        "iconColor": "",
+        "enableClick": true,
+        "enablePointerdown": false,
+        "pointerdownPayload": "",
+        "pointerdownPayloadType": "str",
+        "enablePointerup": false,
+        "pointerupPayload": "",
+        "pointerupPayloadType": "str",
+        "x": 1010,
+        "y": 480,
+        "wires": [
+            [
+                "24e13395ddd30739"
+            ]
+        ]
+    },
+    {
+        "id": "24e13395ddd30739",
+        "type": "mqtt out",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "",
+        "topic": "",
+        "qos": "",
+        "retain": "",
+        "broker": "8dc3722c.06efa8",
+        "x": 1450,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "5eafec4c1274f8e8",
+        "type": "debug",
+        "z": "e4b1c9cc7670cae0",
+        "g": "e8f6dc92f3ddcf09",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 60,
+        "wires": []
     }
 ]
