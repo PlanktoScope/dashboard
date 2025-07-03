@@ -5925,7 +5925,7 @@
         "type": "exec",
         "z": "83b2474231efac73",
         "g": "910e195536aea223",
-        "command": "docker restart apps_ps_backend_proc-segmenter-server-1",
+        "command": "sudo systemctl restart planktoscope-org.segmenter.service",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
