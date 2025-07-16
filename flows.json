@@ -1235,7 +1235,8 @@
             "cd84c782f403d533",
             "9a4e94cba926882e",
             "1abc07b7e866dd4e",
-            "b936e098faf886a9"
+            "b936e098faf886a9",
+            "873fe3f190380439"
         ],
         "x": 1444,
         "y": 39,
@@ -8156,7 +8157,7 @@
         "z": "e4b1c9cc7670cae0",
         "g": "e8f6dc92f3ddcf09",
         "name": "segment command",
-        "func": "msg.payload = {\n  \"action\": \"segment\",\n  \"path\": global.get(\"path\"),\n  \"settings\": {\n    \"force\": false,\n    \"recursive\": true,\n    \"ecotaxa\": true,\n    \"keep\": true\n  }\n}\n\nreturn msg; ",
+        "func": "msg.payload = {\n  \"action\": \"segment\",\n  \"path\": [\"/home/pi/data/img/\" + global.get(\"path\")],\n  \"settings\": {\n    \"force\": false,\n    \"recursive\": true,\n    \"ecotaxa\": true,\n    \"keep\": true\n  }\n}\n\nreturn msg; ",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -9990,7 +9991,8 @@
         "y": 460,
         "wires": [
             [
-                "a547ba0119a542a5"
+                "a547ba0119a542a5",
+                "873fe3f190380439"
             ]
         ]
     },
@@ -10978,5 +10980,22 @@
                 "2e0cc6ec2ffa8936"
             ]
         ]
+    },
+    {
+        "id": "873fe3f190380439",
+        "type": "debug",
+        "z": "e4b1c9cc7670cae0",
+        "g": "f1f83856d8804cd4",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1630,
+        "y": 260,
+        "wires": []
     }
 ]
