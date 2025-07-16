@@ -723,9 +723,9 @@
             "aad16ea9eae8d3dd",
             "97541b0d6dcf6747"
         ],
-        "x": 34,
+        "x": 44,
         "y": 219,
-        "w": 562,
+        "w": 552,
         "h": 122
     },
     {
@@ -1043,7 +1043,6 @@
             "7f1b4e70c4277902",
             "7bcb23fca1ad2b3c",
             "fd88b54fe33f3b22",
-            "8ba1cbeef58ce841",
             "d7d28cce076602a5",
             "6f411043f4049874",
             "59e31e93c7f07c6e",
@@ -1060,7 +1059,7 @@
             "c82a7f9525690624",
             "c48f5cfce65b6447",
             "3c6aaecbfefba9df",
-            "c9aaf56638204d85"
+            "94e0a14832efc379"
         ],
         "x": 14,
         "y": 39,
@@ -1096,9 +1095,9 @@
             "abfec2fd998be059",
             "d209fb632887188b"
         ],
-        "x": 14,
+        "x": 24,
         "y": 639,
-        "w": 972,
+        "w": 962,
         "h": 482
     },
     {
@@ -1146,9 +1145,9 @@
             "476c13eace9d8995",
             "3c8b243781cf2c9d"
         ],
-        "x": 34,
+        "x": 14,
         "y": 1319,
-        "w": 612,
+        "w": 632,
         "h": 122
     },
     {
@@ -1236,12 +1235,11 @@
             "cd84c782f403d533",
             "9a4e94cba926882e",
             "1abc07b7e866dd4e",
-            "b936e098faf886a9",
-            "030ffe2a8315a853"
+            "b936e098faf886a9"
         ],
-        "x": 1434,
+        "x": 1444,
         "y": 39,
-        "w": 1272,
+        "w": 1262,
         "h": 642
     },
     {
@@ -8093,16 +8091,11 @@
                 "t": "eq",
                 "v": "purge",
                 "vt": "str"
-            },
-            {
-                "t": "eq",
-                "v": "clear_graphic",
-                "vt": "str"
             }
         ],
         "checkall": "true",
         "repair": false,
-        "outputs": 11,
+        "outputs": 10,
         "x": 570,
         "y": 160,
         "wires": [
@@ -8133,13 +8126,6 @@
             ],
             [
                 "b6014e9b6e5feb6a"
-            ],
-            [
-                "6ded19c39cd58837",
-                "b81404029b07a28e",
-                "0b21b4818103e3ff",
-                "abfec2fd998be059",
-                "d209fb632887188b"
             ]
         ]
     },
@@ -8149,7 +8135,7 @@
         "z": "e4b1c9cc7670cae0",
         "g": "e8f6dc92f3ddcf09",
         "name": "update_config command",
-        "func": "const now = new Date();\n\nmsg.topic = \"imager/image\";\n\nconst pad = (n) => n.toString().padStart(2, '0');\n\nlet datetime_UTC = `${now.getUTCFullYear()}-${pad(now.getUTCMonth() + 1)}-${pad(now.getUTCDate())}-${pad(now.getUTCHours())}-${pad(now.getUTCMinutes())}-${pad(now.getUTCSeconds())}`;\n\n// Extraire date_UTC et time_UTC depuis datetime_UTC\nlet parts = datetime_UTC.split('-');\nlet date_UTC = `${parts[0]}-${parts[1]}-${parts[2]}`;\nlet time_UTC = `${parts[3]}:${parts[4]}:${parts[5]}`;\n\nlet local = new Date(now.getTime() + 2 * 60 * 60 * 1000);  // Ajouter 2 heures\nlet datetime_Local = `${local.getFullYear()}-${pad(local.getMonth() + 1)}-${pad(local.getDate())}-${pad(local.getHours())}-${pad(local.getMinutes())}-${pad(local.getSeconds())}`;\n\n\nglobal.set(\"path\", `${date_UTC}/Bag1/${datetime_UTC}`);\nglobal.set(\"zipfile_name\", `/home/pi/data/export/ecotaxa/ecotaxa_${datetime_UTC}.zip`);\n\nmsg.payload = {\n    \"action\": \"update_config\",\n    \"config\": {\n        \"sample_project\": \"Vigo_2025_chaetobloom\",\n        \"sample_id\": \"Bag1\",\n        \"sample_operator\": \"FairScope Team\",\n        \"sample_sampling_gear\": \"single_location\",\n        \"acq_id\": datetime_UTC,\n        \"acq_instrument\": \"PlanktoScope v2.6\",\n        \"acq_instrument_id\": \"brass-train-26308\",\n        \"acq_celltype\": 300,\n        \"acq_minimum_mesh\": 20,\n        \"acq_maximum_mesh\": 300,\n        \"acq_volume\": \"4\",\n        \"acq_magnification\": \"1.2\",\n        \"acq_fnumber_objective\": 12,\n        \"acq_nb_frame\": 2000,\n        \"acq_software\": \"PlanktoScope v2025.0.0-alpha.0-48-g82353c4\",\n        \"object_date\": date_UTC,\n        \"object_time\": time_UTC,\n        \"object_lat\": \"42.2012\",\n        \"object_lon\": \"-8.8022\",\n        \"object_depth_min\": 1,\n        \"object_depth_max\": 1,\n        \"process_pixel\": 0.75,\n        \"process_source\": \"github.com/PlanktoScope/PlanktoScope\",\n        \"process_commit\": \"82353c4b898f7485deaed52b2ae8b68c092713ca\",\n        \"acq_local_datetime\": datetime_Local,\n        \"acq_camera_resolution\": \"4056x3040\",\n        \"acq_camera_iso\": 150,\n        \"acq_camera_shutter_speed\": 125,\n        \"acq_uuid\": \"brass-train-26308\",\n        \"sample_uuid\": \"brass-train-26308\"\n    }\n};\n\nreturn msg;",
+        "func": "const now = new Date();\n\nmsg.topic = \"imager/image\";\n\nconst pad = (n) => n.toString().padStart(2, '0');\n\nlet datetime_UTC = `${now.getUTCFullYear()}-${pad(now.getUTCMonth() + 1)}-${pad(now.getUTCDate())}-${pad(now.getUTCHours())}-${pad(now.getUTCMinutes())}-${pad(now.getUTCSeconds())}`;\n\n// Extraire date_UTC et time_UTC depuis datetime_UTC\nlet parts = datetime_UTC.split('-');\nlet date_UTC = `${parts[0]}-${parts[1]}-${parts[2]}`;\nlet time_UTC = `${parts[3]}:${parts[4]}:${parts[5]}`;\n\nlet local = new Date(now.getTime() + 2 * 60 * 60 * 1000);  // Ajouter 2 heures\nlet datetime_Local = `${local.getFullYear()}-${pad(local.getMonth() + 1)}-${pad(local.getDate())}-${pad(local.getHours())}-${pad(local.getMinutes())}-${pad(local.getSeconds())}`;\n\n\nglobal.set(\"path\", `${date_UTC}/Bag1/${datetime_UTC}`);\nglobal.set(\"zipfile_name\", `/home/pi/data/export/ecotaxa/ecotaxa_${datetime_UTC}.zip`);\n\nmsg.payload = {\n    \"action\": \"update_config\",\n    \"config\": {\n        \"sample_project\": \"Vigo_2025_chaetobloom\",\n        \"sample_id\": \"Bag1\",\n        \"sample_operator\": \"FairScope Team\",\n        \"sample_sampling_gear\": \"single_location\",\n        \"acq_id\": datetime_UTC,\n        \"acq_instrument\": \"PlanktoScope v2.6\",\n        \"acq_instrument_id\": \"brass-train-26308\",\n        \"acq_celltype\": 300,\n        \"acq_minimum_mesh\": 20,\n        \"acq_maximum_mesh\": 300,\n        \"acq_volume\": \"4\",\n        \"acq_magnification\": \"1.2\",\n        \"acq_fnumber_objective\": 12,\n        \"acq_nb_frame\": 2000,\n        \"acq_software\": \"PlanktoScopeOS-Vigo_EMBL\",\n        \"object_date\": date_UTC,\n        \"object_time\": time_UTC,\n        \"object_lat\": \"42.2012\",\n        \"object_lon\": \"-8.8022\",\n        \"object_depth_min\": 1,\n        \"object_depth_max\": 1,\n        \"process_pixel\": 0.75,\n        \"process_source\": \"github.com/PlanktoScope/PlanktoScope\",\n        \"process_commit\": \"82353c4b898f7485deaed52b2ae8b68c092713ca\",\n        \"acq_local_datetime\": datetime_Local,\n        \"acq_camera_resolution\": \"4056x3040\",\n        \"acq_camera_iso\": 150,\n        \"acq_camera_shutter_speed\": 125,\n        \"acq_uuid\": \"brass-train-26308\",\n        \"sample_uuid\": \"brass-train-26308\"\n    }\n};\n\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -8229,6 +8215,7 @@
         "id": "a1e07a0657a4b8f9",
         "type": "mqtt in",
         "z": "e4b1c9cc7670cae0",
+        "d": true,
         "g": "90d5db0df00ab294",
         "name": "",
         "topic": "status/#",
@@ -8775,8 +8762,9 @@
         "id": "b6014e9b6e5feb6a",
         "type": "exec",
         "z": "e4b1c9cc7670cae0",
+        "d": true,
         "g": "e8f6dc92f3ddcf09",
-        "command": "rm -rf data/clean/* data/objects/*",
+        "command": "rm -rf data/clean/*",
         "addpay": false,
         "append": "",
         "useSpawn": "false",
@@ -8812,7 +8800,7 @@
                 "payloadType": "json",
                 "payload": "{\"action\": \"on\"}",
                 "expressionType": "cron",
-                "expression": "0 30 3,9,15,21 * * *",
+                "expression": "0 00 2,8,14,20 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8822,9 +8810,9 @@
                 "name": "pump",
                 "topic": "actuator/pump",
                 "payloadType": "json",
-                "payload": "{\"action\": \"move\",\"direction\": \"FORWARD\",\"volume\": 6,\"flowrate\": 10}",
+                "payload": "{\"action\": \"move\",\"direction\": \"FORWARD\",\"volume\": 12,\"flowrate\": 10}",
                 "expressionType": "cron",
-                "expression": "0 31 3,9,15,21 * * *",
+                "expression": "0 00 2,8,14,20 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8836,7 +8824,7 @@
                 "payloadType": "default",
                 "payload": "",
                 "expressionType": "cron",
-                "expression": "0 32 3,9,15,21 * * *",
+                "expression": "0 00 2,8,14,20 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8848,7 +8836,7 @@
                 "payloadType": "json",
                 "payload": "{\"action\": \"image\",\"pump_direction\": \"FORWARD\",\"volume\": 0.01,\"nb_frame\": 2000,\"sleep\": 0.3}",
                 "expressionType": "cron",
-                "expression": "0 33 3,9,15,21 * * *",
+                "expression": "0 03 2,8,14,20 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8860,19 +8848,7 @@
                 "payloadType": "json",
                 "payload": "{\"action\": \"off\"}",
                 "expressionType": "cron",
-                "expression": "0 20 4,10,16,22 * * *",
-                "location": "",
-                "offset": "0",
-                "solarType": "all",
-                "solarEvents": "sunrise,sunset"
-            },
-            {
-                "name": "clear_graphic",
-                "topic": "clear_graphic",
-                "payloadType": "json",
-                "payload": "[]",
-                "expressionType": "cron",
-                "expression": "0 21 4,10,16,22 * * *",
+                "expression": "0 43 2,8,14,20 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8884,7 +8860,7 @@
                 "payloadType": "default",
                 "payload": "",
                 "expressionType": "cron",
-                "expression": "0 21 4,10,16,22 * * *",
+                "expression": "0 45 2,8,14,20 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8896,7 +8872,7 @@
                 "payloadType": "default",
                 "payload": "",
                 "expressionType": "cron",
-                "expression": "0 23 3,9,15,21 * * *",
+                "expression": "0 45 6,12,18,00 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8908,7 +8884,7 @@
                 "payloadType": "default",
                 "payload": "",
                 "expressionType": "cron",
-                "expression": "0 24 3,9,15,21 * * *",
+                "expression": "0 45 6,12,18,00 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8920,7 +8896,7 @@
                 "payloadType": "default",
                 "payload": "",
                 "expressionType": "cron",
-                "expression": "0 25 3,9,15,21 * * *",
+                "expression": "0 45 6,12,18,00 * * *",
                 "location": "",
                 "offset": "0",
                 "solarType": "all",
@@ -8972,18 +8948,6 @@
         "x": 1150,
         "y": 120,
         "wires": []
-    },
-    {
-        "id": "8ba1cbeef58ce841",
-        "type": "reboot",
-        "z": "e4b1c9cc7670cae0",
-        "g": "e8f6dc92f3ddcf09",
-        "name": "",
-        "x": 800,
-        "y": 440,
-        "wires": [
-            []
-        ]
     },
     {
         "id": "d7d28cce076602a5",
@@ -9096,7 +9060,7 @@
         "type": "inject",
         "z": "e4b1c9cc7670cae0",
         "g": "e8f6dc92f3ddcf09",
-        "name": "pump: v: 6, f: 10",
+        "name": "pump: v: 12, f: 10",
         "props": [
             {
                 "p": "payload"
@@ -9111,7 +9075,7 @@
         "once": false,
         "onceDelay": 0.1,
         "topic": "actuator/pump",
-        "payload": "{\"action\": \"move\",\"direction\": \"FORWARD\",\"volume\": 6,\"flowrate\": 10}",
+        "payload": "{\"action\": \"move\",\"direction\": \"FORWARD\",\"volume\": 12,\"flowrate\": 10}",
         "payloadType": "json",
         "x": 160,
         "y": 220,
@@ -9899,7 +9863,7 @@
         "topic": "",
         "payload": "iso",
         "payloadType": "date",
-        "x": 150,
+        "x": 130,
         "y": 1380,
         "wires": [
             [
@@ -10569,7 +10533,7 @@
         "width": 0,
         "height": 0,
         "head": "",
-        "format": "<template>\n  <div class=\"clock-container\">\n    <canvas ref=\"clockCanvas\"></canvas>\n    <div class=\"legend\">\n      <div v-for=\"event in eventColors\" :key=\"event.name\" class=\"legend-item\">\n        <span :style=\"{ backgroundColor: event.color }\" class=\"color-box\"></span>\n        {{ event.name }}\n      </div>\n      \n    </div>\n  </div>\n  <div class=\"countdown\" v-if=\"nextEvent\">\n    ⏳ Prochaine étape : <strong>{{ nextEvent.name }}</strong> dans\n    <strong>{{ formatCountdown(nextEvent.diff) }}</strong>\n    (à {{ nextEvent.time }} UTC+2)\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      clockRadius: 120,\n      timeOffset: 2,\n      nextEvent: null,\n      eventColors: [\n        { name: \"light_on\", color: \"rgba(255, 255, 0, 0.8)\" },\n        { name: \"Pump_Dead_Volume\", color: \"rgba(255, 0, 0, 0.8)\" },\n        { name: \"Update_config\", color: \"rgba(255, 165, 0, 0.8)\" },\n        { name: \"Acquisition\", color: \"rgba(0, 255, 0, 0.8)\" },\n        { name: \"light_off\", color: \"rgba(0, 200, 255, 0.8)\" },\n        { name: \"Segmentation\", color: \"rgba(200, 0, 255, 0.8)\" },\n        { name: \"Upload_EcoTaxa\", color: \"rgba(0, 43, 226, 0.8)\" },\n        { name: \"Purge_data\", color: \"rgba(255, 105, 180, 0.8)\" },\n        { name: \"Restart_segmenter\", color: \"rgba(0, 128, 128, 0.8)\" }\n      ],\n      eventDurations: {\n        light_on: 0.016,\n        Pump_Dead_Volume: 1,\n        Update_config: 0.016,\n        Acquisition: 35,\n        light_off: 0.016,\n        Segmentation: 240,\n        Upload_EcoTaxa: 1,\n        Purge_data: 1,\n        Restart_segmenter: 2\n      },\n      eventTimes: {\n        light_on: [\"05:30\", \"11:30\", \"17:30\", \"23:30\"],\n        Pump_Dead_Volume: [\"05:31\", \"11:31\", \"17:31\", \"23:31\"],\n        Update_config: [\"05:32\", \"11:32\", \"17:32\", \"23:32\"],\n        Acquisition: [\"05:33\", \"11:33\", \"17:33\", \"23:33\"],\n        light_off: [\"06:20\", \"12:20\", \"18:20\", \"00:20\"],\n        Segmentation: [\"06:21\", \"12:21\", \"18:21\", \"00:21\"],\n        Upload_EcoTaxa: [\"05:23\", \"11:23\", \"17:23\", \"23:23\"],\n        Purge_data: [\"05:24\", \"11:24\", \"17:24\", \"23:24\"],\n        Restart_segmenter: [\"05:25\", \"11:25\", \"17:25\", \"23:25\"],\n      },\n      sequenceWindows: [\n        { start: \"05:30\", end: \"10:50\", color: \"rgba(0,0,0,0.3)\" },\n        { start: \"11:30\", end: \"16:50\", color: \"rgba(0,0,0,0.3)\" },\n        { start: \"17:30\", end: \"22:50\", color: \"rgba(0,0,0,0.3)\" },\n        { start: \"23:30\", end: \"04:50\", color: \"rgba(0,0,0,0.3)\" }\n      ]\n    };\n  },\n  mounted() {\n    this.updateClock();\n    this.getNextEvent();\n    setInterval(() => {\n      this.updateClock();\n      this.getNextEvent();\n    }, 1000);\n  },\n  methods: {\n    parseTimeToMinutes(t) {\n      const [h, m] = t.split(\":\").map(Number);\n      return h * 60 + m;\n    },\n    formatCountdown(diffMs) {\n      const totalSec = Math.floor(diffMs / 1000);\n      const h = String(Math.floor(totalSec / 3600)).padStart(2, \"0\");\n      const m = String(Math.floor((totalSec % 3600) / 60)).padStart(2, \"0\");\n      const s = String(totalSec % 60).padStart(2, \"0\");\n      return `${h}:${m}:${s}`;\n    },\n    getNextEvent() {\n      const now = new Date(); // heure locale\n      let soonest = null;\n\n      for (const [eventName, times] of Object.entries(this.eventTimes)) {\n        for (const timeStr of times) {\n          const [h, m] = timeStr.split(\":\").map(Number);\n          const eventTime = new Date();\n          eventTime.setHours(h, m, 0, 0);\n          if (eventTime < now) eventTime.setDate(eventTime.getDate() + 1);\n\n          const diff = eventTime - now;\n\n          if (!soonest || diff < soonest.diff) {\n            soonest = { name: eventName, time: timeStr, diff };\n          }\n        }\n      }\n\n      this.nextEvent = soonest;\n    },\n    updateClock() {\n      this.drawClock();\n    },\n    drawClock() {\n      const canvas = this.$refs.clockCanvas;\n      const ctx = canvas.getContext(\"2d\");\n      const size = this.clockRadius * 2 + 40;\n      canvas.width = size;\n      canvas.height = size;\n      ctx.clearRect(0, 0, size, size);\n      ctx.translate(size / 2, size / 2);\n\n      // Base\n      ctx.beginPath();\n      ctx.arc(0, 0, this.clockRadius, 0, 2 * Math.PI);\n      ctx.strokeStyle = \"black\";\n      ctx.lineWidth = 2;\n      ctx.stroke();\n\n      // Heures\n      ctx.font = \"12px sans-serif\";\n      ctx.fillStyle = \"black\";\n      ctx.textAlign = \"center\";\n      ctx.textBaseline = \"middle\";\n\n      for (let h = 0; h < 24; h++) {\n        const angle = (h / 24) * 2 * Math.PI - Math.PI / 2;\n        const x1 = Math.cos(angle) * (this.clockRadius - 5);\n        const y1 = Math.sin(angle) * (this.clockRadius - 5);\n        const x2 = Math.cos(angle) * (this.clockRadius - 15);\n        const y2 = Math.sin(angle) * (this.clockRadius - 15);\n        ctx.beginPath();\n        ctx.moveTo(x1, y1);\n        ctx.lineTo(x2, y2);\n        ctx.stroke();\n        const labelRadius = this.clockRadius + 15;\n        const lx = Math.cos(angle) * labelRadius;\n        const ly = Math.sin(angle) * labelRadius;\n        ctx.fillText(h.toString().padStart(2, \"0\") + \"h\", lx, ly);\n      }\n\n      // Fenêtres de séquence\n      for (const seq of this.sequenceWindows) {\n        const [sh, sm] = seq.start.split(\":\").map(Number);\n        const [eh, em] = seq.end.split(\":\").map(Number);\n        const startMin = sh * 60 + sm;\n        const endMin = eh * 60 + em;\n        const startAngle = (startMin / 1440) * 2 * Math.PI - Math.PI / 2;\n        const endAngle = (endMin / 1440) * 2 * Math.PI - Math.PI / 2;\n        ctx.beginPath();\n        ctx.arc(0, 0, this.clockRadius - 8, startAngle, endAngle, false);\n        ctx.lineWidth = 16;\n        ctx.strokeStyle = seq.color;\n        ctx.lineCap = \"round\";\n        ctx.stroke();\n      }\n\n      // Événements\n      for (const event of this.eventColors) {\n        const times = this.eventTimes[event.name];\n        const duration = this.eventDurations[event.name];\n        if (!times || duration === undefined) continue;\n\n        ctx.strokeStyle = event.color;\n        ctx.lineWidth = duration > 5 ? 6 : 3;\n        ctx.lineCap = \"round\";\n\n        for (const timeStr of times) {\n          const startMin = this.parseTimeToMinutes(timeStr);\n          const startAngle = (startMin / 1440) * 2 * Math.PI - Math.PI / 2;\n\n          if (duration > 5) {\n            const endMin = startMin + duration;\n            const endAngle = (endMin / 1440) * 2 * Math.PI - Math.PI / 2;\n            ctx.beginPath();\n            ctx.arc(0, 0, this.clockRadius - 12, startAngle, endAngle, false);\n            ctx.stroke();\n          } else {\n            const x1 = Math.cos(startAngle) * (this.clockRadius - 5);\n            const y1 = Math.sin(startAngle) * (this.clockRadius - 5);\n            const x2 = Math.cos(startAngle) * (this.clockRadius - 35);\n            const y2 = Math.sin(startAngle) * (this.clockRadius - 35);\n            ctx.beginPath();\n            ctx.moveTo(x1, y1);\n            ctx.lineTo(x2, y2);\n            ctx.stroke();\n          }\n        }\n      }\n\n      // Aiguille de l'heure locale (UTC+2)\n      const now = new Date();\n      const utcHour = now.getUTCHours();\n      const utcMin = now.getUTCMinutes();\n      const adjustedHour = (utcHour + this.timeOffset + 24) % 24;\n      const nowMinutes = adjustedHour * 60 + utcMin;\n      const angle = (nowMinutes / 1440) * 2 * Math.PI - Math.PI / 2;\n      const x = Math.cos(angle) * (this.clockRadius - 40);\n      const y = Math.sin(angle) * (this.clockRadius - 40);\n      ctx.strokeStyle = \"black\";\n      ctx.lineWidth = 2;\n      ctx.beginPath();\n      ctx.moveTo(0, 0);\n      ctx.lineTo(x, y);\n      ctx.stroke();\n    }\n  }\n};\n</script>\n\n<style scoped>\n.clock-container {\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  margin-top: 20px;\n}\ncanvas {\n  margin-right: 30px;\n}\n.legend {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  font-family: sans-serif;\n  font-size: 14px;\n}\n.legend-item {\n  display: flex;\n  align-items: center;\n  margin: 4px 0;\n}\n.color-box {\n  width: 15px;\n  height: 15px;\n  margin-right: 8px;\n  border-radius: 2px;\n}\n.countdown {\n  margin-top: 12px;\n}\n</style>",
+        "format": "<template>\n  <div class=\"clock-container\">\n    <canvas ref=\"clockCanvas\"></canvas>\n    <div class=\"legend\">\n      <div v-for=\"event in eventColors\" :key=\"event.name\" class=\"legend-item\">\n        <span :style=\"{ backgroundColor: event.color }\" class=\"color-box\"></span>\n        {{ event.name }}\n      </div>\n      \n    </div>\n  </div>\n  <div class=\"countdown\" v-if=\"nextEvent\">\n    ⏳ Next Step : <strong>{{ nextEvent.name }}</strong> dans\n    <strong>{{ formatCountdown(nextEvent.diff) }}</strong>\n    (at {{ nextEvent.time }} UTC+2)\n  </div>\n</template>\n\n<script>\nexport default {\n  data() {\n    return {\n      clockRadius: 120,\n      timeOffset: 2,\n      nextEvent: null,\n      eventColors: [\n        { name: \"light_on\", color: \"rgba(255, 255, 0, 0.8)\" },\n        { name: \"Pump_Dead_Volume\", color: \"rgba(255, 0, 0, 0.8)\" },\n        { name: \"Update_config\", color: \"rgba(255, 165, 0, 0.8)\" },\n        { name: \"Acquisition\", color: \"rgba(0, 255, 0, 0.8)\" },\n        { name: \"light_off\", color: \"rgba(0, 200, 255, 0.8)\" },\n        { name: \"Segmentation\", color: \"rgba(200, 0, 255, 0.8)\" },\n        { name: \"Upload_EcoTaxa\", color: \"rgba(0, 43, 226, 0.8)\" },\n        { name: \"Restart_segmenter\", color: \"rgba(0, 128, 128, 0.8)\" }\n      ],\n      eventDurations: {\n        light_on: 0.016,\n        Pump_Dead_Volume: 1,\n        Update_config: 0.016,\n        Acquisition: 35,\n        light_off: 0.016,\n        Segmentation: 240,\n        Upload_EcoTaxa: 1,\n        Restart_segmenter: 2\n      },\n      \"eventTimes\": {\n        \"light_on\": [\"02:00\", \"08:00\", \"14:00\", \"20:00\"],\n        \"Pump_Dead_Volume\": [\"02:00\", \"08:00\", \"14:00\", \"20:00\"],\n        \"Update_config\": [\"02:00\", \"08:00\", \"14:00\", \"20:00\"],\n        \"Acquisition\": [\"02:03\", \"08:03\", \"14:03\", \"20:03\"],\n        \"light_off\": [\"02:43\", \"08:43\", \"14:43\", \"20:43\"],\n        \"Segmentation\": [\"02:45\", \"08:45\", \"14:45\", \"20:45\"],\n        \"Upload_EcoTaxa\": [\"00:45\", \"06:45\", \"12:45\", \"18:45\"],\n        \"Restart_segmenter\": [\"00:45\", \"06:45\", \"12:45\", \"18:45\"]\n      },\n      \"sequenceWindows\": [\n        { \"start\": \"02:00\", \"end\": \"08:00\", \"color\": \"rgba(0,0,0,0.3)\" },\n        { \"start\": \"08:00\", \"end\": \"14:00\", \"color\": \"rgba(0,0,0,0.3)\" },\n        { \"start\": \"14:00\", \"end\": \"20:00\", \"color\": \"rgba(0,0,0,0.3)\" },\n        { \"start\": \"20:00\", \"end\": \"02:00\", \"color\": \"rgba(0,0,0,0.3)\" }\n      ]\n    };\n  },\n  mounted() {\n    this.updateClock();\n    this.getNextEvent();\n    setInterval(() => {\n      this.updateClock();\n      this.getNextEvent();\n    }, 1000);\n  },\n  methods: {\n    parseTimeToMinutes(t) {\n      const [h, m] = t.split(\":\").map(Number);\n      return h * 60 + m;\n    },\n    formatCountdown(diffMs) {\n      const totalSec = Math.floor(diffMs / 1000);\n      const h = String(Math.floor(totalSec / 3600)).padStart(2, \"0\");\n      const m = String(Math.floor((totalSec % 3600) / 60)).padStart(2, \"0\");\n      const s = String(totalSec % 60).padStart(2, \"0\");\n      return `${h}:${m}:${s}`;\n    },\n    getNextEvent() {\n      const now = new Date(); // heure locale\n      let soonest = null;\n\n      for (const [eventName, times] of Object.entries(this.eventTimes)) {\n        for (const timeStr of times) {\n          const [h, m] = timeStr.split(\":\").map(Number);\n          const eventTime = new Date();\n          eventTime.setHours(h, m, 0, 0);\n          if (eventTime < now) eventTime.setDate(eventTime.getDate() + 1);\n\n          const diff = eventTime - now;\n\n          if (!soonest || diff < soonest.diff) {\n            soonest = { name: eventName, time: timeStr, diff };\n          }\n        }\n      }\n\n      this.nextEvent = soonest;\n    },\n    updateClock() {\n      this.drawClock();\n    },\n    drawClock() {\n      const canvas = this.$refs.clockCanvas;\n      const ctx = canvas.getContext(\"2d\");\n      const size = this.clockRadius * 2 + 40;\n      canvas.width = size;\n      canvas.height = size;\n      ctx.clearRect(0, 0, size, size);\n      ctx.translate(size / 2, size / 2);\n\n      // Base\n      ctx.beginPath();\n      ctx.arc(0, 0, this.clockRadius, 0, 2 * Math.PI);\n      ctx.strokeStyle = \"black\";\n      ctx.lineWidth = 2;\n      ctx.stroke();\n\n      // Heures\n      ctx.font = \"12px sans-serif\";\n      ctx.fillStyle = \"black\";\n      ctx.textAlign = \"center\";\n      ctx.textBaseline = \"middle\";\n\n      for (let h = 0; h < 24; h++) {\n        const angle = (h / 24) * 2 * Math.PI - Math.PI / 2;\n        const x1 = Math.cos(angle) * (this.clockRadius - 5);\n        const y1 = Math.sin(angle) * (this.clockRadius - 5);\n        const x2 = Math.cos(angle) * (this.clockRadius - 15);\n        const y2 = Math.sin(angle) * (this.clockRadius - 15);\n        ctx.beginPath();\n        ctx.moveTo(x1, y1);\n        ctx.lineTo(x2, y2);\n        ctx.stroke();\n        const labelRadius = this.clockRadius + 15;\n        const lx = Math.cos(angle) * labelRadius;\n        const ly = Math.sin(angle) * labelRadius;\n        ctx.fillText(h.toString().padStart(2, \"0\") + \"h\", lx, ly);\n      }\n\n      // Fenêtres de séquence\n      for (const seq of this.sequenceWindows) {\n        const [sh, sm] = seq.start.split(\":\").map(Number);\n        const [eh, em] = seq.end.split(\":\").map(Number);\n        const startMin = sh * 60 + sm;\n        const endMin = eh * 60 + em;\n        const startAngle = (startMin / 1440) * 2 * Math.PI - Math.PI / 2;\n        const endAngle = (endMin / 1440) * 2 * Math.PI - Math.PI / 2;\n        ctx.beginPath();\n        ctx.arc(0, 0, this.clockRadius - 8, startAngle, endAngle, false);\n        ctx.lineWidth = 16;\n        ctx.strokeStyle = seq.color;\n        ctx.lineCap = \"round\";\n        ctx.stroke();\n      }\n\n      // Événements\n      for (const event of this.eventColors) {\n        const times = this.eventTimes[event.name];\n        const duration = this.eventDurations[event.name];\n        if (!times || duration === undefined) continue;\n\n        ctx.strokeStyle = event.color;\n        ctx.lineWidth = duration > 5 ? 6 : 3;\n        ctx.lineCap = \"round\";\n\n        for (const timeStr of times) {\n          const startMin = this.parseTimeToMinutes(timeStr);\n          const startAngle = (startMin / 1440) * 2 * Math.PI - Math.PI / 2;\n\n          if (duration > 5) {\n            const endMin = startMin + duration;\n            const endAngle = (endMin / 1440) * 2 * Math.PI - Math.PI / 2;\n            ctx.beginPath();\n            ctx.arc(0, 0, this.clockRadius - 12, startAngle, endAngle, false);\n            ctx.stroke();\n          } else {\n            const x1 = Math.cos(startAngle) * (this.clockRadius - 5);\n            const y1 = Math.sin(startAngle) * (this.clockRadius - 5);\n            const x2 = Math.cos(startAngle) * (this.clockRadius - 35);\n            const y2 = Math.sin(startAngle) * (this.clockRadius - 35);\n            ctx.beginPath();\n            ctx.moveTo(x1, y1);\n            ctx.lineTo(x2, y2);\n            ctx.stroke();\n          }\n        }\n      }\n\n      // Aiguille de l'heure locale (UTC+2)\n      const now = new Date();\n      const utcHour = now.getUTCHours();\n      const utcMin = now.getUTCMinutes();\n      const adjustedHour = (utcHour + this.timeOffset + 24) % 24;\n      const nowMinutes = adjustedHour * 60 + utcMin;\n      const angle = (nowMinutes / 1440) * 2 * Math.PI - Math.PI / 2;\n      const x = Math.cos(angle) * (this.clockRadius - 40);\n      const y = Math.sin(angle) * (this.clockRadius - 40);\n      ctx.strokeStyle = \"black\";\n      ctx.lineWidth = 2;\n      ctx.beginPath();\n      ctx.moveTo(0, 0);\n      ctx.lineTo(x, y);\n      ctx.stroke();\n    }\n  }\n};\n</script>\n\n<style scoped>\n.clock-container {\n  display: flex;\n  align-items: flex-start;\n  justify-content: center;\n  margin-top: 20px;\n}\ncanvas {\n  margin-right: 30px;\n}\n.legend {\n  display: flex;\n  flex-direction: column;\n  align-items: flex-start;\n  font-family: sans-serif;\n  font-size: 14px;\n}\n.legend-item {\n  display: flex;\n  align-items: center;\n  margin: 4px 0;\n}\n.color-box {\n  width: 15px;\n  height: 15px;\n  margin-right: 8px;\n  border-radius: 2px;\n}\n.countdown {\n  margin-top: 12px;\n}\n</style>",
         "storeOutMessages": true,
         "passthru": true,
         "resendOnRefresh": true,
@@ -10623,8 +10587,7 @@
         "y": 640,
         "wires": [
             [
-                "ab8a8ee79e642867",
-                "030ffe2a8315a853"
+                "ab8a8ee79e642867"
             ]
         ]
     },
@@ -10737,8 +10700,7 @@
         "y": 440,
         "wires": [
             [
-                "b52750217ea41b59",
-                "030ffe2a8315a853"
+                "b52750217ea41b59"
             ]
         ]
     },
@@ -10879,8 +10841,7 @@
         "y": 400,
         "wires": [
             [
-                "b52750217ea41b59",
-                "030ffe2a8315a853"
+                "b52750217ea41b59"
             ]
         ]
     },
@@ -10908,8 +10869,7 @@
         "y": 600,
         "wires": [
             [
-                "ab8a8ee79e642867",
-                "030ffe2a8315a853"
+                "ab8a8ee79e642867"
             ]
         ]
     },
@@ -11000,46 +10960,19 @@
         ]
     },
     {
-        "id": "030ffe2a8315a853",
-        "type": "debug",
-        "z": "e4b1c9cc7670cae0",
-        "g": "f1f83856d8804cd4",
-        "name": "debug 1",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 2540,
-        "y": 500,
-        "wires": []
-    },
-    {
-        "id": "c9aaf56638204d85",
+        "id": "94e0a14832efc379",
         "type": "inject",
         "z": "e4b1c9cc7670cae0",
         "g": "e8f6dc92f3ddcf09",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
+        "name": "trigger",
+        "props": [],
         "repeat": "",
         "crontab": "",
         "once": false,
         "onceDelay": 0.1,
         "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 520,
-        "y": 360,
+        "x": 510,
+        "y": 380,
         "wires": [
             [
                 "2e0cc6ec2ffa8936"
